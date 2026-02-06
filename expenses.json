@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-02-06T13:52:44.158846",
-  "total": 24930,
-  "total_fmt": "$24.930",
-  "count": 3,
+  "updatedAt": "2026-02-06T13:58:03.096338",
+  "total": 107115,
+  "total_fmt": "$107.115",
+  "count": 6,
   "items": [
     {
       "fecha": "06-02-2026",
@@ -11,6 +11,14 @@
       "monto_fmt": "$4.080",
       "factura": "185123361",
       "comprobante": "https://drive.google.com/file/d/149Zzr9Luu7D3m1zy4jaqQDjuCq4ul-AJ/view?usp=drivesdk"
+    },
+    {
+      "fecha": "05-02-2026",
+      "descripcion": "Almuerzo",
+      "monto": 10300,
+      "monto_fmt": "$10.300",
+      "factura": "",
+      "comprobante": "https://drive.google.com/file/d/1QxaQfT6AqUpgFGI3U9CW7K2H0kprED4g/view?usp=drivesdk"
     },
     {
       "fecha": "03-02-2026",
@@ -27,6 +35,22 @@
       "monto_fmt": "$10.960",
       "factura": "74593",
       "comprobante": "https://drive.google.com/file/d/1eTMSzRe5WHEThLJdQ3cij2qi_PC8mxjY/view?usp=drivesdk"
+    },
+    {
+      "fecha": "02-02-2026",
+      "descripcion": "Almuerzo",
+      "monto": 12580,
+      "monto_fmt": "$12.580",
+      "factura": "",
+      "comprobante": "https://drive.google.com/file/d/1PsDmmmb51CK3j5TKoVjz4vLADAM575oI/view?usp=drive_link"
+    },
+    {
+      "fecha": "02-02-2026",
+      "descripcion": "Diesel (Petroleo Camioneta)",
+      "monto": 59305,
+      "monto_fmt": "$59.305",
+      "factura": "207294",
+      "comprobante": "https://drive.google.com/file/d/1R-5GaRJ4qtdmLbLe5jwIesvmeq252IZl/view?usp=drivesdk"
     }
   ]
 }
