@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-02-06T17:25:00.000000",
-  "total": 147435,
-  "total_fmt": "$147.435",
-  "count": 8,
+  "updatedAt": "2026-02-06T17:27:00.000000",
+  "total": 151425,
+  "total_fmt": "$151.425",
+  "count": 9,
   "items": [
+    {
+      "fecha": "06-02-2026",
+      "descripcion": "Farmacias Ahumada (Bloqueador Solar SPF50)",
+      "monto": 3990,
+      "monto_fmt": "$3.990",
+      "factura": "353090724",
+      "comprobante": "#"
+    },
     {
       "fecha": "06-02-2026",
       "descripcion": "Lider Providencia (Bolígrafos, Resma, Carpeta, Coca Zero, LSN BLN)",
