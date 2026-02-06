@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-06T17:28:00.000000",
+  "updatedAt": "2026-02-06T17:34:00.000000",
   "total": 163425,
   "total_fmt": "$163.425",
   "count": 10,
@@ -10,7 +10,7 @@
       "monto": 12000,
       "monto_fmt": "$12.000",
       "factura": "59200",
-      "comprobante": "#"
+      "comprobante": "https://drive.google.com/file/d/1J0_azi4yT2_sdBg4-oFZjFlduWCyU4TG/view?usp=drivesdk"
     },
     {
       "fecha": "06-02-2026",
@@ -18,7 +18,7 @@
       "monto": 3990,
       "monto_fmt": "$3.990",
       "factura": "353090724",
-      "comprobante": "#"
+      "comprobante": "https://drive.google.com/file/d/11vf7oHpvikXiCjK5I82Cts_PiFgJfji6/view?usp=drivesdk"
     },
     {
       "fecha": "06-02-2026",
@@ -26,7 +26,7 @@
       "monto": 17510,
       "monto_fmt": "$17.510",
       "factura": "001269619459",
-      "comprobante": "#"
+      "comprobante": "https://drive.google.com/file/d/1dRzmWamu-aM0JGU3dMH6jvDgXk8dfOgz/view?usp=drivesdk"
     },
     {
       "fecha": "06-02-2026",
