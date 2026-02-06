@@ -23,5 +23,42 @@
   "services": {
     "openclaw": "active",
     "nginx": "active"
-  }
+  },
+  "sessions": [
+    {
+      "key": "main",
+      "model": "gemini-3-flash",
+      "usage": "35.0k",
+      "percent": 3,
+      "status": "ok"
+    },
+    {
+      "key": "subagent:82681a32-0209-44d2-b819-89da0314cba8",
+      "model": "gemini-3-flash",
+      "usage": "9.2k",
+      "percent": 1,
+      "status": "ok"
+    },
+    {
+      "key": "whatsapp:group:56994191736-1490900786@g.us",
+      "model": "gemini-3-flash",
+      "usage": "0.0k",
+      "percent": 0,
+      "status": "ok"
+    },
+    {
+      "key": "whatsapp:group:120363423099813115@g.us",
+      "model": "gemini-3-flash",
+      "usage": "0.0k",
+      "percent": 0,
+      "status": "ok"
+    },
+    {
+      "key": "cron:d4123423-964b-4100-9713-46573829c5d8",
+      "model": "gemini-3-flash",
+      "usage": "15.2k",
+      "percent": 1,
+      "status": "ok"
+    }
+  ]
 }

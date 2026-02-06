@@ -40,6 +40,26 @@ async function loadMetrics() {
     
     document.getElementById('uptime').textContent = data.uptime.formatted;
     
+    // Sessions / Tokens
+    if (data.sessions) {
+      const sessionsHtml = data.sessions.map(s => `
+        <div class="metric-card ${s.status}">
+          <div class="metric-info" style="width: 100%">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+              <span class="metric-label" style="font-size: 0.8rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 180px;">${s.key}</span>
+              <span class="metric-value" style="font-size: 0.9rem;">${s.percent}%</span>
+            </div>
+            <div class="metric-bar"><div class="metric-fill" style="width: ${s.percent}%"></div></div>
+            <div style="display: flex; justify-content: space-between; font-size: 0.7rem; margin-top: 6px; color: var(--text-muted);">
+              <span>${s.model}</span>
+              <span>${s.usage} tokens</span>
+            </div>
+          </div>
+        </div>
+      `).join('');
+      document.getElementById('sessionsGrid').innerHTML = sessionsHtml;
+    }
+
     const servicesHtml = Object.entries(data.services).map(([name, status]) => `
       <div class="service-badge">
         <span class="dot ${status === 'active' ? 'active' : 'inactive'}"></span>

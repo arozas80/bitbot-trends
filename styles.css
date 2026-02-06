@@ -113,6 +113,15 @@ body {
 .metric-fill { height: 100%; background: var(--gradient-main); border-radius: 3px; transition: width 0.5s ease; }
 
 /* === Services Grid === */
+.metric-card.warning { border-left: 4px solid #f1c40f; }
+.metric-card.critical { border-left: 4px solid #e74c3c; animation: pulse-border 2s infinite; }
+
+@keyframes pulse-border {
+  0% { box-shadow: 0 0 0 0 rgba(231, 76, 60, 0.4); }
+  70% { box-shadow: 0 0 0 10px rgba(231, 76, 60, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(231, 76, 60, 0); }
+}
+
 .services-grid { display: flex; gap: 16px; flex-wrap: wrap; }
 .service-badge {
   display: flex; align-items: center; gap: 8px;
