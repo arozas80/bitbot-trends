@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-02-06T15:16:22.629771",
-  "total": 129925,
-  "total_fmt": "$129.925",
-  "count": 7,
+  "updatedAt": "2026-02-06T17:25:00.000000",
+  "total": 147435,
+  "total_fmt": "$147.435",
+  "count": 8,
   "items": [
+    {
+      "fecha": "06-02-2026",
+      "descripcion": "Lider Providencia (Bolígrafos, Resma, Carpeta, Coca Zero, LSN BLN)",
+      "monto": 17510,
+      "monto_fmt": "$17.510",
+      "factura": "001269619459",
+      "comprobante": "#"
+    },
     {
       "fecha": "06-02-2026",
       "descripcion": "Despacho (Transporte EGT)",
