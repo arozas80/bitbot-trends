@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
   loadMetrics();
   loadTrends();
   loadProjects();
+  loadTasks();
 });
 
 // === Tab Navigation ===
@@ -27,22 +28,17 @@ async function loadMetrics() {
     const res = await fetch('metrics.json');
     const data = await res.json();
     
-    // CPU
     document.getElementById('cpuUsage').textContent = `${data.cpu.usage}%`;
     document.getElementById('cpuBar').style.width = `${data.cpu.usage}%`;
     
-    // Memory
     document.getElementById('memUsage').textContent = `${data.memory.percent}%`;
     document.getElementById('memBar').style.width = `${data.memory.percent}%`;
     
-    // Disk
     document.getElementById('diskUsage').textContent = `${data.disk.percent}%`;
     document.getElementById('diskBar').style.width = `${data.disk.percent}%`;
     
-    // Uptime
     document.getElementById('uptime').textContent = data.uptime.formatted;
     
-    // Services
     const servicesHtml = Object.entries(data.services).map(([name, status]) => `
       <div class="service-badge">
         <span class="dot ${status === 'active' ? 'active' : 'inactive'}"></span>
@@ -51,7 +47,6 @@ async function loadMetrics() {
     `).join('');
     document.getElementById('servicesGrid').innerHTML = servicesHtml;
     
-    // Hostname & Time
     document.getElementById('hostname').textContent = data.hostname;
     document.getElementById('metricsTime').textContent = formatDateTime(data.generatedAt);
     document.getElementById('lastUpdate').textContent = `Actualizado ${getTimeAgo(new Date(data.generatedAt))}`;
@@ -93,7 +88,6 @@ async function loadProjects() {
     const res = await fetch('projects.json');
     const data = await res.json();
     
-    // Projects Grid
     const projectsHtml = data.projects.map(project => `
       <div class="project-card">
         <div class="project-header">
@@ -114,7 +108,6 @@ async function loadProjects() {
     `).join('');
     document.getElementById('projectsGrid').innerHTML = projectsHtml;
     
-    // Activity List
     const activityHtml = data.activity.slice(0, 5).map(a => `
       <div class="activity-item">
         <span class="icon">${getActivityIcon(a.type)}</span>
@@ -126,6 +119,35 @@ async function loadProjects() {
     
   } catch (err) {
     console.error('Error loading projects:', err);
+  }
+}
+
+// === Load Tasks & Cron ===
+async function loadTasks() {
+  try {
+    const res = await fetch('tasks.json');
+    const data = await res.json();
+    
+    const todoHtml = data.todos.map(todo => `
+      <div class="activity-item">
+        <span class="icon">${todo.status === 'urgent' ? '🚨' : '📌'}</span>
+        <span class="text" style="${todo.status === 'done' ? 'text-decoration: line-through; opacity: 0.5' : ''}">${todo.text}</span>
+        <span class="date">${todo.status.toUpperCase()}</span>
+      </div>
+    `).join('');
+    document.getElementById('todoList').innerHTML = todoHtml || '<p class="loading">No hay tareas pendientes</p>';
+    
+    const cronHtml = data.cronJobs.map(job => `
+      <div class="activity-item">
+        <span class="icon">⏰</span>
+        <span class="text">${job.name}</span>
+        <span class="date">${job.schedule}</span>
+      </div>
+    `).join('');
+    document.getElementById('cronList').innerHTML = cronHtml || '<p class="loading">No hay crons configurados</p>';
+    
+  } catch (err) {
+    console.error('Error loading tasks:', err);
   }
 }
 

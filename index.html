@@ -23,6 +23,7 @@
         <button class="nav-tab active" data-tab="overview">Overview</button>
         <button class="nav-tab" data-tab="trends">Tendencias</button>
         <button class="nav-tab" data-tab="projects">Proyectos</button>
+        <button class="nav-tab" data-tab="tasks">Tareas</button>
       </nav>
       <div class="header-meta">
         <span class="update-badge" id="lastUpdate">Cargando...</span>
@@ -127,6 +128,23 @@
         
         <div class="projects-grid" id="projectsGrid">
           <!-- Projects loaded dynamically -->
+        </div>
+      </section>
+
+      <!-- TAB: Tasks -->
+      <section class="tab-content" id="tab-tasks">
+        <div class="section-header">
+          <h2><span class="terminal-prompt">$</span> Tareas Pendientes (TODO)</h2>
+        </div>
+        <div class="activity-list" id="todoList">
+          <!-- Loaded dynamically -->
+        </div>
+
+        <div class="section-header" style="margin-top: 48px;">
+          <h2><span class="terminal-prompt">$</span> Automatizaciones (Cron)</h2>
+        </div>
+        <div class="activity-list" id="cronList">
+          <!-- Loaded dynamically -->
         </div>
       </section>
 
