@@ -134,11 +134,25 @@
         <div class="section-header">
           <h2><span class="terminal-prompt">$</span> Registro de Gastos (Servivet)</h2>
         </div>
-        <div class="summary-card" style="margin-bottom: 24px;">
-           <div style="display: flex; justify-content: space-between; align-items: center;">
-              <h3><span class="icon">💰</span> Total Gastos (Mes)</h3>
+        <div class="metrics-grid" style="margin-bottom: 24px;">
+          <div class="metric-card">
+            <div class="metric-info">
+              <span class="metric-label">Presupuesto Inicial</span>
+              <span class="metric-value">$400.000</span>
+            </div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-info">
+              <span class="metric-label">Total Gastos (Mes)</span>
               <span class="metric-value" id="totalExpenses">--</span>
-           </div>
+            </div>
+          </div>
+          <div class="metric-card highlight">
+            <div class="metric-info">
+              <span class="metric-label">Saldo Disponible</span>
+              <span class="metric-value" id="remainingBalance">--</span>
+            </div>
+          </div>
         </div>
         <div class="activity-list" id="expensesList">
           <!-- Loaded dynamically as a table/list -->

@@ -2,12 +2,18 @@
 
 document.addEventListener('DOMContentLoaded', () => {
   initTabs();
+  refreshData();
+  // Auto-refresh cada 30 segundos
+  setInterval(refreshData, 30000);
+});
+
+function refreshData() {
   loadMetrics();
   loadTrends();
   loadProjects();
   loadTasks();
   loadExpenses();
-});
+}
 
 // === Tab Navigation ===
 function initTabs() {
@@ -178,7 +184,12 @@ async function loadExpenses() {
     const res = await fetch('expenses.json');
     const data = await res.json();
     
+    const budget = 400000;
+    const spent = data.total || 0;
+    const remaining = budget - spent;
+
     document.getElementById('totalExpenses').textContent = data.total_fmt;
+    document.getElementById('remainingBalance').textContent = `$${remaining.toLocaleString('es-CL')}`;
     
     const expensesHtml = data.items.map(item => `
       <div class="activity-item" style="cursor: pointer; display: flex; align-items: center; gap: 16px; padding: 16px;" onclick="window.open('${item.comprobante}', '_blank')">

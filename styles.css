@@ -113,6 +113,16 @@ body {
 .metric-fill { height: 100%; background: var(--gradient-main); border-radius: 3px; transition: width 0.5s ease; }
 
 /* === Services Grid === */
+.metric-card.highlight {
+  background: rgba(39, 174, 96, 0.1);
+  border: 1px solid var(--accent-primary);
+}
+
+.metric-card.highlight .metric-value {
+  color: #27ae60;
+  text-shadow: 0 0 10px rgba(39, 174, 96, 0.3);
+}
+
 .metric-card.warning { border-left: 4px solid #f1c40f; }
 .metric-card.critical { border-left: 4px solid #e74c3c; animation: pulse-border 2s infinite; }
 
