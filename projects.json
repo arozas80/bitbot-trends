@@ -41,6 +41,7 @@
     }
   ],
   "activity": [
+    {"date": "2026-02-06", "type": "expense", "text": "Gasto registrado: Despacho EGT ($22.810)"},
     {"date": "2026-02-06", "type": "expense", "text": "Gasto registrado: Castaño ($4.080)"},
     {"date": "2026-02-06", "type": "deploy", "text": "Dashboard Trends desplegado en Vercel"},
     {"date": "2026-02-06", "type": "config", "text": "Cron de tendencias actualizado para deploy automático"},

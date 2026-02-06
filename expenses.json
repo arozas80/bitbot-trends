@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-02-06T13:58:03.096338",
-  "total": 107115,
-  "total_fmt": "$107.115",
-  "count": 6,
+  "updatedAt": "2026-02-06T15:16:22.629771",
+  "total": 129925,
+  "total_fmt": "$129.925",
+  "count": 7,
   "items": [
+    {
+      "fecha": "06-02-2026",
+      "descripcion": "Despacho (Transporte EGT)",
+      "monto": 22810,
+      "monto_fmt": "$22.810",
+      "factura": "13297545",
+      "comprobante": "https://drive.google.com/file/d/1YK3vmxU2t_kgOyN5gSz6S35pe5InSThi/view?usp=drivesdk"
+    },
     {
       "fecha": "06-02-2026",
       "descripcion": "Almuerzo Castaño (Coca Cola Zero + Empanada)",
