@@ -161,15 +161,15 @@ async function loadExpenses() {
     document.getElementById('totalExpenses').textContent = data.total_fmt;
     
     const expensesHtml = data.items.map(item => `
-      <div class="activity-item" style="cursor: pointer" onclick="window.open('${item.comprobante}', '_blank')">
-        <span class="icon">🧾</span>
-        <div class="text">
-           <div style="font-weight: 600; color: var(--text-primary)">${item.descripcion}</div>
-           <div style="font-size: 0.8rem; color: var(--text-muted)">Doc: #${item.factura}</div>
+      <div class="activity-item" style="cursor: pointer; display: flex; align-items: center; gap: 16px; padding: 16px;" onclick="window.open('${item.comprobante}', '_blank')">
+        <span class="icon" style="font-size: 1.5rem;">🧾</span>
+        <div class="text" style="flex: 1; min-width: 0;">
+           <div style="font-weight: 600; color: var(--text-primary); white-space: normal; word-break: break-word;">${item.descripcion}</div>
+           <div style="font-size: 0.8rem; color: var(--text-muted); margin-top: 4px;">Doc: #${item.factura}</div>
         </div>
-        <div style="text-align: right">
-           <div style="font-family: var(--font-mono); font-weight: 700; color: var(--accent-primary)">${item.monto_fmt}</div>
-           <div class="date">${item.fecha}</div>
+        <div style="text-align: right; min-width: 100px;">
+           <div style="font-family: var(--font-mono); font-weight: 700; color: var(--accent-primary); font-size: 1.1rem;">${item.monto_fmt}</div>
+           <div class="date" style="font-size: 0.75rem; color: var(--text-muted); margin-top: 4px;">${item.fecha}</div>
         </div>
       </div>
     `).join('');
