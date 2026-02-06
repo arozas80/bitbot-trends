@@ -1,32 +1,77 @@
-// Bitbot Trends - Main Application
+// Bitbot Command Center - Main Application
+
 document.addEventListener('DOMContentLoaded', () => {
-  initApp();
+  initTabs();
+  loadMetrics();
+  loadTrends();
+  loadProjects();
 });
 
-function initApp() {
-  renderLastUpdate();
-  renderCurrentDate();
-  renderTrends();
-  renderExecutiveSummary();
-  renderImpact();
-  renderArchive();
+// === Tab Navigation ===
+function initTabs() {
+  const tabs = document.querySelectorAll('.nav-tab');
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      tabs.forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+      
+      document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+      document.getElementById(`tab-${tab.dataset.tab}`).classList.add('active');
+    });
+  });
 }
 
-function renderLastUpdate() {
-  const element = document.getElementById('lastUpdate');
-  const date = new Date(trendsData.lastUpdate);
-  const timeAgo = getTimeAgo(date);
-  element.textContent = `Actualizado ${timeAgo}`;
+// === Load Metrics ===
+async function loadMetrics() {
+  try {
+    const res = await fetch('metrics.json');
+    const data = await res.json();
+    
+    // CPU
+    document.getElementById('cpuUsage').textContent = `${data.cpu.usage}%`;
+    document.getElementById('cpuBar').style.width = `${data.cpu.usage}%`;
+    
+    // Memory
+    document.getElementById('memUsage').textContent = `${data.memory.percent}%`;
+    document.getElementById('memBar').style.width = `${data.memory.percent}%`;
+    
+    // Disk
+    document.getElementById('diskUsage').textContent = `${data.disk.percent}%`;
+    document.getElementById('diskBar').style.width = `${data.disk.percent}%`;
+    
+    // Uptime
+    document.getElementById('uptime').textContent = data.uptime.formatted;
+    
+    // Services
+    const servicesHtml = Object.entries(data.services).map(([name, status]) => `
+      <div class="service-badge">
+        <span class="dot ${status === 'active' ? 'active' : 'inactive'}"></span>
+        <span>${name}</span>
+      </div>
+    `).join('');
+    document.getElementById('servicesGrid').innerHTML = servicesHtml;
+    
+    // Hostname & Time
+    document.getElementById('hostname').textContent = data.hostname;
+    document.getElementById('metricsTime').textContent = formatDateTime(data.generatedAt);
+    document.getElementById('lastUpdate').textContent = `Actualizado ${getTimeAgo(new Date(data.generatedAt))}`;
+    
+  } catch (err) {
+    console.error('Error loading metrics:', err);
+    document.getElementById('systemStatus').textContent = '● Offline';
+    document.getElementById('systemStatus').classList.remove('online');
+    document.getElementById('systemStatus').classList.add('offline');
+  }
 }
 
-function renderCurrentDate() {
-  const element = document.getElementById('currentDate');
-  element.textContent = trendsData.currentDate;
-}
-
-function renderTrends() {
-  const grid = document.getElementById('trendsGrid');
-  grid.innerHTML = trendsData.trends.map(trend => `
+// === Load Trends ===
+function loadTrends() {
+  if (typeof trendsData === 'undefined') return;
+  
+  document.getElementById('currentDate').textContent = trendsData.currentDate;
+  document.getElementById('executiveSummary').textContent = trendsData.executiveSummary;
+  
+  const trendsHtml = trendsData.trends.map(trend => `
     <article class="trend-card">
       <div class="trend-number">TREND #${String(trend.id).padStart(2, '0')}</div>
       <div class="trend-icon">${trend.icon}</div>
@@ -34,43 +79,57 @@ function renderTrends() {
       <p>${trend.description}</p>
     </article>
   `).join('');
-}
-
-function renderExecutiveSummary() {
-  const element = document.getElementById('executiveSummary');
-  element.textContent = trendsData.executiveSummary;
-}
-
-function renderImpact() {
-  const element = document.getElementById('impactContent');
-  element.innerHTML = `
+  document.getElementById('trendsGrid').innerHTML = trendsHtml;
+  
+  document.getElementById('impactContent').innerHTML = `
     <p><span class="opportunity">🎯 Oportunidad:</span> ${trendsData.impact.opportunity}</p>
     <p style="margin-top: 12px;"><span class="action">⚡ Acción Sugerida:</span> ${trendsData.impact.action}</p>
   `;
 }
 
-function renderArchive() {
-  const list = document.getElementById('archiveList');
-  
-  if (trendsData.archive.length === 0) {
-    list.innerHTML = '<p class="loading">No hay archivos históricos aún</p>';
-    return;
+// === Load Projects ===
+async function loadProjects() {
+  try {
+    const res = await fetch('projects.json');
+    const data = await res.json();
+    
+    // Projects Grid
+    const projectsHtml = data.projects.map(project => `
+      <div class="project-card">
+        <div class="project-header">
+          <span class="project-icon">${project.icon}</span>
+          <span class="project-name">${project.name}</span>
+          <span class="project-status">${project.status.toUpperCase()}</span>
+        </div>
+        <p class="project-desc">${project.description}</p>
+        <div class="project-milestones">
+          ${project.milestones.slice(-3).map(m => `
+            <div class="milestone">
+              <span class="date">${formatShortDate(m.date)}</span>
+              <span class="text">${m.text}</span>
+            </div>
+          `).join('')}
+        </div>
+      </div>
+    `).join('');
+    document.getElementById('projectsGrid').innerHTML = projectsHtml;
+    
+    // Activity List
+    const activityHtml = data.activity.slice(0, 5).map(a => `
+      <div class="activity-item">
+        <span class="icon">${getActivityIcon(a.type)}</span>
+        <span class="text">${a.text}</span>
+        <span class="date">${formatShortDate(a.date)}</span>
+      </div>
+    `).join('');
+    document.getElementById('activityList').innerHTML = activityHtml;
+    
+  } catch (err) {
+    console.error('Error loading projects:', err);
   }
-  
-  list.innerHTML = trendsData.archive.map(item => `
-    <div class="archive-item" onclick="loadArchive('${item.file}')">
-      <span class="date">${formatDate(item.date)}</span>
-      <span class="preview">${item.preview}</span>
-      <span class="arrow">→</span>
-    </div>
-  `).join('');
 }
 
-function loadArchive(file) {
-  // Future: Load historical data
-  console.log('Loading archive:', file);
-}
-
+// === Helpers ===
 function getTimeAgo(date) {
   const now = new Date();
   const diffMs = now - date;
@@ -85,49 +144,26 @@ function getTimeAgo(date) {
   return `hace ${diffDays} días`;
 }
 
-function formatDate(dateStr) {
+function formatDateTime(isoString) {
+  const date = new Date(isoString);
+  return date.toLocaleString('es-CL', { 
+    day: '2-digit', month: 'short', hour: '2-digit', minute: '2-digit'
+  });
+}
+
+function formatShortDate(dateStr) {
   const date = new Date(dateStr + 'T00:00:00');
-  const options = { day: 'numeric', month: 'short', year: 'numeric' };
-  return date.toLocaleDateString('es-CL', options);
+  return date.toLocaleDateString('es-CL', { day: 'numeric', month: 'short' });
 }
 
-// Matrix effect (subtle)
-function initMatrix() {
-  const canvas = document.createElement('canvas');
-  const ctx = canvas.getContext('2d');
-  canvas.style.cssText = 'position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;opacity:0.02;z-index:0';
-  document.body.prepend(canvas);
-  
-  const resize = () => {
-    canvas.width = window.innerWidth;
-    canvas.height = window.innerHeight;
+function getActivityIcon(type) {
+  const icons = {
+    deploy: '🚀',
+    config: '⚙️',
+    backup: '💾',
+    setup: '🔧',
+    security: '🔒',
+    update: '📦'
   };
-  resize();
-  window.addEventListener('resize', resize);
-  
-  const chars = '01';
-  const fontSize = 14;
-  const columns = Math.floor(canvas.width / fontSize);
-  const drops = Array(columns).fill(1);
-  
-  function draw() {
-    ctx.fillStyle = 'rgba(10, 10, 15, 0.05)';
-    ctx.fillRect(0, 0, canvas.width, canvas.height);
-    ctx.fillStyle = '#22d3ee';
-    ctx.font = `${fontSize}px monospace`;
-    
-    for (let i = 0; i < drops.length; i++) {
-      const char = chars[Math.floor(Math.random() * chars.length)];
-      ctx.fillText(char, i * fontSize, drops[i] * fontSize);
-      if (drops[i] * fontSize > canvas.height && Math.random() > 0.975) {
-        drops[i] = 0;
-      }
-      drops[i]++;
-    }
-    requestAnimationFrame(draw);
-  }
-  draw();
+  return icons[type] || '📌';
 }
-
-// Uncomment for matrix effect:
-// initMatrix();

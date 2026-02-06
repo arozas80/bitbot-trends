@@ -1,0 +1,50 @@
+{
+  "updatedAt": "2026-02-06T12:30:00-03:00",
+  "projects": [
+    {
+      "id": 1,
+      "name": "Bitbot Core",
+      "status": "active",
+      "icon": "🤖",
+      "description": "Agente personal de IA con OpenClaw",
+      "startDate": "2026-02-05",
+      "milestones": [
+        {"date": "2026-02-05", "text": "Identidad y protocolo establecidos"},
+        {"date": "2026-02-05", "text": "Arquitectura de doble agente (Security Pro)"},
+        {"date": "2026-02-06", "text": "Respaldo automático a GitHub"},
+        {"date": "2026-02-06", "text": "Dashboard de tendencias desplegado"}
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Servivet Expenses",
+      "status": "active",
+      "icon": "🧾",
+      "description": "Automatización de gastos via n8n + Google Drive",
+      "startDate": "2026-02-05",
+      "milestones": [
+        {"date": "2026-02-05", "text": "Workflow n8n configurado"},
+        {"date": "2026-02-05", "text": "Integración con WhatsApp"}
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Bitbot Trends",
+      "status": "active",
+      "icon": "📊",
+      "description": "Dashboard de tendencias IA con deploy automático",
+      "startDate": "2026-02-06",
+      "milestones": [
+        {"date": "2026-02-06", "text": "Página inicial desplegada en Vercel"},
+        {"date": "2026-02-06", "text": "Cron de actualización configurado"}
+      ]
+    }
+  ],
+  "activity": [
+    {"date": "2026-02-06", "type": "deploy", "text": "Dashboard Trends desplegado en Vercel"},
+    {"date": "2026-02-06", "type": "config", "text": "Cron de tendencias actualizado para deploy automático"},
+    {"date": "2026-02-06", "type": "backup", "text": "Respaldo exitoso a GitHub"},
+    {"date": "2026-02-05", "type": "setup", "text": "Identidad Bitbot establecida"},
+    {"date": "2026-02-05", "type": "security", "text": "Arquitectura de doble agente implementada"}
+  ]
+}

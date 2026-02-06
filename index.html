@@ -3,22 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bitbot Trends | AI & Automation Intelligence</title>
-  <meta name="description" content="Tendencias diarias de IA y automatización, curadas por Bitbot">
+  <title>Bitbot Command Center | Dashboard</title>
+  <meta name="description" content="Centro de comando de Bitbot - Métricas, tendencias y proyectos">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="matrix-bg" id="matrixBg"></div>
+  <div class="matrix-bg"></div>
   
   <header class="header">
     <div class="container">
       <div class="logo">
         <span class="logo-icon">🤖</span>
-        <span class="logo-text">Bitbot<span class="accent">Trends</span></span>
+        <span class="logo-text">Bitbot <span class="accent">Command Center</span></span>
       </div>
+      <nav class="nav-tabs">
+        <button class="nav-tab active" data-tab="overview">Overview</button>
+        <button class="nav-tab" data-tab="trends">Tendencias</button>
+        <button class="nav-tab" data-tab="projects">Proyectos</button>
+      </nav>
       <div class="header-meta">
         <span class="update-badge" id="lastUpdate">Cargando...</span>
       </div>
@@ -27,56 +32,111 @@
 
   <main class="main">
     <div class="container">
-      <!-- Hero Section -->
-      <section class="hero">
-        <h1 class="hero-title">Tendencias de <span class="gradient-text">IA & Automatización</span></h1>
-        <p class="hero-subtitle">Análisis diario curado por inteligencia artificial</p>
+      
+      <!-- TAB: Overview -->
+      <section class="tab-content active" id="tab-overview">
+        <!-- System Metrics -->
+        <div class="section-header">
+          <h2><span class="terminal-prompt">$</span> Estado del Sistema</h2>
+          <span class="status-badge online" id="systemStatus">● Online</span>
+        </div>
+        
+        <div class="metrics-grid">
+          <div class="metric-card">
+            <div class="metric-icon">⚡</div>
+            <div class="metric-info">
+              <span class="metric-label">CPU</span>
+              <span class="metric-value" id="cpuUsage">--</span>
+              <div class="metric-bar"><div class="metric-fill" id="cpuBar" style="width: 0%"></div></div>
+            </div>
+          </div>
+          
+          <div class="metric-card">
+            <div class="metric-icon">🧠</div>
+            <div class="metric-info">
+              <span class="metric-label">Memoria</span>
+              <span class="metric-value" id="memUsage">--</span>
+              <div class="metric-bar"><div class="metric-fill" id="memBar" style="width: 0%"></div></div>
+            </div>
+          </div>
+          
+          <div class="metric-card">
+            <div class="metric-icon">💾</div>
+            <div class="metric-info">
+              <span class="metric-label">Disco</span>
+              <span class="metric-value" id="diskUsage">--</span>
+              <div class="metric-bar"><div class="metric-fill" id="diskBar" style="width: 0%"></div></div>
+            </div>
+          </div>
+          
+          <div class="metric-card">
+            <div class="metric-icon">⏱️</div>
+            <div class="metric-info">
+              <span class="metric-label">Uptime</span>
+              <span class="metric-value" id="uptime">--</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Services Status -->
+        <div class="section-header" style="margin-top: 48px;">
+          <h2><span class="terminal-prompt">$</span> Servicios</h2>
+        </div>
+        
+        <div class="services-grid" id="servicesGrid">
+          <!-- Loaded dynamically -->
+        </div>
+
+        <!-- Recent Activity -->
+        <div class="section-header" style="margin-top: 48px;">
+          <h2><span class="terminal-prompt">$</span> Actividad Reciente</h2>
+        </div>
+        
+        <div class="activity-list" id="activityList">
+          <!-- Loaded dynamically -->
+        </div>
       </section>
 
-      <!-- Current Trends -->
-      <section class="trends-section">
+      <!-- TAB: Trends -->
+      <section class="tab-content" id="tab-trends">
         <div class="section-header">
           <h2><span class="terminal-prompt">$</span> Tendencias del Día</h2>
           <span class="date-badge" id="currentDate"></span>
         </div>
         
+        <div class="summary-card" style="margin-bottom: 32px;">
+          <h3><span class="icon">📊</span> Resumen Ejecutivo</h3>
+          <p id="executiveSummary">Cargando...</p>
+        </div>
+        
         <div class="trends-grid" id="trendsGrid">
           <!-- Trends loaded dynamically -->
         </div>
-      </section>
 
-      <!-- Executive Summary -->
-      <section class="summary-section">
-        <div class="summary-card">
-          <h3><span class="icon">📊</span> Resumen Ejecutivo</h3>
-          <p id="executiveSummary">Cargando resumen...</p>
-        </div>
-      </section>
-
-      <!-- Impact Section -->
-      <section class="impact-section">
-        <div class="impact-card">
+        <div class="impact-card" style="margin-top: 32px;">
           <h3><span class="icon">💡</span> Impacto & Acción</h3>
           <div id="impactContent">Cargando...</div>
         </div>
       </section>
 
-      <!-- Archive -->
-      <section class="archive-section">
+      <!-- TAB: Projects -->
+      <section class="tab-content" id="tab-projects">
         <div class="section-header">
-          <h2><span class="terminal-prompt">$</span> Archivo Histórico</h2>
+          <h2><span class="terminal-prompt">$</span> Proyectos Activos</h2>
         </div>
-        <div class="archive-list" id="archiveList">
-          <!-- Archive loaded dynamically -->
+        
+        <div class="projects-grid" id="projectsGrid">
+          <!-- Projects loaded dynamically -->
         </div>
       </section>
+
     </div>
   </main>
 
   <footer class="footer">
     <div class="container">
-      <p>Generado automáticamente por <strong>Bitbot</strong> · Powered by OpenClaw</p>
-      <p class="footer-meta">Actualización diaria a las 06:00 AM (Chile)</p>
+      <p>Generado por <strong>Bitbot</strong> · Powered by OpenClaw</p>
+      <p class="footer-meta">VPS: <span id="hostname">--</span> · Última actualización: <span id="metricsTime">--</span></p>
     </div>
   </footer>
 
