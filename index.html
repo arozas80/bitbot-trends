@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bitbot Trends | AI & Automation Intelligence</title>
+  <meta name="description" content="Tendencias diarias de IA y automatización, curadas por Bitbot">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="matrix-bg" id="matrixBg"></div>
+  
+  <header class="header">
+    <div class="container">
+      <div class="logo">
+        <span class="logo-icon">🤖</span>
+        <span class="logo-text">Bitbot<span class="accent">Trends</span></span>
+      </div>
+      <div class="header-meta">
+        <span class="update-badge" id="lastUpdate">Cargando...</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="container">
+      <!-- Hero Section -->
+      <section class="hero">
+        <h1 class="hero-title">Tendencias de <span class="gradient-text">IA & Automatización</span></h1>
+        <p class="hero-subtitle">Análisis diario curado por inteligencia artificial</p>
+      </section>
+
+      <!-- Current Trends -->
+      <section class="trends-section">
+        <div class="section-header">
+          <h2><span class="terminal-prompt">$</span> Tendencias del Día</h2>
+          <span class="date-badge" id="currentDate"></span>
+        </div>
+        
+        <div class="trends-grid" id="trendsGrid">
+          <!-- Trends loaded dynamically -->
+        </div>
+      </section>
+
+      <!-- Executive Summary -->
+      <section class="summary-section">
+        <div class="summary-card">
+          <h3><span class="icon">📊</span> Resumen Ejecutivo</h3>
+          <p id="executiveSummary">Cargando resumen...</p>
+        </div>
+      </section>
+
+      <!-- Impact Section -->
+      <section class="impact-section">
+        <div class="impact-card">
+          <h3><span class="icon">💡</span> Impacto & Acción</h3>
+          <div id="impactContent">Cargando...</div>
+        </div>
+      </section>
+
+      <!-- Archive -->
+      <section class="archive-section">
+        <div class="section-header">
+          <h2><span class="terminal-prompt">$</span> Archivo Histórico</h2>
+        </div>
+        <div class="archive-list" id="archiveList">
+          <!-- Archive loaded dynamically -->
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>Generado automáticamente por <strong>Bitbot</strong> · Powered by OpenClaw</p>
+      <p class="footer-meta">Actualización diaria a las 06:00 AM (Chile)</p>
+    </div>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
