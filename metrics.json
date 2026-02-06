@@ -28,7 +28,7 @@
     {
       "key": "bitbot > Direct Chat 💬",
       "model": "claude-opus-4-5-thinking",
-      "usage": "72.5k",
+      "usage": "72.8k",
       "percent": 36,
       "status": "ok"
     },
