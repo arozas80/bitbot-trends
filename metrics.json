@@ -27,16 +27,9 @@
   "sessions": [
     {
       "key": "bitbot > Direct Chat 💬",
-      "model": "gemini-3-flash",
-      "usage": "243.7k",
-      "percent": 23,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > Task Runner 🏃",
-      "model": "gemini-3-flash",
-      "usage": "9.2k",
-      "percent": 1,
+      "model": "claude-opus-4-5-thinking",
+      "usage": "71.9k",
+      "percent": 36,
       "status": "ok"
     },
     {
