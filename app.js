@@ -191,11 +191,20 @@ async function loadExpenses() {
     document.getElementById('totalExpenses').textContent = data.total_fmt;
     document.getElementById('remainingBalance').textContent = `$${remaining.toLocaleString('es-CL')}`;
     
-    const expensesHtml = data.items.map(item => `
-      <div class="activity-item" style="cursor: pointer; display: flex; align-items: center; gap: 16px; padding: 16px;" onclick="window.open('${item.comprobante}', '_blank')">
+    const expensesHtml = data.items.map(item => {
+      const hasDriveLink = item.comprobante && item.comprobante.includes('drive.google.com');
+      const clickAction = hasDriveLink ? `onclick="window.open('${item.comprobante}', '_blank')"` : '';
+      const cursorStyle = hasDriveLink ? 'cursor: pointer;' : 'cursor: default;';
+      const linkBadge = hasDriveLink ? '<span class="status-badge online" style="font-size: 0.6rem; padding: 2px 6px;">Drive 🔗</span>' : '';
+
+      return `
+      <div class="activity-item" style="${cursorStyle} display: flex; align-items: center; gap: 16px; padding: 16px;" ${clickAction}>
         <span class="icon" style="font-size: 1.5rem;">🧾</span>
         <div class="text" style="flex: 1; min-width: 0;">
-           <div style="font-weight: 600; color: var(--text-primary); white-space: normal; word-break: break-word;">${item.descripcion}</div>
+           <div style="font-weight: 600; color: var(--text-primary); white-space: normal; word-break: break-word; display: flex; align-items: center; gap: 8px;">
+              ${item.descripcion}
+              ${linkBadge}
+           </div>
            <div style="font-size: 0.8rem; color: var(--text-muted); margin-top: 4px;">Doc: #${item.factura}</div>
         </div>
         <div style="text-align: right; min-width: 100px;">
@@ -203,7 +212,7 @@ async function loadExpenses() {
            <div class="date" style="font-size: 0.75rem; color: var(--text-muted); margin-top: 4px;">${item.fecha}</div>
         </div>
       </div>
-    `).join('');
+    `}).join('');
     
     document.getElementById('expensesList').innerHTML = expensesHtml || '<p class="loading">No hay gastos registrados</p>';
     
