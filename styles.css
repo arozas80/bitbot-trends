@@ -209,12 +209,57 @@ body {
 .footer-meta { margin-top: 8px; color: var(--text-muted); font-size: 0.75rem; }
 
 /* === Responsive === */
+@media (max-width: 900px) {
+  .container { padding: 0 18px; }
+  .logo { font-size: 1.15rem; }
+  .logo-icon { font-size: 1.4rem; }
+}
+
 @media (max-width: 768px) {
-  .header .container { flex-direction: column; }
-  .nav-tabs { width: 100%; justify-content: center; }
+  .header .container { flex-direction: column; align-items: stretch; }
+
+  /* Tabs: evitar overflow horizontal en móvil */
+  .nav-tabs {
+    width: 100%;
+    justify-content: flex-start;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 6px;
+    gap: 10px;
+  }
+  .nav-tab { flex: 0 0 auto; padding: 10px 14px; }
+
+  .header-meta { width: 100%; display: flex; justify-content: flex-start; }
+
+  .section-header { align-items: flex-start; }
+
   .metrics-grid { grid-template-columns: 1fr 1fr; }
   .trends-grid, .projects-grid { grid-template-columns: 1fr; }
+
+  /* Cards un poco más compactas */
+  .metric-card, .trend-card, .project-card, .summary-card, .impact-card {
+    padding: 20px;
+  }
 }
-@media (max-width: 480px) {
+
+@media (max-width: 560px) {
+  .container { padding: 0 14px; }
+
+  /* 1 columna en pantallas chicas */
   .metrics-grid { grid-template-columns: 1fr; }
+
+  /* Cards: layout vertical para que no se aprieten */
+  .metric-card { flex-direction: column; gap: 12px; }
+  .metric-icon { font-size: 1.8rem; }
+  .metric-value { font-size: 1.35rem; }
+
+  /* Activity items: permitir wrap real */
+  .activity-item { align-items: flex-start; }
+  .activity-item .text { font-size: 0.9rem; }
+}
+
+@media (max-width: 420px) {
+  .nav-tab { font-size: 0.8rem; padding: 10px 12px; }
+  .section-header h2 { font-size: 1rem; }
+  .update-badge { font-size: 0.72rem; }
 }
