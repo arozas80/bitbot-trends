@@ -1,0 +1,32 @@
+{
+  "updatedAt": "2026-02-06T13:52:44.158846",
+  "total": 24930,
+  "total_fmt": "$24.930",
+  "count": 3,
+  "items": [
+    {
+      "fecha": "06-02-2026",
+      "descripcion": "Almuerzo Castaño (Coca Cola Zero + Empanada)",
+      "monto": 4080,
+      "monto_fmt": "$4.080",
+      "factura": "185123361",
+      "comprobante": "https://drive.google.com/file/d/149Zzr9Luu7D3m1zy4jaqQDjuCq4ul-AJ/view?usp=drivesdk"
+    },
+    {
+      "fecha": "03-02-2026",
+      "descripcion": "Despacho a cliente (Encomienda)",
+      "monto": 9890,
+      "monto_fmt": "$9.890",
+      "factura": "13291420",
+      "comprobante": "https://drive.google.com/file/d/1oa2InA2OMKCfPc39o5ysDfa7ZmuUo-WQ/view?usp=drivesdk"
+    },
+    {
+      "fecha": "03-02-2026",
+      "descripcion": "Almuerzo (Handroll de Camaron)",
+      "monto": 10960,
+      "monto_fmt": "$10.960",
+      "factura": "74593",
+      "comprobante": "https://drive.google.com/file/d/1eTMSzRe5WHEThLJdQ3cij2qi_PC8mxjY/view?usp=drivesdk"
+    }
+  ]
+}

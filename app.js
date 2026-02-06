@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
   loadTrends();
   loadProjects();
   loadTasks();
+  loadExpenses();
 });
 
 // === Tab Navigation ===
@@ -148,6 +149,35 @@ async function loadTasks() {
     
   } catch (err) {
     console.error('Error loading tasks:', err);
+  }
+}
+
+// === Load Expenses ===
+async function loadExpenses() {
+  try {
+    const res = await fetch('expenses.json');
+    const data = await res.json();
+    
+    document.getElementById('totalExpenses').textContent = data.total_fmt;
+    
+    const expensesHtml = data.items.map(item => `
+      <div class="activity-item" style="cursor: pointer" onclick="window.open('${item.comprobante}', '_blank')">
+        <span class="icon">🧾</span>
+        <div class="text">
+           <div style="font-weight: 600; color: var(--text-primary)">${item.descripcion}</div>
+           <div style="font-size: 0.8rem; color: var(--text-muted)">Doc: #${item.factura}</div>
+        </div>
+        <div style="text-align: right">
+           <div style="font-family: var(--font-mono); font-weight: 700; color: var(--accent-primary)">${item.monto_fmt}</div>
+           <div class="date">${item.fecha}</div>
+        </div>
+      </div>
+    `).join('');
+    
+    document.getElementById('expensesList').innerHTML = expensesHtml || '<p class="loading">No hay gastos registrados</p>';
+    
+  } catch (err) {
+    console.error('Error loading expenses:', err);
   }
 }
 

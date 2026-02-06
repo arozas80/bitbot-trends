@@ -22,6 +22,7 @@
       <nav class="nav-tabs">
         <button class="nav-tab active" data-tab="overview">Overview</button>
         <button class="nav-tab" data-tab="trends">Tendencias</button>
+        <button class="nav-tab" data-tab="expenses">Gastos</button>
         <button class="nav-tab" data-tab="projects">Proyectos</button>
         <button class="nav-tab" data-tab="tasks">Tareas</button>
       </nav>
@@ -117,6 +118,23 @@
         <div class="impact-card" style="margin-top: 32px;">
           <h3><span class="icon">💡</span> Impacto & Acción</h3>
           <div id="impactContent">Cargando...</div>
+        </div>
+      </section>
+
+      <!-- TAB: Expenses -->
+      <section class="tab-content" id="tab-expenses">
+        <div class="section-header">
+          <h2><span class="terminal-prompt">$</span> Registro de Gastos (Servivet)</h2>
+        </div>
+        <div class="summary-card" style="margin-bottom: 24px;">
+           <div style="display: flex; justify-content: space-between; align-items: center;">
+              <h3><span class="icon">💰</span> Total Gastos (Mes)</h3>
+              <span class="metric-value" id="totalExpenses">--</span>
+           </div>
+        </div>
+        <div class="activity-list" id="expensesList">
+          <!-- Loaded dynamically as a table/list -->
+          <div class="loading">Cargando gastos...</div>
         </div>
       </section>
 
