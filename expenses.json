@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-02-07T23:53:54.942Z",
-  "total": 190315,
-  "total_fmt": "$190.315",
-  "count": 12,
+  "updatedAt": "2026-02-07T23:54:12.877Z",
+  "total": 194305,
+  "total_fmt": "$194.305",
+  "count": 13,
   "items": [
+    {
+      "fecha": "06-02-2026",
+      "descripcion": "Farmacias Ahumada (Bloqueador Solar SPF50)",
+      "monto": 3990,
+      "monto_fmt": "$3.990",
+      "factura": "353090724",
+      "comprobante": "#"
+    },
     {
       "fecha": "06-02-2026",
       "descripcion": "Despacho (Transporte de carga y encomienda)",
