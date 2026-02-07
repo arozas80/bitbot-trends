@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-02-07T23:53:13.499Z",
-  "total": 167505,
-  "total_fmt": "$167.505",
-  "count": 11,
+  "updatedAt": "2026-02-07T23:53:54.942Z",
+  "total": 190315,
+  "total_fmt": "$190.315",
+  "count": 12,
   "items": [
+    {
+      "fecha": "06-02-2026",
+      "descripcion": "Despacho (Transporte de carga y encomienda)",
+      "monto": 22810,
+      "monto_fmt": "$22.810",
+      "factura": "13297545",
+      "comprobante": "#"
+    },
     {
       "fecha": "06-02-2026",
       "descripcion": "Almuerzo Castaño (Coca Cola Zero + Empanada queso/jamón)",
