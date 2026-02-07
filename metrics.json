@@ -28,8 +28,8 @@
     {
       "key": "bitbot > Direct Chat 💬",
       "model": "gemini-3-flash",
-      "usage": "39.9k",
-      "percent": 4,
+      "usage": "69.2k",
+      "percent": 7,
       "status": "ok"
     },
     {
