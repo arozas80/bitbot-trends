@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-02-07T23:54:12.877Z",
-  "total": 194305,
-  "total_fmt": "$194.305",
-  "count": 13,
+  "updatedAt": "2026-02-07T23:54:40.915Z",
+  "total": 211815,
+  "total_fmt": "$211.815",
+  "count": 14,
   "items": [
+    {
+      "fecha": "06-02-2026",
+      "descripcion": "Lider Providencia (Artículos de oficina + colación)",
+      "monto": 17510,
+      "monto_fmt": "$17.510",
+      "factura": "001269619459",
+      "comprobante": "#"
+    },
     {
       "fecha": "06-02-2026",
       "descripcion": "Farmacias Ahumada (Bloqueador Solar SPF50)",
