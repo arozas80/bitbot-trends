@@ -9,10 +9,62 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function refreshData() {
   loadMetrics();
+  loadLeads();
   loadTrends();
   loadProjects();
   loadTasks();
   loadExpenses();
+}
+
+async function executeAction(action) {
+    if (!confirm(`¿Confirmas ejecutar la acción: ${action}?`)) return;
+    
+    console.log(`Ejecutando acción dashboard: ${action}`);
+    alert(`🤖 Bitbot: Acción '${action}' iniciada en el servidor.`);
+    // En el futuro esto disparará un webhook a n8n o una API local
+}
+
+// === Load Leads ===
+async function loadLeads() {
+  try {
+    const res = await fetch('leads.json');
+    const leads = await res.json();
+    
+    document.getElementById('leadsCount').textContent = `${leads.length} detectados hoy`;
+    
+    const leadsHtml = leads.map(lead => {
+      const isCritical = lead.notes.includes('Lorem Ipsum') || lead.notes.includes('abandonado');
+      const badgeClass = isCritical ? 'offline' : 'online';
+      const badgeText = isCritical ? 'CRÍTICO' : 'OPORTUNIDAD';
+
+      return `
+      <div class="activity-item" style="display: flex; align-items: flex-start; gap: 16px; padding: 16px; border-left: 4px solid ${isCritical ? '#ff4444' : '#ff9800'}; margin-bottom: 12px; background: rgba(255,255,255,0.03);">
+        <div style="flex: 1;">
+          <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 4px;">
+            <span style="font-weight: 700; color: var(--text-primary); font-size: 1.1rem;">${lead.name}</span>
+            <span class="status-badge ${badgeClass}" style="font-size: 0.6rem;">${badgeText}</span>
+          </div>
+          <div style="font-size: 0.85rem; color: var(--accent-primary); font-family: var(--font-mono); margin-bottom: 8px;">
+            <a href="${lead.website}" target="_blank" style="color: inherit; text-decoration: none;">${lead.website}</a>
+          </div>
+          <div style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.4;">
+            ${lead.notes}
+          </div>
+        </div>
+        <div style="text-align: right; min-width: 120px;">
+          <div style="font-weight: 600; color: var(--text-primary); font-size: 0.9rem;">${lead.phone}</div>
+          <button class="nav-tab" style="margin-top: 10px; padding: 6px 12px; font-size: 0.75rem; background: var(--accent-primary); color: #000; border: none; border-radius: 4px; cursor: pointer;" onclick="alert('Funcionalidad de contacto automático en desarrollo')">
+            CONTACTAR
+          </button>
+        </div>
+      </div>
+    `}).join('');
+    
+    document.getElementById('leadsList').innerHTML = leadsHtml || '<p class="loading">No hay prospectos detectados</p>';
+    
+  } catch (err) {
+    console.error('Error loading leads:', err);
+  }
 }
 
 // === Tab Navigation ===

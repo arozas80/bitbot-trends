@@ -21,6 +21,7 @@
       </div>
       <nav class="nav-tabs">
         <button class="nav-tab active" data-tab="overview">Overview</button>
+        <button class="nav-tab" data-tab="leads">Leads</button>
         <button class="nav-tab" data-tab="trends">Tendencias</button>
         <button class="nav-tab" data-tab="expenses">Gastos</button>
         <button class="nav-tab" data-tab="projects">Proyectos</button>
@@ -80,6 +81,25 @@
           </div>
         </div>
 
+        <!-- NEW: Quick Actions -->
+        <div class="section-header" style="margin-top: 48px;">
+          <h2><span class="terminal-prompt">$</span> Control Remoto (Acciones)</h2>
+        </div>
+        <div class="metrics-grid" style="grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));">
+          <button class="nav-tab action-btn" onclick="executeAction('leads')" style="width: 100%; padding: 20px; background: rgba(255,152,0,0.1); border: 1px solid var(--accent-primary);">
+            <span style="font-size: 1.5rem; display: block; margin-bottom: 8px;">🔍</span>
+            Buscar Leads
+          </button>
+          <button class="nav-tab action-btn" onclick="executeAction('backup')" style="width: 100%; padding: 20px; background: rgba(76,175,80,0.1); border: 1px solid #4caf50;">
+            <span style="font-size: 1.5rem; display: block; margin-bottom: 8px;">💾</span>
+            Hacer Backup
+          </button>
+          <button class="nav-tab action-btn" onclick="executeAction('memory')" style="width: 100%; padding: 20px; background: rgba(33,150,243,0.1); border: 1px solid #2196f3;">
+            <span style="font-size: 1.5rem; display: block; margin-bottom: 8px;">🧠</span>
+            Limpiar Memoria
+          </button>
+        </div>
+
         <!-- Token Usage (New) -->
         <div class="section-header" style="margin-top: 48px;">
           <h2><span class="terminal-prompt">$</span> Uso de Tokens (Contexto)</h2>
@@ -104,6 +124,23 @@
         
         <div class="activity-list" id="activityList">
           <!-- Loaded dynamically -->
+        </div>
+      </section>
+
+      <!-- TAB: Leads Hunter -->
+      <section class="tab-content" id="tab-leads">
+        <div class="section-header">
+          <h2><span class="terminal-prompt">$</span> Lead Hunter (Prospectos)</h2>
+          <span class="status-badge" id="leadsCount">0 detectados hoy</span>
+        </div>
+        
+        <div class="summary-card" style="margin-bottom: 32px; border-left-color: #ff9800;">
+          <h3><span class="icon">🔍</span> Radar de Oportunidades</h3>
+          <p>Scrapeo automático de nichos con auditoría de presencia digital. Rojo = Oportunidad Crítica.</p>
+        </div>
+        
+        <div class="activity-list" id="leadsList">
+          <div class="loading">Buscando prospectos calientes...</div>
         </div>
       </section>
 

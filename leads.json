@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Agrupación Odontológica Alcántara",
+    "website": "https://www.dentistasalcantara.cl/",
+    "phone": "+56 2 2206 1380",
+    "notes": "Usa Lorem Ipsum en la galería. Sitio parece abandonado o mal mantenido."
+  },
+  {
+    "name": "Redental Las Condes",
+    "website": "https://www.redental.cl/clinica-las-condes/",
+    "phone": "+56 2 3210 8272",
+    "notes": "Sitio moderno, usa agendamiento externo. Oportunidad en automatización de post-venta."
+  },
+  {
+    "name": "Clínica Dental Nómade",
+    "website": "https://www.clinicanomade.cl/",
+    "phone": "+56 9 58306543",
+    "notes": "Sitio muy simple (una sola página). Podría mejorar con un embudo de ventas real."
+  },
+  {
+    "name": "IntegraMédica Alto Las Condes",
+    "website": "https://www.integramedica.cl/centros-medicos/clinica-dental-alto-las-condes",
+    "phone": "N/A",
+    "notes": "Corporativo. Difícil acceso directo al dueño."
+  }
+]
