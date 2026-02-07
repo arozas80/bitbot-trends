@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-02-07T23:55:06.069Z",
-  "total": 223815,
-  "total_fmt": "$223.815",
-  "count": 15,
+  "updatedAt": "2026-02-07T23:58:02.282Z",
+  "total": 227895,
+  "total_fmt": "$227.895",
+  "count": 16,
   "items": [
+    {
+      "fecha": "06-02-2026",
+      "descripcion": "Almuerzo Castaño (Coca Cola Zero + Empanada queso/jamón)",
+      "monto": 4080,
+      "monto_fmt": "$4.080",
+      "factura": "185123361",
+      "comprobante": "https://drive.google.com/file/d/1_XHy6_4UUfQwhbgazqzlimCsCUOpGSm8/view?usp=drivesdk"
+    },
     {
       "fecha": "06-02-2026",
       "descripcion": "Ariex (Tóner impresora)",
