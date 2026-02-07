@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-02-07T23:58:12.086Z",
-  "total": 272205,
-  "total_fmt": "$272.205",
-  "count": 19,
+  "updatedAt": "2026-02-07T23:58:15.188Z",
+  "total": 284205,
+  "total_fmt": "$284.205",
+  "count": 20,
   "items": [
+    {
+      "fecha": "06-02-2026",
+      "descripcion": "Ariex (Tóner impresora)",
+      "monto": 12000,
+      "monto_fmt": "$12.000",
+      "factura": "59200",
+      "comprobante": "https://drive.google.com/file/d/1uIuROhYHOvc_A4NYqa7vp-MiE8vmejx8/view?usp=drivesdk"
+    },
     {
       "fecha": "06-02-2026",
       "descripcion": "Lider Providencia (Artículos de oficina + colación)",
