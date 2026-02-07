@@ -28,8 +28,15 @@
     {
       "key": "bitbot > Direct Chat 💬",
       "model": "gemini-3-flash",
-      "usage": "34.5k",
+      "usage": "34.7k",
       "percent": 3,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > cron:f7e32111-125b-4ec2-81ec-4a38d5e52562",
+      "model": "gemini-3-flash",
+      "usage": "20.3k",
+      "percent": 2,
       "status": "ok"
     },
     {
@@ -65,13 +72,6 @@
       "model": "gemini-3-flash",
       "usage": "22.8k",
       "percent": 2,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > cron:f7e32111-125b-4ec2-81ec-4a38d5e52562",
-      "model": "gemini-3-flash",
-      "usage": "15.0k",
-      "percent": 1,
       "status": "ok"
     }
   ]
