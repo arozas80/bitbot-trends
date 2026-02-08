@@ -1,47 +1,52 @@
 // Data file - Updated daily by Bitbot
 const trendsData = {
-  lastUpdate: "2026-02-07T06:00:00-03:00",
-  currentDate: "7 de febrero de 2026",
+  lastUpdate: "2026-02-08T06:00:00-03:00",
+  currentDate: "8 de febrero de 2026",
   
-  executiveSummary: "Hoy la conversación global se centra firmemente en la IA Agéntica, marcando el fin de la era de los simples chatbots. La tendencia principal es el despliegue de agentes autónomos que gestionan flujos de trabajo completos de extremo a extremo.",
+  executiveSummary: "Hoy el pulso tecnológico está marcado por la transición de la IA del mundo digital al mundo físico (Physical AI) y la consolidación de los Sistemas Operativos Agénticos (AOS). La IA ya no solo razona; ahora interactúa con el entorno físico y se orquesta en equipos coordinados.",
   
   trends: [
     {
       id: 1,
-      icon: "🤖",
-      title: "Dominio de la IA Agéntica",
-      subtitle: "De la charla a la ejecución",
-      description: "Gartner proyecta que el 40% de las apps empresariales serán agénticas para finales de 2026. Los sistemas ahora ejecutan procesos completos (onboarding, ventas, soporte) de forma autónoma con enfoque en ROI directo."
+      icon: "🦾",
+      title: "IA Física y Robótica",
+      subtitle: "El 'momento ChatGPT' para robots",
+      description: "El 58% de los líderes globales ya usan IA física. La robótica comercial está pasando de R&D a producción masiva, con robots que perciben, razonan y actúan en entornos reales para suplir la escasez de mano de obra."
     },
     {
       id: 2,
-      icon: "📱",
-      title: "IA Local y Edge Computing",
-      subtitle: "Privacidad y rapidez",
-      description: "Retorno masivo al procesamiento en el dispositivo (Edge AI). Smartphones y AI PCs ahora gestionan tareas complejas localmente, priorizando la privacidad del usuario y reduciendo la dependencia de APIs externas costosas."
+      icon: "🌐",
+      title: "Sistemas Operativos Agénticos",
+      subtitle: "Orquestación de Súper Agentes",
+      description: "La tendencia evoluciona de agentes simples a Sistemas Operativos Agénticos (AOS) y dashboards multi-agente que coordinan equipos de IA para ejecutar flujos de trabajo dinámicos y complejos de forma autónoma."
     },
     {
       id: 3,
-      icon: "🏥",
-      title: "Especialización Sectorial",
-      subtitle: "IA Vertical",
-      description: "Modelos ultra-especializados están superando a los generalistas en salud, ciencia y clima. La tendencia es entrenar modelos pequeños y potentes para nichos críticos donde la precisión es vital."
+      icon: "📡",
+      title: "IoT y Sensores con IA",
+      subtitle: "Visibilidad total económica",
+      description: "Sensores IoT y agentes de IA de bajo costo están revolucionando la logística. El 46% de las empresas ya los usa para mantenimiento predictivo y visibilidad de la cadena de suministro en tiempo real."
     },
     {
       id: 4,
-      icon: "🤝",
-      title: "Simbiosis Humano-IA",
-      subtitle: "Multiplicación de capacidades",
-      description: "La narrativa de reemplazo laboral está siendo sustituida por la de 'aumento'. El 48% de los ejecutivos esperan aumentar el personal gracias a la mayor productividad que permiten los asistentes inteligentes avanzados."
+      icon: "🛡️",
+      title: "Ciberseguridad y Gobernanza",
+      subtitle: "Blindaje contra amenazas IA",
+      description: "El 87% de las empresas ven las vulnerabilidades de la IA como un riesgo crítico. La gobernanza y el uso de IA defensiva se vuelven obligatorios para protegerse contra ataques automatizados sofisticados."
     }
   ],
   
   impact: {
-    opportunity: "El auge de la IA Local y Agéntica valida nuestra infraestructura en OpenClaw ejecutándose en VPS/Local.",
-    action: "Fortalecer la capacidad de los agentes para manejar herramientas locales y workflows sin conexión constante a la nube."
+    opportunity: "La consolidación de sistemas agénticos (AOS) posiciona a Bitbot como una herramienta de vanguardia en orquestación de tareas.",
+    action: "Expandir las capacidades de Bitbot para interactuar con sistemas físicos y fortalecer los protocolos de seguridad agéntica."
   },
   
   archive: [
+    {
+      date: "2026-02-08",
+      preview: "IA Física, Sistemas Operativos Agénticos, IoT/Edge...",
+      file: "2026-02-08.json"
+    },
     {
       date: "2026-02-07",
       preview: "IA Agéntica, Edge AI, Especialización Vertical...",
