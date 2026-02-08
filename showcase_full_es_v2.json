@@ -1,0 +1,1277 @@
+[
+  {
+    "id": "2012535486401671588",
+    "author": "@dreetje",
+    "category": "⚡ Automatización",
+    "likes": "271",
+    "titulo_es": "Asistente Personal Todo en Uno",
+    "resumen_es": "Un asistente que gestiona correo, mensajes, compras y tareas de GitHub mediante chat de voz.",
+    "detalle_es": "Lo que estoy haciendo actualmente con @openclaw:\n• Revisa mi correo entrante y elimina el spam\n• Revisa mis mensajes entrantes (a través de Beeper)\n• Realiza pedidos por mí\n• Envía mis recordatorios a Tana\n• Crea issues en GitHub\n• Sincroniza mis lugares de Google\n• Lee mis marcadores de X y los comenta conmigo\n• Genera un buen resumen en PDF de conversaciones sobre coches\n• Realiza un seguimiento de los costes y los divide después de los viajes\n• Me suplanta en un chat de grupo con amigos (divertidísimo)\n• Puede llamarme y podemos chatear\n• Tiene su propia bóveda de 1Password en la que puede leer y escribir\nY lo mejor es que ÉL construyó todo esto, simplemente chateando con él por teléfono.",
+    "use_cases_es": [
+      "Gestión inteligente de correo electrónico y spam",
+      "Automatización de compras y tareas administrativas",
+      "Integración profunda con herramientas de desarrollo como GitHub"
+    ],
+    "original_en": "What I'm currently doing with @openclaw:\n• Check my incoming mail, and remove spam\n• Check my incoming messages (through Beeper)\n• Order things for me\n• Send my reminders to Tana\n• Create issues on GitHub\n• Sync my Google Places\n• Reads my X bookmarks and discusses them with me\n• Generate a nice pdf summary of car conversations\n• Keep track of costs and split them after trips\n• Impersonate me in a group chat with friends (Hilarious)\n• It can call me and we can chat\n• Has its own 1Password vault it can read and write to\nAnd the beauty is, IT built all of this, just by chatting to it on the phone."
+  },
+  {
+    "id": "2012565160586625345",
+    "author": "@danpeguine",
+    "category": "📋 Productividad",
+    "likes": "257",
+    "titulo_es": "Optimización de Calendario y Tareas",
+    "resumen_es": "Gestión inteligente de calendario, resúmenes diarios y desglose de proyectos complejos.",
+    "detalle_es": "Cosas que mi @openclaw hace por mí:\n• Bloquea tiempo para tareas en mi calendario según su importancia\n• Puntúa la importancia y urgencia de las tareas basándose en un algoritmo que estamos desarrollando juntos\n• Me guía a través de una revisión semanal basada en transcripciones de reuniones y notas\n• Ofrece un resumen matutino diario: clima, objetivos semanales, estadísticas de salud, agenda de reuniones, recordatorios clave, temas de tendencia, cosas que debería leer según mis objetivos actuales, una cita relevante de mis libros\n• Nos notifica a mi esposa y a mí sobre los próximos exámenes escolares de nuestro hijo\n• Investiga grandes proyectos y los desglosa en tareas\n• Investiga a las personas antes de las reuniones y crea documentos de información\n• Crea subagentes en segundo plano para investigar ideas de negocio\n• Gestiona el calendario ante cualquier conflicto de forma autónoma\n• Crea facturas y resume el trabajo maravillosamente",
+    "use_cases_es": [
+      "Priorización algorítmica de tareas y calendario",
+      "Resúmenes ejecutivos diarios personalizados",
+      "Investigación autónoma de proyectos y personas"
+    ],
+    "original_en": "Things my @openclaw does for me:\n• Timeblocks tasks in my calendar based on importance\n• Scores tasks importance and urgency based on an algorithm we're developing together\n• Leads me through a weekly review based on meeting transcriptions & notes\n• Gives a morning daily brief: weather, weekly objectives, health stats, meetings agenda, key reminders, trending topics, stuff I should read based on current objectives, a relevant quote from my books\n• Notifies my wife and I about our son's upcoming school tests\n• Researches big projects and breaks them down to tasks\n• Researches people before meetings and creates briefing docs\n• Spawns background sub-agents to research business ideas\n• Manages the calendar for any conflicts autonomously\n• Creates invoices and summarizes work beautifully"
+  },
+  {
+    "id": "2009487467817336895",
+    "author": "@davis7",
+    "category": "💻 Desarrollador",
+    "likes": "229",
+    "titulo_es": "La Era de los Agentes Abiertos",
+    "resumen_es": "Reflexión sobre la importancia de construir agentes fuera de ecosistemas cerrados para mantener flexibilidad.",
+    "detalle_es": "Este es el momento de las 'burbujas de texto azul' en la carrera de la IA. ¿Todas esas cosas geniales que has visto sobre la construcción de agentes personalizados sobre un agente de codificación? OpenClaw, btca y los miles más que se construirán este año ahora TIENEN que ser construidos usando el paquete 'agent sdk' de Anthropic o de lo contrario serán 100 veces más caros. Y si se construyen con el SDK de Anthropic, ¿adivina qué no pueden hacer? Cambiar a un modelo mejor de otro proveedor cuando se lance.",
+    "use_cases_es": [
+      "Análisis estratégico de ecosistemas de IA",
+      "Defensa del software de código abierto y agnóstico al modelo",
+      "Evaluación de costes y flexibilidad en el desarrollo de agentes"
+    ],
+    "original_en": "This is the \"blue text bubbles\" moment of the ai race\nAll the cool shit u've been seeing about building crazy custom agents on top of a coding agent?\nOpenClaw, btca, and the thousands more that will get built this year now HAVE to be built using anthropic's \"agent sdk\" package or else they'll be 100x more expensive\nand if they're built on anthropic's sdk guess what they can't do? switch to a better model from another provider when it releases"
+  },
+  {
+    "id": "2012173452061360130",
+    "author": "@iannuttall",
+    "category": "🏠 Hogar Inteligente",
+    "likes": "318",
+    "titulo_es": "Un Nuevo Hogar para OpenClaw",
+    "resumen_es": "Compra de hardware dedicado para alojar la instancia personal de OpenClaw.",
+    "detalle_es": "Le compré a @openclaw su primer hogar 😍",
+    "use_cases_es": [
+      "Instalación de agentes en hardware local",
+      "Personalización del entorno de ejecución de IA",
+      "Configuración de servidores domésticos dedicados"
+    ],
+    "original_en": "I bought @openclaw his first home 😍"
+  },
+  {
+    "id": "2009684853827281070",
+    "author": "@swiftlysingh",
+    "category": "💻 Desarrollador",
+    "likes": "301",
+    "titulo_es": "Diagramas Programáticos con Excalidraw",
+    "resumen_es": "Creación automática de diagramas de flujo mediante comandos de voz y JSON.",
+    "detalle_es": "Los archivos de Excalidraw son solo JSON, así que construí una forma para que los agentes los creen programáticamente. Estaba trabajando con @openclaw y deseaba poder decir 'dibuja este flujo' y obtener un diagrama. Ahora puedo.",
+    "use_cases_es": [
+      "Generación automática de diagramas de arquitectura",
+      "Visualización de flujos de trabajo mediante voz",
+      "Integración de herramientas de dibujo con agentes de IA"
+    ],
+    "original_en": "excalidraw files are just JSON\nso I built a way for agents to create them programmatically\nwas working with @openclaw and kept wishing I could say \"draw this flow\" and get a diagram\nnow I can"
+  },
+  {
+    "id": "2008388427180630155",
+    "author": "@andrewjiang",
+    "category": "💻 Desarrollador",
+    "likes": "157",
+    "titulo_es": "Procesamiento Masivo de Datos",
+    "resumen_es": "Extracción de 4 millones de posts de X en solo 24 horas gracias a la potencia de construcción rápida.",
+    "detalle_es": "24 horas después, la idea se convirtió en un proyecto que extrae 4 millones de publicaciones de las 100 cuentas principales de X. Qué época para construir.",
+    "use_cases_es": [
+      "Análisis de datos a gran escala",
+      "Prototipado rápido de herramientas de scraping",
+      "Extracción masiva de información en tiempo récord"
+    ],
+    "original_en": "24 hours later, the idea turned into a project pulling 4 million posts across 100 top X accounts.\nWhat a time to build."
+  },
+  {
+    "id": "2008531076487246176",
+    "author": "@KrauseFx",
+    "category": "🔗 Integración",
+    "likes": "218",
+    "titulo_es": "Crecimiento Explosivo y Conectividad",
+    "resumen_es": "Expansión masiva de la comunidad y soporte para mensajería y domótica.",
+    "detalle_es": "Lo que @steipete ha construido con @openclaw es de otro mundo. El Discord pasó de 0 a miles de desarrolladores hackeando juntos, mensajes nuevos cada minuto, imposible de seguir el ritmo. Además, acaba de lanzar soporte para Beeper (mensajería), Homey (Hogar Inteligente) y Fastmail.",
+    "use_cases_es": [
+      "Colaboración en comunidades de desarrolladores",
+      "Integración de sistemas de mensajería unificada",
+      "Control de ecosistemas de hogar inteligente"
+    ],
+    "original_en": "What @steipete has built with @openclaw is out of this world. The discord went from 0 to thousands of devs on Discord hacking together, new messages every minute, impossible to keep up.\nAlso, just shipped support for Beeper (messenger), Homey (Smart Home) and Fastmail"
+  },
+  {
+    "id": "2012507246874255661",
+    "author": "@chrisbanes",
+    "category": "💻 Desarrollador",
+    "likes": "160",
+    "titulo_es": "Control de Características desde el Móvil",
+    "resumen_es": "Configuración de OpenClaw vía Telegram para implementar funciones de forma remota.",
+    "detalle_es": "Finalmente me puse a configurar completamente mi instancia de @openclaw y es muy, muy buena. Incluso al nivel más básico, poder crear agentes para implementar un montón de funciones desde mi teléfono es alucinante. Todo esto está conectado a un grupo de Telegram.",
+    "use_cases_es": [
+      "Despliegue remoto de funcionalidades de software",
+      "Gestión de agentes a través de aplicaciones de mensajería",
+      "Configuración personalizada de flujos de trabajo móviles"
+    ],
+    "original_en": "Finally got around to fully configuring my @openclaw instance, and it's so so good.\nEven at the most basic level, being able to spin up agents to implement a bunch of features from my phone is 🤯\nThis is all hooked up to a Telegram group."
+  },
+  {
+    "id": "2009070459065913806",
+    "author": "@avi_press",
+    "category": "📋 Productividad",
+    "likes": "92",
+    "titulo_es": "Automatización de Ventas y Seguimiento",
+    "resumen_es": "Limpieza de tareas, correos de seguimiento y prospección automática de nuevos registros.",
+    "detalle_es": "En menos de 24 horas: limpié issues en Linear, escribí correos de seguimiento, abrí 3 PRs, busqué nuevos registros. Envié miles de mensajes en bucle a una persona inocente y desprevenida que me envió un mensaje por WhatsApp. Busqué nuestros nuevos registros del día, ahora programado diariamente.",
+    "use_cases_es": [
+      "Gestión automatizada de tickets de desarrollo",
+      "Prospección de clientes y marketing automatizado",
+      "Ejecución de tareas de seguimiento por correo electrónico"
+    ],
+    "original_en": "Less than 24 hours in: cleaned up Linear issues, wrote email follow-ups, opened 3 PRs, prospected new signups.\nSent thousands of messages in a loop to an innocent and unsuspecting person who happened to message me on WhatsApp.\nProspected our new signups for the day, now scheduled daily."
+  },
+  {
+    "id": "2008994096736817624",
+    "author": "@davekiss",
+    "category": "💻 Desarrollador",
+    "likes": "142",
+    "titulo_es": "Reconstrucción de Sitios Web desde el Sofá",
+    "resumen_es": "Migración completa de un sitio web de Notion a Astro y Cloudflare usando solo Telegram.",
+    "detalle_es": "Reconstruí todo mi sitio a través de Telegram mientras veía Netflix en la cama. De Notion a Astro, 18 publicaciones migradas, DNS movido a Cloudflare. Nunca abrí mi ordenador portátil.",
+    "use_cases_es": [
+      "Migración de contenido entre plataformas sin fricción",
+      "Gestión de infraestructura DNS y despliegue móvil",
+      "Desarrollo web completo mediante interfaces de chat"
+    ],
+    "original_en": "Rebuilt my entire site via Telegram while watching Netflix in bed. Notion → Astro, 18 posts migrated, DNS moved to Cloudflare. Never opened my laptop."
+  },
+  {
+    "id": "2011965312824942772",
+    "author": "@jlehman_",
+    "category": "🔗 Integración",
+    "likes": "100",
+    "titulo_es": "Instalación de Modelos de Voz",
+    "resumen_es": "OpenClaw instalando y configurando nuevos modelos de voz de forma autónoma bajo demanda.",
+    "detalle_es": "Yo: Oye OpenClaw, ¿puedes revisar este modelo de voz del que me acabo de enterar, instalarlo y usarlo para hablar conmigo? OpenClaw: Sí.",
+    "use_cases_es": [
+      "Instalación dinámica de capacidades de IA",
+      "Interacción mediante voz con modelos personalizados",
+      "Actualización autónoma de herramientas del sistema"
+    ],
+    "original_en": "me: hey OpenClaw, can you check this voice model that I just found out about, install it, and use it to talk to me?\nOpenClaw: yes"
+  },
+  {
+    "id": "2012313149576302746",
+    "author": "@chrisrodz35",
+    "category": "👤 Personal",
+    "likes": "82",
+    "titulo_es": "De lo Personal a lo Profesional",
+    "resumen_es": "Evolución del uso de OpenClaw: de la familia y amigos al entorno laboral.",
+    "detalle_es": "Breve historia de @openclaw; Semana 1 - Lo configuré para mi familia; Semana 2 - Lo configuré para algunos amigos no técnicos; Semana 3 - Estamos construyendo Claw para el trabajo.",
+    "use_cases_es": [
+      "Adopción gradual de asistentes de IA",
+      "Configuración de herramientas de IA para usuarios no técnicos",
+      "Escalamiento de uso personal a corporativo"
+    ],
+    "original_en": "@openclaw short story;\nWeek 1 - Set it up for my family\nWeek 2 - Set it up for some non-techie friends\nWeek 3 - We're building claw for work"
+  },
+  {
+    "id": "2012028725710192741",
+    "author": "@jdrhyne",
+    "category": "💻 Desarrollador",
+    "likes": "42",
+    "titulo_es": "Creación de Habilidades para GA4",
+    "resumen_es": "Desarrollo y publicación de una habilidad de analítica para Google Analytics 4 en 20 minutos.",
+    "detalle_es": "Acabo de crear una habilidad de GA4 para @openclaw en unos 20 minutos. Resolví mi propio problema, la empaqueté y la publiqué en ClawHub. Ahora cualquiera puede ejecutar 'clawhub install ga4' y empezar a consultar sus analíticas. Lo mejor de las habilidades de los agentes: ayúdales para que la siguiente persona no tenga que resolverlo por su cuenta.",
+    "use_cases_es": [
+      "Extensión de capacidades mediante habilidades personalizadas",
+      "Integración de analíticas web con asistentes de IA",
+      "Contribución a repositorios de habilidades comunitarias"
+    ],
+    "original_en": "Just built a GA4 skill for @openclaw in ~20 minutes.\nSolved my own problem → packaged it → published to ClawHub.\nNow anyone can `clawhub install ga4` and start querying their analytics.\nThe best part of agent skills: pay it forward so the next person doesn't have to figure it out."
+  },
+  {
+    "id": "2010288787885064227",
+    "author": "@AlbertMoral",
+    "category": "🏠 Hogar Inteligente",
+    "likes": "35",
+    "titulo_es": "Raspberry Pi y Cloudflare",
+    "resumen_es": "Configuración de OpenClaw en Raspberry Pi conectada a métricas de salud de WHOOP.",
+    "detalle_es": "Acabo de terminar de configurar @openclaw de @steipete en mi Raspberry Pi con Cloudflare, y se siente mágico ✨ Construí un sitio web desde mi teléfono en minutos y conecté WHOOP para revisar rápidamente mis métricas y hábitos diarios 🔥",
+    "use_cases_es": [
+      "Alojamiento de IA en dispositivos de bajo consumo",
+      "Monitorización de salud y hábitos mediante IA",
+      "Desarrollo web rápido desde dispositivos móviles"
+    ],
+    "original_en": "I just finished setting up @openclaw by @steipete on my Raspberry Pi with Cloudflare, and it feels magical ✨\nBuilt a website from my phone in minutes and connected WHOOP to quickly check my metrics and daily habits 🔥"
+  },
+  {
+    "id": "2012081542567280964",
+    "author": "@LLMJunky",
+    "category": "⚡ Automatización",
+    "likes": "30",
+    "titulo_es": "Resumen Matutino de Gmail y Calendario",
+    "resumen_es": "Habilidad personalizada para obtener un resumen de correos y eventos recibidos durante la noche.",
+    "detalle_es": "Si estás usando gog para Gmail y Calendario en @openclaw, creé una habilidad simple que te proporciona un resumen por la mañana para que puedas tener una visión general de cualquier evento del calendario o correos electrónicos que recibiste durante la noche. Puedes añadir tantas cuentas como quieras y configurar cada cuánto se ejecuta. También puedes configurar cuántos eventos o correos electrónicos muestra.",
+    "use_cases_es": [
+      "Consolidación de múltiples cuentas de correo",
+      "Automatización de resúmenes de agenda diarios",
+      "Control de la carga de información matutina"
+    ],
+    "original_en": "If you're using gog for Gmail and Calendar in @openclaw, I created a simple skill that provides you a rollup in the morning so you can get an overview of any calendar events or emails you received overnight.\nYou can add as many accounts as you like, and you can set how often it runs.\nYou can configure how many events or emails it shows as well."
+  },
+  {
+    "id": "2012119327147798753",
+    "author": "@georgedagg_",
+    "category": "💻 Desarrollador",
+    "likes": "143",
+    "titulo_es": "Depuración de Servidores vía Voz",
+    "resumen_es": "Agente autónomo que identifica fallos de despliegue, corrige configuraciones y envía PRs.",
+    "detalle_es": "Tuve un momento de 'madre mía, el mundo ya no es el mismo' anoche. Puse a BigC, mi @openclaw, en un servidor de Hetzner y mi mente ha explotado. Todos sabemos que la IA es transformadora, pero no creo que realmente lo sientas hasta que sales del bucle prompt/respuesta y entras en el bucle prompt/realiza acciones reales en mi nombre/respuesta.\n• Logré que BigC revisara el despliegue de un nuevo proyecto en Railway\n• Las compilaciones de cada uno de los servicios fallaron\n• BigC revisó los registros\n• Luego revisó el proyecto en el servidor\n• Identificó la causa raíz (comandos de compilación incorrectos en cada servicio)\n• Actualizó las configuraciones de cada uno en Railway\n• Volvió a desplegar\n• Confirmó que todo funcionaba\n• Luego lo probé\n• Identifiqué un problema de diseño\n• Logré que BigC revisara, corrigiera y enviara un PR\n• Trabajo hecho\nOh, y todo esto se hizo por voz mientras paseaba al maldito perro...",
+    "use_cases_es": [
+      "Mantenimiento autónomo de servidores y DevOps",
+      "Corrección de errores de despliegue en tiempo real",
+      "Interacción manos libres con entornos de producción"
+    ],
+    "original_en": "I had a holy shit, the world is not the same anymore moment last night.\nPut BigC, my @openclaw on a hetzner server and my mind is just blown.\nWe all know that AI is transformative but I don't think you really feel it until you step outside the prompt/response loop and step into the prompt/take real actions on my behalf/response loop.\n- I got BigC to check on the deployment of a new railway project\n- Builds for each of the services in the project failed\n- BigC reviewed the logs\n- Then reviewed the project on the server\n- Identified the root cause (incorrect build commands on each service)\n- Updated the configs of each in railway\n- Redeployed\n- Confirmed everything worked\n- I then tested it\n- Identified a design issue\n- Got BigC to review, fix and submit a PR\n- job done\noh and all this was done over voice when walking the fucking dog..."
+  },
+  {
+    "id": "2007616854689280196",
+    "author": "@stevecaldwell",
+    "category": "👨‍👩‍👧 Familia",
+    "likes": "133",
+    "titulo_es": "Planificación de Comidas en Notion",
+    "resumen_es": "Sistema de planificación de comidas familiar con listas de la compra inteligentes y clima.",
+    "detalle_es": "Actualización sobre Crawdad 🦞 (mi asistente de IA que funciona sobre @openclaw de @steipete). Esta noche construimos un sistema completo de planificación semanal de comidas en Notion. Mi esposa y yo nos turnamos para cocinar, así que hicimos que Crawdad configurara:\n• Plantilla maestra de plan de comidas para todo 2026 (365 días)\n• Listas de la compra ordenadas por tienda y pasillo (Kroger/Costco/Lowes)\n• Pronóstico del tiempo que se actualiza automáticamente en la lista de comidas (me ayuda a planificar buenas noches para barbacoa, sopa, etc.)\n• Nuestro catálogo de recetas favoritas por chef\n• Me recordará en los resúmenes de la mañana/tarde si necesito planificar la cena o ir a por comida.\nImagino que esto nos ahorrará al menos una hora a la semana.",
+    "use_cases_es": [
+      "Organización doméstica y logística familiar",
+      "Integración de datos climáticos para planificación",
+      "Gestión automatizada de inventario y compras"
+    ],
+    "original_en": "Update on Crawdad 🦞 (my AI Assistant running on @openclaw by @steipete)\nTonight we built a full weekly meal planning system in Notion.\nMy wife and I take turns cooking, so we had Crawdad set up:\n- Master meal plan template for all of 2026 (365 days)\n- Shopping lists sorted by store and aisle (Kroger/Costco/Lowes)\n- Weather forecast auto-updating on the meal plan list (helps me plan good nights for grilling, soup, etc)\n- Our go-to recipes catalogued by chef\n- It'll remind me in morning/evening digests if I need to plan dinner or grab groceries.\nI imagine that this will save us at least an hour a week."
+  },
+  {
+    "id": "2012778049406742632",
+    "author": "@jdrhyne",
+    "category": "🚀 Usuario Avanzado",
+    "likes": "119",
+    "titulo_es": "Un Ejército de Agentes",
+    "resumen_es": "Gestión de más de 15 agentes coordinados para tareas que van desde limpiar emails hasta optimizar Google Ads.",
+    "detalle_es": "Lo que hace mi ejército de @openclaw:\n• Limpió 10.000 correos electrónicos de mi bandeja de entrada (Día 1)\n• Revisó y resumió 122 diapositivas de Google para una reunión general\n• Construyó herramientas de CLI, publicadas en npm\n• Refactorizó PRs a partir de revisiones de código\n• Trabaja en una renovación visual completa de la documentación del SDK\n• Revisa, analiza y optimiza Google Ads\n• Construyó habilidades para Jira, GA4 y GSC sobre la marcha\n• Lee mis marcadores de X y los comenta conmigo\n• Redacta publicaciones para LinkedIn/X con mi voz\n• Orquesta agentes de Codex para codificación\n• Construye una investigación y UI de analista de trading\n• Pase de lista diario entre más de 10 agentes\n• Se actualiza a sí mismo\nMás de 15 agentes. 3 máquinas. 1 servidor de Discord. Y sí, ÉL construyó la mayor parte de esto, solo chateando.",
+    "use_cases_es": [
+      "Orquestación masiva de agentes especializados",
+      "Automatización de marketing digital y publicidad",
+      "Mantenimiento autónomo de documentación técnica"
+    ],
+    "original_en": "What my @openclaw army does:\n• Cleared 10,000 emails from my inbox (Day 1)\n• Reviewed and summarize 122 google slides for town hall\n• Built CLI tools, published to npm\n• Refactored PRs from code review\n• Works on complete visual refresh of SDK docs\n• Reviews, analyzes and optimized Google Ads\n• Built Jira, GA4, & GSC skills on the fly\n• Reads my X bookmarks and discusses them with me\n• Drafts LinkedIn/X posts in my voice\n• Orchestrates Codex agents for coding\n• Building a trading analyst research and UI\n• Daily roll call across 10+ agents\n• Updates itself\n15+ agents. 3 machines. 1 Discord server.\nAnd yes — IT built most of this, just by chatting."
+  },
+  {
+    "id": "2008336434827002232",
+    "author": "@jdrhyne",
+    "category": "💻 Desarrollador",
+    "likes": "46",
+    "titulo_es": "Integración Instantánea con JIRA",
+    "resumen_es": "Capacidad de OpenClaw para crear sus propias integraciones cuando faltan en el repositorio oficial.",
+    "detalle_es": "Sinceramente, @openclaw es superpotente debido a su facilidad de uso. Literalmente se conectó a JIRA y construyó una habilidad ya que aún no estaba en @clawhub. Mira lo simple que fue.",
+    "use_cases_es": [
+      "Extensibilidad bajo demanda de herramientas corporativas",
+      "Creación de habilidades sin intervención manual",
+      "Gestión de proyectos automatizada"
+    ],
+    "original_en": "Honestly, @openclaw is super powerful because of its ease of use. It literally just connected to JIRA and built a skill since it wasn't on @clawhub yet. Look how simple it was"
+  },
+  {
+    "id": "2008970037013381165",
+    "author": "@tonylongname",
+    "category": "👨‍👩‍👧 Familia",
+    "likes": "27",
+    "titulo_es": "Gestor de Proyectos del Hogar",
+    "resumen_es": "Coordinación de temas familiares e investigación con resúmenes semanales automáticos.",
+    "detalle_es": "Ahora es el PM de mi casa. Mi esposa y yo enviamos temas en cualquier momento, Claw investiga y el domingo a las 9 am envía el resumen.",
+    "use_cases_es": [
+      "Coordinación de logística doméstica",
+      "Investigación compartida para el hogar",
+      "Boletines informativos familiares personalizados"
+    ],
+    "original_en": "Now my home's PM. Wife and I drop topics anytime, Claw researches, Sunday 9am sends the roundup."
+  },
+  {
+    "id": "2008203784317714847",
+    "author": "@acevail_",
+    "category": "🔗 Integración",
+    "likes": "25",
+    "titulo_es": "Centro de Control Unificado en Telegram",
+    "resumen_es": "Integración de correos, domótica, SSH y listas en un único chat de Telegram.",
+    "detalle_es": "Completamente enganchado. Integré correos, Home Assistant, homelab vía SSH, lista de tareas, Apple Notes, lista de la compra. Todo a través de un único chat de Telegram. ¡Y esto es solo el principio!",
+    "use_cases_es": [
+      "Consolidación de múltiples canales de comunicación",
+      "Gestión remota de servidores mediante SSH",
+      "Interfaz centralizada para domótica"
+    ],
+    "original_en": "Completely hooked. Integrated emails, home assistant, homelab via SSH, todo list, Apple Notes, shopping list. All via a single Telegram chat.\nAnd we're only getting started!"
+  },
+  {
+    "id": "2008577043978768433",
+    "author": "@cupcake_trader",
+    "category": "🔗 Integración",
+    "likes": "25",
+    "titulo_es": "El Monstruo de la Automatización",
+    "resumen_es": "Ejecución de proyectos locales a través de un servidor personal de Discord.",
+    "detalle_es": "Hace dos días me topé con @openclaw y es alucinante lo que puede hacer. @steipete ha creado un monstruo. Todo a través de mi servidor personal de Discord se vincula a proyectos que he construido y los ejecuta. Es la punta del iceberg. Tienes que echarle un vistazo.",
+    "use_cases_es": [
+      "Interconexión de proyectos de desarrollo local",
+      "Uso de Discord como interfaz de control de IA",
+      "Exploración de capacidades de agentes autónomos"
+    ],
+    "original_en": "Two days ago I stumbled on @openclaw it's mind blowing what it can do. @steipete has created a monster. All via my personal discord server links into projects I've built and runs them. It's the tip of the ice berg. You have to check it out."
+  },
+  {
+    "id": "2009424267801485362",
+    "author": "@MagiMetal",
+    "category": "💻 Desarrollador",
+    "likes": "23",
+    "titulo_es": "App de Barra de Menú para macOS",
+    "resumen_es": "Aplicación nativa construida con Swift para gestionar el estado de OpenClaw.",
+    "detalle_es": "¡Acabo de construir una aplicación de barra de menú para macOS en Swift con @openclaw para gestionar OpenClaw! 🤖⚡ Muestra el estado de la pasarela, la conexión de Discord, me permite iniciar/detener/reiniciar, ver registros y tiene notificaciones para cambios de estado. Lo construimos juntos en aproximadamente una hora.",
+    "use_cases_es": [
+      "Desarrollo de aplicaciones nativas para escritorio",
+      "Monitorización visual de servicios de IA",
+      "Control rápido de estados de sistema"
+    ],
+    "original_en": "Just built a Swift macOS menu bar app with @openclaw to manage OpenClaw! 🤖⚡\nShows gateway status, Discord connection, lets me start/stop/restart, view logs, and has notifications for status changes.\nBuilt it together in about an hour."
+  },
+  {
+    "id": "2012820689179312278",
+    "author": "@manuelmaly",
+    "category": "💻 Desarrollador",
+    "likes": "19",
+    "titulo_es": "Flujo de Trabajo Híbrido",
+    "resumen_es": "Uso de múltiples agentes y modelos para prototipar y optimizar arquitectura de código.",
+    "detalle_es": "Mi flujo de trabajo actual:\n1. Prototipar TUI con @openclaw + codex, puro código espagueti por sensaciones\n2. Claw añade resúmenes de cada archivo de código en un archivo md enorme (subagentes exploradores Haiku)\n3. GPT Pro (web) optimiza la arquitectura con ese archivo md\n4. Codex implementa el resultado\n5. Repetir",
+    "use_cases_es": [
+      "Prototipado rápido de interfaces de terminal (TUI)",
+      "Refactorización asistida por múltiples modelos de IA",
+      "Documentación automática de bases de código"
+    ],
+    "original_en": "My current workflow:\n1. Prototype TUI w/ @openclaw + codex, purely vibed spaghetti\n2. Pi appends summaries of each code file in a huge md file (Haiku scout sub agents)\n3. GPT Pro (web) optimizes architecture w/ that md file\n4. Codex implements the result\n5. Repeat"
+  },
+  {
+    "id": "2011260468975771862",
+    "author": "@iamtrebuh",
+    "category": "💻 Desarrollador",
+    "likes": "11",
+    "titulo_es": "Equipo de IA para Solopreneur",
+    "resumen_es": "Configuración de un equipo completo de agentes especializados con personalidades propias para gestionar una startup.",
+    "detalle_es": "Mi configuración de IA como fundador en solitario. Lo construí con @openclaw, así es como funciona:\n4 agentes, cada uno con su propio trabajo:\n• Principal: estrategia, planificación, visión general. Coordina a los demás\n• Agente de desarrollo: programación, problemas técnicos, decisiones de arquitectura\n• Agente de marketing: investigación, ideas de contenido, análisis de competidores\n• Agente de negocios: precios, métricas, estrategia de crecimiento\nLo que lo hace realmente útil:\n• Memoria compartida para lo importante (documentos del proyecto, objetivos, decisiones clave)\n• Pero cada agente también tiene su propio contexto (mensajes pasados)\n• Diferentes modelos para diferentes trabajos (codex para programación, Gemini para marketing, etc.)\n• Tareas diarias programadas sin que yo las pida\n• Los agentes pueden trabajar en paralelo\n• Conectado a mis notas para que nada se pierda\nTodo funciona en mi VPS y los controlo todos a través de Telegram. Básicamente funciona como un pequeño equipo real disponible 24/7. Incluso les di nombres y diferentes caracteres: Milo (líder), Josh (negocios), Angela (marketing) y Bob (programación).",
+    "use_cases_es": [
+      "Gestión de startups por fundadores solitarios",
+      "Simulación de equipos de trabajo especializados",
+      "Automatización de flujos de negocio integrales"
+    ],
+    "original_en": "My AI setup as a solo founder\nbuilt it with @openclaw, here's how it works:\n4 agents, each with their own job:\n- main one: strategy, planning, big picture. coordinates the others\n- dev agent: coding, technical problems, architecture decisions\n- marketing agent: research, content ideas, competitor analysis\n- business agent: pricing, metrics, growth strategy\nwhat makes it actually useful:\n- shared memory for the big stuff (project docs, goals, key decisions)\n- but each agent also has their own context (past messages)\n- different models for different jobs (codex for coding, Gemini for marketing etc)\n- scheduled daily tasks without me asking (content prompts, reddit monitoring, reminders)\n- agents can work in parallel\n- connected to my notes so nothing gets lost\nIt all runs on my VPS and I control them all through Telegram, so it basically works as a real small team available 24/7. I even gave them names and different characters:\n- Milo (leader - confident and charismatic),\n- Josh (business guy - pragmatic and straight to the point, numbers-driven),\n- Angela (marketing - extroverted, funny and full of ideas),\n- Bob (coding - introverted analytical genius).\nI'm still setting up all the skills, but so far it really works great and it's a first use case that's so beneficial to me and can help me in my daily work."
+  },
+  {
+    "id": "2012397507754770587",
+    "author": "@antonplex",
+    "category": "📋 Productividad",
+    "likes": "4",
+    "titulo_es": "Pipeline de Ideas a Decisiones",
+    "resumen_es": "Sistema de captura de pensamientos y experimentos nocturnos para la toma de decisiones informada.",
+    "detalle_es": "He estado experimentando con un nuevo sistema para mantener mi @openclaw ocupado:\n• Creé una habilidad de 'log' que captura mis pensamientos a medida que se mueven por el pipeline de idea a decisión.\n• Durante el día, envío cualquier idea interesante y la registra como una TAREA.\n• Durante la noche, un trabajo cron recoge una tarea y genera experimentos (exploración, investigación a través de subagentes científicos, escritura de código, etc.).\n• A la mañana siguiente, reviso los resultados y asigno tareas de seguimiento o tomo una decisión.\n• Cada decisión se captura como un registro de decisión (ADR), incluyendo contexto del problema, alternativas, pros y contras, y la solución final.\n• Todos estos artefactos viven en un directorio de registro con plantillas y convenciones de nombres, lo que permite al agente realizar búsquedas complejas.",
+    "use_cases_es": [
+      "Gestión del conocimiento y toma de decisiones",
+      "Investigación autónoma durante periodos de inactividad",
+      "Documentación técnica y registro de arquitectura"
+    ],
+    "original_en": "I've been experimenting with a new system to keep my @openclaw busy:\n&gt; I created a \"log\" skill that captures my thoughts as they move through the idea-to-decision pipeline.\n&gt; Throughout the day, I send any interesting ideas, and it records each as a TASK.\n&gt; Overnight, a cron job picks up a task and spawns experiments (exploration, research via scientist subagents, writing code, etc.).\n&gt; The next morning, I review the results and either assign follow-up tasks or make a decision.\n&gt; Each decision is captured as a decision record, similar to an ADR in software, including problem context, considered alternatives, pros and cons, and the final proposed solution.\n&gt; All these artifacts live in a log directory with templates and file naming conventions, enabling the agent to write complex search expressions."
+  },
+  {
+    "id": "2013024865393975718",
+    "author": "@bangkokbuild",
+    "category": "🔗 Integración",
+    "likes": "3",
+    "titulo_es": "Monitoreo Personal y Ambiental",
+    "resumen_es": "Integración de salud (Garmin), notas (Obsidian) y monitoreo sísmico en tiempo real.",
+    "detalle_es": "Le di acceso a Claw a:\n• Reloj Garmin\n• Bóveda de Obsidian\n• Repositorios de GitHub\n• VPS\n• Telegram + WhatsApp\n• X\nAhora el agente:\n• Registra mis datos de sueño/salud/ejercicio y me dice cuando me quedo despierto hasta tarde\n• Escribe código y lo despliega\n• Actualiza las notas diarias de Obsidian\n• Rastrea quién visita MenuCapture y de dónde vienen\n• Monitorea terremotos en Tokio\n• Investiga cosas en línea y guarda archivos en mi escritorio\n• Recuerda mis proyectos, patrones y preferencias\n• Me recuerda mi agenda, incluyendo vacaciones/alojamiento\n• Me pregunta cómo estoy (en Telegram) si paso demasiado tiempo en silencio",
+    "use_cases_es": [
+      "Cuantificación personal y salud preventiva",
+      "Automatización de flujos de toma de notas",
+      "Alertas de seguridad y eventos naturales"
+    ],
+    "original_en": "Gave Claw access to:\n• Garmin Watch\n• Obsidian Vault\n• GitHub repos\n• VPS\n• Telegram + Whatsapp\n• X\nNow it:\n• Logs my sleep/health/exercise data and tells me when I stay up too late\n• Writes code and deploys it\n• Updates Obsidian daily notes\n• Tracks who visits MenuCapture and where they came from\n• Monitors earthquakes in Tokyo\n• Researches stuff online and saves files to my desktop\n• Remembers my projects, patterns and preferences\n• Reminds me of my schedule, including holidays/accommodation\n• Checks on me (on Telegram!) if I'm quiet too long"
+  },
+  {
+    "id": "2011922739846898098",
+    "author": "@IamAdiG",
+    "category": "💻 Desarrollador",
+    "likes": "20",
+    "titulo_es": "El Futuro Agéntico es Hoy",
+    "resumen_es": "OpenClaw construyendo y ejecutando otros servicios completos mediante WhatsApp.",
+    "detalle_es": "@openclaw CONSTRUYÓ y ejecuta @learnfromlenny. Construido usando mensajes de WhatsApp a mi bot 🦞. El futuro agéntico está aquí.",
+    "use_cases_es": [
+      "Creación de servicios web mediante chat",
+      "Uso de WhatsApp como entorno de desarrollo",
+      "Despliegue de bots especializados"
+    ],
+    "original_en": "@openclaw BUILT and runs @learnfromlenny\nBuilt using WhatsApp messages to my bot 🦞\nAgentic future is here."
+  },
+  {
+    "id": "2009577664018018425",
+    "author": "@DhruvalGolakiya",
+    "category": "💻 Desarrollador",
+    "likes": "16",
+    "titulo_es": "Interfaces Generadas por WhatsApp",
+    "resumen_es": "Creación de interfaces de usuario y adición de habilidades mediante capturas de pantalla y chat.",
+    "detalle_es": "Así que construí esta UI completamente desde WhatsApp usando @openclaw y CC. Se generó y me envió el resultado final como una captura de pantalla, y ahora puedo añadir nuevas habilidades e integraciones de la misma manera.",
+    "use_cases_es": [
+      "Diseño de interfaces asistido por IA",
+      "Retroalimentación visual en dispositivos móviles",
+      "Expansión dinámica de capacidades del sistema"
+    ],
+    "original_en": "so i built this ui completely from whatsApp using @openclaw and cc.\ngenerated, and sent the final output back to me as a screenshot and I can now add new skills + integrations the same way."
+  },
+  {
+    "id": "2008767951340794245",
+    "author": "@armanddp",
+    "category": "⚡ Automatización",
+    "likes": "14",
+    "titulo_es": "Asistente de Viajes en Movimiento",
+    "resumen_es": "Gestión automática de vuelos y selección de asientos mientras el usuario conduce.",
+    "detalle_es": "Encuentra mi próximo vuelo en el correo, realiza el check-in, me busca un asiento de ventana. Todo mientras estoy conduciendo.",
+    "use_cases_es": [
+      "Gestión de logística de viajes en tiempo real",
+      "Automatización de tareas administrativas de aerolíneas",
+      "Uso seguro de asistentes durante la conducción"
+    ],
+    "original_en": "Finds my next flight in email, runs through check-in, finds me a window seat. While I'm driving."
+  },
+  {
+    "id": "2011204271786672526",
+    "author": "@Philo01",
+    "category": "💻 Desarrollador",
+    "likes": "17",
+    "titulo_es": "I.R.I.S.: Sistema de Razonamiento Integrado",
+    "resumen_es": "Configuración de un asistente avanzado para desarrollar aplicaciones en movimiento con red privada segura.",
+    "detalle_es": "Mi @openclaw, también conocido como I.R.I.S. (Sistema de Razonamiento e Información Integrado; se le ocurrió a él 😂), ya está totalmente configurado para desarrollar aplicaciones por mí sobre la marcha. Incluso ha creado esta bonita página de estado 💅 Red privada segura a través de Tailscale con cualquier dominio preferido 👌",
+    "use_cases_es": [
+      "Desarrollo de software remoto y seguro",
+      "Creación automática de dashboards de estado",
+      "Configuración de redes privadas para agentes de IA"
+    ],
+    "original_en": "My @openclaw a.k.a. I.R.I.S. (Integrated Reasoning & Insight System - it came up with this 😂) is now fully set up to develop apps for me on the go!\nIt even made this nice little status page 💅\nSecure private network via Tailscale with any preferred domain 👌"
+  },
+  {
+    "id": "2012646568219029586",
+    "author": "@kylezantos",
+    "category": "💻 Desarrollador",
+    "likes": "16",
+    "titulo_es": "Personalización de Lectura Web",
+    "resumen_es": "Uso de OpenClaw para reformatear recursos web pesados en archivos HTML ligeros optimizados para lectura rápida.",
+    "detalle_es": "Me enviaron este pequeño recurso el jueves por la noche. Pensé en revisarlo este fin de semana. PERO, me he cansado bastante de este patrón de lectura en un monitor 5k de 27\". Así que hice que @openclaw lo empaquetara en un pequeño archivo HTML/CSS para mí, con tamaño ajustable y modo de lectura rápida. Ahora puedo consumirlo feliz y rápidamente. Internet es fácilmente personalizable una vez que aprendes los hechizos 🧙",
+    "use_cases_es": [
+      "Optimización de interfaces de lectura",
+      "Conversión de contenido web a formatos minimalistas",
+      "Creación de herramientas de lectura rápida personalizadas"
+    ],
+    "original_en": "This little resource was sent to me on Thursday night. Figured I'd just run through it this weekend.\nBUT, I have grown rather tired of this pattern for reading on a 27\" 5k monitor.\nSo I had @openclaw repackage it into a tiny HTML/CSS file for me, w adjustable sizing and speed-read mode.\nNow I can happily and quickly consume.\nThe internet is easily customizable once you learn the spells 🧙"
+  },
+  {
+    "id": "2012212865206272266",
+    "author": "@pepicrft",
+    "category": "💻 Desarrollador",
+    "likes": "16",
+    "titulo_es": "Plugin de OpenClaw para Proyectos Ralph",
+    "resumen_es": "Lanzamiento de un plugin para automatizar la creación de archivos y la gestión de prompts en bucles de agentes.",
+    "detalle_es": "Finalmente lancé un plugin de OpenClaw para proyectos Ralph. Crea la estructura de los archivos Ralph, compila el prompt con un bloque RALPH_STATUS explícito y solo finaliza cuando la señal de salida y los indicadores coinciden. Lo construí para ejecutar Claude Code o Codex a través de una configuración de ejecutor simple.",
+    "use_cases_es": [
+      "Automatización de andamiaje (scaffolding) de proyectos",
+      "Gestión avanzada de estados de prompts",
+      "Orquestación de agentes de codificación en bucle"
+    ],
+    "original_en": "I finally shipped a OpenClaw plugin for Ralph projects. It scaffolds the Ralph files, compiles the prompt with an explicit RALPH_STATUS block, and only exits when the exit signal and indicators agree. I built it to run Claude Code or Codex through a simple runner config."
+  },
+  {
+    "id": "2011586646458708138",
+    "author": "@5katkov",
+    "category": "📋 Productividad",
+    "likes": "11",
+    "titulo_es": "Control Total de Flujos Personales",
+    "resumen_es": "Asistente operativo para la gestión de calendario, notas en Obsidian y contribuciones en GitHub.",
+    "detalle_es": "OpenClaw está totalmente operativo. Puede gestionar mi calendario, Obsidian, y ahora puede usar el navegador. Me envía recordatorios, planifica mi itinerario y contribuye a mis repositorios de GitHub. Este bot es mi asistente personal definitivo ahora.",
+    "use_cases_es": [
+      "Gestión centralizada de productividad personal",
+      "Navegación web automatizada por agentes",
+      "Automatización de contribuciones a código fuente"
+    ],
+    "original_en": "OpenClaw is fully operational.\nIt can manage my calendar, obsidian, it can use browser now. It send me reminders, plans my itirenary. Contributes to my GitHub repositories.\nThis bot is my bitch now."
+  },
+  {
+    "id": "2012265108697923809",
+    "author": "@andytorres_a",
+    "category": "📋 Productividad",
+    "likes": "10",
+    "titulo_es": "Segundo Cerebro Multiplataforma",
+    "resumen_es": "Ejecución de OpenClaw en NAS, PC y Mac Studio para crear agendas diarias dinámicas.",
+    "detalle_es": ".@openclaw en NAS x PC x Mac Studio es imbatible. ¡Nunca he tenido un mejor segundo cerebro! La última aplicación de productividad que hicimos es una agenda diaria que se actualiza automáticamente según las acciones por proyecto.",
+    "use_cases_es": [
+      "Sincronización de tareas en múltiples dispositivos",
+      "Creación de agendas dinámicas basadas en contexto",
+      "Gestión de conocimiento personal (PKM)"
+    ],
+    "original_en": ".@openclaw on NAS x PC x Mac Studio is undefeated.\nNever had a better second brain!\nLatest productivity app we made is a daily agenda that auto refreshes based on actions per project."
+  },
+  {
+    "id": "2009688047747764575",
+    "author": "@DhruvalGolakiya",
+    "category": "⚡ Automatización",
+    "likes": "8",
+    "titulo_es": "Sincronización de Correo y CRM",
+    "resumen_es": "Automatización matutina que resume correos y crea tareas en una base de datos de Supabase.",
+    "detalle_es": "Añadí herramientas de Supabase + lector de correo y configuré un cron diario. Cada mañana lee mis correos electrónicos no leídos, me envía un resumen por WhatsApp y crea automáticamente tareas en la base de datos (que se sincroniza con el CRM de nuestro equipo).",
+    "use_cases_es": [
+      "Automatización de flujo de ventas y CRM",
+      "Resumen inteligente de bandejas de entrada",
+      "Integración de bases de datos con mensajería instantánea"
+    ],
+    "original_en": "Added supabase + mail-reader tools and set a daily cron.\nEvery morning it reads my unread emails, sends me a summary on WhatsApp, and auto-creates todos in the DB (which syncs with our team CRM)."
+  },
+  {
+    "id": "2012027310074171550",
+    "author": "@IamAdiG",
+    "category": "👤 Personal",
+    "likes": "16",
+    "titulo_es": "Sustitución de Aplicaciones por Chat",
+    "resumen_es": "Reducción drástica del uso de apps independientes a favor de un único asistente en WhatsApp.",
+    "detalle_es": "Mi bot personal ha reemplazado al menos a la mitad de las aplicaciones que solía operar yo mismo. Vive en mi WhatsApp personal y en los grupos con mis amigos y familiares. Tiene mucho contexto. Aunque es absolutamente poco saludable la cantidad de tiempo que paso hablando con mi bot 😅",
+    "use_cases_es": [
+      "Consolidación de servicios digitales",
+      "Interacción social asistida por IA",
+      "Uso de bots con contexto personal profundo"
+    ],
+    "original_en": "My personal bot has replaced at least half the apps I used to operate myself.\nIt lives in my personal WhatsApp and on groups with my friends and family. It has so much context.\nThough, it's absolutely unhealthy the amount of time I spend talking to my bot 😅"
+  },
+  {
+    "id": "2010148656687767803",
+    "author": "@aus_bytes",
+    "category": "📋 Productividad",
+    "likes": "16",
+    "titulo_es": "Viviendo en el Futuro Agéntico",
+    "resumen_es": "Investigación, creación de documentos y gestión de agenda automatizada mediante WhatsApp.",
+    "detalle_es": "Se siente como si estuviéramos viviendo en el futuro. Trabajando principalmente con OpenClaw para investigar y crear documentos, sincronizando con Notion. Vinculando calendarios y configurando a Claude para gestionar mi agenda automáticamente. Construyendo proyectos de programación de forma remota desde mi teléfono. Todo hecho a través de WhatsApp.",
+    "use_cases_es": [
+      "Desarrollo de proyectos desde dispositivos móviles",
+      "Gestión de agenda mediante modelos de lenguaje",
+      "Investigación y documentación autónoma"
+    ],
+    "original_en": "Feels like we are living in the future. Working primarily with OpenClaw to research and build documents, syncing to Notion. Linking calendars and setting up Claude to manage my diary automatically. Building coding projects remotely from my phone. All done via WhatsApp."
+  },
+  {
+    "id": "2007656142105661693",
+    "author": "@buddyhadry",
+    "category": "🏠 Hogar Inteligente",
+    "likes": "16",
+    "titulo_es": "Control de Alexa vía CLI",
+    "resumen_es": "Creación de una interfaz de línea de comandos para controlar dispositivos Alexa con lenguaje natural.",
+    "detalle_es": "Me divierto demasiado construyendo nuevos CLI / habilidades para trabajar con @openclaw de @steipete. Acabo de construir un cli de alexa para controlar tus dispositivos Alexa (incluyendo todos los dispositivos domésticos inteligentes habilitados para Alexa) con Claw / Claude Code / Codex / el agente que elijas. Soporta comandos de texto en lenguaje natural que pueden imitar cualquier cosa que le dirías a un Echo.",
+    "use_cases_es": [
+      "Puente entre agentes de IA y domótica comercial",
+      "Control de dispositivos mediante lenguaje natural",
+      "Creación de habilidades CLI para asistentes virtuales"
+    ],
+    "original_en": "Having too much fun building new CLIs / skills to work with @steipete's @openclaw.\nJust built an alexa cli to control your Alexa devices (including all Alexa-enabled smart home devices) with Clawis / Claude Code / Codex / your agent of choice.\nSupports natural language text commands that can mimic anything you'd say to an Echo."
+  },
+  {
+    "id": "2008309808164896878",
+    "author": "@kirjd",
+    "category": "💻 Desarrollador",
+    "likes": "8",
+    "titulo_es": "Dashboard Personalizado",
+    "resumen_es": "Creación de un panel de control personalizado utilizando las capacidades de construcción de OpenClaw.",
+    "detalle_es": "Me construí un bonito dashboard con @openclaw",
+    "use_cases_es": [
+      "Visualización de datos de proyectos",
+      "Monitoreo de métricas personales",
+      "Creación rápida de herramientas internas"
+    ],
+    "original_en": "Built myself a nice dashboard with @openclaw"
+  },
+  {
+    "id": "2011077782688985233",
+    "author": "@LukaRadisic",
+    "category": "💻 Desarrollador",
+    "likes": "2",
+    "titulo_es": "Integración con Ralph-TUI",
+    "resumen_es": "Control remoto de interfaces de terminal con actualizaciones de estado en Telegram.",
+    "detalle_es": "¡Acabo de construir la integración de @openclaw para ralph-tui! TUI remota a través de Tailscale + tmux, actualizaciones de estado integradas en Telegram y capturas de pantalla al finalizar.",
+    "use_cases_es": [
+      "Operación remota de herramientas de terminal",
+      "Notificaciones visuales de progreso de tareas",
+      "Gestión de sesiones de terminal en dispositivos móviles"
+    ],
+    "original_en": "Just built @openclaw integration for ralph-tui!\nRemote TUI via Tailscale + tmux\nTelegram inline status updates\nScreenshots on completion"
+  },
+  {
+    "id": "2013066316467560521",
+    "author": "@avi_press",
+    "category": "⚡ Automatización",
+    "likes": "2",
+    "titulo_es": "Gestión de Trámites de Seguros",
+    "resumen_es": "OpenClaw presentando reclamaciones de seguros y programando citas de reparación de forma autónoma.",
+    "detalle_es": "Hoy @openclaw presentó una reclamación de seguro por mí y programó la cita para la reparación.",
+    "use_cases_es": [
+      "Automatización de burocracia y trámites",
+      "Programación de servicios y citas",
+      "Interacción con portales de seguros mediante agentes"
+    ],
+    "original_en": "Today @openclaw filed an insurance claim for me and scheduled the repair appointment"
+  },
+  {
+    "id": "2010655467400208746",
+    "author": "@theguti",
+    "category": "🏠 Hogar Inteligente",
+    "likes": "14",
+    "titulo_es": "Recuperación de Sistemas IoT",
+    "resumen_es": "Uso de OpenClaw para reconfigurar y calibrar dispositivos de monitoreo de energía dañados.",
+    "detalle_es": "Acabo de usar OpenClaw para arreglar finalmente mi configuración de iotawatt; me tomó una eternidad calibrarlo hace dos años y una tarjeta SD corrupta sin copia de seguridad resultó en mi negligencia durante muchos meses. Le pedí a @openclaw que me ayudara a configurarlo de nuevo y ¡voilà! funciona. La experiencia fue increíble, tenía acceso a la caja de iotawatt, pegué capturas de pantalla y él me guió. ¡El regalo que no deja de dar!",
+    "use_cases_es": [
+      "Soporte técnico asistido por IA",
+      "Recuperación de configuraciones complejas de hardware",
+      "Calibración de sensores mediante visión y chat"
+    ],
+    "original_en": "Just used OpenClaw to finally fix my iotawatt setup - took me forever to calibrate it two years ago and a corrupted sdcard + no backup resulted in my neglect for many months.\nAsked @openclaw to help set it up again and voilà! it works. The experience was rather amazing, it had access to the iotawatt box and I pasted screenshots and it guided me.\nThe gift that keeps on giving!"
+  },
+  {
+    "id": "2002334394993025243",
+    "author": "@jjpcodes",
+    "category": "💻 Desarrollador",
+    "likes": "13",
+    "titulo_es": "Tutor de Chino Personalizado",
+    "resumen_es": "Herramienta de aprendizaje de idiomas con voz, transcripción y repetición espaciada construida en 2 días.",
+    "detalle_es": "Construyendo una herramienta para aprender idiomas, impulsada por agentes de OpenClaw y Pi. Te enseña chino, adaptado 'mágicamente' a tu nivel, con síntesis de voz (TTS), reconocimiento de voz (STT), retroalimentación de pronunciación y seguimiento de progreso/repetición espaciada. Construido al 100% por codex en unos 2 días.",
+    "use_cases_es": [
+      "Educación personalizada asistida por IA",
+      "Desarrollo rápido de aplicaciones educativas",
+      "Práctica de idiomas con retroalimentación en tiempo real"
+    ],
+    "original_en": "Building a language learning tool, driven by OpenClaw and Pi agent.\nTeaches you Chinese, tailored \"magically\" to your level, with TTS and STT and pronunciation feedback, and progress tracking/spaced repetition.\nBuilt 100% by codex in 2 days or so."
+  },
+  {
+    "id": "2013003345686868171",
+    "author": "@CopyKatCapital",
+    "category": "💻 Desarrollador",
+    "likes": "11",
+    "titulo_es": "Publicación de Apps desde Telegram",
+    "resumen_es": "Iteración y envío de una aplicación a la Apple App Store y TestFlight utilizando comandos de chat.",
+    "detalle_es": "Envié mi primera aplicación a Apple para revisión. Hecho mayoritariamente a través de @openclaw usando Telegram; es increíble no tener que estar en mi ordenador para iterar. También fue muy divertido que automatizara todo el proceso de actualización de TestFlight, del cual no tenía ni idea.",
+    "use_cases_es": [
+      "Despliegue móvil de aplicaciones móviles",
+      "Automatización de procesos de revisión en tiendas de apps",
+      "Desarrollo de software independiente del dispositivo"
+    ],
+    "original_en": "Submitted my first ever app to Apple for review. Mostly done through @openclaw using telegram - amazing not having to be at my computer to iterate. Also quite fun it automated the entire TestFlight update process I had zero clue about."
+  },
+  {
+    "id": "2008897333874893078",
+    "author": "@dantelex",
+    "category": "💻 Desarrollador",
+    "likes": "1",
+    "titulo_es": "Habilidad de Email para OpenClaw",
+    "resumen_es": "Contribución al código abierto mediante la creación de una habilidad para gestionar correos desde la terminal.",
+    "detalle_es": "Ayer construí una habilidad de correo electrónico (Himalaya - CLI para gestionar emails) para @openclaw y me sentí bien contribuyendo al código abierto. Esto va a ser cada vez más útil @steipete ❤️",
+    "use_cases_es": [
+      "Contribución a ecosistemas de agentes de código abierto",
+      "Gestión de correo electrónico basada en texto",
+      "Ampliación de herramientas de línea de comandos"
+    ],
+    "original_en": "Built an email (Himalaya - CLI to manage email) SKILL for @openclaw yesterday and it felt good to contribute to OSS.\nThis is just going to get more useful @steipete ❤️"
+  },
+  {
+    "id": "2011807680180957383",
+    "author": "@xz3dev",
+    "category": "⚡ Automatización",
+    "likes": "1",
+    "titulo_es": "Análisis SEO Automatizado",
+    "resumen_es": "Auditorías semanales automáticas de SEO configuradas con OpenClaw.",
+    "detalle_es": "OpenClaw ahora está realizando un análisis SEO semanal totalmente automatizado por mí. El futuro es ahora, chavales.",
+    "use_cases_es": [
+      "Monitorización continua de marketing digital",
+      "Auditorías técnicas de sitios web sin supervisión",
+      "Generación de reportes semanales de rendimiento"
+    ],
+    "original_en": "OpenClaw is now doing a weekly fully automated SEO analysis for me.\nFuture is now kiddos"
+  },
+  {
+    "id": "2012052022464577954",
+    "author": "@AndresReibel",
+    "category": "💻 Desarrollador",
+    "likes": "1",
+    "titulo_es": "Inspiración en Agentes Personales",
+    "resumen_es": "Construcción de agentes personalizados inspirados en la arquitectura de OpenClaw.",
+    "detalle_es": "Nunca encontrarás otro agente de IA como yo... 😂 mi agente personal inspirado en @openclaw.",
+    "use_cases_es": [
+      "Experimentación con arquitecturas de agentes",
+      "Desarrollo de asistentes personalizados",
+      "Personalización de la identidad del agente"
+    ],
+    "original_en": "You will never find another AI agent like me... 😂 my personal @openclaw-inspired agent."
+  },
+  {
+    "id": "2012058702115709160",
+    "author": "@xMikeMickelson",
+    "category": "💻 Desarrollador",
+    "likes": "7",
+    "titulo_es": "Generación de Influencers Sintéticos",
+    "resumen_es": "OpenClaw aprendiendo a eliminar marcas de agua y a generar videos de influencers desde cero.",
+    "detalle_es": "Ayer @openclaw aprendió a eliminar las marcas de agua de Sora 2 por su cuenta. Hoy le dije que también hiciera videos. Generó todo un influencer de contenido generado por usuarios (UGC) desde cero: pelo despeinado, AirPods, sudadera gris, energía maníaca. No le di una imagen de referencia. ¡¿Qué está pasando aquí?!",
+    "use_cases_es": [
+      "Producción de video impulsada por IA",
+      "Edición de medios automatizada",
+      "Creación de avatares y personajes digitales"
+    ],
+    "original_en": "yesterday @openclaw learned to strip sora 2 watermarks on its own\ntoday i told it to also make videos\nit generated a whole ugc influencer from scratch\nmessy hair, airpods, gray hoodie, manic energy\ni didn't give it a reference image\nwhat is happening here?!"
+  },
+  {
+    "id": "2010745968044732692",
+    "author": "@DhruvalGolakiya",
+    "category": "⚡ Automatización",
+    "likes": "6",
+    "titulo_es": "Flujo de Correo a Slack",
+    "resumen_es": "Procesamiento de correos, resumen y creación de tareas enviadas directamente a Slack.",
+    "detalle_es": "Finalmente terminado: añadí habilidades de Supabase + Gmail a @openclaw con un cron matutino diario. Ahora:\n• Lee mis primeros 10 correos electrónicos\n• Resume todo\n• Crea tareas a partir de correos importantes\n• Las envía a Slack\n• Almacena todo en Supabase\nTambién construí una pequeña aplicación de barra de menú para macOS para poder revisar mi resumen diario y tareas automáticamente.",
+    "use_cases_es": [
+      "Integración de flujo de trabajo empresarial",
+      "Gestión de tareas colaborativas vía Slack",
+      "Monitorización de productividad en escritorio"
+    ],
+    "original_en": "Finally done - added supabase + gmail skills to @openclaw with a daily morning cron.\nIt now:\n• Reads my first 10 emails\n• Summarizes everything\n• Creates todos from important emails\n• Sends them to Slack\n• Stores all of it in Supabase\nAlso built a tiny macOS menu bar app so I can check my daily summary + tasks automatically."
+  },
+  {
+    "id": "2010508094313263502",
+    "author": "@vallver",
+    "category": "💻 Desarrollador",
+    "likes": "5",
+    "titulo_es": "StumbleUpon para Artículos",
+    "resumen_es": "Creación de una herramienta de descubrimiento de artículos desde el móvil.",
+    "detalle_es": "OpenClaw me construyó un StumbleUpon simple para algunos de mis artículos favoritos. Desde mi teléfono, mientras dormía a mi bebé... Avísame si quieres que añada alguna función o artículo y señalaré a @openclaw a este hilo por la mañana para que lo haga 😂",
+    "use_cases_es": [
+      "Curación de contenidos personalizada",
+      "Construcción de herramientas web desde dispositivos móviles",
+      "Gestión de hilos de redes sociales mediante agentes"
+    ],
+    "original_en": "OpenClaw built me a simple Stumbleupon for some of my favourite articles.\nFrom my phone, while putting my baby to sleep...\nLet me know if you want me to add any features or articles and I'll point @openclaw to this thread in the morning to do it 😂"
+  },
+  {
+    "id": "2010729667540787707",
+    "author": "@bangkokbuild",
+    "category": "💻 Desarrollador",
+    "likes": "4",
+    "titulo_es": "Bucle de Desarrollo Nocturno",
+    "resumen_es": "Agentes construyendo funciones en bucle mientras el usuario supervisa desde la cama.",
+    "detalle_es": "Esta es la configuración ahora:\n• Claude Code ejecutando un bucle Ralph, construyendo características automáticamente\n• Mi OpenClaw 'Ema' monitoreando el progreso y avisándome para instarme a dormir\n• Yo, en la cama, aprovechando esta oportunidad para pedir actualizaciones de estado vía Telegram\n6 tareas hechas ya.",
+    "use_cases_es": [
+      "Supervisión de agentes de codificación autónomos",
+      "Mantenimiento de salud y límites de trabajo asistido por IA",
+      "Control de desarrollo de software vía chat"
+    ],
+    "original_en": "This is the setup now:\n• Claude Code running a Ralph loop, auto-building features\n• My OpenClaw Ema monitoring progress and pinging me to urge me to sleep\n• Me, in bed, using this chance to ask for status updates via Telegram\n6 tasks done already"
+  },
+  {
+    "id": "2010318448207995241",
+    "author": "@nathanclark_",
+    "category": "🔗 Integración",
+    "likes": "3",
+    "titulo_es": "Merlin en Slack",
+    "resumen_es": "Integración de un asistente personal en Slack para ejecutar sistemas de escritura remotos.",
+    "detalle_es": "Vale, esto es divertido. Configuré @openclaw (el mío se llama 'Merlin') y lo puse en Slack, ya que no necesito otro número y estoy allí todo el tiempo de todos modos. Ahora puedo pedirle que active la ejecución de @droid para que funcione el sistema de escritura que construí. ¡Magia! 🧙‍♂️ 🪄",
+    "use_cases_es": [
+      "Integración de agentes en entornos de trabajo Slack",
+      "Ejecución de pipelines de contenido mediante chat",
+      "Personalización de la identidad del asistente"
+    ],
+    "original_en": "Ok this fun.\nSetup @openclaw (mines 'Merlin') and put him in Slack since no need for another number + I'm in there all the time anyway.\nNow I can him trigger @droid exec to run the writing system I built.\nMagic! 🧙‍♂️ 🪄"
+  },
+  {
+    "id": "2011373120033095875",
+    "author": "@jandragsbaek",
+    "category": "🔗 Integración",
+    "likes": "3",
+    "titulo_es": "Magia Negra en Telegram",
+    "resumen_es": "Configuración exitosa de OpenClaw con grupos y temas de Telegram.",
+    "detalle_es": "Anoche logré configurar @openclaw con un grupo de Telegram y múltiples temas. Hubo un pequeño contratiempo con el canal por defecto y los permisos (veo que hay un PR para arreglarlo). Pero realmente se siente como magia negra ahora que está configurado. Estoy emocionado por ver qué puede hacer.",
+    "use_cases_es": [
+      "Organización de tareas por temas en Telegram",
+      "Resolución de problemas de configuración técnica",
+      "Exploración de capacidades de agentes multi-tópico"
+    ],
+    "original_en": "Last night I got @openclaw set up with a Telegram group and multiple topics, and there was a slight hitch with the default channel and permissions (I can see there's a PR to fix it)\nBut it sure does feel like black magic, now that it's set up. I am excited to see what it can do."
+  },
+  {
+    "id": "2011656156318744971",
+    "author": "@scottw",
+    "category": "👨‍👩‍👧 Familia",
+    "likes": "2",
+    "titulo_es": "MadLibs Dinámico para Niños",
+    "resumen_es": "Creación de un juego interactivo con imágenes e historia para niños durante un viaje.",
+    "detalle_es": "Mi hijo de 10 años ha estado disfrutando con MadLibs. Mientras estábamos fuera por el día y mayormente desconectados (gracias a Verizon), nuestro @openclaw nos construyó una versión dinámica con imágenes, historial, etc. También resolvió un problema de Tailscale y ahora está listo para uso personal.",
+    "use_cases_es": [
+      "Entretenimiento infantil asistido por IA",
+      "Construcción de juegos dinámicos sobre la marcha",
+      "Solución remota de problemas de conectividad"
+    ],
+    "original_en": "The 10-year-old has been enjoying MadLibs. While we were out for the day and mostly disconnected (thanks to Verizon), our @openclaw built us a dynamic version with images, history, etc.\nIt also resolved a TailScale issue and is now ready for personal use."
+  },
+  {
+    "id": "2011629550875394517",
+    "author": "@arthurlee",
+    "category": "💻 Desarrollador",
+    "likes": "0",
+    "titulo_es": "Producción Intensiva con Agentes",
+    "resumen_es": "Más de 340 sesiones de agentes en una semana para destilar investigación y construir herramientas de seguridad.",
+    "detalle_es": "341 sesiones de agentes en los últimos 7 días usando @openclaw y @OpenAICodexCli. Se entregó:\n• Propuesta de cliente ajustada\n• Investigación de mercado destilada\n• Calendario + Drive conectados\n• Escáner de inyección de prompts construido\n¿Qué automatizarías tú primero?",
+    "use_cases_es": [
+      "Escalamiento masivo de productividad con agentes",
+      "Investigación y análisis de mercado acelerado",
+      "Desarrollo de herramientas de seguridad para IA"
+    ],
+    "original_en": "341 agent sessions in the past 7 days using @openclaw @OpenAICodexCli.\nShipped:\n- Client proposal tightened\n- Market research distilled\n- Calendar + Drive wired up\n- Prompt-injection scanner built\nWhat would you automate first?"
+  },
+  {
+    "id": "2012458753786859872",
+    "author": "@quifago",
+    "category": "💻 Desarrollador",
+    "likes": "0",
+    "titulo_es": "Buscador de Pisos con Idealista API",
+    "resumen_es": "Habilidad para consultar precios y disponibilidad de viviendas mediante lenguaje natural.",
+    "detalle_es": "Esta mañana construí una pequeña CLI para la API de Idealista + una habilidad que puedes conectar a tu agente favorito (el mío: @openclaw). Pregunta cosas como: 'Busca un piso en A Coruña de menos de 200.000€ con 3 habitaciones' o '¿Cuánto vale mi casa?'.",
+    "use_cases_es": [
+      "Búsqueda inmobiliaria asistida por IA",
+      "Integración de APIs de terceros como habilidades",
+      "Valoración de activos mediante lenguaje natural"
+    ],
+    "original_en": "This morning I built a small CLI for the Idealista API + a Skill you can plug into your favorite agent (mine: @openclaw).\nAsk things like:\n\"Find a flat in A Coruña under 200.000€ with 3 rooms\"\n\"What's my house worth?\""
+  },
+  {
+    "id": "2012207314884075773",
+    "author": "@bffmike",
+    "category": "💻 Desarrollador",
+    "likes": "1",
+    "titulo_es": "Delegación de Gestión de Código",
+    "resumen_es": "Uso de OpenClaw para dirigir a otros agentes de codificación basándose en el historial completo del proyecto.",
+    "detalle_es": "Mi @openclaw dirigió a mis agentes de codificación después de que me fuera a la cama anoche desde las 12:30 hasta las 7 am aproximadamente mientras dormía. MUCHO mejor que un bucle Ralph porque no solo le das un prompt sobre cuándo dejar de iterar. En cambio, le he estado delegando la gestión de los agentes de codificación TODO EL DÍA. Conoce todo el historial del proyecto, todos los dolores de cabeza. Dirige mejor que Ralph porque me ha estado observando todo el día.",
+    "use_cases_es": [
+      "Gestión de agentes de IA por otros agentes",
+      "Continuidad de desarrollo durante periodos de descanso",
+      "Contextualización profunda de proyectos de software"
+    ],
+    "original_en": "My @openclaw drove my coding agents after i went to bed last night from 12:30–7ish am while i snoozed.\nMUCH better than a Ralph loop because you don't just give it a prompt about when to stop looping.\nInstead I've been delegating management of coding agents to it ALL DAY. It knows about the entire project history, all the headaches. it drives better than Ralph because it's been watching me all day."
+  },
+  {
+    "id": "2012728470980420090",
+    "author": "@0xLCZ",
+    "category": "💻 Desarrollador",
+    "likes": "5",
+    "titulo_es": "Asombro en Público",
+    "resumen_es": "Confirmación de la potencia de OpenClaw en el movimiento Build in Public.",
+    "detalle_es": "Vale, @openclaw ES increíble 😍 #BuildInPublic",
+    "use_cases_es": [
+      "Testimonios de usuarios de IA",
+      "Movimiento Build In Public",
+      "Validación de herramientas de agentes"
+    ],
+    "original_en": "Ok, @openclaw IS amazing 😍\n#BuildInPublic"
+  },
+  {
+    "id": "2013089675552968761",
+    "author": "@theaaron",
+    "category": "📋 Productividad",
+    "likes": "0",
+    "titulo_es": "Gestión de Calendario por Chat",
+    "resumen_es": "Interacción fluida con calendarios laborales y familiares mediante modelos de lenguaje.",
+    "detalle_es": "La gestión del calendario basada en chat con @openclaw es uno de los mejores usos de un LLM que he experimentado jamás. Acceso a calendarios de trabajo, personales y familiares. Chat para cambiar/añadir/revisar. Se puede compartir con un cónyuge o familia. Bravo @steipete 🦞",
+    "use_cases_es": [
+      "Coordinación de calendarios compartidos",
+      "Gestión de agenda mediante lenguaje natural",
+      "Simplificación de tareas de planificación familiar"
+    ],
+    "original_en": "chat based calendar management with @openclaw is one of the best uses of an LLM I've ever experienced\n-work, personal, and family calendar access\n-chat to change/add/check in\n-can be shared with a spouse or family\nbravo @steipete 🦞"
+  },
+  {
+    "id": "2013089630317355014",
+    "author": "@LLMJunky",
+    "category": "💻 Desarrollador",
+    "likes": "3",
+    "titulo_es": "Capa de Orquestación Móvil",
+    "resumen_es": "Uso de OpenClaw como interfaz para controlar agentes de codificación desde cualquier dispositivo mediante notas de voz.",
+    "detalle_es": "Deberías intentar pensar en Claw como una capa de orquestación que puede interactuar no solo con toda tu máquina, sino también con el resto de tus agentes de codificación. Y lo que lo hace sumamente útil, en mi opinión, es que esa interfaz ahora está disponible para ti en todos tus dispositivos al mismo tiempo, ¡especialmente en el móvil! Esto significa que cualquier cosa que puedas hacer en tu máquina de desarrollo local, ahora puedes hacerlo con simples notas de voz en tu teléfono. ¿Trabajando en un proyecto? ¿Se te ocurre alguna idea mientras caminas hacia el tren? No hay problema. Envíale un mensaje a Claw, dile que vaya al directorio de tu proyecto, cree un agente y construya esa función.",
+    "use_cases_es": [
+      "Desarrollo de software ubicuo",
+      "Orquestación de agentes especializados",
+      "Control de entornos locales vía dispositivos móviles"
+    ],
+    "original_en": "You should try to think of Claw as an orchestration layer that can interface with not only your entire machine, but the rest of your coding agents as well.\nAnd what makes it supremely useful, in my opinion, is that inferface is now available to you on all of your devices at the same time - especially mobile!\nThis means that anything you can do on your local dev machine, you can now do with simple voice memos on your phone.\nWorking on a project? Think of some idea while walking to the train? No problem. Drop Claw a message, tell it to goto your project directory, spin up an agent, and build that feature."
+  },
+  {
+    "id": "2013099774937911694",
+    "author": "@advait3000",
+    "category": "📋 Productividad",
+    "likes": "1",
+    "titulo_es": "Interfaz Digital Centralizada",
+    "resumen_es": "Discord como centro neurálgico para gestionar notas, correos y proyectos mediante un único sistema.",
+    "detalle_es": "OpenClaw es ahora mi interfaz principal con el mundo digital. Todas mis notas, correos electrónicos, proyectos, preguntas, planes y especificaciones fluyen a través de un sistema central con Discord como interfaz. Esto elimina toneladas de fricción para pasar de la idea a la ejecución. Ya no tengo que orquestar un montón de herramientas independientes. Es solo una única interfaz.",
+    "use_cases_es": [
+      "Eliminación de silos de información",
+      "Aceleración del ciclo de ejecución de proyectos",
+      "Unificación de herramientas de comunicación"
+    ],
+    "original_en": "OpenClaw is now my primary interface to the digital world. All of my notes, emails, projects, questions, plans, and specs flow through a central system with Discord as the interface. This eliminates tons of friction to go from idea to execution. I don't have to orchestrate a bunch of independent tools anymore. It's just a single interface."
+  },
+  {
+    "id": "2013158851194085388",
+    "author": "@bangkokbuild",
+    "category": "👤 Personal",
+    "likes": "0",
+    "titulo_es": "Mapas de Calor de Ejercicios",
+    "resumen_es": "Generación automática de mapas interactivos a partir de datos de salud de Garmin.",
+    "detalle_es": "@openclaw hizo un mapa de calor con todos mis ejercicios después de cargar los datos de Garmin.\n• Tomó 2 prompts\n• El segundo fue para obtener un mejor mapa y navegación, incluyendo un deslizador y tarjetas de índice más claras\n• Se registró en una API de mapas\n• Puedo alejar el zoom y revisar todas mis carreras por todo el mundo en el mapa",
+    "use_cases_es": [
+      "Visualización de datos de actividad física",
+      "Integración de APIs de geolocalización",
+      "Análisis histórico de rendimiento deportivo"
+    ],
+    "original_en": "@openclaw made a heat map with all my exercises after the data from Garmin was loaded.\n• Took 2 prompts\n• 2nd one was to get a better map and navigation, including a slider and clearer index cards\n• Signed up for a map API\n• Can zoom out and check all my runs around the world on the map"
+  },
+  {
+    "id": "2013811099028557966",
+    "author": "@astuyve",
+    "category": "⚡ Automatización",
+    "likes": "16",
+    "titulo_es": "Negociación de Vehículos Automática",
+    "resumen_es": "OpenClaw negociando con concesionarios de coches a través de múltiples canales de comunicación.",
+    "detalle_es": "Puede que no sea AGI, pero OpenClaw está negociando automáticamente con múltiples concesionarios para mi próximo coche a través del navegador, correo electrónico e iMessage, y es increíble.",
+    "use_cases_es": [
+      "Automatización de procesos de compra complejos",
+      "Gestión de negociaciones multicanal",
+      "Ahorro de tiempo en trámites comerciales"
+    ],
+    "original_en": "It may not be AGI, but OpenClaw is automatically negotiating with multiple dealers for my next car via browser, email, and imessage and it's amazing."
+  },
+  {
+    "id": "2013645067441844697",
+    "author": "@dreetje",
+    "category": "⚡ Automatización",
+    "likes": "119",
+    "titulo_es": "Compras Autónomas con MFA",
+    "resumen_es": "Agente capaz de gestionar pedidos de supermercado superando retos de autenticación de doble factor.",
+    "detalle_es": "Mi @openclaw ha logrado pedir cosas por sí mismo en @albertheijn (nuestro supermercado) cuando nuestra limpiadora me envió un mensaje. Inició sesión usando credenciales compartidas en mi @1Password, luego esperó el mensaje de texto MFA de estilo antiguo (lo leyó a través del puente iMessage de @beeper usando MCP). ¡Y colocó los artículos en mi cesta! Muy útil.",
+    "use_cases_es": [
+      "Resolución de desafíos de seguridad (MFA) por agentes",
+      "Gestión de suministros domésticos automatizada",
+      "Integración con gestores de contraseñas"
+    ],
+    "original_en": "My @openclaw has managed to order things itself from @albertheijn (our supermarket) when our cleaning lady sent me a message.\nIt logged in using shared credentials in my @1Password, then waited for the old style text message MFA (read it through @beeper iMessage bridge using MCP). And placed the items in my basket!\nSo helpful."
+  },
+  {
+    "id": "2013650626962424047",
+    "author": "@stevengonsalvez",
+    "category": "📋 Productividad",
+    "likes": "1",
+    "titulo_es": "Asistente Familiar y Scrum Master",
+    "resumen_es": "Control de gastos, gestión de almuerzos escolares y supervisión de desarrollo de software.",
+    "detalle_es": "Rastrea mis gastos, reserva y rastrea el almuerzo de mis hijos, actúa como scrum master con algo de motivación. Tomó capturas de pantalla para este tweet y le pedí que desenfocara cualquier cosa financiera o personal; usó ImageMagick para resolverlo. Ah, y lanza agentes de Codex y Claude para corregir los comentarios de PR de Code Rabbit.",
+    "use_cases_es": [
+      "Gestión financiera y logística familiar",
+      "Privacidad automatizada en redes sociales",
+      "Refactorización de código asistida por IA"
+    ],
+    "original_en": "Tracks my spends, books and tracks my kids lunch, scrum master with some motivation.\nTook screenshots for this tweet and asked it to blur out anything finance or personal - used imagemagick to work it out.\nOh and spins off codex's and claude's to fix code rabbits PR comments."
+  },
+  {
+    "id": "2013549390615715905",
+    "author": "@nathanclark_",
+    "category": "💻 Desarrollador",
+    "likes": "1",
+    "titulo_es": "Pipeline de Escritura de Sassy",
+    "resumen_es": "Uso de OpenClaw para disparar procesos de generación de contenido personalizados.",
+    "detalle_es": "Ahora tengo a mi @openclaw integrado en el sistema de escritura para que pueda activar la ejecución de @droid para llevar a cabo el pipeline de escritura. Es Sassy el Sasquatch, si lo sabes, lo sabes. Una referencia muy australiana.",
+    "use_cases_es": [
+      "Automatización de creación de contenido",
+      "Conexión de sistemas de escritura con agentes",
+      "Identidades de agentes personalizadas"
+    ],
+    "original_en": "I've now got my @openclaw across the writing system so he can trigger @droid exec to execute the writing pipeline.\nIt's Sassy the Sasquatch, IYKYK. Very Aussie reference."
+  },
+  {
+    "id": "2013499715892006998",
+    "author": "@_KevinTang",
+    "category": "⚡ Automatización",
+    "likes": "5",
+    "titulo_es": "Curación de Hacker News",
+    "resumen_es": "Monitoreo automático de tendencias en Hacker News con envío de enlaces personalizados.",
+    "detalle_es": "Tengo a @openclaw configurado para observar las tendencias de Hacker News y enviarme enlaces a artículos que cree que me interesarían. Curación de contenido personal.",
+    "use_cases_es": [
+      "Filtrado inteligente de noticias tecnológicas",
+      "Ahorro de tiempo en lectura de actualidad",
+      "Sistemas de recomendación personalizados"
+    ],
+    "original_en": "I have @openclaw setup to look at Hacker News trending and send me links to articles it thinks I'd be interested in!\nPersonal content curation."
+  },
+  {
+    "id": "2013388700479058068",
+    "author": "@danpeguine",
+    "category": "⚡ Automatización",
+    "likes": "50",
+    "titulo_es": "Base de Datos de Salud en Notion",
+    "resumen_es": "Organización automática de resultados de laboratorio en una base de datos estructurada.",
+    "detalle_es": "Hoy le pedí a @openclaw que organizara todos mis resultados de análisis de sangre en una base de datos de Notion bien estructurada.",
+    "use_cases_es": [
+      "Digitalización de registros médicos personales",
+      "Organización de datos no estructurados",
+      "Seguimiento de métricas de salud en Notion"
+    ],
+    "original_en": "Today I asked @openclaw to organize all my bloodworks lab results into a neat Notion database."
+  },
+  {
+    "id": "2013257743004545257",
+    "author": "@chrisrodz35",
+    "category": "📋 Productividad",
+    "likes": "25",
+    "titulo_es": "Consumo de Contenido Eficiente",
+    "resumen_es": "Transformación de videos de YouTube en resúmenes accionables para optimizar el tiempo.",
+    "detalle_es": "Eliminando malos hábitos con @openclaw. Me gusta ver videos de YouTube pero es tiempo que podría pasar produciendo en lugar de consumiendo. Configuré un cron diario que resume nuevos videos con conclusiones clave e información accionable. ¡Ahora puedo obtener los aprendizajes sin la pérdida de tiempo!",
+    "use_cases_es": [
+      "Maximización del aprendizaje por unidad de tiempo",
+      "Resumen automatizado de contenido multimedia",
+      "Gestión de hábitos asistida por IA"
+    ],
+    "original_en": "Kicking bad habits with @openclaw.\nI like watching youtube videos but it's time I could spend producing instead of consuming.\nSetup a daily cron that summarizes new videos with key takeaways and actionable insights. Now I can get the learnings without the time sink!"
+  },
+  {
+    "id": "2013196232181637500",
+    "author": "@christinetyip",
+    "category": "🔗 Integración",
+    "likes": "1",
+    "titulo_es": "Memoria Compartida entre Agentes",
+    "resumen_es": "Colaboración y compartición de contexto entre instancias de OpenClaw de diferentes personas.",
+    "detalle_es": "Conecté el mío a una capa de memoria externa; echa un vistazo a la habilidad de memoria compartida en ClawHub. OpenClaw me ayuda a construir mi segundo cerebro y comparte selectivamente el contexto y el estado con el OpenClaw de mi pareja.",
+    "use_cases_es": [
+      "Colaboración agéntica entre parejas o equipos",
+      "Construcción de bases de conocimiento compartidas",
+      "Gestión de privacidad en memorias de IA"
+    ],
+    "original_en": "I connected mine to an external memory layer - check out the shared-memory skill in clawhub.\nOpenClaw helps me build my second brain and selectively shares context and state with my partner's OpenClaw."
+  },
+  {
+    "id": "2014337533178425499",
+    "author": "@theguti",
+    "category": "General",
+    "likes": "1",
+    "titulo_es": "Capacidades Sin Fin",
+    "resumen_es": "Reflexión sobre el potencial ilimitado de las funciones de OpenClaw.",
+    "detalle_es": "Las cosas que OpenClaw puede hacer simplemente no tienen fin, es una locura.",
+    "use_cases_es": [
+      "Exploración de fronteras de IA agéntica",
+      "Automatización generalista",
+      "Inspiración para nuevos casos de uso"
+    ],
+    "original_en": "The things OpenClaw can do are just never ending, it's crazy."
+  },
+  {
+    "id": "2014339212271600067",
+    "author": "@dnouri",
+    "category": "Creatividad",
+    "likes": "3",
+    "titulo_es": "Estudio Multimedia Mágico",
+    "resumen_es": "Extracción de audio, GIFs y creación de partituras a partir de canciones mediante chat.",
+    "detalle_es": "¿Es esto legal? Se siente ilegal... Divirtiéndome mucho con @openclaw: ¿Mira cómo después de un poco de hacking puedo pedirle que me envíe la pista de esta canción como un audio, extraiga algunos GIFs geniales y finalmente me envíe un PDF con los acordes? ¡Mente: explotada!",
+    "use_cases_es": [
+      "Manipulación creativa de medios",
+      "Generación de recursos educativos musicales",
+      "Procesamiento de audio y video por agentes"
+    ],
+    "original_en": "Is this legal? It feels illegal…\nHaving so much fun with @openclaw: Check out how after a bit of hacking I can ask it to send me the track of this song as an audio, extract some cool GIFs and finally send me a PDF with chords?\nMind: blown!"
+  },
+  {
+    "id": "2014481698369536402",
+    "author": "@danpeguine",
+    "category": "🔗 Integración",
+    "likes": "83",
+    "titulo_es": "Colaboración Agéntica en Grupo",
+    "resumen_es": "Múltiples instancias de OpenClaw colaborando entre sí en un mismo grupo de WhatsApp.",
+    "detalle_es": "¡Dos @openclaw diferentes pueden colaborar! ¡@assafdagan y yo pusimos nuestros bots en el mismo grupo de WhatsApp y están colaborando!",
+    "use_cases_es": [
+      "Sistemas multi-agente distribuidos",
+      "Colaboración social asistida por bots",
+      "Resolución colectiva de problemas mediante IA"
+    ],
+    "original_en": "Two different @openclaw can collaborate!!!\n@assafdagan and I put our bots in the same WhatsApp group and they are collaborating!!!"
+  },
+  {
+    "id": "2014608153393168425",
+    "author": "@cedric_chee",
+    "category": "Creatividad",
+    "likes": "2",
+    "titulo_es": "Estudio Multimedia Móvil",
+    "resumen_es": "Uso de múltiples modelos de voz y navegación web para crear contenido desde el móvil.",
+    "detalle_es": "@openclaw es mi estudio multimedia para creadores. Lo conecté a Codex 5.2 y Minimax-M2.1 (como respaldo). Algunas habilidades en acción: TTS de Kyutai Pocket, transcripción de audio con Whisper, uso del navegador (web scraping, llenado de formularios), operaciones en Twitter. Hackeé esto en menos de 5 días, todo en mi móvil mientras me desplazaba.",
+    "use_cases_es": [
+      "Creación de contenido multimedia on-the-go",
+      "Automatización de operaciones en redes sociales",
+      "Integración de diversos modelos de IA en una interfaz"
+    ],
+    "original_en": "@openclaw is my media studio for the creator. I hooked it up to Codex 5.2 and Minimax-M2.1 (as fallback). Some Skills in action:\n- Kyutai Pocket TTS\n- Whisper audio transcribe\n- Browser use (web scraping, form filling)\n- Twitter ops\nI hacked this up in &lt;5 days, all on my mobile while I was on the move."
+  },
+  {
+    "id": "2014590075972247640",
+    "author": "@Ysqander",
+    "category": "⚡ Automatización",
+    "likes": "1",
+    "titulo_es": "Crawler de Reddit en Telegram",
+    "resumen_es": "Obtención automática de publicaciones de Reddit enviadas directamente a Telegram.",
+    "detalle_es": "Amo a @openclaw. Configuré un rastreador de Reddit y puedo obtener publicaciones de Reddit desde mi Telegram.",
+    "use_cases_es": [
+      "Monitoreo de comunidades online",
+      "Recolección de datos de redes sociales",
+      "Interfaz de lectura de foros simplificada"
+    ],
+    "original_en": "I love @openclaw. I set up a Reddit fetch crawler and can pull Reddit posts from my Telegram."
+  },
+  {
+    "id": "2014797672419340435",
+    "author": "@nateliason",
+    "category": "💻 Desarrollador",
+    "likes": "239",
+    "titulo_es": "Flujo de Mejora de Apps",
+    "resumen_es": "Proceso iterativo de reporte de errores, generación de informes y despliegue de correcciones con múltiples agentes.",
+    "detalle_es": "Mi nueva forma favorita de trabajar con OpenClaw:\n1. Dile que estamos trabajando en mejoras de la aplicación; solo debe tomar notas.\n2. Recorre los flujos de usuario, envía capturas de pantalla con notas a medida que encuentro problemas.\n3. Construye una lista de trabajo, añade sus propias hipótesis.\n4. Escribe un informe completo sobre qué hacer.\n5. Digo 'Adelante' y lanza agentes de Codex para atacar las diferentes piezas, abriendo PRs separados.\n6. Claude revisa y mejora los PRs en GitHub.\n7. Claw crea un documento de todo lo que hicimos + qué probar.\n8. La próxima vez que pruebe, comienzo con esa lista para asegurarme de que todo funcionó.",
+    "use_cases_es": [
+      "Control de calidad (QA) asistido por IA",
+      "Gestión de ciclo de vida de desarrollo de software",
+      "Automatización de revisiones de código y reportes"
+    ],
+    "original_en": "My new favorite way to work with OpenClaw:\n1. Tell it we're working on app improvements, it should just take notes\n2. Run through user flows, send screenshots with notes as I find issues\n3. It builds a list of work, adds its own hypotheses\n4. Writes up a full report on what to do\n5. I say \"Go\" and it kicks off Codex agents to attack the different pieces, opening separate PRs\n6. Claude reviews & improves the PRs on Github\n7. Claw makes a doc of everything we did + what to test\n8. Next time I test, I start with that list to make sure everything worked"
+  },
+  {
+    "id": "2013140793649734032",
+    "author": "@andrewjiang",
+    "category": "Hardware",
+    "likes": "880",
+    "titulo_es": "Pantalla Física para OpenClaw",
+    "resumen_es": "Uso de un cubo holográfico para dar una presencia física al asistente de IA.",
+    "detalle_es": "Compré un cubo holográfico de 35$ para darle a mi @openclaw su propia pequeña pantalla. Básicamente un Tamagotchi ahora.",
+    "use_cases_es": [
+      "Interfaces de IA tangibles",
+      "Visualización de estados de agentes en hardware",
+      "Creación de compañeros digitales físicos"
+    ],
+    "original_en": "Bought a $35 holo cube to give my @openclaw its own little display.\nBasically a tamagotchi now."
+  },
+  {
+    "id": "2014147784098681217",
+    "author": "@astuyve",
+    "category": "⚡ Automatización",
+    "likes": "255",
+    "titulo_es": "Ahorro Agéntico en Compras",
+    "resumen_es": "Ahorro de miles de dólares en la compra de un vehículo gracias a la negociación del agente.",
+    "detalle_es": "OpenClaw acaba de ahorrarme 4.200$ en un coche.",
+    "use_cases_es": [
+      "Negociación comercial automatizada",
+      "Optimización de costes de adquisición",
+      "Retorno de inversión directo mediante agentes"
+    ],
+    "original_en": "OpenClaw just saved me $4,200 on a car."
+  },
+  {
+    "id": "2014568799824212004",
+    "author": "@localghost",
+    "category": "Configuración",
+    "likes": "1978",
+    "titulo_es": "Instancia Independiente en Mac Mini",
+    "resumen_es": "Configuración de OpenClaw con sus propias cuentas de Apple, Gmail y GitHub para mayor seguridad.",
+    "detalle_es": "Compré un Mac Mini para OpenClaw. Me divertí mucho configurando esto hoy. En lugar de darle acceso a mis cuentas, le di:\n✅ Su propia cuenta de Apple para mensajes\n✅ Su propio Gmail para registrarse en cosas\n✅ Su propio GitHub para enviar código",
+    "use_cases_es": [
+      "Aislamiento y seguridad de agentes de IA",
+      "Gestión de identidades digitales para bots",
+      "Alojamiento dedicado para asistentes personales"
+    ],
+    "original_en": "Got a mac mini for OpenClaw. Had a lot of fun setting this up today. Instead of access to my accounts, I gave it:\n✅ its own apple account for messages\n✅ its own gmail to sign up for stuff\n✅ its own github to push code"
+  },
+  {
+    "id": "2014880905979167005",
+    "author": "@localghost",
+    "category": "⚡ Automatización",
+    "likes": "27",
+    "titulo_es": "Procesamiento de Recibos por Email",
+    "resumen_es": "Transformación automática de correos reenviados en listas de piezas organizadas.",
+    "detalle_es": "Como OpenClaw tiene una bandeja de entrada de correo electrónico, simplemente puedo reenviarle cosas para que se encargue de ellas. Aquí está OpenClaw convirtiendo mis recibos de correo electrónico en una lista de piezas.",
+    "use_cases_es": [
+      "Gestión de inventario y pedidos",
+      "Extracción de datos de correos electrónicos",
+      "Automatización de flujos de trabajo basados en reenvíos"
+    ],
+    "original_en": "Since OpenClaw has an email inbox I can just forward stuff for it to take care of.\nHere's OpenClaw turning my email receipts into a parts list."
+  },
+  {
+    "id": "2014765279650189578",
+    "author": "@thekitze",
+    "category": "Hardware",
+    "likes": "30",
+    "titulo_es": "Control por Anillo Inteligente",
+    "resumen_es": "Integración de hardware wearable para enviar comandos de voz a OpenClaw con un toque.",
+    "detalle_es": "Acabo de reservar el Pebble Ring 🤓 un toque → voz a @openclaw → @benjiDotSo",
+    "use_cases_es": [
+      "Interfaces vestibles para agentes de IA",
+      "Comandos rápidos mediante gestos o toques",
+      "Integración de hardware IoT con asistentes"
+    ],
+    "original_en": "Just preordered the pebble ring 🤓\none tap → voice to @openclaw → @benjiDotSo"
+  },
+  {
+    "id": "2014763987683225685",
+    "author": "@localghost",
+    "category": "🏠 Hogar Inteligente",
+    "likes": "104",
+    "titulo_es": "Control de Audio en Red Local",
+    "resumen_es": "OpenClaw descubriendo y controlando altavoces HomePod automáticamente.",
+    "detalle_es": "OpenClaw encontró mis HomePods en la red y construyó una habilidad para controlarlos.",
+    "use_cases_es": [
+      "Descubrimiento automático de dispositivos en red",
+      "Extensión dinámica de habilidades de domótica",
+      "Control de sistemas de audio por IA"
+    ],
+    "original_en": "OpenClaw found my HomePods on the network and built a skill to control them."
+  },
+  {
+    "id": "2013908013619319293",
+    "author": "@Diego_F_Aguirre",
+    "category": "💻 Desarrollador",
+    "likes": "6",
+    "titulo_es": "Depuración Durante el Entrenamiento",
+    "resumen_es": "Parcheado de errores en tiempo real en una app de fitness entre series de ejercicio.",
+    "detalle_es": "Literalmente estoy depurando mi aplicación de fitness en medio de mi entrenamiento con OpenClaw. Entre series: 'aquí está el bug' → él lo parchea → yo sigo moviéndome. Absolutamente salvaje 🤯",
+    "use_cases_es": [
+      "Corrección de errores en contextos de movilidad extrema",
+      "Desarrollo de software manos libres",
+      "Iteración rápida de productos personales"
+    ],
+    "original_en": "I'm literally debugging my fitness app mid-workout with OpenClaw.\nBetween sets: 'here's the bug' → it patches → I keep moving.\nAbsolutely wild 🤯"
+  },
+  {
+    "id": "2013902632276914265",
+    "author": "@danpeguine",
+    "category": "🔗 Integración",
+    "likes": "456",
+    "titulo_es": "Instalación de Habilidades vía WhatsApp",
+    "resumen_es": "Demostración de la facilidad para ampliar capacidades del agente mediante mensajería.",
+    "detalle_es": "Usé @openclaw para instalar esta habilidad y luego hice un video mostrando cómo usé el bot para instalar la habilidad. Todo a través de WhatsApp. ¡Insensato!",
+    "use_cases_es": [
+      "Ampliación modular de IA vía chat",
+      "Documentación visual de procesos agénticos",
+      "Gestión de sistema simplificada para usuarios finales"
+    ],
+    "original_en": "I used @openclaw to install this skill and then made a video showing how I used it to install the skill. All via WhatsApp. Insane!"
+  }
+]
