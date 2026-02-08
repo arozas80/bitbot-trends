@@ -1,30 +1,34 @@
 {
-  "updatedAt": "2026-02-07T09:23:46.000Z",
+  "updatedAt": "2026-02-08T02:00:08.066384",
   "todos": [
     {
-      "text": "Revisa el clima si son las 08:00 o las 20:00 (necesitas ubicación).",
-      "status": "completed"
-    },
-    {
-      "text": "Una vez al día: Resume los eventos clave de `memory/YYYY-MM-DD.md` y actualiza `MEMORY.md`.",
-      "status": "completed"
-    },
-    {
-      "text": "Si ha pasado más de 8 horas desde la última interacción, saluda con un dato curioso o un recordatorio de productividad.",
+      "text": "Revisa el clima si son las 08:00 o las 20:00 (necesitas ubicaci\u00f3n).",
       "status": "pending"
     },
     {
-      "text": "Revisa si hay sesiones huérfanas o tareas pendientes en el workspace.",
+      "text": "Una vez al d\u00eda: Resume los eventos clave de `memory/YYYY-MM-DD.md` y actualiza `MEMORY.md`.",
       "status": "pending"
     },
     {
-      "text": "Depósito de cheques en el banco",
+      "text": "Si ha pasado m\u00e1s de 8 horas desde la \u00faltima interacci\u00f3n, saluda con un dato curioso o un recordatorio de productividad.",
+      "status": "pending"
+    },
+    {
+      "text": "Revisa si hay sesiones hu\u00e9rfanas o tareas pendientes en el workspace.",
+      "status": "pending"
+    },
+    {
+      "text": "Cada 15 minutos (v\u00eda Cron): Ejecuta `node /home/alvaro/.openclaw/workspace-alvaro/update_dashboard_sessions.js` para mantener los tokens actualizados en el Dashboard.",
+      "status": "pending"
+    },
+    {
+      "text": "Dep\u00f3sito de cheques en el banco",
       "status": "urgent"
     }
   ],
   "cronJobs": [
     {
-      "name": "Investigación Tendencias",
+      "name": "Investigaci\u00f3n Tendencias",
       "schedule": "06:00 AM",
       "status": "active"
     },
@@ -34,17 +38,17 @@
       "status": "active"
     },
     {
-      "name": "Campaña Marlene (Mañana)",
+      "name": "Campa\u00f1a Marlene (Ma\u00f1ana)",
       "schedule": "09:00 AM",
       "status": "active"
     },
     {
-      "name": "Campaña Marlene (Tarde)",
+      "name": "Campa\u00f1a Marlene (Tarde)",
       "schedule": "03:00 PM",
       "status": "active"
     },
     {
-      "name": "Campaña Marlene (Noche)",
+      "name": "Campa\u00f1a Marlene (Noche)",
       "schedule": "09:00 PM",
       "status": "active"
     },
@@ -54,7 +58,7 @@
       "status": "active"
     },
     {
-      "name": "Métricas VPS",
+      "name": "M\u00e9tricas VPS",
       "schedule": "Cada hora",
       "status": "active"
     }

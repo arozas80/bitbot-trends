@@ -1,24 +1,16 @@
 {
-  "updatedAt": "2026-02-08T00:43:51.566Z",
+  "updatedAt": "2026-02-08T02:00:09.703889",
   "total": 163425,
   "total_fmt": "$163.425",
   "count": 10,
   "items": [
     {
       "fecha": "06-02-2026",
-      "descripcion": "Ariex (Tóner impresora)",
-      "monto": 12000,
-      "monto_fmt": "$12.000",
-      "factura": "59200",
-      "comprobante": "https://drive.google.com/file/d/1uIuROhYHOvc_A4NYqa7vp-MiE8vmejx8/view?usp=drivesdk"
-    },
-    {
-      "fecha": "06-02-2026",
-      "descripcion": "Lider Providencia (Artículos de oficina + colación)",
+      "descripcion": "Lider Providencia (Bolígrafos  Resma  Carpeta  Coca Zero  LSN BLN)",
       "monto": 17510,
       "monto_fmt": "$17.510",
       "factura": "001269619459",
-      "comprobante": "https://drive.google.com/file/d/1u9CxT35L0hcCua08DuIWCLicWFdcgpz5/view?usp=drivesdk"
+      "comprobante": "https://drive.google.com/file/d/1C8LQDBRRBEwyaqcRrKGtJchNrcfpaOyD/view?usp=drivesdk"
     },
     {
       "fecha": "06-02-2026",
@@ -26,23 +18,31 @@
       "monto": 3990,
       "monto_fmt": "$3.990",
       "factura": "353090724",
-      "comprobante": "https://drive.google.com/file/d/1QGjksKCKgf4a6CLiDDiQoJ60PZ4kQ2VQ/view?usp=drivesdk"
+      "comprobante": "https://drive.google.com/file/d/1mD0t1cr_SEzNLzZxMoV3kZ1kiNBM6Amv/view?usp=drivesdk"
     },
     {
       "fecha": "06-02-2026",
-      "descripcion": "Despacho (Transporte de carga y encomienda)",
+      "descripcion": "Ariex (Tóner Compatible TN1060)",
+      "monto": 12000,
+      "monto_fmt": "$12.000",
+      "factura": "59200",
+      "comprobante": "https://drive.google.com/file/d/1ZB8fazzCa5BOKnqbyGdJbV2aRb8FBCyX/view?usp=drivesdk"
+    },
+    {
+      "fecha": "06-02-2026",
+      "descripcion": "Despacho (Transporte EGT)",
       "monto": 22810,
       "monto_fmt": "$22.810",
       "factura": "13297545",
-      "comprobante": "https://drive.google.com/file/d/1DsJw1USdp2_oAiQL4D3pR0ASLAHD4qnX/view?usp=drivesdk"
+      "comprobante": "https://drive.google.com/file/d/1YK3vmxU2t_kgOyN5gSz6S35pe5InSThi/view?usp=drivesdk"
     },
     {
       "fecha": "06-02-2026",
-      "descripcion": "Almuerzo Castaño (Coca Cola Zero + Empanada queso/jamón)",
+      "descripcion": "Almuerzo Castaño (Coca Cola Zero + Empanada)",
       "monto": 4080,
       "monto_fmt": "$4.080",
       "factura": "185123361",
-      "comprobante": "https://drive.google.com/file/d/1_XHy6_4UUfQwhbgazqzlimCsCUOpGSm8/view?usp=drivesdk"
+      "comprobante": "https://drive.google.com/file/d/149Zzr9Luu7D3m1zy4jaqQDjuCq4ul-AJ/view?usp=drivesdk"
     },
     {
       "fecha": "05-02-2026",
