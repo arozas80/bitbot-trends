@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-02-08T00:03:01.155Z",
-  "total": 163425,
-  "total_fmt": "$163.425",
-  "count": 10,
+  "updatedAt": "2026-02-08T00:31:57.525Z",
+  "total": 163426,
+  "total_fmt": "$163.426",
+  "count": 11,
   "items": [
+    {
+      "fecha": "08-02-2026",
+      "descripcion": "TEST Sheets",
+      "monto": 1,
+      "monto_fmt": "$1",
+      "factura": "TEST",
+      "comprobante": "#"
+    },
     {
       "fecha": "06-02-2026",
       "descripcion": "Ariex (Tóner impresora)",
