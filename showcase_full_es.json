@@ -1,0 +1,492 @@
+[
+  {
+    "url": "https://x.com/localghost/status/2014568799824212004",
+    "autor": "@localghost",
+    "titulo": "OpenClaw en Mac Mini dedicado",
+    "resumen": "Configuración de un Mac Mini exclusivo para OpenClaw con sus propias cuentas de Apple, Gmail y GitHub para mayor seguridad y autonomía.",
+    "etiquetas": ["Configuración", "Seguridad", "Hardware"]
+  },
+  {
+    "url": "https://x.com/andrewjiang/status/2013140793649734032",
+    "autor": "@andrewjiang",
+    "titulo": "Pantalla Holográfica para OpenClaw",
+    "resumen": "Uso de un cubo holográfico de bajo costo para darle a OpenClaw una presencia física, convirtiéndolo en una especie de Tamagotchi inteligente.",
+    "etiquetas": ["Hardware", "Gadgets", "UI"]
+  },
+  {
+    "url": "https://x.com/danpeguine/status/2013902632276914265",
+    "autor": "@danpeguine",
+    "titulo": "Instalación de Skills vía WhatsApp",
+    "resumen": "Demostración de cómo instalar nuevas habilidades en OpenClaw mediante comandos de voz o texto en WhatsApp de forma totalmente remota.",
+    "etiquetas": ["Integración", "WhatsApp", "Skills"]
+  },
+  {
+    "url": "https://x.com/iannuttall/status/2012173452061360130",
+    "autor": "@iannuttall",
+    "titulo": "Servidor dedicado para OpenClaw",
+    "resumen": "Adquisición de un hardware específico para alojar la instancia personal de OpenClaw, garantizando disponibilidad constante.",
+    "etiquetas": ["Smart Home", "Infraestructura"]
+  },
+  {
+    "url": "https://x.com/swiftlysingh/status/2009684853827281070",
+    "autor": "@swiftlysingh",
+    "titulo": "Generación de Diagramas Excalidraw",
+    "resumen": "Creación de una herramienta que permite a los agentes generar diagramas de flujo y esquemas visuales programáticamente en formato JSON.",
+    "etiquetas": ["Desarrollo", "Visualización", "Herramientas"]
+  },
+  {
+    "url": "https://x.com/dreetje/status/2012535486401671588",
+    "autor": "@dreetje",
+    "titulo": "Limpieza de correo y SPAM",
+    "resumen": "OpenClaw revisa la bandeja de entrada y elimina automáticamente el correo no deseado de forma inteligente.",
+    "etiquetas": ["Automatización", "Productividad", "Email"]
+  },
+  {
+    "url": "https://x.com/dreetje/status/2012535486401671588",
+    "autor": "@dreetje",
+    "titulo": "Gestión de Mensajería con Beeper",
+    "resumen": "Integración con Beeper para centralizar y responder mensajes de múltiples plataformas a través de OpenClaw.",
+    "etiquetas": ["Mensajería", "Integración"]
+  },
+  {
+    "url": "https://x.com/dreetje/status/2012535486401671588",
+    "autor": "@dreetje",
+    "titulo": "Asistente de Compras Personal",
+    "resumen": "OpenClaw es capaz de realizar pedidos y compras en línea de manera autónoma siguiendo instrucciones simples.",
+    "etiquetas": ["E-commerce", "Automatización"]
+  },
+  {
+    "url": "https://x.com/dreetje/status/2012535486401671588",
+    "autor": "@dreetje",
+    "titulo": "Sincronización con Tana",
+    "resumen": "Envío automático de recordatorios y notas capturadas por voz o texto directamente a la estructura de Tana.",
+    "etiquetas": ["Productividad", "Notas"]
+  },
+  {
+    "url": "https://x.com/dreetje/status/2012535486401671588",
+    "autor": "@dreetje",
+    "titulo": "Creación de Issues en GitHub",
+    "resumen": "Automatización del flujo de reporte de errores y tareas creando directamente entradas en repositorios de GitHub.",
+    "etiquetas": ["Desarrollo", "GitHub"]
+  },
+  {
+    "url": "https://x.com/dreetje/status/2012535486401671588",
+    "autor": "@dreetje",
+    "titulo": "Análisis de Marcadores de X",
+    "resumen": "Lectura y discusión inteligente de los marcadores guardados en X (Twitter) para extraer aprendizajes.",
+    "etiquetas": ["Redes Sociales", "IA"]
+  },
+  {
+    "url": "https://x.com/dreetje/status/2012535486401671588",
+    "autor": "@dreetje",
+    "titulo": "Resumen de Conversaciones en PDF",
+    "resumen": "Generación de documentos PDF elegantes que sintetizan conversaciones importantes tenidas durante el día.",
+    "etiquetas": ["Documentación", "IA"]
+  },
+  {
+    "url": "https://x.com/dreetje/status/2012535486401671588",
+    "autor": "@dreetje",
+    "titulo": "Control de Gastos de Viaje",
+    "resumen": "Seguimiento automático de costos y división de cuentas entre amigos después de viajes o eventos grupales.",
+    "etiquetas": ["Finanzas", "Viajes"]
+  },
+  {
+    "url": "https://x.com/danpeguine/status/2012565160586625345",
+    "autor": "@danpeguine",
+    "titulo": "Gestión de Calendario por Prioridad",
+    "resumen": "Bloqueo automático de tiempo en el calendario basándose en la importancia de las tareas y algoritmos personalizados.",
+    "etiquetas": ["Productividad", "Calendario"]
+  },
+  {
+    "url": "https://x.com/danpeguine/status/2012565160586625345",
+    "autor": "@danpeguine",
+    "titulo": "Briefing Diario Matutino",
+    "resumen": "Resumen completo cada mañana: clima, objetivos semanales, salud, agenda de reuniones y citas relevantes.",
+    "etiquetas": ["Productividad", "Rutina"]
+  },
+  {
+    "url": "https://x.com/danpeguine/status/2012565160586625345",
+    "autor": "@danpeguine",
+    "titulo": "Investigación de Personas pre-reunión",
+    "resumen": "OpenClaw investiga a los participantes de una reunión y crea documentos de briefing para estar mejor preparado.",
+    "etiquetas": ["Negocios", "Investigación"]
+  },
+  {
+    "url": "https://x.com/danpeguine/status/2012565160586625345",
+    "autor": "@danpeguine",
+    "titulo": "Creación de Facturas Automática",
+    "resumen": "Generación de facturas y resúmenes de trabajo realizados de forma profesional y estética.",
+    "etiquetas": ["Finanzas", "Freelance"]
+  },
+  {
+    "url": "https://x.com/astuyve/status/2014147784098681217",
+    "autor": "@astuyve",
+    "titulo": "Negociación de Compra de Auto",
+    "resumen": "OpenClaw negoció con múltiples concesionarios simultáneamente, logrando un ahorro de $4,200 en la compra de un vehículo.",
+    "etiquetas": ["Ahorro", "Negociación", "Ventas"]
+  },
+  {
+    "url": "https://x.com/nateliason/status/2014797672419340435",
+    "autor": "@nateliason",
+    "titulo": "Flujo de Desarrollo de Apps",
+    "resumen": "Ciclo completo de mejora de apps: toma notas, analiza capturas de pantalla, propone hipótesis y ejecuta cambios vía PRs.",
+    "etiquetas": ["Desarrollo", "Workflow", "GitHub"]
+  },
+  {
+    "url": "https://x.com/davis7/status/2009487467817336895",
+    "autor": "@davis7",
+    "titulo": "Agentes Multi-Modelo",
+    "resumen": "Uso de OpenClaw como capa de abstracción para evitar el vendor lock-in y poder cambiar entre modelos de IA fácilmente.",
+    "etiquetas": ["Estrategia", "Arquitectura", "IA"]
+  },
+  {
+    "url": "https://x.com/KrauseFx/status/2008531076487246176",
+    "autor": "@KrauseFx",
+    "titulo": "Soporte para Beeper y Fastmail",
+    "resumen": "Expansión del ecosistema con integraciones críticas para mensajería unificada y servicios de correo profesionales.",
+    "etiquetas": ["Integración", "Comunicación"]
+  },
+  {
+    "url": "https://x.com/chrisbanes/status/2012507246874255661",
+    "autor": "@chrisbanes",
+    "titulo": "Control Total desde Telegram",
+    "resumen": "Configuración de una instancia completa de OpenClaw controlada enteramente a través de un grupo de Telegram.",
+    "etiquetas": ["Telegram", "Control Remoto"]
+  },
+  {
+    "url": "https://x.com/andrewjiang/status/2008388427180630155",
+    "autor": "@andrewjiang",
+    "titulo": "Análisis Masivo de Datos en X",
+    "resumen": "Proyecto que procesó 4 millones de publicaciones de las 100 cuentas más influyentes de X en solo 24 horas.",
+    "etiquetas": ["Big Data", "Análisis", "X"]
+  },
+  {
+    "url": "https://x.com/georgedagg_/status/2012119327147798753",
+    "autor": "@georgedagg_",
+    "titulo": "Depuración de Despliegues en Railway",
+    "resumen": "OpenClaw identificó errores de construcción en un proyecto de Railway, corrigió las configuraciones y redeployó con éxito.",
+    "etiquetas": ["DevOps", "Railway", "Depuración"]
+  },
+  {
+    "url": "https://x.com/davekiss/status/2008994096736817624",
+    "autor": "@davekiss",
+    "titulo": "Reconstrucción de Sitio Web vía Telegram",
+    "resumen": "Migración completa de un sitio de Notion a Astro, incluyendo DNS a Cloudflare, realizada desde un teléfono móvil.",
+    "etiquetas": ["Desarrollo Web", "Astro", "Telegram"]
+  },
+  {
+    "url": "https://x.com/stevecaldwell/status/2007616854689280196",
+    "autor": "@stevecaldwell",
+    "titulo": "Sistema de Planificación de Comidas",
+    "resumen": "Creación de un sistema integral en Notion para planificar comidas anuales y generar listas de compras organizadas por pasillos.",
+    "etiquetas": ["Familia", "Notion", "Organización"]
+  },
+  {
+    "url": "https://x.com/jdrhyne/status/2012778049406742632",
+    "autor": "@jdrhyne",
+    "titulo": "Ejército de 15 Agentes",
+    "resumen": "Orquestación de más de 15 agentes especializados en 3 máquinas diferentes, coordinados a través de un servidor de Discord.",
+    "etiquetas": ["Escalabilidad", "Arquitectura", "Discord"]
+  },
+  {
+    "url": "https://x.com/jdrhyne/status/2012778049406742632",
+    "autor": "@jdrhyne",
+    "titulo": "Limpieza Masiva de Emails",
+    "resumen": "Procesamiento y limpieza de 10,000 correos electrónicos de la bandeja de entrada en el primer día de uso.",
+    "etiquetas": ["Productividad", "Email"]
+  },
+  {
+    "url": "https://x.com/jdrhyne/status/2012778049406742632",
+    "autor": "@jdrhyne",
+    "titulo": "Optimización de Google Ads",
+    "resumen": "Análisis, revisión y optimización continua de campañas de Google Ads para mejorar el rendimiento publicitario.",
+    "etiquetas": ["Marketing", "Análisis"]
+  },
+  {
+    "url": "https://x.com/jdrhyne/status/2008336434827002232",
+    "autor": "@jdrhyne",
+    "titulo": "Creación de Skill para JIRA",
+    "resumen": "OpenClaw se conectó a JIRA y construyó su propia habilidad de integración al no encontrarla disponible en el hub.",
+    "etiquetas": ["Desarrollo", "JIRA", "Skills"]
+  },
+  {
+    "url": "https://x.com/tonylongname/status/2008970037013381165",
+    "autor": "@tonylongname",
+    "titulo": "Gestor de Proyectos del Hogar",
+    "resumen": "OpenClaw investiga temas domésticos durante la semana y envía un resumen detallado cada domingo a las 9 am.",
+    "etiquetas": ["Familia", "Organización"]
+  },
+  {
+    "url": "https://x.com/acevail_/status/2008203784317714847",
+    "autor": "@acevail_",
+    "titulo": "Integración Homelab vía SSH",
+    "resumen": "Conexión de OpenClaw con un laboratorio doméstico personal mediante SSH para gestión de servidores y servicios.",
+    "etiquetas": ["Hardware", "SysAdmin", "SSH"]
+  },
+  {
+    "url": "https://x.com/MagiMetal/status/2009424267801485362",
+    "autor": "@MagiMetal",
+    "titulo": "App de Barra de Menú para macOS",
+    "resumen": "Desarrollo de una aplicación nativa en Swift para macOS que permite monitorear y controlar el estado de OpenClaw.",
+    "etiquetas": ["macOS", "Swift", "Herramientas"]
+  },
+  {
+    "url": "https://x.com/manuelmaly/status/2012820689179312278",
+    "autor": "@manuelmaly",
+    "titulo": "Prototipado de TUI",
+    "resumen": "Workflow de desarrollo de interfaces de terminal (TUI) usando OpenClaw para la lógica y GPT para la arquitectura.",
+    "etiquetas": ["Desarrollo", "UI", "Terminal"]
+  },
+  {
+    "url": "https://x.com/iamtrebuh/status/2011260468975771862",
+    "autor": "@iamtrebuh",
+    "titulo": "Equipo de Agentes para Solo Founder",
+    "resumen": "Cuatro agentes especializados (Estrategia, Dev, Marketing, Negocios) que colaboran como un equipo real 24/7.",
+    "etiquetas": ["Emprendimiento", "Productividad"]
+  },
+  {
+    "url": "https://x.com/antonplex/status/2012397507754770587",
+    "autor": "@antonplex",
+    "titulo": "Pipeline de Idea a Decisión",
+    "resumen": "Sistema que captura pensamientos diarios, realiza experimentos nocturnos y presenta resultados para la toma de decisiones.",
+    "etiquetas": ["Productividad", "Workflow"]
+  },
+  {
+    "url": "https://x.com/bangkokbuild/status/2013024865393975718",
+    "autor": "@bangkokbuild",
+    "titulo": "Monitor de Terremotos en Tokio",
+    "resumen": "Configuración de OpenClaw para monitorear actividad sísmica en tiempo real y notificar eventos importantes.",
+    "etiquetas": ["Seguridad", "API", "Japón"]
+  },
+  {
+    "url": "https://x.com/DhruvalGolakiya/status/2009577664018018425",
+    "autor": "@DhruvalGolakiya",
+    "titulo": "Generación de UI desde WhatsApp",
+    "resumen": "Construcción completa de una interfaz de usuario mediante comandos enviados por WhatsApp, con previsualización en capturas.",
+    "etiquetas": ["NoCode", "UI", "WhatsApp"]
+  },
+  {
+    "url": "https://x.com/armanddp/status/2008767951340794245",
+    "autor": "@armanddp",
+    "titulo": "Check-in de Vuelos Automático",
+    "resumen": "OpenClaw encuentra detalles de vuelos en el email y realiza el check-in automático buscando asientos de ventana.",
+    "etiquetas": ["Viajes", "Automatización"]
+  },
+  {
+    "url": "https://x.com/Philo01/status/2011204271786672526",
+    "autor": "@Philo01",
+    "titulo": "I.R.I.S. Asistente de Desarrollo",
+    "resumen": "Instancia personalizada llamada IRIS que crea apps y mantiene una página de estado visual sobre una red segura de Tailscale.",
+    "etiquetas": ["Desarrollo", "Seguridad", "Tailscale"]
+  },
+  {
+    "url": "https://x.com/kylezantos/status/2012646568219029586",
+    "autor": "@kylezantos",
+    "titulo": "Modo Lectura Personalizado",
+    "resumen": "Conversión de recursos web pesados en archivos HTML/CSS ligeros con modo de lectura rápida y tamaño ajustable.",
+    "etiquetas": ["Web", "Productividad", "Lectura"]
+  },
+  {
+    "url": "https://x.com/pepicrft/status/2012212865206272266",
+    "autor": "@pepicrft",
+    "titulo": "Plugin para Proyectos Ralph",
+    "resumen": "Herramienta que andamia archivos, compila prompts y gestiona la ejecución de Claude Code o Codex de forma integrada.",
+    "etiquetas": ["Desarrollo", "Tools", "Ralph"]
+  },
+  {
+    "url": "https://x.com/5katkov/status/2011586646458708138",
+    "autor": "@5katkov",
+    "titulo": "Gestión de Itinerarios",
+    "resumen": "Uso de OpenClaw para planificar viajes complejos, gestionar calendarios y contribuir a repositorios de GitHub.",
+    "etiquetas": ["Viajes", "Productividad", "GitHub"]
+  },
+  {
+    "url": "https://x.com/andytorres_a/status/2012265108697923809",
+    "autor": "@andytorres_a",
+    "titulo": "Agenda Diaria Multi-Dispositivo",
+    "resumen": "App de agenda que se sincroniza entre NAS, PC y Mac Studio, refrescándose según las acciones de cada proyecto.",
+    "etiquetas": ["Productividad", "Sync"]
+  },
+  {
+    "url": "https://x.com/DhruvalGolakiya/status/2009688047747764575",
+    "autor": "@DhruvalGolakiya",
+    "titulo": "Sincronización Email a CRM",
+    "resumen": "Lectura de emails matutinos, generación de resúmenes en WhatsApp y creación automática de tareas en una base de datos Supabase.",
+    "etiquetas": ["CRM", "Email", "Supabase"]
+  },
+  {
+    "url": "https://x.com/buddyhadry/status/2007656142105661693",
+    "autor": "@buddyhadry",
+    "titulo": "Control de Dispositivos Alexa",
+    "resumen": "CLI personalizada que permite a OpenClaw controlar cualquier dispositivo del hogar inteligente compatible con Alexa.",
+    "etiquetas": ["Smart Home", "Alexa", "CLI"]
+  },
+  {
+    "url": "https://x.com/LukaRadisic/status/2011077782688985233",
+    "autor": "@LukaRadisic",
+    "titulo": "Integración Remote TUI",
+    "resumen": "Acceso remoto a interfaces de terminal vía Tailscale y tmux, con estados inline en Telegram.",
+    "etiquetas": ["SysAdmin", "Telegram", "Tailscale"]
+  },
+  {
+    "url": "https://x.com/avi_press/status/2013066316467560521",
+    "autor": "@avi_press",
+    "titulo": "Gestión de Reclamos de Seguro",
+    "resumen": "OpenClaw realizó un reclamo al seguro y programó la cita de reparación de manera autónoma.",
+    "etiquetas": ["Seguros", "Automatización"]
+  },
+  {
+    "url": "https://x.com/theguti/status/2010655467400208746",
+    "autor": "@theguti",
+    "titulo": "Calibración de IoTawatt",
+    "resumen": "Uso de OpenClaw para guiar la recalibración de un dispositivo de monitoreo de energía tras un fallo de hardware.",
+    "etiquetas": ["Smart Home", "IoT", "Hardware"]
+  },
+  {
+    "url": "https://x.com/jjpcodes/status/2002334394993025243",
+    "autor": "@jjpcodes",
+    "titulo": "Herramienta de Aprendizaje de Idiomas",
+    "resumen": "App para aprender chino con retroalimentación de pronunciación, TTS/STT y seguimiento de progreso.",
+    "etiquetas": ["Educación", "Idiomas", "IA"]
+  },
+  {
+    "url": "https://x.com/CopyKatCapital/status/2013003345686868171",
+    "autor": "@CopyKatCapital",
+    "titulo": "Publicación de Apps en App Store",
+    "resumen": "Envío y automatización de actualizaciones de TestFlight realizado enteramente desde Telegram sin abrir el ordenador.",
+    "etiquetas": ["Desarrollo", "iOS", "Telegram"]
+  },
+  {
+    "url": "https://x.com/xz3dev/status/2011807680180957383",
+    "autor": "@xz3dev",
+    "titulo": "Análisis SEO Automatizado",
+    "resumen": "Auditoría SEO semanal realizada de forma 100% autónoma por OpenClaw para mejorar el posicionamiento web.",
+    "etiquetas": ["Marketing", "SEO", "Web"]
+  },
+  {
+    "url": "https://x.com/xMikeMickelson/status/2012058702115709160",
+    "autor": "@xMikeMickelson",
+    "titulo": "Generación de Influencers UGC",
+    "resumen": "Creación de un influencer virtual desde cero, incluyendo estética y personalidad, para generación de contenido en video.",
+    "etiquetas": ["Creative", "Video", "IA"]
+  },
+  {
+    "url": "https://x.com/vallver/status/2010508094313263502",
+    "autor": "@vallver",
+    "titulo": "Clon de StumbleUpon Personal",
+    "resumen": "Sistema de recomendación de artículos favoritos construido desde el teléfono móvil en pocos minutos.",
+    "etiquetas": ["Web", "Recomendación"]
+  },
+  {
+    "url": "https://x.com/bangkokbuild/status/2010729667540787707",
+    "autor": "@bangkokbuild",
+    "titulo": "Loop de Monitoreo con Claude Code",
+    "resumen": "Sistema que construye funciones automáticamente y notifica el progreso vía Telegram mientras el usuario descansa.",
+    "etiquetas": ["Desarrollo", "Claude", "Telegram"]
+  },
+  {
+    "url": "https://x.com/nathanclark_/status/2010318448207995241",
+    "autor": "@nathanclark_",
+    "titulo": "OpenClaw en Slack",
+    "resumen": "Integración de OpenClaw ('Merlin') en Slack para disparar flujos de escritura personalizados desde una interfaz conocida.",
+    "etiquetas": ["Slack", "Integración", "Escritura"]
+  },
+  {
+    "url": "https://x.com/scottw/status/2011656156318744971",
+    "autor": "@scottw",
+    "titulo": "MadLibs Dinámico con Imágenes",
+    "resumen": "Versión moderna del juego MadLibs que incluye generación de imágenes e historial, construida para un niño de 10 años.",
+    "etiquetas": ["Familia", "Juegos", "Entretenimiento"]
+  },
+  {
+    "url": "https://x.com/quifago/status/2012458753786859872",
+    "autor": "@quifago",
+    "titulo": "Buscador de Inmuebles en Idealista",
+    "resumen": "CLI para la API de Idealista que permite buscar pisos y valorar casas mediante lenguaje natural con OpenClaw.",
+    "etiquetas": ["Real Estate", "API", "CLI"]
+  },
+  {
+    "url": "https://x.com/bffmike/status/2012207314884075773",
+    "autor": "@bffmike",
+    "titulo": "Delegación de Agentes de Programación",
+    "resumen": "Gestión de agentes de código durante la noche, aprovechando que OpenClaw conoce todo el historial del proyecto.",
+    "etiquetas": ["Desarrollo", "Autonomía"]
+  },
+  {
+    "url": "https://x.com/theaaron/status/2013089675552968761",
+    "autor": "@theaaron",
+    "titulo": "Gestión de Calendario Familiar",
+    "resumen": "Control de calendarios laborales, personales y familiares mediante chat, permitiendo acceso compartido con la pareja.",
+    "etiquetas": ["Familia", "Calendario", "Productividad"]
+  },
+  {
+    "url": "https://x.com/LLMJunky/status/2013089630317355014",
+    "autor": "@LLMJunky",
+    "titulo": "Capa de Orquestación Móvil",
+    "resumen": "Uso de OpenClaw como interfaz central para controlar máquinas locales y otros agentes desde dispositivos móviles.",
+    "etiquetas": ["Arquitectura", "Mobile", "Control"]
+  },
+  {
+    "url": "https://x.com/advait3000/status/2013099774937911694",
+    "autor": "@advait3000",
+    "titulo": "Interfaz Digital Unificada",
+    "resumen": "Centralización de notas, correos, proyectos y planes en un solo sistema con Discord como interfaz principal.",
+    "etiquetas": ["Productividad", "Discord", "Hub"]
+  },
+  {
+    "url": "https://x.com/bangkokbuild/status/2013158851194085388",
+    "autor": "@bangkokbuild",
+    "titulo": "Mapa de Calor de Garmin",
+    "resumen": "Visualización de datos de Garmin en un mapa de calor interactivo con navegación y filtros personalizados.",
+    "etiquetas": ["Salud", "Garmin", "Visualización"]
+  },
+  {
+    "url": "https://x.com/dreetje/status/2013645067441844697",
+    "autor": "@dreetje",
+    "titulo": "Pedidos de Supermercado Autónomos",
+    "resumen": "OpenClaw leyó mensajes de la empleada del hogar, accedió a 1Password y realizó el pedido en Albert Heijn.",
+    "etiquetas": ["Hogar", "E-commerce", "MFA"]
+  },
+  {
+    "url": "https://x.com/stevengonsalvez/status/2013650626962424047",
+    "autor": "@stevengonsalvez",
+    "titulo": "Scrum Master Personal",
+    "resumen": "Seguimiento de gastos, almuerzos escolares y funciones de Scrum Master con motivación diaria.",
+    "etiquetas": ["Productividad", "Familia", "Gestión"]
+  },
+  {
+    "url": "https://x.com/_KevinTang/status/2013499715892006998",
+    "autor": "@_KevinTang",
+    "titulo": "Curación de Hacker News",
+    "resumen": "Monitoreo de tendencias en Hacker News y envío automático de enlaces relevantes según los intereses del usuario.",
+    "etiquetas": ["Información", "Noticias", "IA"]
+  },
+  {
+    "url": "https://x.com/danpeguine/status/2013388700479058068",
+    "autor": "@danpeguine",
+    "titulo": "Digitalización de Analíticas de Sangre",
+    "resumen": "Organización de resultados de laboratorios médicos en una base de datos estructurada en Notion.",
+    "etiquetas": ["Salud", "Notion", "Datos"]
+  },
+  {
+    "url": "https://x.com/chrisrodz35/status/2013257743004545257",
+    "autor": "@chrisrodz35",
+    "titulo": "Resúmenes de YouTube para Productividad",
+    "resumen": "Cron diario que resume nuevos videos de YouTube extrayendo puntos clave y acciones prácticas para ahorrar tiempo.",
+    "etiquetas": ["Productividad", "YouTube", "Aprendizaje"]
+  },
+  {
+    "url": "https://x.com/christinetyip/status/2013196232181637500",
+    "autor": "@christinetyip",
+    "titulo": "Memoria Compartida con Pareja",
+    "resumen": "Uso de habilidades de memoria compartida para que dos instancias de OpenClaw colaboren y compartan contexto.",
+    "etiquetas": ["Colaboración", "IA", "Relaciones"]
+  },
+  {
+    "url": "https://x.com/dnouri/status/2014339212271600067",
+    "autor": "@dnouri",
+    "titulo": "Estudio de Producción Musical",
+    "resumen": "Extracción de pistas de audio, GIFs y generación de PDFs con acordes de canciones mediante comandos simples.",
+    "etiquetas": ["Música", "Creative", "Multimedia"]
+  }
+]

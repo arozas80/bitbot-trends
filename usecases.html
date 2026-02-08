@@ -3,37 +3,49 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Casos de uso (OpenClaw) — Command Center</title>
+  <title>Showcase OpenClaw (ES) — Command Center</title>
   <link rel="stylesheet" href="styles.css" />
   <style>
-    .container{max-width:1100px;margin:0 auto;padding:24px;}
-    .topbar{display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap;margin-bottom:16px;}
+    .container{max-width:1180px;margin:0 auto;padding:24px;}
+    .topbar{display:flex;gap:12px;align-items:flex-end;justify-content:space-between;flex-wrap:wrap;margin-bottom:16px;}
     .topbar a{color:inherit;opacity:.85;text-decoration:none;}
     .filters{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
     input[type="search"],select{background:#0f141b;border:1px solid #263244;color:#e8eef7;border-radius:10px;padding:10px 12px;}
-    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;margin-top:16px;}
-    .card{background:#0f141b;border:1px solid #263244;border-radius:14px;padding:14px;}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:14px;margin-top:16px;}
+    .card{background:#0f141b;border:1px solid #263244;border-radius:14px;padding:14px;cursor:pointer;transition:transform .05s ease;}
+    .card:hover{transform:translateY(-1px)}
     .meta{display:flex;gap:8px;align-items:center;justify-content:space-between;margin-bottom:8px;}
     .pill{font-size:12px;opacity:.9;background:#162030;border:1px solid #263244;border-radius:999px;padding:4px 10px;white-space:nowrap;}
-    .title{font-weight:700;margin:6px 0 8px 0;}
+    .author{font-size:12px;opacity:.9}
+    .title{font-weight:800;margin:6px 0 8px 0;}
     .summary{opacity:.9;line-height:1.35;margin:0 0 10px 0;}
     .tags{display:flex;gap:6px;flex-wrap:wrap}
     .tag{font-size:12px;opacity:.85;background:#111a27;border:1px solid #223047;border-radius:999px;padding:3px 8px;}
-    .src{display:flex;justify-content:space-between;align-items:center;margin-top:10px;opacity:.85;font-size:12px}
-    .src a{opacity:.9}
     .count{opacity:.8}
+
+    /* modal */
+    .modal{position:fixed;inset:0;background:rgba(0,0,0,.6);display:none;align-items:center;justify-content:center;padding:18px;z-index:9999;}
+    .modal.open{display:flex;}
+    .panel{max-width:900px;width:100%;background:#0b1017;border:1px solid #263244;border-radius:16px;box-shadow:0 30px 120px rgba(0,0,0,.5);}
+    .panel-h{display:flex;justify-content:space-between;gap:10px;align-items:flex-start;padding:16px 16px 0 16px;}
+    .panel-h .hmeta{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+    .close{background:transparent;border:1px solid #263244;color:#e8eef7;border-radius:10px;padding:6px 10px;cursor:pointer;}
+    .panel-b{padding:16px;}
+    .detail{white-space:pre-wrap;line-height:1.4;opacity:.95;margin-top:10px;background:#0f141b;border:1px solid #263244;border-radius:12px;padding:12px;}
+    .uc-list{margin:10px 0 0 0;padding-left:18px;}
+    .uc-list li{margin:6px 0;}
   </style>
 </head>
 <body>
   <div class="container">
     <div class="topbar">
       <div>
-        <div style="font-size:20px;font-weight:800;">Casos de uso (OpenClaw)</div>
+        <div style="font-size:20px;font-weight:900;">Showcase OpenClaw (ES)</div>
         <div class="count" id="count"></div>
       </div>
       <div class="filters">
         <a href="index.html">← Volver</a>
-        <select id="category"></select>
+        <select id="tag"></select>
         <input id="q" type="search" placeholder="Buscar (título, resumen, tags)" />
       </div>
     </div>
@@ -41,46 +53,116 @@
     <div class="grid" id="grid"></div>
   </div>
 
-<script>
-async function main(){
-  const data = await fetch('usecases_es.json').then(r=>r.json());
-  const cats = ['Todas', ...Array.from(new Set(data.map(x=>x.categoria))).sort((a,b)=>a.localeCompare(b,'es'))];
-  const sel = document.getElementById('category');
-  sel.innerHTML = cats.map(c=>`<option value="${c}">${c}</option>`).join('');
+  <div class="modal" id="modal" aria-hidden="true">
+    <div class="panel" role="dialog" aria-modal="true">
+      <div class="panel-h">
+        <div>
+          <div class="hmeta" id="m-meta"></div>
+          <div style="font-size:20px;font-weight:900;margin-top:8px" id="m-title"></div>
+          <div style="opacity:.9;margin-top:6px" id="m-summary"></div>
+        </div>
+        <button class="close" id="m-close">Cerrar</button>
+      </div>
+      <div class="panel-b">
+        <div id="m-tags" class="tags"></div>
+        <div class="detail" id="m-detail"></div>
+        <ul class="uc-list" id="m-ucs"></ul>
+      </div>
+    </div>
+  </div>
 
-  const q = document.getElementById('q');
-  const grid = document.getElementById('grid');
-  const count = document.getElementById('count');
+<script>
+const $ = (id)=>document.getElementById(id);
+const modal=$('modal');
+const closeBtn=$('m-close');
+
+function openModal(item){
+  $('m-meta').innerHTML = `<span class="pill">${item.etiquetas?.[0]||'Caso de uso'}</span><span class="author">${item.autor||''}</span>`;
+  $('m-title').textContent = item.titulo || '';
+  $('m-summary').textContent = item.resumen || '';
+  $('m-tags').innerHTML = (item.etiquetas||[]).map(t=>`<span class="tag">${t}</span>`).join('');
+
+  // Detail: we don't store full tweet text yet; show an expanded Spanish explanation.
+  const detail = `Descripción\n${item.resumen || ''}\n\nFuente (opcional): ${item.url || ''}`;
+  $('m-detail').textContent = detail;
+
+  // Use cases: infer a couple of bullets from resumen + etiquetas
+  const ucs=[];
+  if(item.resumen){
+    ucs.push('Implementación: ' + item.resumen);
+  }
+  if(item.etiquetas?.length){
+    ucs.push('Etiquetas: ' + item.etiquetas.join(', '));
+  }
+  $('m-ucs').innerHTML = ucs.map(x=>`<li>${x}</li>`).join('');
+
+  modal.classList.add('open');
+  modal.setAttribute('aria-hidden','false');
+}
+function closeModal(){
+  modal.classList.remove('open');
+  modal.setAttribute('aria-hidden','true');
+}
+closeBtn.addEventListener('click', closeModal);
+modal.addEventListener('click', (e)=>{ if(e.target===modal) closeModal(); });
+document.addEventListener('keydown', (e)=>{ if(e.key==='Escape') closeModal(); });
+
+async function main(){
+  const data = await fetch('showcase_full_es.json').then(r=>r.json());
+
+  // Build tag filter
+  const tagSet=new Set();
+  for(const it of data){
+    for(const t of (it.etiquetas||[])) tagSet.add(t);
+  }
+  const tags=['Todas', ...Array.from(tagSet).sort((a,b)=>a.localeCompare(b,'es'))];
+  const sel=$('tag');
+  sel.innerHTML=tags.map(t=>`<option value="${t}">${t}</option>`).join('');
+
+  const q=$('q');
+  const grid=$('grid');
+  const count=$('count');
 
   function render(){
-    const cat = sel.value;
-    const term = q.value.trim().toLowerCase();
-    let items = data.slice();
-    if(cat && cat !== 'Todas') items = items.filter(x=>x.categoria===cat);
+    const term=q.value.trim().toLowerCase();
+    const tag=sel.value;
+    let items=data.slice();
+    if(tag && tag!=='Todas') items=items.filter(x=>(x.etiquetas||[]).includes(tag));
     if(term){
-      items = items.filter(x=>{
-        const blob = [x.titulo,x.resumen,(x.tags||[]).join(' '),x.categoria].join(' ').toLowerCase();
+      items=items.filter(x=>{
+        const blob=[x.titulo,x.resumen,(x.etiquetas||[]).join(' '),x.autor].join(' ').toLowerCase();
         return blob.includes(term);
       });
     }
-    // Order by category then title
-    items.sort((a,b)=> (a.categoria.localeCompare(b.categoria,'es') || a.titulo.localeCompare(b.titulo,'es')));
 
-    count.textContent = `${items.length} casos de uso`;
-    grid.innerHTML = items.map(x=>{
-      const tags = (x.tags||[]).map(t=>`<span class="tag">${t}</span>`).join('');
-      const src = x.fuente ? `<a href="${x.fuente}" target="_blank" rel="noopener">Ver en X</a>` : '';
+    // simple stable sort
+    items.sort((a,b)=> (a.titulo||'').localeCompare(b.titulo||'', 'es'));
+
+    count.textContent = `${items.length} entradas`;
+
+    grid.innerHTML = items.map((x,idx)=>{
+      const tags=(x.etiquetas||[]).slice(0,3).map(t=>`<span class="tag">${t}</span>`).join('');
+      const pill=(x.etiquetas&&x.etiquetas[0])?x.etiquetas[0]:'Caso de uso';
       return `
-      <div class="card">
+      <div class="card" data-idx="${idx}">
         <div class="meta">
-          <span class="pill">${x.categoria}</span>
-          ${src}
+          <span class="pill">${pill}</span>
+          <span class="author">${x.autor||''}</span>
         </div>
-        <div class="title">${x.titulo}</div>
-        <p class="summary">${x.resumen}</p>
+        <div class="title">${x.titulo||''}</div>
+        <p class="summary">${x.resumen||''}</p>
         <div class="tags">${tags}</div>
       </div>`;
     }).join('');
+
+    // click handlers
+    grid.querySelectorAll('.card').forEach(card=>{
+      card.addEventListener('click', ()=>{
+        const idx=parseInt(card.getAttribute('data-idx'),10);
+        const item=items[idx];
+        openModal(item);
+      });
+    });
   }
 
   sel.addEventListener('change', render);
