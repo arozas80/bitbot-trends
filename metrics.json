@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-02-08T03:00:04+00:00",
+  "generatedAt": "2026-02-08T04:00:02+00:00",
   "hostname": "vps-387ef501",
   "cpu": {
-    "usage": 30,
-    "loadAvg": "0.81"
+    "usage": 49,
+    "loadAvg": "0.95"
   },
   "memory": {
-    "used": 3321,
+    "used": 3254,
     "total": 11675,
-    "percent": 28
+    "percent": 27
   },
   "disk": {
     "used": "26G",
@@ -17,41 +17,11 @@
   },
   "uptime": {
     "days": 3,
-    "hours": 2,
-    "formatted": "3d 2h"
+    "hours": 3,
+    "formatted": "3d 3h"
   },
   "services": {
     "openclaw": "active",
     "nginx": "active"
-  },
-  "sessions": [
-    {
-      "key": "main > Direct Chat 💬",
-      "model": "gemini-3-flash",
-      "usage": "867.1k",
-      "percent": 83,
-      "status": "warning"
-    },
-    {
-      "key": "main > cron:d4123423-964b-4100-9713-46573829c5d8",
-      "model": "gemini-3-flash",
-      "usage": "18.9k",
-      "percent": 2,
-      "status": "ok"
-    },
-    {
-      "key": "main > cron:e3ccc040-ec84-463b-9bdb-cc36c9377334",
-      "model": "gemini-3-flash",
-      "usage": "18.8k",
-      "percent": 2,
-      "status": "ok"
-    },
-    {
-      "key": "main > cron:f7e32111-125b-4ec2-81ec-4a38d5e52562",
-      "model": "gemini-3-flash",
-      "usage": "20.3k",
-      "percent": 2,
-      "status": "ok"
-    }
-  ]
+  }
 }
