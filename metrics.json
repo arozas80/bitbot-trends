@@ -23,5 +23,35 @@
   "services": {
     "openclaw": "active",
     "nginx": "active"
-  }
+  },
+  "sessions": [
+    {
+      "key": "main > Direct Chat 💬",
+      "model": "gemini-3-flash",
+      "usage": "867.1k",
+      "percent": 83,
+      "status": "warning"
+    },
+    {
+      "key": "main > cron:d4123423-964b-4100-9713-46573829c5d8",
+      "model": "gemini-3-flash",
+      "usage": "18.9k",
+      "percent": 2,
+      "status": "ok"
+    },
+    {
+      "key": "main > cron:e3ccc040-ec84-463b-9bdb-cc36c9377334",
+      "model": "gemini-3-flash",
+      "usage": "18.8k",
+      "percent": 2,
+      "status": "ok"
+    },
+    {
+      "key": "main > cron:f7e32111-125b-4ec2-81ec-4a38d5e52562",
+      "model": "gemini-3-flash",
+      "usage": "20.3k",
+      "percent": 2,
+      "status": "ok"
+    }
+  ]
 }
