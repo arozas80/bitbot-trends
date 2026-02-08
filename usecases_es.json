@@ -1,0 +1,156 @@
+[
+  {
+    "categoria": "Productividad y planificación",
+    "titulo": "Bloqueo de tiempo en calendario",
+    "resumen": "Organiza tus tareas en el calendario (time-blocking) según prioridad e importancia, y reacomoda automáticamente cuando hay conflictos.",
+    "tags": ["calendario", "timeblocking"],
+    "fuente": "https://x.com/danpeguine/status/2012565160586625345"
+  },
+  {
+    "categoria": "Productividad y planificación",
+    "titulo": "Brief diario (mañana)",
+    "resumen": "Entrega un resumen diario con clima, objetivos, salud/estadísticas, agenda del día, recordatorios y lecturas recomendadas según tus metas.",
+    "tags": ["brief", "clima", "resumen"],
+    "fuente": "https://x.com/danpeguine/status/2012565160586625345"
+  },
+  {
+    "categoria": "Productividad y planificación",
+    "titulo": "Revisión semanal guiada",
+    "resumen": "Te guía en una weekly review usando transcripciones/notas para cerrar pendientes, priorizar y definir plan semanal.",
+    "tags": ["weekly review"],
+    "fuente": "https://x.com/danpeguine/status/2012565160586625345"
+  },
+  {
+    "categoria": "Email y mensajería",
+    "titulo": "Limpieza de bandeja de entrada",
+    "resumen": "Revisa correos entrantes, detecta y elimina spam, y deja la bandeja de entrada ordenada.",
+    "tags": ["email"],
+    "fuente": "https://x.com/dreetje/status/2012535486401671588"
+  },
+  {
+    "categoria": "Email y mensajería",
+    "titulo": "Resúmenes de mensajes (Beeper/WhatsApp/Telegram)",
+    "resumen": "Revisa mensajes entrantes desde varias apps y te entrega un resumen con lo importante y acciones sugeridas.",
+    "tags": ["mensajes", "multicanal"],
+    "fuente": "https://x.com/dreetje/status/2012535486401671588"
+  },
+  {
+    "categoria": "Recordatorios y hábitos",
+    "titulo": "Recordatorios en tu sistema (Tana/Notas)",
+    "resumen": "Crea recordatorios donde tú ya trabajas (por ejemplo Tana/Notas), para que no queden desperdigados.",
+    "tags": ["recordatorios"],
+    "fuente": "https://x.com/dreetje/status/2012535486401671588"
+  },
+  {
+    "categoria": "Dev y GitHub",
+    "titulo": "Crear issues en GitHub desde chat",
+    "resumen": "Convierte ideas o bugs descritos por chat en issues en GitHub (con título, descripción y contexto).",
+    "tags": ["github", "issues"],
+    "fuente": "https://x.com/dreetje/status/2012535486401671588"
+  },
+  {
+    "categoria": "Dev y GitHub",
+    "titulo": "Abrir PRs y automatizar seguimiento",
+    "resumen": "Trabaja en tareas de desarrollo y deja PRs listos; puede leer logs, investigar causas y proponer fixes.",
+    "tags": ["pr", "devops"],
+    "fuente": "https://x.com/avi_press/status/2009070459065913806"
+  },
+  {
+    "categoria": "DevOps y despliegues",
+    "titulo": "Diagnóstico y redeploy remoto",
+    "resumen": "Revisa fallas de build/deploy, identifica causa raíz (configs/commands), actualiza settings y redeploy, todo conversando por voz.",
+    "tags": ["deploy", "logs"],
+    "fuente": "https://x.com/bangkokbuild/status/2008326500025311329"
+  },
+  {
+    "categoria": "Investigación y lectura",
+    "titulo": "Leer bookmarks de X y comentarlos",
+    "resumen": "Lee tus bookmarks de X y los discute contigo: ideas, contrapuntos y acciones sugeridas.",
+    "tags": ["x", "research"],
+    "fuente": "https://x.com/dreetje/status/2012535486401671588"
+  },
+  {
+    "categoria": "Documentos",
+    "titulo": "Resumen en PDF de conversaciones",
+    "resumen": "Genera un PDF bien presentado con el resumen de conversaciones (por ejemplo, conversaciones en auto).",
+    "tags": ["pdf", "resumen"],
+    "fuente": "https://x.com/dreetje/status/2012535486401671588"
+  },
+  {
+    "categoria": "Finanzas",
+    "titulo": "Control de gastos y división por viajes",
+    "resumen": "Registra costos, los categoriza y puede dividirlos automáticamente entre personas después de un viaje.",
+    "tags": ["gastos", "split"],
+    "fuente": "https://x.com/dreetje/status/2012535486401671588"
+  },
+  {
+    "categoria": "Familia",
+    "titulo": "Alertas de pruebas escolares",
+    "resumen": "Notifica con anticipación pruebas del colegio y recordatorios familiares.",
+    "tags": ["familia"],
+    "fuente": "https://x.com/danpeguine/status/2012565160586625345"
+  },
+  {
+    "categoria": "Automatización web",
+    "titulo": "Rehacer un sitio web desde el teléfono",
+    "resumen": "Reconstruye y migra un sitio (ej. Notion → Astro), mueve DNS a Cloudflare y publica cambios sin abrir el laptop.",
+    "tags": ["web", "migración"],
+    "fuente": "https://x.com/davekiss/status/2008994096736817624"
+  },
+  {
+    "categoria": "Smart Home",
+    "titulo": "Integraciones con Homey/Beeper/Fastmail",
+    "resumen": "Conecta servicios de casa inteligente y mensajería/correo para automatizar acciones y notificaciones.",
+    "tags": ["smarthome", "integraciones"],
+    "fuente": "https://x.com/KrauseFx/status/2008531076487246176"
+  },
+  {
+    "categoria": "Documentos",
+    "titulo": "Resumen masivo de presentaciones",
+    "resumen": "Revisa y resume decenas/centenas de Google Slides para town-halls u otras reuniones.",
+    "tags": ["slides", "resumen"],
+    "fuente": "https://x.com/LLMJunky/status/2008152937860016170"
+  },
+  {
+    "categoria": "Marketing",
+    "titulo": "Optimización de Google Ads",
+    "resumen": "Revisa campañas, detecta oportunidades y propone cambios orientados a performance.",
+    "tags": ["ads", "marketing"],
+    "fuente": "https://x.com/LLMJunky/status/2008152937860016170"
+  },
+  {
+    "categoria": "Productividad y planificación",
+    "titulo": "Investigación de proyectos y descomposición a tareas",
+    "resumen": "Investiga un proyecto grande y lo transforma en lista de tareas con pasos y dependencias.",
+    "tags": ["planning", "tasks"],
+    "fuente": "https://x.com/danpeguine/status/2012565160586625345"
+  },
+  {
+    "categoria": "Reuniones",
+    "titulo": "Briefing de personas antes de reuniones",
+    "resumen": "Investiga asistentes/empresas antes de una reunión y crea un documento de briefing accionable.",
+    "tags": ["briefing"],
+    "fuente": "https://x.com/danpeguine/status/2012565160586625345"
+  },
+  {
+    "categoria": "Multiagente",
+    "titulo": "Subagentes para investigación",
+    "resumen": "Lanza subagentes en paralelo para investigar ideas de negocio, tecnología o decisiones y luego consolida hallazgos.",
+    "tags": ["subagentes", "paralelo"],
+    "fuente": "https://x.com/danpeguine/status/2012565160586625345"
+  },
+  {
+    "categoria": "Compras",
+    "titulo": "Comprar/ordenar cosas por ti",
+    "resumen": "Automatiza compras y pedidos online (con login/MFA cuando corresponde) y deja el pedido listo.",
+    "tags": ["compras"],
+    "fuente": "https://x.com/dreetje/status/2012535486401671588"
+  },
+  {
+    "categoria": "Contraseñas",
+    "titulo": "Vault dedicado en 1Password",
+    "resumen": "Mantiene un vault propio en 1Password que puede leer y escribir para operar integraciones de forma segura.",
+    "tags": ["1password", "secrets"],
+    "fuente": "https://x.com/dreetje/status/2012535486401671588"
+  }
+]

@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Casos de uso (OpenClaw) — Command Center</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .container{max-width:1100px;margin:0 auto;padding:24px;}
+    .topbar{display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap;margin-bottom:16px;}
+    .topbar a{color:inherit;opacity:.85;text-decoration:none;}
+    .filters{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+    input[type="search"],select{background:#0f141b;border:1px solid #263244;color:#e8eef7;border-radius:10px;padding:10px 12px;}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;margin-top:16px;}
+    .card{background:#0f141b;border:1px solid #263244;border-radius:14px;padding:14px;}
+    .meta{display:flex;gap:8px;align-items:center;justify-content:space-between;margin-bottom:8px;}
+    .pill{font-size:12px;opacity:.9;background:#162030;border:1px solid #263244;border-radius:999px;padding:4px 10px;white-space:nowrap;}
+    .title{font-weight:700;margin:6px 0 8px 0;}
+    .summary{opacity:.9;line-height:1.35;margin:0 0 10px 0;}
+    .tags{display:flex;gap:6px;flex-wrap:wrap}
+    .tag{font-size:12px;opacity:.85;background:#111a27;border:1px solid #223047;border-radius:999px;padding:3px 8px;}
+    .src{display:flex;justify-content:space-between;align-items:center;margin-top:10px;opacity:.85;font-size:12px}
+    .src a{opacity:.9}
+    .count{opacity:.8}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="topbar">
+      <div>
+        <div style="font-size:20px;font-weight:800;">Casos de uso (OpenClaw)</div>
+        <div class="count" id="count"></div>
+      </div>
+      <div class="filters">
+        <a href="index.html">← Volver</a>
+        <select id="category"></select>
+        <input id="q" type="search" placeholder="Buscar (título, resumen, tags)" />
+      </div>
+    </div>
+
+    <div class="grid" id="grid"></div>
+  </div>
+
+<script>
+async function main(){
+  const data = await fetch('usecases_es.json').then(r=>r.json());
+  const cats = ['Todas', ...Array.from(new Set(data.map(x=>x.categoria))).sort((a,b)=>a.localeCompare(b,'es'))];
+  const sel = document.getElementById('category');
+  sel.innerHTML = cats.map(c=>`<option value="${c}">${c}</option>`).join('');
+
+  const q = document.getElementById('q');
+  const grid = document.getElementById('grid');
+  const count = document.getElementById('count');
+
+  function render(){
+    const cat = sel.value;
+    const term = q.value.trim().toLowerCase();
+    let items = data.slice();
+    if(cat && cat !== 'Todas') items = items.filter(x=>x.categoria===cat);
+    if(term){
+      items = items.filter(x=>{
+        const blob = [x.titulo,x.resumen,(x.tags||[]).join(' '),x.categoria].join(' ').toLowerCase();
+        return blob.includes(term);
+      });
+    }
+    // Order by category then title
+    items.sort((a,b)=> (a.categoria.localeCompare(b.categoria,'es') || a.titulo.localeCompare(b.titulo,'es')));
+
+    count.textContent = `${items.length} casos de uso`;
+    grid.innerHTML = items.map(x=>{
+      const tags = (x.tags||[]).map(t=>`<span class="tag">${t}</span>`).join('');
+      const src = x.fuente ? `<a href="${x.fuente}" target="_blank" rel="noopener">Ver en X</a>` : '';
+      return `
+      <div class="card">
+        <div class="meta">
+          <span class="pill">${x.categoria}</span>
+          ${src}
+        </div>
+        <div class="title">${x.titulo}</div>
+        <p class="summary">${x.resumen}</p>
+        <div class="tags">${tags}</div>
+      </div>`;
+    }).join('');
+  }
+
+  sel.addEventListener('change', render);
+  q.addEventListener('input', render);
+  render();
+}
+main();
+</script>
+</body>
+</html>
