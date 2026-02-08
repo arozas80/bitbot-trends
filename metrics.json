@@ -52,13 +52,6 @@
       "usage": "20.3k",
       "percent": 2,
       "status": "ok"
-    },
-    {
-      "key": "main > cron:af7beb43-6e02-46fb-8a4f-01bd60695b3b",
-      "model": "gemini-3-flash",
-      "usage": "18.9k",
-      "percent": 2,
-      "status": "ok"
     }
   ]
 }
