@@ -1,17 +1,9 @@
 {
-  "updatedAt": "2026-02-09T15:53:08.933Z",
-  "total": 176755,
-  "total_fmt": "$176.755",
-  "count": 11,
+  "updatedAt": "2026-02-09T16:00:11.640157",
+  "total": 163425,
+  "total_fmt": "$163.425",
+  "count": 10,
   "items": [
-    {
-      "fecha": "2026-02-09",
-      "descripcion": "Insumos Veterinarios",
-      "monto": 13330,
-      "monto_fmt": "$13.330",
-      "factura": "13300732",
-      "comprobante": "https://drive.google.com/file/d/1KeCqobQ1g5jfUrCTAxczRQ-2BCzQC6CJ/view?usp=drivesdk"
-    },
     {
       "fecha": "06-02-2026",
       "descripcion": "Lider Providencia (Bolígrafos  Resma  Carpeta  Coca Zero  LSN BLN)",
