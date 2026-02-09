@@ -1,47 +1,52 @@
 // Data file - Updated daily by Bitbot
 const trendsData = {
-  lastUpdate: "2026-02-08T06:00:00-03:00",
-  currentDate: "8 de febrero de 2026",
+  lastUpdate: "2026-02-09T06:00:00-03:00",
+  currentDate: "9 de febrero de 2026",
   
-  executiveSummary: "Hoy el pulso tecnológico está marcado por la transición de la IA del mundo digital al mundo físico (Physical AI) y la consolidación de los Sistemas Operativos Agénticos (AOS). La IA ya no solo razona; ahora interactúa con el entorno físico y se orquesta en equipos coordinados.",
+  executiveSummary: "Hoy el pulso tecnológico se acelera con la comercialización masiva de la IA Física, el despliegue de Sistemas Operativos Agénticos (AOS) y la evolución del hardware hacia el Edge AI. La ciberseguridad agéntica y la soberanía de datos emergen como pilares críticos de gobernanza.",
   
   trends: [
     {
       id: 1,
       icon: "🦾",
-      title: "IA Física y Robótica",
-      subtitle: "El 'momento ChatGPT' para robots",
-      description: "El 58% de los líderes globales ya usan IA física. La robótica comercial está pasando de R&D a producción masiva, con robots que perciben, razonan y actúan en entornos reales para suplir la escasez de mano de obra."
+      title: "Escalamiento de IA Física",
+      subtitle: "Robótica en producción real",
+      description: "Nvidia y Hyundai lideran el 'momento ChatGPT' de la robótica. El 58% de las empresas ya usan IA física, integrando modelos multimodales en humanoides para tareas de fabricación y logística."
     },
     {
       id: 2,
-      icon: "🌐",
-      title: "Sistemas Operativos Agénticos",
-      subtitle: "Orquestación de Súper Agentes",
-      description: "La tendencia evoluciona de agentes simples a Sistemas Operativos Agénticos (AOS) y dashboards multi-agente que coordinan equipos de IA para ejecutar flujos de trabajo dinámicos y complejos de forma autónoma."
+      icon: "🤖",
+      title: "Agentic AI & AOS",
+      subtitle: "El nuevo middleware empresarial",
+      description: "Casi el 75% de las empresas planean desplegar Sistemas Operativos Agénticos (AOS) para orquestar flujos autónomos de 'súper agentes' que ejecutan tareas complejas con mínima intervención."
     },
     {
       id: 3,
-      icon: "📡",
-      title: "IoT y Sensores con IA",
-      subtitle: "Visibilidad total económica",
-      description: "Sensores IoT y agentes de IA de bajo costo están revolucionando la logística. El 46% de las empresas ya los usa para mantenimiento predictivo y visibilidad de la cadena de suministro en tiempo real."
+      icon: "⚡",
+      title: "Hardware y Edge AI",
+      subtitle: "Chips para cargas agénticas",
+      description: "La IA se mueve al borde (Edge) con hardware especializado. Nuevos chips ASIC y aceleradores analógicos optimizan las cargas de trabajo de los agentes, reduciendo latencia y consumo energético."
     },
     {
       id: 4,
       icon: "🛡️",
-      title: "Ciberseguridad y Gobernanza",
-      subtitle: "Blindaje contra amenazas IA",
-      description: "El 87% de las empresas ven las vulnerabilidades de la IA como un riesgo crítico. La gobernanza y el uso de IA defensiva se vuelven obligatorios para protegerse contra ataques automatizados sofisticados."
+      title: "Ciberseguridad Agéntica",
+      subtitle: "Blindaje contra riesgos IA",
+      description: "El 87% de los fabricantes ven las vulnerabilidades de la IA como el mayor riesgo. La tendencia es el uso de IA defensiva y protocolos de validación continua para asegurar la integridad operativa."
     }
   ],
   
   impact: {
-    opportunity: "La consolidación de sistemas agénticos (AOS) posiciona a Bitbot como una herramienta de vanguardia en orquestación de tareas.",
-    action: "Expandir las capacidades de Bitbot para interactuar con sistemas físicos y fortalecer los protocolos de seguridad agéntica."
+    opportunity: "El auge de los AOS (Agentic OS) valida directamente la arquitectura de Bitbot como un orquestador de vanguardia.",
+    action: "Fortalecer la capacidad de Bitbot para operar en el Edge y profundizar en protocolos de ciberseguridad para entornos agénticos."
   },
   
   archive: [
+    {
+      date: "2026-02-09",
+      preview: "IA Física, AOS Middleware, Edge Hardware...",
+      file: "2026-02-09.json"
+    },
     {
       date: "2026-02-08",
       preview: "IA Física, Sistemas Operativos Agénticos, IoT/Edge...",
