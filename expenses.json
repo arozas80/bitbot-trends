@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-09T20:53:31.682328",
+  "updatedAt": "2026-02-09T20:55:29.567498",
   "total": 329645,
   "total_fmt": "$329.645",
   "count": 16,
@@ -38,14 +38,6 @@
     },
     {
       "fecha": "09-02-2026",
-      "descripcion": "Flete Starken (Servivet)",
-      "monto": 13330,
-      "monto_fmt": "$13.330",
-      "factura": "263967738",
-      "comprobante": "https://drive.google.com/file/d/1CUBwL16i_nPEuKGtyh5ZlN0nkcfYN_v6/view?usp=drivesdk"
-    },
-    {
-      "fecha": "09-02-2026",
       "descripcion": "Almuerzo Pronto (Empanada + Coca Cola)",
       "monto": 5600,
       "monto_fmt": "$5.600",
@@ -53,11 +45,19 @@
       "comprobante": "https://drive.google.com/file/d/1yNQ4RpcBoLUqK8IBWI1P6Jh6jsoskkBl/view?usp=drivesdk"
     },
     {
+      "fecha": "09-02-2026",
+      "descripcion": "Insumos Veterinarios",
+      "monto": 13330,
+      "monto_fmt": "$13.330",
+      "factura": "13300732",
+      "comprobante": "https://drive.google.com/file/d/1KeCqobQ1g5jfUrCTAxczRQ-2BCzQC6CJ/view?usp=drivesdk"
+    },
+    {
       "fecha": "06-02-2026",
-      "descripcion": "Lider Providencia (Bolígrafos  Resma  Carpeta  Coca Zero  LSN BLN)",
+      "descripcion": "Lider Providencia (Bolígrafos Resma Carpeta Coca Zero LSN BLN)",
       "monto": 17510,
       "monto_fmt": "$17.510",
-      "factura": "001269619459",
+      "factura": "1269619459",
       "comprobante": "https://drive.google.com/file/d/1C8LQDBRRBEwyaqcRrKGtJchNrcfpaOyD/view?usp=drivesdk"
     },
     {
@@ -70,7 +70,7 @@
     },
     {
       "fecha": "06-02-2026",
-      "descripcion": "Ariex (Tóner Compatible TN1060)",
+      "descripcion": "Ariex (Toner Compatible TN1060)",
       "monto": 12000,
       "monto_fmt": "$12.000",
       "factura": "59200",
@@ -86,7 +86,7 @@
     },
     {
       "fecha": "06-02-2026",
-      "descripcion": "Almuerzo Castaño (Coca Cola Zero + Empanada)",
+      "descripcion": "Almuerzo",
       "monto": 4080,
       "monto_fmt": "$4.080",
       "factura": "185123361",
@@ -110,7 +110,7 @@
     },
     {
       "fecha": "03-02-2026",
-      "descripcion": "Almuerzo (Handroll de Camaron)",
+      "descripcion": "Almuerzo",
       "monto": 10960,
       "monto_fmt": "$10.960",
       "factura": "74593",
