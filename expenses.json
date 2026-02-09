@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-02-09T18:18:49.333Z",
-  "total": 319375,
-  "total_fmt": "$319.375",
-  "count": 15,
+  "updatedAt": "2026-02-09T18:19:14.453Z",
+  "total": 329645,
+  "total_fmt": "$329.645",
+  "count": 16,
   "items": [
+    {
+      "fecha": "2026-02-09",
+      "descripcion": "Flete Starken (Luis Valdivia - Viña)",
+      "monto": 10270,
+      "monto_fmt": "$10.270",
+      "factura": "263967444",
+      "comprobante": "https://drive.google.com/file/d/1D5RgUjEbGEUMAYMY6pU7t7uA5p5FCFlP/view?usp=drivesdk"
+    },
     {
       "fecha": "2026-02-09",
       "descripcion": "Flete Starken (Biosur Chillán)",
