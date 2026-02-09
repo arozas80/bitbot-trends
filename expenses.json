@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-02-09T20:50:37.015252",
-  "total": 342975,
-  "total_fmt": "$342.975",
-  "count": 17,
+  "updatedAt": "2026-02-09T20:53:31.682328",
+  "total": 329645,
+  "total_fmt": "$329.645",
+  "count": 16,
   "items": [
     {
       "fecha": "09-02-2026",
@@ -43,14 +43,6 @@
       "monto_fmt": "$13.330",
       "factura": "263967738",
       "comprobante": "https://drive.google.com/file/d/1CUBwL16i_nPEuKGtyh5ZlN0nkcfYN_v6/view?usp=drivesdk"
-    },
-    {
-      "fecha": "09-02-2026",
-      "descripcion": "Insumos Veterinarios (Servivet)",
-      "monto": 13330,
-      "monto_fmt": "$13.330",
-      "factura": "13300732",
-      "comprobante": "https://drive.google.com/file/d/1KeCqobQ1g5jfUrCTAxczRQ-2BCzQC6CJ/view?usp=drivesdk"
     },
     {
       "fecha": "09-02-2026",
