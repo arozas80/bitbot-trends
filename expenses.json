@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-02-09T18:00:13.471043",
-  "total": 163425,
-  "total_fmt": "$163.425",
-  "count": 10,
+  "updatedAt": "2026-02-09T18:15:15.391Z",
+  "total": 169025,
+  "total_fmt": "$169.025",
+  "count": 11,
   "items": [
+    {
+      "fecha": "2026-02-09",
+      "descripcion": "Almuerzo Pronto (Empanada + Coca Cola)",
+      "monto": 5600,
+      "monto_fmt": "$5.600",
+      "factura": "6626854",
+      "comprobante": "https://drive.google.com/file/d/1ea1EetdruAwFqwIMP3yS-8umYhRlJO41/view?usp=drivesdk"
+    },
     {
       "fecha": "06-02-2026",
       "descripcion": "Lider Providencia (Bolígrafos  Resma  Carpeta  Coca Zero  LSN BLN)",
