@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-02-09T10:00:07+00:00",
+  "generatedAt": "2026-02-09T11:00:06+00:00",
   "hostname": "vps-387ef501",
   "cpu": {
-    "usage": 19,
-    "loadAvg": "0.64"
+    "usage": 3,
+    "loadAvg": "0.88"
   },
   "memory": {
-    "used": 3378,
+    "used": 3029,
     "total": 11675,
-    "percent": 28
+    "percent": 25
   },
   "disk": {
     "used": "26G",
@@ -17,12 +17,11 @@
   },
   "uptime": {
     "days": 4,
-    "hours": 9,
-    "formatted": "4d 9h"
+    "hours": 10,
+    "formatted": "4d 10h"
   },
   "services": {
     "openclaw": "active",
     "nginx": "active"
-  },
-  "sessions": []
+  }
 }
