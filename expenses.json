@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-02-09T18:15:15.391Z",
-  "total": 169025,
-  "total_fmt": "$169.025",
-  "count": 11,
+  "updatedAt": "2026-02-09T18:18:17.677Z",
+  "total": 182355,
+  "total_fmt": "$182.355",
+  "count": 12,
   "items": [
+    {
+      "fecha": "2026-02-09",
+      "descripcion": "Flete Starken (Servivet)",
+      "monto": 13330,
+      "monto_fmt": "$13.330",
+      "factura": "263967738",
+      "comprobante": "https://drive.google.com/file/d/1CUBwL16i_nPEuKGtyh5ZlN0nkcfYN_v6/view?usp=drivesdk"
+    },
     {
       "fecha": "2026-02-09",
       "descripcion": "Almuerzo Pronto (Empanada + Coca Cola)",
