@@ -1,41 +1,9 @@
 {
-  "updatedAt": "2026-02-09T20:55:29.567498",
-  "total": 329645,
-  "total_fmt": "$329.645",
-  "count": 16,
+  "updatedAt": "2026-02-09T20:59:32.027602",
+  "total": 182355,
+  "total_fmt": "$182.355",
+  "count": 12,
   "items": [
-    {
-      "fecha": "09-02-2026",
-      "descripcion": "Flete Starken (Luis Valdivia - Viña)",
-      "monto": 10270,
-      "monto_fmt": "$10.270",
-      "factura": "263967444",
-      "comprobante": "https://drive.google.com/file/d/1D5RgUjEbGEUMAYMY6pU7t7uA5p5FCFlP/view?usp=drivesdk"
-    },
-    {
-      "fecha": "09-02-2026",
-      "descripcion": "Flete Starken (Biosur Chillán)",
-      "monto": 63540,
-      "monto_fmt": "$63.540",
-      "factura": "263964532",
-      "comprobante": "https://drive.google.com/file/d/1Uqs3iBDPU0KfTPUnY1YhafZaWmGGi-ni/view?usp=drivesdk"
-    },
-    {
-      "fecha": "09-02-2026",
-      "descripcion": "Flete Starken (Biosur Los Ángeles)",
-      "monto": 27840,
-      "monto_fmt": "$27.840",
-      "factura": "263967171",
-      "comprobante": "https://drive.google.com/file/d/1yRAgnzS20OC0Orn5fUryvEuUPPAXUQoS/view?usp=drivesdk"
-    },
-    {
-      "fecha": "09-02-2026",
-      "descripcion": "Flete Starken (Biosur Osorno)",
-      "monto": 45640,
-      "monto_fmt": "$45.640",
-      "factura": "263966393",
-      "comprobante": "https://drive.google.com/file/d/1Ya9SIvAtaO8EOb4k4aCSPedUHZ5PkRSR/view?usp=drivesdk"
-    },
     {
       "fecha": "09-02-2026",
       "descripcion": "Almuerzo Pronto (Empanada + Coca Cola)",
