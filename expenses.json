@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-02-09T18:18:29.517Z",
-  "total": 227995,
-  "total_fmt": "$227.995",
-  "count": 13,
+  "updatedAt": "2026-02-09T18:18:41.992Z",
+  "total": 255835,
+  "total_fmt": "$255.835",
+  "count": 14,
   "items": [
+    {
+      "fecha": "2026-02-09",
+      "descripcion": "Flete Starken (Biosur Los Ángeles)",
+      "monto": 27840,
+      "monto_fmt": "$27.840",
+      "factura": "263967171",
+      "comprobante": "https://drive.google.com/file/d/1yRAgnzS20OC0Orn5fUryvEuUPPAXUQoS/view?usp=drivesdk"
+    },
     {
       "fecha": "2026-02-09",
       "descripcion": "Flete Starken (Biosur Osorno)",
