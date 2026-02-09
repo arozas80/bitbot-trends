@@ -1,9 +1,65 @@
 {
-  "updatedAt": "2026-02-09T20:00:06.423993",
-  "total": 163425,
-  "total_fmt": "$163.425",
-  "count": 10,
+  "updatedAt": "2026-02-09T20:50:37.015252",
+  "total": 342975,
+  "total_fmt": "$342.975",
+  "count": 17,
   "items": [
+    {
+      "fecha": "09-02-2026",
+      "descripcion": "Flete Starken (Luis Valdivia - Viña)",
+      "monto": 10270,
+      "monto_fmt": "$10.270",
+      "factura": "263967444",
+      "comprobante": "https://drive.google.com/file/d/1D5RgUjEbGEUMAYMY6pU7t7uA5p5FCFlP/view?usp=drivesdk"
+    },
+    {
+      "fecha": "09-02-2026",
+      "descripcion": "Flete Starken (Biosur Chillán)",
+      "monto": 63540,
+      "monto_fmt": "$63.540",
+      "factura": "263964532",
+      "comprobante": "https://drive.google.com/file/d/1Uqs3iBDPU0KfTPUnY1YhafZaWmGGi-ni/view?usp=drivesdk"
+    },
+    {
+      "fecha": "09-02-2026",
+      "descripcion": "Flete Starken (Biosur Los Ángeles)",
+      "monto": 27840,
+      "monto_fmt": "$27.840",
+      "factura": "263967171",
+      "comprobante": "https://drive.google.com/file/d/1yRAgnzS20OC0Orn5fUryvEuUPPAXUQoS/view?usp=drivesdk"
+    },
+    {
+      "fecha": "09-02-2026",
+      "descripcion": "Flete Starken (Biosur Osorno)",
+      "monto": 45640,
+      "monto_fmt": "$45.640",
+      "factura": "263966393",
+      "comprobante": "https://drive.google.com/file/d/1Ya9SIvAtaO8EOb4k4aCSPedUHZ5PkRSR/view?usp=drivesdk"
+    },
+    {
+      "fecha": "09-02-2026",
+      "descripcion": "Flete Starken (Servivet)",
+      "monto": 13330,
+      "monto_fmt": "$13.330",
+      "factura": "263967738",
+      "comprobante": "https://drive.google.com/file/d/1CUBwL16i_nPEuKGtyh5ZlN0nkcfYN_v6/view?usp=drivesdk"
+    },
+    {
+      "fecha": "09-02-2026",
+      "descripcion": "Insumos Veterinarios (Servivet)",
+      "monto": 13330,
+      "monto_fmt": "$13.330",
+      "factura": "13300732",
+      "comprobante": "https://drive.google.com/file/d/1KeCqobQ1g5jfUrCTAxczRQ-2BCzQC6CJ/view?usp=drivesdk"
+    },
+    {
+      "fecha": "09-02-2026",
+      "descripcion": "Almuerzo Pronto (Empanada + Coca Cola)",
+      "monto": 5600,
+      "monto_fmt": "$5.600",
+      "factura": "6626854",
+      "comprobante": "https://drive.google.com/file/d/1yNQ4RpcBoLUqK8IBWI1P6Jh6jsoskkBl/view?usp=drivesdk"
+    },
     {
       "fecha": "06-02-2026",
       "descripcion": "Lider Providencia (Bolígrafos  Resma  Carpeta  Coca Zero  LSN BLN)",
