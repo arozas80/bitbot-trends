@@ -8,7 +8,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function refreshData() {
   loadMetrics();
-  loadLeads();
   loadTrends();
   loadProjects();
   loadTasks();

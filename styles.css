@@ -272,7 +272,8 @@ body {
   background: var(--bg-card);
   border: 1px solid var(--border-standard);
   border-radius: 16px;
-  overflow: hidden;
+  overflow-y: auto;
+  max-height: 600px; /* Force scroll within lists if they get too long */
 }
 
 .list-item {
