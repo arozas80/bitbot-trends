@@ -1,10 +1,9 @@
-// Bitbot Command Center - Main Application
+// Bitbot Command Center v2.0 - Application Logic
 
 document.addEventListener('DOMContentLoaded', () => {
   initTabs();
   refreshData();
-  // Auto-refresh cada 30 segundos
-  setInterval(refreshData, 30000);
+  setInterval(refreshData, 30000); // 30s refresh
 });
 
 function refreshData() {
@@ -16,298 +15,190 @@ function refreshData() {
   loadExpenses();
 }
 
-async function executeAction(action) {
-    if (!confirm(`¿Confirmas ejecutar la acción: ${action}?`)) return;
-    
-    console.log(`Ejecutando acción dashboard: ${action}`);
-    alert(`🤖 Bitbot: Acción '${action}' iniciada en el servidor.`);
-    // En el futuro esto disparará un webhook a n8n o una API local
-}
-
-// === Load Leads ===
-async function loadLeads() {
-  try {
-    const res = await fetch('leads.json');
-    const leads = await res.json();
-    
-    document.getElementById('leadsCount').textContent = `${leads.length} detectados hoy`;
-    
-    const leadsHtml = leads.map(lead => {
-      const isCritical = lead.notes.includes('Lorem Ipsum') || lead.notes.includes('abandonado');
-      const badgeClass = isCritical ? 'offline' : 'online';
-      const badgeText = isCritical ? 'CRÍTICO' : 'OPORTUNIDAD';
-
-      return `
-      <div class="activity-item" style="display: flex; align-items: flex-start; gap: 16px; padding: 16px; border-left: 4px solid ${isCritical ? '#ff4444' : '#ff9800'}; margin-bottom: 12px; background: rgba(255,255,255,0.03);">
-        <div style="flex: 1;">
-          <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 4px;">
-            <span style="font-weight: 700; color: var(--text-primary); font-size: 1.1rem;">${lead.name}</span>
-            <span class="status-badge ${badgeClass}" style="font-size: 0.6rem;">${badgeText}</span>
-          </div>
-          <div style="font-size: 0.85rem; color: var(--accent-primary); font-family: var(--font-mono); margin-bottom: 8px;">
-            <a href="${lead.website}" target="_blank" style="color: inherit; text-decoration: none;">${lead.website}</a>
-          </div>
-          <div style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.4;">
-            ${lead.notes}
-          </div>
-        </div>
-        <div style="text-align: right; min-width: 120px;">
-          <div style="font-weight: 600; color: var(--text-primary); font-size: 0.9rem;">${lead.phone}</div>
-          <button class="nav-tab" style="margin-top: 10px; padding: 6px 12px; font-size: 0.75rem; background: var(--accent-primary); color: #000; border: none; border-radius: 4px; cursor: pointer;" onclick="alert('Funcionalidad de contacto automático en desarrollo')">
-            CONTACTAR
-          </button>
-        </div>
-      </div>
-    `}).join('');
-    
-    document.getElementById('leadsList').innerHTML = leadsHtml || '<p class="loading">No hay prospectos detectados</p>';
-    
-  } catch (err) {
-    console.error('Error loading leads:', err);
-  }
-}
-
-// === Tab Navigation ===
 function initTabs() {
-  const tabs = document.querySelectorAll('.nav-tab');
+  const tabs = document.querySelectorAll('.nav-item');
+  const title = document.getElementById('activeTabTitle');
+  
   tabs.forEach(tab => {
     tab.addEventListener('click', () => {
+      // Sidebar UI
       tabs.forEach(t => t.classList.remove('active'));
       tab.classList.add('active');
       
-      document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
-      document.getElementById(`tab-${tab.dataset.tab}`).classList.add('active');
+      // Content UI
+      const targetId = tab.dataset.tab;
+      document.querySelectorAll('.tab-pane').forEach(p => p.classList.remove('active'));
+      document.getElementById(`tab-${targetId}`).classList.add('active');
+      
+      // Title
+      title.textContent = tab.querySelector('.nav-text').textContent;
     });
   });
 }
 
-// === Load Metrics ===
+// === API / Data Loading ===
+
 async function loadMetrics() {
   try {
     const res = await fetch('metrics.json');
     const data = await res.json();
     
-    document.getElementById('cpuUsage').textContent = `${data.cpu.usage}%`;
-    document.getElementById('cpuBar').style.width = `${data.cpu.usage}%`;
+    // Core Metrics
+    updateMetric('cpuUsage', 'cpuBar', data.cpu.usage);
+    updateMetric('memUsage', 'memBar', data.memory.percent);
+    updateMetric('diskUsage', 'diskBar', data.disk.percent);
     
-    document.getElementById('memUsage').textContent = `${data.memory.percent}%`;
-    document.getElementById('memBar').style.width = `${data.memory.percent}%`;
+    document.getElementById('hostname').textContent = data.hostname;
+    document.getElementById('lastUpdate').textContent = `Sync: ${formatTime(data.generatedAt)}`;
     
-    document.getElementById('diskUsage').textContent = `${data.disk.percent}%`;
-    document.getElementById('diskBar').style.width = `${data.disk.percent}%`;
-    
-    document.getElementById('uptime').textContent = data.uptime.formatted;
-    
-    // Sessions / Tokens
+    // Sessions
     if (data.sessions) {
-      const sessionsHtml = data.sessions.map(s => `
-        <div class="metric-card ${s.status}">
-          <div class="metric-info" style="width: 100%">
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
-              <span class="metric-label" style="font-size: 0.8rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 180px;">${s.key}</span>
-              <span class="metric-value" style="font-size: 0.9rem;">${s.percent}%</span>
-            </div>
-            <div class="metric-bar"><div class="metric-fill" style="width: ${s.percent}%"></div></div>
-            <div style="display: flex; justify-content: space-between; font-size: 0.7rem; margin-top: 6px; color: var(--text-muted);">
-              <span>${s.model}</span>
-              <span>${s.usage} tokens</span>
-            </div>
+      document.getElementById('sessionsGrid').innerHTML = data.sessions.map(s => `
+        <div class="card ${s.status}">
+          <div class="card-header">
+            <div class="card-title">${s.key}</div>
+            <div style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--accent-cyan);">${s.percent}%</div>
+          </div>
+          <div class="progress-container"><div class="progress-bar" style="width: ${s.percent}%"></div></div>
+          <div style="display: flex; justify-content: space-between; font-size: 0.7rem; margin-top: 12px; color: var(--text-muted); font-family: var(--font-mono);">
+            <span>${s.model}</span>
+            <span>${s.usage} TOKENS</span>
           </div>
         </div>
       `).join('');
-      document.getElementById('sessionsGrid').innerHTML = sessionsHtml;
     }
-
-    const servicesHtml = Object.entries(data.services).map(([name, status]) => `
-      <div class="service-badge">
-        <span class="dot ${status === 'active' ? 'active' : 'inactive'}"></span>
-        <span>${name}</span>
-      </div>
-    `).join('');
-    document.getElementById('servicesGrid').innerHTML = servicesHtml;
-    
-    document.getElementById('hostname').textContent = data.hostname;
-    document.getElementById('metricsTime').textContent = formatDateTime(data.generatedAt);
-    document.getElementById('lastUpdate').textContent = `Actualizado ${getTimeAgo(new Date(data.generatedAt))}`;
-    
   } catch (err) {
-    console.error('Error loading metrics:', err);
-    document.getElementById('systemStatus').textContent = '● Offline';
-    document.getElementById('systemStatus').classList.remove('online');
-    document.getElementById('systemStatus').classList.add('offline');
+    console.error('Metrics error:', err);
+    document.getElementById('systemStatusText').textContent = 'OFFLINE';
+    document.querySelector('.status-dot').style.backgroundColor = '#f87171';
   }
 }
 
-// === Load Trends ===
-function loadTrends() {
+async function loadLeads() {
+  try {
+    const res = await fetch('leads.json');
+    const leads = await res.json();
+    
+    document.getElementById('leadsList').innerHTML = leads.map(l => {
+      const isCritical = l.notes.includes('Lorem Ipsum') || l.notes.includes('abandonado');
+      const badge = isCritical ? '<span style="color:#f87171">[CRÍTICO]</span>' : '<span style="color:var(--accent-cyan)">[PROSPECTO]</span>';
+      
+      return `
+        <div class="list-item">
+          <div class="item-icon">${isCritical ? '🚨' : '🎯'}</div>
+          <div class="item-body">
+            <div class="item-title">${badge} ${l.name}</div>
+            <div class="item-meta">
+              <span>${l.website}</span>
+              <span>${l.phone}</span>
+            </div>
+            <div style="margin-top: 8px; font-size: 0.9rem; color: var(--text-secondary);">${l.notes}</div>
+          </div>
+          <button class="nav-item" style="padding: 8px 16px; border-radius: 8px; border: 1px solid var(--border-glow); font-size: 0.7rem;">Cerrar Venta</button>
+        </div>
+      `;
+    }).join('');
+  } catch (err) { console.error('Leads error:', err); }
+}
+
+async function loadTrends() {
   if (typeof trendsData === 'undefined') return;
-  
   document.getElementById('currentDate').textContent = trendsData.currentDate;
   document.getElementById('executiveSummary').textContent = trendsData.executiveSummary;
   
-  const trendsHtml = trendsData.trends.map(trend => `
-    <article class="trend-card">
-      <div class="trend-number">TREND #${String(trend.id).padStart(2, '0')}</div>
-      <div class="trend-icon">${trend.icon}</div>
-      <h3>${trend.title}</h3>
-      <p>${trend.description}</p>
-    </article>
+  document.getElementById('trendsGrid').innerHTML = trendsData.trends.map(t => `
+    <div class="card">
+      <div class="card-icon" style="margin-bottom: 16px;">${t.icon}</div>
+      <div class="card-title" style="color: var(--accent-cyan); font-family: var(--font-mono); font-size: 0.7rem;">TREND #${t.id}</div>
+      <div class="item-title" style="margin: 8px 0 12px 0;">${t.title}</div>
+      <p style="font-size: 0.85rem; color: var(--text-secondary); line-height: 1.5;">${t.description}</p>
+    </div>
   `).join('');
-  document.getElementById('trendsGrid').innerHTML = trendsHtml;
-  
-  document.getElementById('impactContent').innerHTML = `
-    <p><span class="opportunity">🎯 Oportunidad:</span> ${trendsData.impact.opportunity}</p>
-    <p style="margin-top: 12px;"><span class="action">⚡ Acción Sugerida:</span> ${trendsData.impact.action}</p>
-  `;
 }
 
-// === Load Projects ===
 async function loadProjects() {
   try {
     const res = await fetch('projects.json');
     const data = await res.json();
     
-    const projectsHtml = data.projects.map(project => `
-      <div class="project-card">
-        <div class="project-header">
-          <span class="project-icon">${project.icon}</span>
-          <span class="project-name">${project.name}</span>
-          <span class="project-status">${project.status.toUpperCase()}</span>
+    document.getElementById('projectsGrid').innerHTML = data.projects.map(p => `
+      <div class="card">
+        <div class="card-header">
+           <div class="item-title">${p.icon} ${p.name}</div>
+           <span style="font-size: 0.6rem; padding: 2px 8px; background: rgba(34, 211, 238, 0.1); color: var(--accent-cyan); border-radius: 4px; font-family: var(--font-mono);">${p.status.toUpperCase()}</span>
         </div>
-        <p class="project-desc">${project.description}</p>
-        <div class="project-milestones">
-          ${project.milestones.slice(-3).map(m => `
-            <div class="milestone">
-              <span class="date">${formatShortDate(m.date)}</span>
-              <span class="text">${m.text}</span>
-            </div>
-          `).join('')}
+        <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 16px;">${p.description}</p>
+        <div style="border-top: 1px solid var(--border-standard); padding-top: 12px;">
+           ${p.milestones.slice(-2).map(m => `
+             <div style="font-size: 0.75rem; margin-bottom: 4px; display: flex; gap: 8px;">
+               <span style="color: var(--text-muted); font-family: var(--font-mono);">${m.date}</span>
+               <span style="color: var(--text-secondary);">→ ${m.text}</span>
+             </div>
+           `).join('')}
         </div>
       </div>
     `).join('');
-    document.getElementById('projectsGrid').innerHTML = projectsHtml;
     
-    const activityHtml = data.activity.slice(0, 5).map(a => `
-      <div class="activity-item">
-        <span class="icon">${getActivityIcon(a.type)}</span>
-        <span class="text">${a.text}</span>
-        <span class="date">${formatShortDate(a.date)}</span>
-      </div>
-    `).join('');
-    document.getElementById('activityList').innerHTML = activityHtml;
-    
-  } catch (err) {
-    console.error('Error loading projects:', err);
-  }
+    // Update small activity list in overview if needed
+  } catch (err) { console.error('Projects error:', err); }
 }
 
-// === Load Tasks & Cron ===
 async function loadTasks() {
   try {
     const res = await fetch('tasks.json');
     const data = await res.json();
     
-    const todoHtml = data.todos.map(todo => `
-      <div class="activity-item">
-        <span class="icon">${todo.status === 'urgent' ? '🚨' : '📌'}</span>
-        <span class="text" style="${todo.status === 'done' ? 'text-decoration: line-through; opacity: 0.5' : ''}">${todo.text}</span>
-        <span class="date">${todo.status.toUpperCase()}</span>
+    document.getElementById('todoList').innerHTML = data.todos.map(t => `
+      <div class="list-item">
+        <div class="item-icon">${t.status === 'urgent' ? '🚨' : '📌'}</div>
+        <div class="item-body">
+          <div class="item-title" style="${t.status === 'done' ? 'text-decoration: line-through; opacity: 0.5' : ''}">${t.text}</div>
+          <div class="item-meta">PRIORIDAD: ${t.status.toUpperCase()}</div>
+        </div>
       </div>
     `).join('');
-    document.getElementById('todoList').innerHTML = todoHtml || '<p class="loading">No hay tareas pendientes</p>';
     
-    const cronHtml = data.cronJobs.map(job => `
-      <div class="activity-item">
-        <span class="icon">⏰</span>
-        <span class="text">${job.name}</span>
-        <span class="date">${job.schedule}</span>
+    document.getElementById('cronList').innerHTML = data.cronJobs.map(c => `
+       <div class="list-item">
+        <div class="item-icon">⏰</div>
+        <div class="item-body">
+          <div class="item-title">${c.name}</div>
+          <div class="item-meta">SKELETON: ${c.schedule}</div>
+        </div>
       </div>
     `).join('');
-    document.getElementById('cronList').innerHTML = cronHtml || '<p class="loading">No hay crons configurados</p>';
-    
-  } catch (err) {
-    console.error('Error loading tasks:', err);
-  }
+  } catch (err) { console.error('Tasks error:', err); }
 }
 
-// === Load Expenses ===
 async function loadExpenses() {
   try {
     const res = await fetch('expenses.json');
     const data = await res.json();
     
-    const budget = 400000;
-    const spent = data.total || 0;
-    const remaining = budget - spent;
-
     document.getElementById('totalExpenses').textContent = data.total_fmt;
-    document.getElementById('remainingBalance').textContent = `$${remaining.toLocaleString('es-CL')}`;
+    document.getElementById('remainingBalance').textContent = `$${(400000 - data.total).toLocaleString('es-CL')}`;
     
-    const expensesHtml = data.items.map(item => {
-      const hasDriveLink = item.comprobante && item.comprobante.includes('drive.google.com');
-      const clickAction = hasDriveLink ? `onclick="window.open('${item.comprobante}', '_blank')"` : '';
-      const cursorStyle = hasDriveLink ? 'cursor: pointer;' : 'cursor: default;';
-      const linkBadge = hasDriveLink ? '<span class="status-badge online" style="font-size: 0.6rem; padding: 2px 6px;">Drive 🔗</span>' : '';
-
-      return `
-      <div class="activity-item" style="${cursorStyle} display: flex; align-items: center; gap: 16px; padding: 16px;" ${clickAction}>
-        <span class="icon" style="font-size: 1.5rem;">🧾</span>
-        <div class="text" style="flex: 1; min-width: 0;">
-           <div style="font-weight: 600; color: var(--text-primary); white-space: normal; word-break: break-word; display: flex; align-items: center; gap: 8px;">
-              ${item.descripcion}
-              ${linkBadge}
-           </div>
-           <div style="font-size: 0.8rem; color: var(--text-muted); margin-top: 4px;">Doc: #${item.factura}</div>
+    document.getElementById('expensesList').innerHTML = data.items.map(i => `
+       <div class="list-item">
+        <div class="item-icon">🧾</div>
+        <div class="item-body">
+          <div class="item-title">${i.descripcion}</div>
+          <div class="item-meta">DOC: #${i.factura} | ${i.fecha}</div>
         </div>
-        <div style="text-align: right; min-width: 100px;">
-           <div style="font-family: var(--font-mono); font-weight: 700; color: var(--accent-primary); font-size: 1.1rem;">${item.monto_fmt}</div>
-           <div class="date" style="font-size: 0.75rem; color: var(--text-muted); margin-top: 4px;">${item.fecha}</div>
-        </div>
+        <div style="font-family: var(--font-mono); font-weight: 700; color: var(--accent-cyan);">${i.monto_fmt}</div>
       </div>
-    `}).join('');
-    
-    document.getElementById('expensesList').innerHTML = expensesHtml || '<p class="loading">No hay gastos registrados</p>';
-    
-  } catch (err) {
-    console.error('Error loading expenses:', err);
-  }
+    `).join('');
+  } catch (err) { console.error('Expenses error:', err); }
 }
 
-// === Helpers ===
-function getTimeAgo(date) {
-  const now = new Date();
-  const diffMs = now - date;
-  const diffMins = Math.floor(diffMs / 60000);
-  const diffHours = Math.floor(diffMs / 3600000);
-  const diffDays = Math.floor(diffMs / 86400000);
-  
-  if (diffMins < 1) return 'hace un momento';
-  if (diffMins < 60) return `hace ${diffMins} min`;
-  if (diffHours < 24) return `hace ${diffHours}h`;
-  if (diffDays === 1) return 'ayer';
-  return `hace ${diffDays} días`;
+// === UI Helpers ===
+
+function updateMetric(valId, barId, value) {
+  document.getElementById(valId).textContent = `${value}%`;
+  document.getElementById(barId).style.width = `${value}%`;
 }
 
-function formatDateTime(isoString) {
-  const date = new Date(isoString);
-  return date.toLocaleString('es-CL', { 
-    day: '2-digit', month: 'short', hour: '2-digit', minute: '2-digit'
-  });
-}
-
-function formatShortDate(dateStr) {
-  const date = new Date(dateStr + 'T00:00:00');
-  return date.toLocaleDateString('es-CL', { day: 'numeric', month: 'short' });
-}
-
-function getActivityIcon(type) {
-  const icons = {
-    deploy: '🚀',
-    config: '⚙️',
-    backup: '💾',
-    setup: '🔧',
-    security: '🔒',
-    update: '📦'
-  };
-  return icons[type] || '📌';
+function formatTime(iso) {
+  const d = new Date(iso);
+  return d.toLocaleTimeString('es-CL', { hour: '2-digit', minute: '2-digit' });
 }

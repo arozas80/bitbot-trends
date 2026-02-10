@@ -3,8 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bitbot Command Center | Dashboard</title>
-  <meta name="description" content="Centro de comando de Bitbot - Métricas, tendencias y proyectos">
+  <title>Bitbot Command Center v2.0</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -13,209 +12,173 @@
 <body>
   <div class="matrix-bg"></div>
   
-  <header class="header">
-    <div class="container">
-      <div class="logo">
-        <span class="logo-icon">🤖</span>
-        <span class="logo-text">Bitbot <span class="accent">Command Center</span></span>
-      </div>
-      <nav class="nav-tabs">
-        <button class="nav-tab active" data-tab="overview">Overview</button>
-        <button class="nav-tab" data-tab="leads">Leads</button>
-        <button class="nav-tab" data-tab="trends">Tendencias</button>
-        <button class="nav-tab" data-tab="expenses">Gastos</button>
-        <button class="nav-tab" data-tab="projects">Proyectos</button>
-        <button class="nav-tab" data-tab="tasks">Tareas</button>
-        <a class="nav-tab" href="usecases.html" style="text-decoration:none; display:inline-flex; align-items:center;">Casos de uso</a>
-      </nav>
-      <div class="header-meta">
-        <span class="update-badge" id="lastUpdate">Cargando...</span>
-      </div>
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="sidebar-brand">
+      <img src="bitbot-logo.svg" alt="Bitbot Logo" class="sidebar-logo">
+      <div class="brand-name">Bit<span>bot</span></div>
     </div>
-  </header>
+    
+    <nav class="sidebar-nav">
+      <button class="nav-item active" data-tab="overview">
+        <span class="nav-icon">📊</span> <span class="nav-text">Overview</span>
+      </button>
+      <button class="nav-item" data-tab="leads">
+        <span class="nav-icon">🔍</span> <span class="nav-text">Leads Hunter</span>
+      </button>
+      <button class="nav-item" data-tab="trends">
+        <span class="nav-icon">🚀</span> <span class="nav-text">Tendencias</span>
+      </button>
+      <button class="nav-item" data-tab="expenses">
+        <span class="nav-icon">💰</span> <span class="nav-text">Gastos</span>
+      </button>
+      <button class="nav-item" data-tab="projects">
+        <span class="nav-icon">📂</span> <span class="nav-text">Proyectos</span>
+      </button>
+      <button class="nav-item" data-tab="tasks">
+        <span class="nav-icon">✅</span> <span class="nav-text">Tareas & Crons</span>
+      </button>
+    </nav>
+    
+    <div class="sidebar-footer">
+      <p>v2.0.4 "Antigravity"</p>
+      <p id="hostname">vps-387ef501</p>
+    </div>
+  </aside>
 
-  <main class="main">
-    <div class="container">
+  <!-- Content -->
+  <main class="content">
+    <header class="top-bar">
+      <h1 class="page-title" id="activeTabTitle">Overview</h1>
+      <div class="top-bar-meta">
+        <div class="status-indicator">
+          <div class="status-dot"></div>
+          <span id="systemStatusText">SYSTEM ONLINE</span>
+        </div>
+        <div class="update-badge" id="lastUpdate">Cargando...</div>
+      </div>
+    </header>
+
+    <div class="main-scroll">
       
       <!-- TAB: Overview -->
-      <section class="tab-content active" id="tab-overview">
-        <!-- System Metrics -->
-        <div class="section-header">
-          <h2><span class="terminal-prompt">$</span> Estado del Sistema</h2>
-          <span class="status-badge online" id="systemStatus">● Online</span>
-        </div>
-        
-        <div class="metrics-grid">
-          <div class="metric-card">
-            <div class="metric-icon">⚡</div>
-            <div class="metric-info">
-              <span class="metric-label">CPU</span>
-              <span class="metric-value" id="cpuUsage">--</span>
-              <div class="metric-bar"><div class="metric-fill" id="cpuBar" style="width: 0%"></div></div>
+      <section class="tab-pane active" id="tab-overview">
+        <div class="grid">
+          <div class="card">
+            <div class="card-header">
+              <div class="card-title">CARGA CPU</div>
+              <div class="card-icon">⚡</div>
             </div>
+            <div class="card-value" id="cpuUsage">--%</div>
+            <div class="progress-container"><div class="progress-bar" id="cpuBar" style="width: 0%"></div></div>
           </div>
           
-          <div class="metric-card">
-            <div class="metric-icon">🧠</div>
-            <div class="metric-info">
-              <span class="metric-label">Memoria</span>
-              <span class="metric-value" id="memUsage">--</span>
-              <div class="metric-bar"><div class="metric-fill" id="memBar" style="width: 0%"></div></div>
+          <div class="card">
+            <div class="card-header">
+              <div class="card-title">MEMORIA RAM</div>
+              <div class="card-icon">🧠</div>
             </div>
+            <div class="card-value" id="memUsage">--%</div>
+            <div class="progress-container"><div class="progress-bar" id="memBar" style="width: 0%"></div></div>
           </div>
           
-          <div class="metric-card">
-            <div class="metric-icon">💾</div>
-            <div class="metric-info">
-              <span class="metric-label">Disco</span>
-              <span class="metric-value" id="diskUsage">--</span>
-              <div class="metric-bar"><div class="metric-fill" id="diskBar" style="width: 0%"></div></div>
+          <div class="card">
+            <div class="card-header">
+              <div class="card-title">DISCO SSD</div>
+              <div class="card-icon">💾</div>
             </div>
-          </div>
-          
-          <div class="metric-card">
-            <div class="metric-icon">⏱️</div>
-            <div class="metric-info">
-              <span class="metric-label">Uptime</span>
-              <span class="metric-value" id="uptime">--</span>
-            </div>
+            <div class="card-value" id="diskUsage">--%</div>
+            <div class="progress-container"><div class="progress-bar" id="diskBar" style="width: 0%"></div></div>
           </div>
         </div>
 
-        <!-- Token Usage (New) -->
-        <div class="section-header" style="margin-top: 48px;">
-          <h2><span class="terminal-prompt">$</span> Uso de Tokens (Contexto)</h2>
-        </div>
-        <div class="metrics-grid" id="sessionsGrid" style="grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));">
+        <h3 style="margin-bottom: 20px; font-family: var(--font-mono); color: var(--accent-cyan);">// SESIONES ACTIVAS (TOKENS)</h3>
+        <div class="grid" id="sessionsGrid">
           <!-- Loaded dynamically -->
         </div>
 
-        <!-- Services Status -->
-        <div class="section-header" style="margin-top: 48px;">
-          <h2><span class="terminal-prompt">$</span> Servicios</h2>
-        </div>
-        
-        <div class="services-grid" id="servicesGrid">
-          <!-- Loaded dynamically -->
-        </div>
-
-        <!-- Recent Activity -->
-        <div class="section-header" style="margin-top: 48px;">
-          <h2><span class="terminal-prompt">$</span> Actividad Reciente</h2>
-        </div>
-        
-        <div class="activity-list" id="activityList">
+        <h3 style="margin-bottom: 20px; font-family: var(--font-mono); color: var(--accent-cyan); margin-top: 40px;">// ACTIVIDAD RECIENTE</h3>
+        <div class="list-container" id="activityList">
           <!-- Loaded dynamically -->
         </div>
       </section>
 
-      <!-- TAB: Leads Hunter -->
-      <section class="tab-content" id="tab-leads">
-        <div class="section-header">
-          <h2><span class="terminal-prompt">$</span> Lead Hunter (Prospectos)</h2>
-          <span class="status-badge" id="leadsCount">0 detectados hoy</span>
+      <!-- TAB: Leads -->
+      <section class="tab-pane" id="tab-leads">
+        <div class="grid" style="grid-template-columns: 1fr;">
+          <div class="card" style="border-left: 4px solid var(--accent-cyan);">
+            <div class="card-title">RADAR DE OPORTUNIDADES</div>
+            <p style="color: var(--text-secondary); margin-top: 8px;">Scraping automático de nichos de alto ticket. Los puntos marcados en rojo requieren intervención inmediata.</p>
+          </div>
         </div>
-        
-        <div class="summary-card" style="margin-bottom: 32px; border-left-color: #ff9800;">
-          <h3><span class="icon">🔍</span> Radar de Oportunidades</h3>
-          <p>Scrapeo automático de nichos con auditoría de presencia digital. Rojo = Oportunidad Crítica.</p>
-        </div>
-        
-        <div class="activity-list" id="leadsList">
-          <div class="loading">Buscando prospectos calientes...</div>
+        <div class="list-container" id="leadsList">
+          <!-- Loaded dynamically -->
         </div>
       </section>
 
       <!-- TAB: Trends -->
-      <section class="tab-content" id="tab-trends">
-        <div class="section-header">
-          <h2><span class="terminal-prompt">$</span> Tendencias del Día</h2>
-          <span class="date-badge" id="currentDate"></span>
+      <section class="tab-pane" id="tab-trends">
+        <div class="grid">
+          <div class="card" style="grid-column: span 2;">
+            <div class="card-header">
+              <div class="card-title">RESUMEN EJECUTIVO</div>
+              <div class="card-icon">📊</div>
+            </div>
+            <p id="executiveSummary" style="font-size: 1.1rem; line-height: 1.6;">Cargando...</p>
+          </div>
+          <div class="card" id="dateCard">
+            <div class="card-header">
+              <div class="card-title">FECHA</div>
+              <div class="card-icon">📅</div>
+            </div>
+            <div class="card-value" id="currentDate" style="font-size: 1.5rem;">--</div>
+          </div>
         </div>
         
-        <div class="summary-card" style="margin-bottom: 32px;">
-          <h3><span class="icon">📊</span> Resumen Ejecutivo</h3>
-          <p id="executiveSummary">Cargando...</p>
-        </div>
-        
-        <div class="trends-grid" id="trendsGrid">
-          <!-- Trends loaded dynamically -->
-        </div>
-
-        <div class="impact-card" style="margin-top: 32px;">
-          <h3><span class="icon">💡</span> Impacto & Acción</h3>
-          <div id="impactContent">Cargando...</div>
+        <div class="grid" id="trendsGrid">
+          <!-- Trends -->
         </div>
       </section>
 
       <!-- TAB: Expenses -->
-      <section class="tab-content" id="tab-expenses">
-        <div class="section-header">
-          <h2><span class="terminal-prompt">$</span> Registro de Gastos (Servivet)</h2>
-        </div>
-        <div class="metrics-grid" style="margin-bottom: 24px;">
-          <div class="metric-card">
-            <div class="metric-info">
-              <span class="metric-label">Presupuesto Inicial</span>
-              <span class="metric-value">$400.000</span>
-            </div>
+      <section class="tab-pane" id="tab-expenses">
+        <div class="grid">
+          <div class="card">
+            <div class="card-title">TOTAL GASTOS MES</div>
+            <div class="card-value" id="totalExpenses">--</div>
           </div>
-          <div class="metric-card">
-            <div class="metric-info">
-              <span class="metric-label">Total Gastos (Mes)</span>
-              <span class="metric-value" id="totalExpenses">--</span>
-            </div>
-          </div>
-          <div class="metric-card highlight">
-            <div class="metric-info">
-              <span class="metric-label">Saldo Disponible</span>
-              <span class="metric-value" id="remainingBalance">--</span>
-            </div>
+          <div class="card" style="border: 1px solid var(--accent-cyan);">
+            <div class="card-title">SALDO DISPONIBLE</div>
+            <div class="card-value" id="remainingBalance" style="color: var(--accent-cyan);">--</div>
           </div>
         </div>
-        <div class="activity-list" id="expensesList">
-          <!-- Loaded dynamically as a table/list -->
-          <div class="loading">Cargando gastos...</div>
+        <div class="list-container" id="expensesList">
+          <!-- Loaded dynamically -->
         </div>
       </section>
 
       <!-- TAB: Projects -->
-      <section class="tab-content" id="tab-projects">
-        <div class="section-header">
-          <h2><span class="terminal-prompt">$</span> Proyectos Activos</h2>
-        </div>
-        
-        <div class="projects-grid" id="projectsGrid">
-          <!-- Projects loaded dynamically -->
+      <section class="tab-pane" id="tab-projects">
+        <div class="grid" id="projectsGrid">
+          <!-- Loaded dynamically -->
         </div>
       </section>
 
       <!-- TAB: Tasks -->
-      <section class="tab-content" id="tab-tasks">
-        <div class="section-header">
-          <h2><span class="terminal-prompt">$</span> Tareas Pendientes (TODO)</h2>
-        </div>
-        <div class="activity-list" id="todoList">
+      <section class="tab-pane" id="tab-tasks">
+        <h3 style="margin-bottom: 20px; font-family: var(--font-mono); color: var(--accent-cyan);">// LISTA DE TAREAS</h3>
+        <div class="list-container" id="todoList" style="margin-bottom: 40px;">
           <!-- Loaded dynamically -->
         </div>
-
-        <div class="section-header" style="margin-top: 48px;">
-          <h2><span class="terminal-prompt">$</span> Automatizaciones (Cron)</h2>
-        </div>
-        <div class="activity-list" id="cronList">
+        
+        <h3 style="margin-bottom: 20px; font-family: var(--font-mono); color: var(--accent-cyan);">// CRON JOBS ACTIVOS</h3>
+        <div class="list-container" id="cronList">
           <!-- Loaded dynamically -->
         </div>
       </section>
 
     </div>
   </main>
-
-  <footer class="footer">
-    <div class="container">
-      <p>Generado por <strong>Bitbot</strong> · Powered by OpenClaw</p>
-      <p class="footer-meta">VPS: <span id="hostname">--</span> · Última actualización: <span id="metricsTime">--</span></p>
-    </div>
-  </footer>
 
   <script src="data.js"></script>
   <script src="app.js"></script>

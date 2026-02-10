@@ -1,0 +1,43 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="120" height="120" rx="24" fill="#0A0A0F"/>
+  <!-- Outer Ring -->
+  <circle cx="60" cy="60" r="50" stroke="url(#grad1)" stroke-width="1.5" stroke-dasharray="10 5"/>
+  
+  <!-- Robot Head -->
+  <path d="M35 50C35 44.4772 39.4772 40 45 40H75C80.5228 40 85 44.4772 85 50V75C85 80.5228 80.5228 85 75 85H45C39.4772 85 35 80.5228 35 75V50Z" fill="#12121A" stroke="url(#grad1)" stroke-width="3"/>
+  
+  <!-- Eyes -->
+  <rect x="45" y="52" width="10" height="6" rx="2" fill="#22D3EE">
+    <animate attributeName="opacity" values="1;0.4;1" dur="3s" repeatCount="indefinite" />
+  </rect>
+  <rect x="65" y="52" width="10" height="6" rx="2" fill="#22D3EE">
+    <animate attributeName="opacity" values="1;0.4;1" dur="3s" repeatCount="indefinite" />
+  </rect>
+  
+  <!-- Mouth / Data Lines -->
+  <rect x="45" y="72" width="30" height="2" fill="url(#grad1)" opacity="0.6"/>
+  <rect x="50" y="76" width="20" height="2" fill="url(#grad1)" opacity="0.4"/>
+  
+  <!-- Antenna -->
+  <rect x="58" y="30" width="4" height="10" fill="url(#grad1)"/>
+  <circle cx="60" cy="28" r="4" fill="#22D3EE">
+    <animate attributeName="r" values="3;5;3" dur="2s" repeatCount="indefinite" />
+    <animate attributeName="fill" values="#22D3EE;#A855F7;#22D3EE" dur="4s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Bit Elements -->
+  <rect x="88" y="35" width="8" height="8" rx="1" fill="#A855F7" opacity="0.8">
+    <animate attributeName="y" values="35;30;35" dur="3s" repeatCount="indefinite" />
+  </rect>
+  <rect x="24" y="75" width="6" height="6" rx="1" fill="#F472B6" opacity="0.6">
+    <animate attributeName="y" values="75;80;75" dur="4s" repeatCount="indefinite" />
+  </rect>
+
+  <defs>
+    <linearGradient id="grad1" x1="35" y1="40" x2="85" y2="85" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="0.5" stop-color="#A855F7"/>
+      <stop offset="1" stop-color="#F472B6"/>
+    </linearGradient>
+  </defs>
+</svg>
