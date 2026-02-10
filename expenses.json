@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-02-10T16:00:03.589781",
-  "total": 182355,
-  "total_fmt": "$182.355",
-  "count": 12,
+  "updatedAt": "2026-02-10T16:08:22.804Z",
+  "total": 184355,
+  "total_fmt": "$184.355",
+  "count": 13,
   "items": [
+    {
+      "fecha": "2026-02-10",
+      "descripcion": "Entrada a bodegas CooprInsem (MERSAN S.A.)",
+      "monto": 2000,
+      "monto_fmt": "$2.000",
+      "factura": "987526",
+      "comprobante": "https://drive.google.com/file/d/1iGuzkgbS7NvAokS-NCDJDmk2fWrG7HSn/view?usp=drivesdk"
+    },
     {
       "fecha": "09-02-2026",
       "descripcion": "Almuerzo Pronto (Empanada + Coca Cola)",
