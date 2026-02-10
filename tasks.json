@@ -14,6 +14,7 @@
     { "name": "Reporte de Tendencias", "schedule": "07:00 AM", "status": "active" },
     { "name": "Actualizar Métricas VPS & Tokens", "schedule": "Cada hora", "status": "active" },
     { "name": "Respaldo Diario GitHub", "schedule": "03:00 AM", "status": "active" },
-    { "name": "Chequeo Actualizaciones OpenClaw", "schedule": "Lunes 09:00 AM", "status": "active" }
+    { "name": "Chequeo Actualizaciones OpenClaw", "schedule": "Lunes 09:00 AM", "status": "active" },
+    { "name": "Estudio de Documentación OpenClaw", "schedule": "Lunes 10:00 AM", "status": "active" }
   ]
 }
