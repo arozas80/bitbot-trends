@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-02-10T20:00:05.787560",
-  "total": 184355,
-  "total_fmt": "$184.355",
-  "count": 13,
+  "updatedAt": "2026-02-10T20:31:44.245Z",
+  "total": 199355,
+  "total_fmt": "$199.355",
+  "count": 14,
   "items": [
+    {
+      "fecha": "2026-02-10",
+      "descripcion": "Almuerzo - Oldsushi (La Florida)",
+      "monto": 15000,
+      "monto_fmt": "$15.000",
+      "factura": "145006787607",
+      "comprobante": "https://drive.google.com/file/d/1Md42VzsU52Bbehw1MqWvRXkJjjn3ndMF/view?usp=drivesdk"
+    },
     {
       "fecha": "2026-02-10",
       "descripcion": "Entrada a bodegas CooprInsem (MERSAN S.A.)",
