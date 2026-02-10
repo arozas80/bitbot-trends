@@ -24,5 +24,76 @@
     "openclaw": "active",
     "nginx": "active"
   },
-  "sessions": []
+  "sessions": [
+    {
+      "key": "bitbot > Direct Chat 💬",
+      "model": "gemini-3-flash",
+      "usage": "1048.6k",
+      "percent": 100,
+      "status": "critical"
+    },
+    {
+      "key": "bitbot > Task Runner 🏃",
+      "model": "gemini-3-flash",
+      "usage": "0.0k",
+      "percent": 0,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > whatsapp:group:120363423099813115@g.us",
+      "model": "gemini-3-flash",
+      "usage": "0.0k",
+      "percent": 0,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840",
+      "model": "gemini-3-flash",
+      "usage": "26.1k",
+      "percent": 2,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:cb21e144-262c-4247-bbce-38b962b52dae",
+      "model": "gemini-3-flash",
+      "usage": "26.1k",
+      "percent": 2,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > cron:65c261c9-1e12-4fd9-b77e-fe5b82c21732",
+      "model": "gemini-3-flash",
+      "usage": "26.0k",
+      "percent": 2,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > cron:65c261c9-1e12-4fd9-b77e-fe5b82c21732:run:a3c616ce-f7cd-4534-8aa7-4668e06e7db8",
+      "model": "gemini-3-flash",
+      "usage": "26.0k",
+      "percent": 2,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > cron:65c261c9-1e12-4fd9-b77e-fe5b82c21732:run:0b4d4473-8646-4f09-ad45-a5f667abce29",
+      "model": "gemini-3-flash",
+      "usage": "26.5k",
+      "percent": 3,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > cron:65c261c9-1e12-4fd9-b77e-fe5b82c21732:run:45353735-39c2-44d9-b094-a0f2148c1266",
+      "model": "gemini-3-flash",
+      "usage": "26.0k",
+      "percent": 2,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > cron:65c261c9-1e12-4fd9-b77e-fe5b82c21732:run:cf1240ae-2ac9-4025-af17-4f4a901f2e5f",
+      "model": "gemini-3-flash",
+      "usage": "26.0k",
+      "percent": 2,
+      "status": "ok"
+    }
+  ]
 }
