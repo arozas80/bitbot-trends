@@ -1,47 +1,52 @@
 // Data file - Updated daily by Bitbot
 const trendsData = {
-  lastUpdate: "2026-02-09T06:00:00-03:00",
-  currentDate: "9 de febrero de 2026",
+  lastUpdate: "2026-02-10T06:00:00-03:00",
+  currentDate: "10 de febrero de 2026",
   
-  executiveSummary: "Hoy el pulso tecnológico se acelera con la comercialización masiva de la IA Física, el despliegue de Sistemas Operativos Agénticos (AOS) y la evolución del hardware hacia el Edge AI. La ciberseguridad agéntica y la soberanía de datos emergen como pilares críticos de gobernanza.",
+  executiveSummary: "Hoy las tendencias se enfocan en la consolidación de la IA Agéntica Colaborativa, la expansión de la automatización física en hogares y la evolución hacia arquitecturas modulares soportadas por 6G. La multimodalidad nativa redefine la relación humano-IA.",
   
   trends: [
     {
       id: 1,
-      icon: "🦾",
-      title: "Escalamiento de IA Física",
-      subtitle: "Robótica en producción real",
-      description: "Nvidia y Hyundai lideran el 'momento ChatGPT' de la robótica. El 58% de las empresas ya usan IA física, integrando modelos multimodales en humanoides para tareas de fabricación y logística."
+      icon: "🤝",
+      title: "IA Agéntica Colaborativa",
+      subtitle: "Aliados en procesos críticos",
+      description: "Los agentes autónomos se integran en ciencia, medicina y desarrollo de software. No solo ejecutan, sino que colaboran con humanos en la generación de hipótesis y toma de decisiones éticas."
     },
     {
       id: 2,
-      icon: "🤖",
-      title: "Agentic AI & AOS",
-      subtitle: "El nuevo middleware empresarial",
-      description: "Casi el 75% de las empresas planean desplegar Sistemas Operativos Agénticos (AOS) para orquestar flujos autónomos de 'súper agentes' que ejecutan tareas complejas con mínima intervención."
+      icon: "🏠",
+      title: "Automatización Física",
+      subtitle: "Robótica en el hogar y oficina",
+      description: "La robótica colaborativa salta a entornos domésticos y de oficina. Asistentes físicos con IA multimodal gestionan tareas de limpieza, cocina y logística con comprensión profunda del contexto."
     },
     {
       id: 3,
-      icon: "⚡",
-      title: "Hardware y Edge AI",
-      subtitle: "Chips para cargas agénticas",
-      description: "La IA se mueve al borde (Edge) con hardware especializado. Nuevos chips ASIC y aceleradores analógicos optimizan las cargas de trabajo de los agentes, reduciendo latencia y consumo energético."
+      icon: "🌐",
+      title: "Arquitecturas Modulares & 6G",
+      subtitle: "Conectividad de ultra-alta velocidad",
+      description: "Evolución hacia infraestructuras de IA distribuidas. El 6G habilita redes autónomas y multimodalidad masiva en tiempo real para auditorías y flujos operativos globales."
     },
     {
       id: 4,
-      icon: "🛡️",
-      title: "Ciberseguridad Agéntica",
-      subtitle: "Blindaje contra riesgos IA",
-      description: "El 87% de los fabricantes ven las vulnerabilidades de la IA como el mayor riesgo. La tendencia es el uso de IA defensiva y protocolos de validación continua para asegurar la integridad operativa."
+      icon: "📱",
+      title: "IA Nativa en Consumo",
+      subtitle: "Smartphones y Wearables proactivos",
+      description: "El hardware de consumo integra IA nativa para predicciones inteligentes y multitarea. Se consolida el marketing conversacional hiper-personalizado y la seguridad post-cuántica."
     }
   ],
   
   impact: {
-    opportunity: "El auge de los AOS (Agentic OS) valida directamente la arquitectura de Bitbot como un orquestador de vanguardia.",
-    action: "Fortalecer la capacidad de Bitbot para operar en el Edge y profundizar en protocolos de ciberseguridad para entornos agénticos."
+    opportunity: "La tendencia hacia agentes colaborativos refuerza la posición de Bitbot como un partner estratégico más que una simple herramienta.",
+    action: "Integrar capacidades multimodales más profundas y explorar la automatización de flujos físicos mediante conectividad de baja latencia."
   },
   
   archive: [
+    {
+      date: "2026-02-10",
+      preview: "IA Agéntica Colaborativa, Robótica Hogareña, 6G Arquitecturas...",
+      file: "2026-02-10.json"
+    },
     {
       date: "2026-02-09",
       preview: "IA Física, AOS Middleware, Edge Hardware...",
