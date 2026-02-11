@@ -322,7 +322,7 @@ body {
 
 /* Responsive */
 @media (max-width: 1024px) {
-  --sidebar-width: 80px;
+  :root { --sidebar-width: 80px; }
   .brand-name, .nav-text, .sidebar-footer { display: none; }
   .sidebar-brand { padding: 0; justify-content: center; }
   .nav-item { justify-content: center; padding: 15px 0; border-left: none; border-bottom: 3px solid transparent; }
@@ -330,7 +330,37 @@ body {
 }
 
 @media (max-width: 640px) {
+  body { overflow: auto; }
   .sidebar { display: none; }
-  .top-bar { padding: 15px 20px; }
-  .main-scroll { padding: 20px; }
+
+  .top-bar {
+    padding: 14px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .page-title { font-size: 1.2rem; }
+
+  .top-bar-meta {
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .status-indicator { font-size: 0.75rem; }
+
+  .main-scroll { padding: 16px; }
+
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+
+  .card { padding: 18px; border-radius: 14px; }
+  .card-value { font-size: 2.0rem; }
+
+  .list-container { max-height: none; }
 }
