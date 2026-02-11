@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-02-11T18:00:06.549702",
-  "total": 288575,
-  "total_fmt": "$288.575",
-  "count": 16,
+  "updatedAt": "2026-02-11T18:33:25.884Z",
+  "total": 339497,
+  "total_fmt": "$339.497",
+  "count": 17,
   "items": [
+    {
+      "fecha": "2026-02-11",
+      "descripcion": "Petróleo camioneta - Servivet",
+      "monto": 50922,
+      "monto_fmt": "$50.922",
+      "factura": "207521",
+      "comprobante": "https://drive.google.com/file/d/1tTp-61UJs4jNSnaFkYrReSqO3bzgBp5A/view?usp=drivesdk"
+    },
     {
       "fecha": "2026-02-11",
       "descripcion": "Almuerzo - Administradora de Franquicias Amaus (La Florida)",
