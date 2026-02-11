@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-02-11T17:00:06.943536",
-  "total": 277095,
-  "total_fmt": "$277.095",
-  "count": 15,
+  "updatedAt": "2026-02-11T17:29:48.143Z",
+  "total": 288575,
+  "total_fmt": "$288.575",
+  "count": 16,
   "items": [
+    {
+      "fecha": "2026-02-11",
+      "descripcion": "Almuerzo - Administradora de Franquicias Amaus (La Florida)",
+      "monto": 11480,
+      "monto_fmt": "$11.480",
+      "factura": "5656961",
+      "comprobante": "https://drive.google.com/file/d/1W6Zg51bFuBa9RWQuHTFwJ9u-wwK5jik7/view?usp=drivesdk"
+    },
     {
       "fecha": "2026-02-11",
       "descripcion": "Despacho a cliente Copringsem - Servivet",
