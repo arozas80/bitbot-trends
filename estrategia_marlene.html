@@ -3,192 +3,279 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Estrategia Marlene - Transformación Escalable</title>
+    <title>Estrategia Marlene - Blueprint Interno</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
-        body { font-family: 'Inter', sans-serif; background-color: #f8fafc; color: #1e293b; }
-        .gradient-bg { background: linear-gradient(135deg, #6366f1 0%, #a855f7 100%); }
-        .card { background: white; border-radius: 1rem; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1); padding: 2rem; margin-bottom: 2rem; border: 1px solid #e2e8f0; }
-        .section-title { color: #4f46e5; font-weight: 700; font-size: 1.25rem; margin-bottom: 1rem; border-bottom: 2px solid #e2e8f0; padding-bottom: 0.5rem; display: flex; align-items: center; }
-        .highlight-green { background-color: #dcfce7; border-left: 4px solid #22c55e; padding: 1rem; margin-top: 1rem; }
-        .highlight-red { background-color: #fee2e2; border-left: 4px solid #ef4444; padding: 1rem; margin-top: 1rem; }
-        .price-tag { font-size: 2.5rem; font-weight: 800; color: #1e293b; margin: 1rem 0; }
-        .bullet-list li { margin-bottom: 0.5rem; position: relative; padding-left: 1.5rem; }
-        .bullet-list li::before { content: '→'; position: absolute; left: 0; color: #6366f1; font-weight: bold; }
+        body { font-family: 'Inter', sans-serif; background-color: #f1f5f9; color: #0f172a; line-height: 1.6; }
+        .roadmap-container { border-left: 2px dashed #cbd5e1; padding-left: 2rem; margin-left: 1rem; }
+        .step-node { position: relative; margin-bottom: 3rem; }
+        .step-node::before { 
+            content: ''; position: absolute; left: -2.55rem; top: 0.5rem; 
+            width: 1rem; height: 1rem; background-color: #4f46e5; border-radius: 50%; 
+            border: 4px solid #fff; box-shadow: 0 0 0 2px #4f46e5;
+        }
+        .info-card { background: white; border-radius: 0.75rem; padding: 1.5rem; border: 1px solid #e2e8f0; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .badge { display: inline-block; padding: 0.25rem 0.75rem; border-radius: 9999px; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; margin-bottom: 0.5rem; }
+        .badge-indigo { background: #e0e7ff; color: #4338ca; }
+        .badge-slate { background: #f1f5f9; color: #475569; }
     </style>
 </head>
-<body class="p-4 md:p-8">
+<body class="py-12 px-4 md:px-8">
     <div class="max-w-4xl mx-auto">
-        <!-- Header -->
-        <header class="gradient-bg text-white p-8 rounded-2xl mb-8 text-center shadow-xl">
-            <h1 class="text-3xl md:text-5xl font-extrabold mb-4">Resumen Estratégico</h1>
-            <p class="text-xl opacity-90 font-light italic">Transformación de Escuela de Yoga Presencial &rarr; Sistema Escalable Online</p>
+        
+        <!-- Header Seccionado -->
+        <header class="mb-12 border-b-4 border-indigo-600 pb-6">
+            <h1 class="text-4xl font-extrabold tracking-tight mb-2 uppercase italic text-indigo-900">Blueprint Estratégico Interno</h1>
+            <p class="text-lg text-slate-600 font-medium">Transformación de Escuela Presencial a Ecosistema Escalable Online</p>
+            <div class="flex gap-4 mt-4">
+                <span class="text-xs bg-indigo-600 text-white px-2 py-1 rounded font-bold uppercase tracking-tighter">Propiedad Privada</span>
+                <span class="text-xs bg-slate-200 text-slate-700 px-2 py-1 rounded font-bold uppercase tracking-tighter">Versión 1.0</span>
+            </div>
         </header>
 
-        <!-- 1. Situación Actual & 2. Objetivo -->
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-            <div class="card">
-                <div class="section-title">1. SITUACIÓN ACTUAL</div>
-                <ul class="bullet-list space-y-2">
-                    <li>Facturación mensual: ~$2.500.000 CLP</li>
-                    <li>40–50 alumnos presenciales</li>
-                    <li>Costos fijos altos / Utilidad baja</li>
-                </ul>
-                <div class="mt-4 p-3 bg-slate-50 rounded italic text-sm text-slate-600">
-                    <strong>Conclusión:</strong> El activo real es Marlene, no el local. El modelo actual es autoempleo con arriendo caro.
-                </div>
-            </div>
-            <div class="card bg-indigo-50 border-indigo-100">
-                <div class="section-title">2. OBJETIVO</div>
-                <div class="space-y-4">
-                    <div>
-                        <span class="text-xs font-bold uppercase tracking-wider text-indigo-500">Meta Inicial</span>
-                        <div class="text-2xl font-bold text-indigo-900">$5.000.000 CLP/mes</div>
-                    </div>
-                    <div>
-                        <span class="text-xs font-bold uppercase tracking-wider text-indigo-500">Escalado Real</span>
-                        <div class="text-2xl font-bold text-indigo-900">$8M – $12M CLP/mes</div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <div class="roadmap-container">
 
-        <!-- 3. Problema & 4. Cambio de Modelo -->
-        <div class="card border-l-8 border-l-red-500">
-            <div class="section-title">3. PROBLEMA CENTRAL IDENTIFICADO</div>
-            <p class="text-lg mb-4">No es un problema de migración digital. Es un problema de <strong>oferta</strong>.</p>
-            <div class="bg-red-50 p-4 rounded text-red-800">
-                Las personas no compran clases de yoga. Compran <strong>transformación</strong>.
-            </div>
-            <div class="mt-6">
-                <div class="section-title">4. CAMBIO DE MODELO MENTAL</div>
-                <div class="flex flex-col md:flex-row items-center gap-4 text-center">
-                    <div class="flex-1 p-4 bg-slate-100 rounded-lg w-full">
-                        <span class="block text-xs uppercase text-slate-500">Antes</span>
-                        <span class="font-semibold italic">"Escuela de Yoga"</span>
+            <!-- 1. Situación Actual -->
+            <section class="step-node">
+                <span class="badge badge-indigo">Contexto</span>
+                <h2 class="text-2xl font-bold mb-4">1. Situación Actual</h2>
+                <div class="info-card">
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+                        <div class="p-4 bg-slate-50 rounded text-center">
+                            <span class="block text-slate-500 text-xs font-bold uppercase">Facturación</span>
+                            <span class="text-xl font-bold">~$2.5M CLP</span>
+                        </div>
+                        <div class="p-4 bg-slate-50 rounded text-center">
+                            <span class="block text-slate-500 text-xs font-bold uppercase">Alumnos</span>
+                            <span class="text-xl font-bold">40 - 50</span>
+                        </div>
+                        <div class="p-4 bg-slate-50 rounded text-center">
+                            <span class="block text-slate-500 text-xs font-bold uppercase">Utilidad</span>
+                            <span class="text-xl font-bold text-red-600">Baja / Nula</span>
+                        </div>
                     </div>
-                    <div class="text-2xl font-bold text-indigo-500">&rarr;</div>
-                    <div class="flex-1 p-4 bg-indigo-100 rounded-lg w-full">
-                        <span class="block text-xs uppercase text-indigo-500">Ahora</span>
-                        <span class="font-semibold text-indigo-900 leading-tight">Especialista en regulación neuro-somática</span>
+                    <div class="space-y-3">
+                        <p class="text-sm"><strong>Puntos críticos:</strong> Costos fijos de arriendo muy altos y baja retención teórica (solo 10-20 alumnas seguirían sin el local).</p>
+                        <p class="p-3 bg-indigo-50 border-l-4 border-indigo-500 italic text-indigo-900 font-medium">
+                            "El activo real no es el local, es Marlene. El modelo actual es autoempleo con techo financiero."
+                        </p>
                     </div>
                 </div>
-            </div>
-        </div>
+            </section>
 
-        <!-- 5. Posicionamiento & 6. Programa Premium -->
-        <div class="card">
-            <div class="section-title">5. NUEVO POSICIONAMIENTO</div>
-            <p class="mb-4"><strong>Nicho:</strong> Mujeres profesionales (30–50 años) con ansiedad y sobrecarga mental.</p>
-            
-            <div class="mt-8">
-                <div class="section-title">6. OFERTA PREMIUM: 12 SEMANAS</div>
-                <div class="bg-slate-900 text-white p-6 rounded-xl relative overflow-hidden">
-                    <div class="absolute top-0 right-0 p-2 bg-indigo-500 text-[10px] font-bold uppercase tracking-widest -rotate-45 translate-x-4 translate-y-2 w-32 text-center">Beta Launch</div>
-                    <h3 class="text-indigo-400 font-bold mb-4 uppercase tracking-wider">Resultado Prometido (90 días):</h3>
-                    <ul class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-2 text-sm">
-                        <li class="flex items-center gap-2"><span class="text-indigo-400">✓</span> Dormir 6-7 horas continuas</li>
-                        <li class="flex items-center gap-2"><span class="text-indigo-400">✓</span> Reducir ansiedad en 50%</li>
-                        <li class="flex items-center gap-2"><span class="text-indigo-400">✓</span> Energía estable</li>
-                        <li class="flex items-center gap-2"><span class="text-indigo-400">✓</span> Protocolo personal anti-crisis</li>
+            <!-- 2. Objetivos Financieros -->
+            <section class="step-node">
+                <span class="badge badge-indigo">Norte</span>
+                <h2 class="text-2xl font-bold mb-4">2. Objetivos de Facturación</h2>
+                <div class="info-card bg-slate-900 text-white">
+                    <ul class="space-y-4">
+                        <li class="flex items-center gap-4">
+                            <div class="w-2 h-2 rounded-full bg-indigo-400"></div>
+                            <div>
+                                <span class="block text-indigo-300 text-xs font-bold uppercase">Meta Inicial</span>
+                                <span class="text-2xl font-bold">$5.000.000 CLP mensuales</span>
+                            </div>
+                        </li>
+                        <li class="flex items-center gap-4 border-t border-slate-700 pt-4">
+                            <div class="w-2 h-2 rounded-full bg-emerald-400"></div>
+                            <div>
+                                <span class="block text-emerald-300 text-xs font-bold uppercase">Escalamiento (Híbrido)</span>
+                                <span class="text-2xl font-bold">$8M – $12M CLP mensuales</span>
+                            </div>
+                        </li>
                     </ul>
-                    <div class="mt-8 border-t border-slate-700 pt-6 flex justify-between items-end">
+                </div>
+            </section>
+
+            <!-- 3. Problema Central & 4. Modelo Mental -->
+            <section class="step-node">
+                <span class="badge badge-indigo">El Giro</span>
+                <h2 class="text-2xl font-bold mb-4">3 & 4. Cambio de Modelo y Diagnóstico</h2>
+                <div class="info-card">
+                    <p class="mb-4"><strong>El Problema:</strong> No es un tema tecnológico, es un problema de <strong>OFERTA</strong>. Hoy se vende "acceso" (clases, yoga, bienestar general), y el acceso no escala.</p>
+                    <div class="bg-indigo-50 p-4 rounded-lg border-2 border-indigo-100">
+                        <h4 class="font-bold text-indigo-900 mb-2 uppercase text-xs tracking-widest">Nueva Identidad Profesional:</h4>
+                        <p class="text-xl font-bold text-indigo-700 leading-tight">
+                            "Especialista en regulación neuro-somática para mujeres profesionales con ansiedad y sobrecarga"
+                        </p>
+                    </div>
+                    <p class="mt-4 text-sm font-semibold italic text-slate-500">De vender "Clases" &rarr; A vender "Resultado y Transformación".</p>
+                </div>
+            </section>
+
+            <!-- 5. Posicionamiento -->
+            <section class="step-node">
+                <span class="badge badge-indigo">Mercado</span>
+                <h2 class="text-2xl font-bold mb-4">5. Nuevo Posicionamiento (Nicho)</h2>
+                <div class="info-card">
+                    <div class="flex items-start gap-4">
+                        <div class="text-3xl">🎯</div>
                         <div>
-                            <span class="text-slate-400 text-xs uppercase">Inversión</span>
-                            <div class="text-3xl font-bold text-white">$450.000 CLP</div>
+                            <h3 class="font-bold text-lg">Perfil Ideal de Alumna</h3>
+                            <p class="text-slate-600">Mujeres profesionales de 30 a 50 años que sufren de ansiedad y sobrecarga mental. Su prioridad es recuperar energía y estabilidad emocional.</p>
+                        </div>
+                    </div>
+                    <p class="mt-4 p-2 bg-slate-100 rounded text-xs uppercase font-bold tracking-widest text-center text-slate-500">No vender bienestar general. Vender solución específica.</p>
+                </div>
+            </section>
+
+            <!-- 6 & 7. La Nueva Oferta -->
+            <section class="step-node">
+                <span class="badge badge-indigo">Producto</span>
+                <h2 class="text-2xl font-bold mb-4">6 & 7. Programa Premium (12 Semanas)</h2>
+                <div class="info-card space-y-6">
+                    <div>
+                        <h3 class="font-bold text-indigo-600 mb-2">Resultados Prometidos en 90 Días:</h3>
+                        <ul class="grid grid-cols-1 md:grid-cols-2 gap-2 text-sm italic">
+                            <li>• Dormir 6-7 horas continuas</li>
+                            <li>• Protocolo personal para regular crisis</li>
+                            <li>• Reducir ansiedad en un 50%</li>
+                            <li>• Disminuir tensión corporal crónica</li>
+                            <li>• Sentir energía estable</li>
+                        </ul>
+                    </div>
+                    <div class="border-t pt-4">
+                        <h3 class="font-bold text-indigo-600 mb-2">Estructura de Ejecución:</h3>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm">
+                            <div class="p-3 bg-slate-50 rounded">💻 1 sesión grupal semanal en vivo</div>
+                            <div class="p-3 bg-slate-50 rounded">📚 Biblioteca estratégica grabada</div>
+                            <div class="p-3 bg-slate-50 rounded">🛠️ Guías prácticas y Grupo privado</div>
+                            <div class="p-3 bg-slate-50 rounded">📊 Seguimiento de métricas (E/S)</div>
+                        </div>
+                    </div>
+                    <div class="bg-indigo-600 text-white p-4 rounded-lg flex justify-between items-center">
+                        <div>
+                            <span class="text-xs font-bold uppercase opacity-80">Precio Beta</span>
+                            <div class="text-2xl font-extrabold">$450.000 CLP</div>
                         </div>
                         <div class="text-right">
-                            <span class="text-slate-400 text-xs uppercase">Meta Inicial</span>
-                            <div class="text-xl font-semibold text-indigo-400">12 Cupos</div>
+                            <span class="text-xs font-bold uppercase opacity-80">Meta Beta</span>
+                            <div class="text-xl font-bold italic">12 Alumnas = $5.4M</div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
+            </section>
 
-        <!-- 7. Estructura & 8. Lanzamiento -->
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-            <div class="card">
-                <div class="section-title">7. ESTRUCTURA</div>
-                <ul class="text-sm space-y-3">
-                    <li class="flex items-start gap-2 border-b border-slate-50 pb-2">📂 1 sesión semanal grupal en vivo</li>
-                    <li class="flex items-start gap-2 border-b border-slate-50 pb-2">🎥 Biblioteca estratégica grabada</li>
-                    <li class="flex items-start gap-2 border-b border-slate-50 pb-2">📝 Guías prácticas y Grupo privado</li>
-                    <li class="flex items-start gap-2">📊 Evaluación y Seguimiento de métricas</li>
-                </ul>
-            </div>
-            <div class="card">
-                <div class="section-title">8. ESTRATEGIA DE LANZAMIENTO</div>
-                <div class="space-y-4">
-                    <div class="bg-indigo-50 p-3 rounded">
-                        <p class="text-sm font-semibold text-indigo-700">Conversaciones > Seguidores</p>
-                    </div>
-                    <ol class="text-sm space-y-2 list-decimal list-inside text-slate-600">
-                        <li>Taller gratuito online educativo</li>
-                        <li>Invitación a 12 cupos limitados</li>
-                        <li>Outreach directo (Base, IG, LinkedIn)</li>
+            <!-- 8. Lanzamiento -->
+            <section class="step-node">
+                <span class="badge badge-indigo">Marketing</span>
+                <h2 class="text-2xl font-bold mb-4">8. Estrategia de Lanzamiento "Bootstrapped"</h2>
+                <div class="info-card">
+                    <p class="mb-4 font-bold text-indigo-700">Conversaciones > Seguidores</p>
+                    <ol class="space-y-3">
+                        <li class="flex gap-3 items-start">
+                            <span class="font-bold text-indigo-600">1.</span>
+                            <span><strong>Taller online educativo gratuito:</strong> Imán de atracción para el nicho.</span>
+                        </li>
+                        <li class="flex gap-3 items-start">
+                            <span class="font-bold text-indigo-600">2.</span>
+                            <span><strong>Cierre de 12 cupos limitados:</strong> Escasez real para validación.</span>
+                        </li>
+                        <li class="flex gap-3 items-start">
+                            <span class="font-bold text-indigo-600">3.</span>
+                            <span><strong>Outreach Directo:</strong> Contactar base actual, IG DM, LinkedIn y contactos personales. No depender de ads inicialmente.</span>
+                        </li>
                     </ol>
                 </div>
-            </div>
-        </div>
+            </section>
 
-        <!-- 9. Marca & 10/11 Expansion -->
-        <div class="card">
-            <div class="section-title">9. REPOSICIONAMIENTO DE MARCA</div>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div class="p-4 bg-red-50 rounded-lg text-sm">
-                    <span class="block font-bold text-red-600 mb-2 uppercase tracking-tighter">Dejar de Comunicar</span>
-                    <ul class="list-disc list-inside text-red-800 opacity-70">
-                        <li>Horarios de clases</li>
-                        <li>Actividades sueltas</li>
+            <!-- 9. Reposicionamiento de Marca -->
+            <section class="step-node">
+                <span class="badge badge-indigo">Comunicación</span>
+                <h2 class="text-2xl font-bold mb-4">9. Reposicionamiento de Marca</h2>
+                <div class="info-card grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <h4 class="text-red-600 font-bold text-sm uppercase mb-3">DEJAR DE HABLAR DE:</h4>
+                        <ul class="text-sm space-y-2 opacity-70">
+                            <li>• Horarios de clases</li>
+                            <li>• Actividades sueltas / Talleres de finde</li>
+                            <li>• "Clase de yoga"</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="text-emerald-600 font-bold text-sm uppercase mb-3">EMPEZAR A HABLAR DE:</h4>
+                        <ul class="text-sm space-y-2">
+                            <li>• Educación sobre el sistema nervioso</li>
+                            <li>• Ansiedad femenina y somatización</li>
+                            <li>• Casos reales y testimonios de cambio</li>
+                            <li>• <strong>Rol:</strong> Especialista (No profesora)</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 10 & 11. Escalamiento Futuro -->
+            <section class="step-node">
+                <span class="badge badge-indigo">Escalamiento</span>
+                <h2 class="text-2xl font-bold mb-4">10 & 11. Expansión B2B y Membresía</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div class="info-card border-l-4 border-l-amber-500">
+                        <h4 class="font-bold mb-2">Fase Corporativa (B2B)</h4>
+                        <p class="text-sm mb-3">Crear el "Programa Equilibrio Ejecutivo Femenino" para empresas.</p>
+                        <span class="block text-amber-700 font-bold">$3M – $6M por contrato</span>
+                    </div>
+                    <div class="info-card border-l-4 border-l-indigo-500">
+                        <h4 class="font-bold mb-2">Membresía (Continuidad)</h4>
+                        <p class="text-sm mb-3">Solo después de validar el programa premium, para alumnas antiguas.</p>
+                        <span class="block text-indigo-700 font-bold">$35k – $50k mensual</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 12. Errores Críticos -->
+            <section class="step-node">
+                <span class="badge badge-indigo">Precaución</span>
+                <h2 class="text-2xl font-bold mb-4">12. Errores Críticos a Evitar</h2>
+                <div class="info-card bg-red-50 border-red-200">
+                    <ul class="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-2 text-sm text-red-900 font-medium">
+                        <li>⚠️ Lanzar membresía barata primero.</li>
+                        <li>⚠️ Intentar hablarle a "todo el mundo".</li>
+                        <li>⚠️ Seguir vendiendo "clases" por hora.</li>
+                        <li>⚠️ Esperar que el marketing salve una oferta débil.</li>
                     </ul>
                 </div>
-                <div class="p-4 bg-green-50 rounded-lg text-sm">
-                    <span class="block font-bold text-green-600 mb-2 uppercase tracking-tighter">Empezar a Comunicar</span>
-                    <ul class="list-disc list-inside text-green-800">
-                        <li>Educación Sistema Nervioso</li>
-                        <li>Casos reales de transformación</li>
-                        <li>Especialización y Autoridad</li>
-                    </ul>
+            </section>
+
+            <!-- 13. Conclusión Estratégica -->
+            <section class="step-node">
+                <span class="badge badge-indigo">Resumen</span>
+                <h2 class="text-2xl font-bold mb-4">13. Conclusión Estratégica</h2>
+                <div class="info-card bg-indigo-900 text-white">
+                    <p class="text-xl italic mb-6">"El techo no es la plataforma digital, es la claridad de la transformación."</p>
+                    <div class="space-y-4">
+                        <div class="flex justify-between items-center text-sm border-b border-indigo-800 pb-2">
+                            <span>Vender Clases</span>
+                            <span class="font-bold">Volumen &rarr; Esfuerzo &rarr; Poco Margen</span>
+                        </div>
+                        <div class="flex justify-between items-center text-sm">
+                            <span>Vender Transformación</span>
+                            <span class="font-bold text-emerald-400">Precio Alto &rarr; Menos Volumen &rarr; Más Margen</span>
+                        </div>
+                    </div>
                 </div>
-            </div>
+            </section>
+
+            <!-- Decisión Final -->
+            <section class="step-node mb-0 pb-12">
+                <span class="badge badge-indigo">El Camino</span>
+                <h2 class="text-2xl font-bold mb-6">Decisión Final</h2>
+                <div class="flex flex-col gap-4 text-center">
+                    <div class="p-6 bg-white border-2 border-slate-200 rounded-xl opacity-40 line-through">
+                        Escuela de yoga online
+                    </div>
+                    <div class="text-4xl text-indigo-600 font-black">VS</div>
+                    <div class="p-8 bg-indigo-600 text-white rounded-2xl shadow-2xl transform scale-105 border-4 border-indigo-400">
+                        <span class="block text-xs uppercase font-bold tracking-widest mb-2 opacity-80">Nuestro Modelo:</span>
+                        <h3 class="text-2xl md:text-3xl font-black italic">Método estructurado para sacar a mujeres profesionales del colapso nervioso en 90 días.</h3>
+                    </div>
+                </div>
+            </section>
+
         </div>
 
-        <!-- 12. Errores & 13. Conclusión -->
-        <div class="card bg-slate-900 text-slate-300">
-            <div class="section-title text-white border-slate-700">12. ERRORES A EVITAR</div>
-            <ul class="grid grid-cols-1 md:grid-cols-2 gap-2 text-sm italic">
-                <li>&times; Lanzar membresía barata primero</li>
-                <li>&times; Intentar hablarle a todos</li>
-                <li>&times; Seguir vendiendo "clases"</li>
-                <li>&times; Depender de seguidores pasivos</li>
-            </ul>
-            
-            <div class="mt-8 pt-8 border-t border-slate-700">
-                <div class="section-title text-white border-none">13. CONCLUSIÓN ESTRATÉGICA</div>
-                <p class="text-lg leading-relaxed">
-                    Transformación &rarr; <span class="text-white font-bold">Precio alto</span> &rarr; <span class="text-white font-bold">Menos volumen</span> &rarr; <span class="text-white font-bold">Más margen.</span>
-                </p>
-                <p class="mt-2 text-slate-400">Si el resultado es claro, el negocio se simplifica y la utilidad aumenta.</p>
-            </div>
-        </div>
-
-        <!-- Decisión Final -->
-        <div class="text-center p-8 bg-white border-2 border-indigo-500 rounded-3xl shadow-2xl mb-20 relative overflow-hidden">
-             <div class="absolute -top-10 -left-10 w-40 h-40 gradient-bg opacity-10 rounded-full blur-3xl"></div>
-             <h2 class="text-2xl font-bold mb-6">DECISIÓN FINAL</h2>
-             <div class="flex flex-col gap-4 items-center max-w-md mx-auto">
-                 <div class="w-full p-4 bg-slate-50 rounded-xl line-through opacity-50">Escuela de yoga online</div>
-                 <div class="text-2xl">&darr;</div>
-                 <div class="w-full p-6 bg-indigo-600 text-white rounded-xl font-bold shadow-lg transform scale-110">
-                     Método estructurado para salir del colapso nervioso en 90 días
-                 </div>
-             </div>
-        </div>
-
-        <footer class="text-center text-slate-400 text-xs pb-10">
-            Generado por Bitbot &bull; 2026 &bull; Estrategia de Crecimiento
+        <footer class="mt-12 text-center text-slate-400 text-xs">
+            Bitbot Strategic Command Center • Confidencial • 2026
         </footer>
     </div>
 </body>
