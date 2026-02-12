@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-02-12T14:00:10.964346",
-  "total": 339497,
-  "total_fmt": "$339.497",
-  "count": 17,
+  "updatedAt": "2026-02-12T14:35:40.096Z",
+  "total": 382287,
+  "total_fmt": "$382.287",
+  "count": 18,
   "items": [
+    {
+      "fecha": "2026-02-12",
+      "descripcion": "Transporte de carga y encomienda (EGT Limitada)",
+      "monto": 42790,
+      "monto_fmt": "$42.790",
+      "factura": "13306644",
+      "comprobante": "https://drive.google.com/file/d/1jcX6bW4GBmzSbzbqtX-ndUfiGLZmktnq/view?usp=drivesdk"
+    },
     {
       "fecha": "2026-02-11",
       "descripcion": "Petróleo camioneta - Servivet",
