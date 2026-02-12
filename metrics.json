@@ -23,5 +23,77 @@
   "services": {
     "openclaw": "active",
     "nginx": "active"
-  }
+  },
+  "sessions": [
+    {
+      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840",
+      "model": "gemini-3-flash",
+      "usage": "0.0k",
+      "percent": 0,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:7ff54ed9-7c91-4e01-a2ed-ef1933015c89",
+      "model": "gemini-3-flash",
+      "usage": "0.0k",
+      "percent": 0,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > cron:65c261c9-1e12-4fd9-b77e-fe5b82c21732",
+      "model": "gemini-3-flash",
+      "usage": "27.3k",
+      "percent": 3,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > cron:65c261c9-1e12-4fd9-b77e-fe5b82c21732:run:4bb19a52-43b9-49de-8298-1158c9685212",
+      "model": "gemini-3-flash",
+      "usage": "27.3k",
+      "percent": 3,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > Direct Chat 💬",
+      "model": "gemini-3-flash",
+      "usage": "85.6k",
+      "percent": 8,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:e251d5d9-40c8-43a7-958d-ae293be825f9",
+      "model": "gemini-3-flash",
+      "usage": "40.4k",
+      "percent": 4,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:65156c1b-a6b8-468c-8e76-727e0d8fd763",
+      "model": "gemini-3-flash",
+      "usage": "40.6k",
+      "percent": 4,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:19b3ee2a-b07b-4d7a-9ae3-f8d6428380b6",
+      "model": "gemini-3-flash",
+      "usage": "26.6k",
+      "percent": 3,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:29adcbaf-4c06-4d91-a3d4-1c7cea6e24b4",
+      "model": "gemini-3-flash",
+      "usage": "26.6k",
+      "percent": 3,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > cron:65c261c9-1e12-4fd9-b77e-fe5b82c21732:run:dd3e0400-5c00-45ce-a647-5ed06800687a",
+      "model": "gemini-3-flash",
+      "usage": "27.7k",
+      "percent": 3,
+      "status": "ok"
+    }
+  ]
 }
