@@ -33,7 +33,7 @@
       "status": "ok"
     },
     {
-      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:53f5030d-4550-4778-9ba8-bc8483638d75",
+      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:b0464b40-fc8f-4976-9c12-a346cc43a721",
       "model": "gemini-3-flash",
       "usage": "0.0k",
       "percent": 0,
@@ -44,6 +44,13 @@
       "model": "gemini-3-flash",
       "usage": "114.0k",
       "percent": 11,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:53f5030d-4550-4778-9ba8-bc8483638d75",
+      "model": "gemini-3-flash",
+      "usage": "55.6k",
+      "percent": 5,
       "status": "ok"
     },
     {
@@ -86,13 +93,6 @@
       "model": "gemini-3-flash",
       "usage": "0.0k",
       "percent": 0,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:ad8733af-0601-4576-b428-d1353c96e9cd",
-      "model": "gemini-3-flash",
-      "usage": "41.6k",
-      "percent": 4,
       "status": "ok"
     }
   ]
