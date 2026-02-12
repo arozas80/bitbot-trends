@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-02-12T14:36:18.847Z",
+  "updatedAt": "2026-02-12T15:00:06.537745",
   "total": 386427,
   "total_fmt": "$386.427",
   "count": 19,
   "items": [
     {
       "fecha": "2026-02-12",
-      "descripcion": "Gasto Unimarc (Coca Cola, Fanta, Galletas)",
+      "descripcion": "Gasto Unimarc (Coca Cola Fanta Galletas)",
       "monto": 4140,
       "monto_fmt": "$4.140",
       "factura": "2218310815",
