@@ -1,47 +1,52 @@
 // Data file - Updated daily by Bitbot
 const trendsData = {
-  lastUpdate: "2026-02-12T06:00:00-03:00",
-  currentDate: "12 de febrero de 2026",
+  lastUpdate: "2026-02-13T06:00:00-03:00",
+  currentDate: "13 de febrero de 2026",
   
-  executiveSummary: "Hoy el foco está en la IA Física (Robótica), la Orquestación Multi-Agente y los flujos de trabajo estructurados. Vivimos el 'momento ChatGPT' de la robótica comercial y una prioridad absoluta en la eficiencia de modelos.",
+  executiveSummary: "Hoy la narrativa se centra en la IA Agéntica Operacional, el descubrimiento científico asistido por IA y el auge de la gobernanza corporativa. Pasamos de la IA como consultora a la IA como colaboradora ejecutiva.",
   
   trends: [
     {
       id: 1,
-      icon: "🤖",
-      title: "IA Física & Robótica",
-      subtitle: "El 'Momento ChatGPT' del hardware",
-      description: "La robótica comercial explota con modelos que razonan y planifican en el mundo real. Hyundai Atlas y Nvidia lideran esta transición hacia la producción automatizada inteligente."
+      icon: "🤝",
+      title: "IA Agéntica Operacional",
+      subtitle: "De la prueba a la producción",
+      description: "Los agentes ya no solo responden dudas; ejecutan procesos complejos (onboarding, auditorías) colaborando proactivamente con humanos en entornos empresariales reales."
     },
     {
       id: 2,
-      icon: "🔗",
-      title: "Orquestación Multi-Agente",
-      subtitle: "De agentes solos a Super Agentes",
-      description: "La tendencia se mueve hacia paneles de control que gestionan múltiples agentes. Se priorizan los flujos de trabajo (workflows) estructurados sobre los agentes autónomos simples."
+      icon: "🔬",
+      title: "IA en Ciencia",
+      subtitle: "Asistentes de laboratorio digitales",
+      description: "Modelos que generan hipótesis y controlan experimentos científicos. La IA se convierte en el motor que acelera drásticamente el ciclo de innovación científica."
     },
     {
       id: 3,
-      icon: "⚡",
-      title: "Eficiencia & Modelos Edge",
-      subtitle: "Hardware-aware AI",
-      description: "Prioridad en modelos pequeños que corren en ASICs y pipelines sintéticos. El enrutamiento cooperativo permite ahorrar cómputo delegando tareas solo cuando es necesario."
+      icon: "⚖️",
+      title: "Gobernanza Institucional",
+      subtitle: "Ética como ventaja competitiva",
+      description: "Auge de roles dedicados a la trazabilidad y ética de la IA. Las empresas blindan sus procesos para garantizar calidad y cumplimiento normativo en sus sistemas autónomos."
     },
     {
       id: 4,
-      icon: "📢",
-      title: "Marketing Autónomo",
-      subtitle: "Orquestación sin humanos",
-      description: "Agentes copilotos gestionan personalización predictiva y campañas complejas usando datos de primera mano, garantizando privacidad y ejecución autónoma de 360 grados."
+      icon: "☁️",
+      title: "Multicloud & Edge Híbrido",
+      subtitle: "Infraestructura flexible",
+      description: "Despliegue distribuido de IA en nubes públicas, privadas y Edge para optimizar costos. Las 'superfactorías' de IA interconectadas gestionan el cálculo de forma eficiente."
     }
   ],
   
   impact: {
-    opportunity: "La orquestación multi-agente valida profundamente nuestro enfoque de 'Subagentes' en OpenClaw para tareas paralelas y complejas.",
-    action: "Fortalecer el sistema de dashboards de subagentes y explorar la integración de modelos locales (Edge) para optimizar costos de inferencia."
+    opportunity: "La institucionalización de la gobernanza y la IA científica abren puertas para servicios de auditoría algorítmica y automatización de R&D.",
+    action: "Evaluar la integración de herramientas de trazabilidad en nuestros flujos agénticos para ofrecer mayor transparencia y seguridad a clientes corporativos."
   },
   
   archive: [
+    {
+      date: "2026-02-13",
+      preview: "IA Agéntica Operacional, IA Científica, Gobernanza, Multicloud...",
+      file: "2026-02-13.json"
+    },
     {
       date: "2026-02-12",
       preview: "IA Física, Multi-Agente, Modelos Edge, Marketing Autónomo...",
