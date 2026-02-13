@@ -23,5 +23,77 @@
   "services": {
     "openclaw": "active",
     "nginx": "active"
-  }
+  },
+  "sessions": [
+    {
+      "key": "bitbot > whatsapp:group:120363405703366130@g.us",
+      "model": "gemini-3-flash",
+      "usage": "0.0k",
+      "percent": 0,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840",
+      "model": "gemini-3-flash",
+      "usage": "0.0k",
+      "percent": 0,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:c34371ae-d23f-4786-9647-3bbffdd954a5",
+      "model": "gemini-3-flash",
+      "usage": "0.0k",
+      "percent": 0,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > cron:65c261c9-1e12-4fd9-b77e-fe5b82c21732",
+      "model": "gemini-3-flash",
+      "usage": "28.5k",
+      "percent": 3,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > cron:65c261c9-1e12-4fd9-b77e-fe5b82c21732:run:109487cb-6855-4090-a0e5-e0e9c05dc9e0",
+      "model": "gemini-3-flash",
+      "usage": "28.5k",
+      "percent": 3,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > Direct Chat 💬",
+      "model": "gemini-3-flash",
+      "usage": "167.3k",
+      "percent": 16,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:1e04d74b-b4f5-431f-8d31-457b3faf12d6",
+      "model": "gemini-3-flash",
+      "usage": "57.7k",
+      "percent": 6,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > whatsapp:group:120363392126554985@g.us",
+      "model": "gemini-3-flash",
+      "usage": "0.0k",
+      "percent": 0,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > whatsapp:group:120363416961354214@g.us",
+      "model": "gemini-3-flash",
+      "usage": "0.0k",
+      "percent": 0,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:b4ea1d74-9980-468f-8189-3f43483cd3a9",
+      "model": "gemini-3-flash",
+      "usage": "57.4k",
+      "percent": 5,
+      "status": "ok"
+    }
+  ]
 }
