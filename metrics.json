@@ -26,14 +26,21 @@
   },
   "sessions": [
     {
-      "key": "bitbot > cron:65c261c9-1e12-4fd9-b77e-fe5b82c21732",
+      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840",
       "model": "gemini-3-flash",
       "usage": "0.0k",
       "percent": 0,
       "status": "ok"
     },
     {
-      "key": "bitbot > cron:65c261c9-1e12-4fd9-b77e-fe5b82c21732:run:2c3b23e4-aea4-4660-8b45-b9a544dc010a",
+      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:86e842b0-66e7-416f-9428-115a6505c1d3",
+      "model": "gemini-3-flash",
+      "usage": "0.0k",
+      "percent": 0,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > whatsapp:group:120363405703366130@g.us",
       "model": "gemini-3-flash",
       "usage": "0.0k",
       "percent": 0,
@@ -42,15 +49,22 @@
     {
       "key": "bitbot > Direct Chat 💬",
       "model": "gemini-3-flash",
-      "usage": "144.7k",
-      "percent": 14,
+      "usage": "72.7k",
+      "percent": 7,
       "status": "ok"
     },
     {
-      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840",
+      "key": "bitbot > cron:65c261c9-1e12-4fd9-b77e-fe5b82c21732",
       "model": "gemini-3-flash",
-      "usage": "0.0k",
-      "percent": 0,
+      "usage": "178.2k",
+      "percent": 17,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > cron:65c261c9-1e12-4fd9-b77e-fe5b82c21732:run:2c3b23e4-aea4-4660-8b45-b9a544dc010a",
+      "model": "gemini-3-flash",
+      "usage": "178.2k",
+      "percent": 17,
       "status": "ok"
     },
     {
@@ -79,20 +93,6 @@
       "model": "gemini-3-flash",
       "usage": "0.0k",
       "percent": 0,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:e2351e44-b40b-410b-9cc2-ea32a385c560",
-      "model": "gemini-3-flash",
-      "usage": "56.2k",
-      "percent": 5,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > cron:65c261c9-1e12-4fd9-b77e-fe5b82c21732:run:40b9b7dc-c057-4ed4-9c4b-775c000bd457",
-      "model": "gemini-3-flash",
-      "usage": "28.3k",
-      "percent": 3,
       "status": "ok"
     }
   ]
