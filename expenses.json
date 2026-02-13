@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-02-13T14:00:07.794516",
-  "total": 386427,
-  "total_fmt": "$386.427",
-  "count": 19,
+  "updatedAt": "2026-02-13T14:06:24.287Z",
+  "total": 390407,
+  "total_fmt": "$390.407",
+  "count": 20,
   "items": [
+    {
+      "fecha": "2026-02-13",
+      "descripcion": "Pronto Copec (Coca Cola, Jugo, Galletas)",
+      "monto": 3980,
+      "monto_fmt": "$3.980",
+      "factura": "615434596",
+      "comprobante": "https://drive.google.com/file/d/1_uvsR_xrcM6PCtHqITYGgGYK6Up3neDY/view?usp=drivesdk"
+    },
     {
       "fecha": "2026-02-12",
       "descripcion": "Gasto Unimarc (Coca Cola Fanta Galletas)",
