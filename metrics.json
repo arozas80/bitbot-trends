@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-02-13T19:00:08+00:00",
+  "generatedAt": "2026-02-13T20:00:07+00:00",
   "hostname": "vps-387ef501",
   "cpu": {
-    "usage": 3,
-    "loadAvg": "0.93"
+    "usage": 22,
+    "loadAvg": "0.80"
   },
   "memory": {
-    "used": 4328,
+    "used": 4506,
     "total": 11675,
-    "percent": 37
+    "percent": 38
   },
   "disk": {
     "used": "29G",
@@ -17,83 +17,11 @@
   },
   "uptime": {
     "days": 8,
-    "hours": 18,
-    "formatted": "8d 18h"
+    "hours": 19,
+    "formatted": "8d 19h"
   },
   "services": {
     "openclaw": "active",
     "nginx": "active"
-  },
-  "sessions": [
-    {
-      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840",
-      "model": "gemini-3-flash",
-      "usage": "0.0k",
-      "percent": 0,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:8f3715c9-0519-410e-a114-05db6c37f7e2",
-      "model": "gemini-3-flash",
-      "usage": "0.0k",
-      "percent": 0,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > Direct Chat 💬",
-      "model": "gemini-3-flash",
-      "usage": "184.5k",
-      "percent": 18,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > whatsapp:group:120363305011667560@g.us",
-      "model": "gemini-3-flash",
-      "usage": "0.0k",
-      "percent": 0,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:1517e53e-a14f-42b7-b5ed-1f5d6f9b4770",
-      "model": "gemini-3-flash",
-      "usage": "64.5k",
-      "percent": 6,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > whatsapp:group:120363385541397003@g.us",
-      "model": "gemini-3-flash",
-      "usage": "0.0k",
-      "percent": 0,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:fc837c71-867e-4e03-aac9-bbe9f93d0ecf",
-      "model": "gemini-3-flash",
-      "usage": "57.2k",
-      "percent": 5,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > whatsapp:group:120363375200178975@g.us",
-      "model": "gemini-3-flash",
-      "usage": "0.0k",
-      "percent": 0,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > whatsapp:group:120363391122322613@g.us",
-      "model": "gemini-3-flash",
-      "usage": "0.0k",
-      "percent": 0,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:7d8c7e1e-e466-4353-a3d1-6393d5526d7e",
-      "model": "gemini-3-flash",
-      "usage": "56.3k",
-      "percent": 5,
-      "status": "ok"
-    }
-  ]
+  }
 }
