@@ -33,10 +33,38 @@
       "status": "ok"
     },
     {
-      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:03f0d08c-537f-42d1-a663-e60ff52dba2d",
+      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:74f382d8-7d82-449f-b459-782c748659ec",
       "model": "gemini-3-flash",
       "usage": "0.0k",
       "percent": 0,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > whatsapp:group:120363392126554985@g.us",
+      "model": "gemini-3-flash",
+      "usage": "0.0k",
+      "percent": 0,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > whatsapp:group:120363403977380561@g.us",
+      "model": "gemini-3-flash",
+      "usage": "0.0k",
+      "percent": 0,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > Direct Chat 💬",
+      "model": "gpt-5.2",
+      "usage": "121.2k",
+      "percent": 30,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:03f0d08c-537f-42d1-a663-e60ff52dba2d",
+      "model": "gemini-3-flash",
+      "usage": "56.2k",
+      "percent": 5,
       "status": "ok"
     },
     {
@@ -54,13 +82,6 @@
       "status": "ok"
     },
     {
-      "key": "bitbot > whatsapp:group:120363392126554985@g.us",
-      "model": "gemini-3-flash",
-      "usage": "0.0k",
-      "percent": 0,
-      "status": "ok"
-    },
-    {
       "key": "bitbot > whatsapp:group:120363420478343332@g.us",
       "model": "gemini-3-flash",
       "usage": "0.0k",
@@ -72,27 +93,6 @@
       "model": "gemini-3-flash",
       "usage": "0.0k",
       "percent": 0,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > Direct Chat 💬",
-      "model": "gpt-5.2",
-      "usage": "121.2k",
-      "percent": 30,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:23669056-c52e-4465-b171-c8ec96f90eb2",
-      "model": "gemini-3-flash",
-      "usage": "56.2k",
-      "percent": 5,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > whatsapp:group:56994191736-1490900786@g.us",
-      "model": "gemini-3-flash",
-      "usage": "282.0k",
-      "percent": 27,
       "status": "ok"
     }
   ]
