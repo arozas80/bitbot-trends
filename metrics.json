@@ -26,6 +26,13 @@
   },
   "sessions": [
     {
+      "key": "bitbot > whatsapp:group:120363423099813115@g.us",
+      "model": "gemini-3-flash",
+      "usage": "0.0k",
+      "percent": 0,
+      "status": "ok"
+    },
+    {
       "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840",
       "model": "gemini-3-flash",
       "usage": "0.0k",
@@ -33,7 +40,7 @@
       "status": "ok"
     },
     {
-      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:555c5b32-8dde-4fab-a62d-aa3a85defa5b",
+      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:4f4994a9-c864-4373-8d5c-759398f6eb0b",
       "model": "gemini-3-flash",
       "usage": "0.0k",
       "percent": 0,
@@ -44,6 +51,20 @@
       "model": "gemini-3-flash",
       "usage": "0.0k",
       "percent": 0,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > Direct Chat 💬",
+      "model": "gemini-3-flash",
+      "usage": "210.6k",
+      "percent": 20,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:555c5b32-8dde-4fab-a62d-aa3a85defa5b",
+      "model": "gemini-3-flash",
+      "usage": "44.7k",
+      "percent": 4,
       "status": "ok"
     },
     {
@@ -68,28 +89,7 @@
       "status": "ok"
     },
     {
-      "key": "bitbot > Direct Chat 💬",
-      "model": "gemini-3-flash",
-      "usage": "210.5k",
-      "percent": 20,
-      "status": "ok"
-    },
-    {
       "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:ee1bddba-d9f6-43af-a24b-3a310805ac59",
-      "model": "gemini-3-flash",
-      "usage": "57.6k",
-      "percent": 5,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:1ebebe4d-b6b5-487a-8aa5-fdf04dcc8d20",
-      "model": "gemini-3-flash",
-      "usage": "59.2k",
-      "percent": 6,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:0602cb51-42b9-4ceb-8a90-db902053acd1",
       "model": "gemini-3-flash",
       "usage": "57.6k",
       "percent": 5,
