@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-14T09:01:25.119210",
+  "updatedAt": "2026-02-14T09:02:08.923442",
   "todos": [
     {
       "text": "Revisa el clima si son las 08:00 o las 20:00 (necesitas ubicaci\u00f3n). (Realizado 08:30)",
@@ -35,21 +35,6 @@
     {
       "name": "Reporte Tendencias",
       "schedule": "07:00 AM",
-      "status": "active"
-    },
-    {
-      "name": "Campa\u00f1a Marlene (Ma\u00f1ana)",
-      "schedule": "09:00 AM",
-      "status": "active"
-    },
-    {
-      "name": "Campa\u00f1a Marlene (Tarde)",
-      "schedule": "03:00 PM",
-      "status": "active"
-    },
-    {
-      "name": "Campa\u00f1a Marlene (Noche)",
-      "schedule": "09:00 PM",
       "status": "active"
     },
     {
