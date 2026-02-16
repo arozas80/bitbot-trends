@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-02-16T21:00:02.518999",
-  "total": 390407,
-  "total_fmt": "$390.407",
-  "count": 20,
+  "updatedAt": "2026-02-16T21:21:40.303Z",
+  "total": 402287,
+  "total_fmt": "$402.287",
+  "count": 21,
   "items": [
+    {
+      "fecha": "2026-02-16",
+      "descripcion": "Almuerzo McDonald (Arcos Dorados)",
+      "monto": 11880,
+      "monto_fmt": "$11.880",
+      "factura": "195254483",
+      "comprobante": "https://drive.google.com/file/d/1Us22qv9gJsrFfWJVPcGX9lYjOhgUEDC3/view?usp=drivesdk"
+    },
     {
       "fecha": "2026-02-13",
       "descripcion": "Pronto Copec (Coca Cola Jugo Galletas)",
