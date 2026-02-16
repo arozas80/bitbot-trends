@@ -1,47 +1,52 @@
 // Data file - Updated daily by Bitbot
 const trendsData = {
-  lastUpdate: "2026-02-14T06:00:00-03:00",
-  currentDate: "14 de febrero de 2026",
+  lastUpdate: "2026-02-16T08:30:00-03:00",
+  currentDate: "16 de febrero de 2026",
   
-  executiveSummary: "El foco hoy está en la IA Agéntica como Middleware, el 'momento ChatGPT' de la IA Física y la Orquestación de Flujos basada en objetivos. La IA trasciende las herramientas aisladas para convertirse en el sistema operativo de la empresa moderna.",
+  executiveSummary: "Hoy la narrativa se desplaza hacia la consolidación de la IA Física en entornos comerciales y la evolución de los agentes aislados hacia Flujos de Trabajo Agénticos orquestados. La eficiencia en el borde (Edge AI) y la ciberseguridad integrada son pilares críticos.",
   
   trends: [
     {
       id: 1,
-      icon: "🤖",
-      title: "IA Agéntica como Middleware",
-      subtitle: "Super agentes de coordinación",
-      description: "Los agentes emergen como la capa intermedia que coordina flujos empresariales dinámicos, integrando IoT y datos en tiempo real para la toma de decisiones autónoma."
+      icon: "🦾",
+      title: "Despliegue de IA Física",
+      subtitle: "Robots en producción real",
+      description: "La robótica entra en manufactura comercial con humanoides que razonan y actúan físicamente en entornos de producción complejos."
     },
     {
       id: 2,
-      icon: "🦾",
-      title: "IA Física y Humanoides",
-      subtitle: "El 'momento ChatGPT' de la robótica",
-      description: "Despliegue comercial de robots humanoides en manufactura. La IA física permite percepción y razonamiento espacial para tareas complejas en entornos industriales."
+      icon: "⚙️",
+      title: "Workflows Agénticos",
+      subtitle: "Orquestación sobre autonomía",
+      description: "El valor se desplaza de agentes aislados a flujos de trabajo orquestados por 'Super Agentes' que gestionan múltiples herramientas y metas."
     },
     {
       id: 3,
-      icon: "🎯",
-      title: "Orquestación por Objetivos",
-      subtitle: "Protocolos de Validación",
-      description: "Transición de herramientas aisladas a equipos de IA que ejecutan metas complejas bajo supervisión humana, asegurando alineación y calidad en la ejecución."
+      icon: "📱",
+      title: "Edge AI Híbrido",
+      subtitle: "Computación Amorfa",
+      description: "Desarrollo de modelos eficientes para hardware de borde, combinando Transformers con Modelos de Espacio de Estados (SSM) para alto rendimiento local."
     },
     {
       id: 4,
-      icon: "⚛️",
-      title: "Hardware y Borde Híbrido",
-      subtitle: "Maduración de ASICs y Quantum-AI",
-      description: "Evolución del hardware hacia chips especializados y convergencia cuántica, optimizando el procesamiento en el borde (Edge) para mayor eficiencia energética."
+      icon: "🛡️",
+      title: "Ciberseguridad IA",
+      subtitle: "Seguridad por Diseño",
+      description: "Integración crítica de IA en defensa cibernética con supervisión humana para mitigar las vulnerabilidades propias de la automatización masiva."
     }
   ],
   
   impact: {
-    opportunity: "La convergencia de IA Física y agentes de middleware ofrece una oportunidad masiva para automatizar la cadena de suministro y la supervisión de planta.",
-    action: "Explorar la integración de protocolos de validación de objetivos en nuestros subagentes para mejorar la precisión y confiabilidad de las tareas automatizadas."
+    opportunity: "La transición a flujos de trabajo agénticos permite escalar operaciones complejas sin perder el control de calidad, ideal para servicios B2B.",
+    action: "Evaluar la migración de tareas aisladas de subagentes a workflows estructurados que utilicen hardware local cuando sea posible para reducir latencia."
   },
   
   archive: [
+    {
+      date: "2026-02-16",
+      preview: "IA Física, Workflows Agénticos, Edge AI Híbrido, Ciberseguridad...",
+      file: "2026-02-16.json"
+    },
     {
       date: "2026-02-14",
       preview: "IA Agéntica Middleware, IA Física, Orquestación Objetivos, ASICs...",
@@ -66,31 +71,6 @@ const trendsData = {
       date: "2026-02-10",
       preview: "IA Agéntica Colaborativa, Robótica Hogareña, 6G Arquitecturas...",
       file: "2026-02-10.json"
-    },
-    {
-      date: "2026-02-09",
-      preview: "IA Física, AOS Middleware, Edge Hardware...",
-      file: "2026-02-09.json"
-    },
-    {
-      date: "2026-02-08",
-      preview: "IA Física, Sistemas Operativos Agénticos, IoT/Edge...",
-      file: "2026-02-08.json"
-    },
-    {
-      date: "2026-02-07",
-      preview: "IA Agéntica, Edge AI, Especialización Vertical...",
-      file: "2026-02-07.json"
-    },
-    {
-      date: "2026-02-06",
-      preview: "Agentes Autónomos, IA Física, Hiper-Especialización...",
-      file: "2026-02-06.json"
-    },
-    {
-      date: "2026-02-05",
-      preview: "Protocolo Bitbot establecido, optimización VPS...",
-      file: "2026-02-05.json"
     }
   ]
 };
