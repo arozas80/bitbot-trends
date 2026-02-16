@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-02-16T14:00:33+00:00",
+  "generatedAt": "2026-02-16T14:00:57+00:00",
   "hostname": "vps-387ef501",
   "cpu": {
-    "usage": 39,
-    "loadAvg": "2.29"
+    "usage": 18,
+    "loadAvg": "2.17"
   },
   "memory": {
-    "used": 3899,
+    "used": 3662,
     "total": 11675,
-    "percent": 33
+    "percent": 31
   },
   "disk": {
     "used": "30G",
