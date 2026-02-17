@@ -12,6 +12,27 @@ function refreshData() {
   loadProjects();
   loadTasks();
   loadExpenses();
+  loadPlan2026();
+}
+
+async function loadPlan2026() {
+  try {
+    const res = await fetch('BITWARE_PLAN_2026.md');
+    if (!res.ok) throw new Error('No se pudo cargar el plan');
+    const markdown = await res.text();
+    const converter = new showdown.Converter({
+      headerLevelStart: 2,
+      simplifiedAutoLink: true,
+      strikethrough: true,
+      tables: true,
+      tasklists: true
+    });
+    const html = converter.makeHtml(markdown);
+    document.getElementById('planContent').innerHTML = html;
+  } catch (err) {
+    console.error('Plan 2026 error:', err);
+    document.getElementById('planContent').innerHTML = `<p style="color: var(--status-error)">⚠️ ${err.message}</p>`;
+  }
 }
 
 function initTabs() {

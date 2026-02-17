@@ -364,3 +364,54 @@ body {
 
   .list-container { max-height: none; }
 }
+
+/* Plan 2026 Markdown Styles */
+.markdown-content {
+  line-height: 1.6;
+  color: var(--text-secondary);
+}
+
+.markdown-content h2 {
+  color: var(--accent-cyan);
+  font-family: var(--font-mono);
+  margin-top: 32px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid var(--border-standard);
+  padding-bottom: 8px;
+}
+
+.markdown-content h3 {
+  color: var(--accent-purple);
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+
+.markdown-content ul {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.markdown-content li {
+  margin-bottom: 8px;
+}
+
+.markdown-content strong {
+  color: var(--text-primary);
+}
+
+.markdown-content code {
+  background: rgba(34, 211, 238, 0.1);
+  color: var(--accent-cyan);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: var(--font-mono);
+  font-size: 0.9em;
+}
+
+.markdown-content blockquote {
+  border-left: 4px solid var(--accent-cyan);
+  background: rgba(34, 211, 238, 0.05);
+  padding: 16px;
+  margin: 20px 0;
+  font-style: italic;
+}

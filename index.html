@@ -35,8 +35,11 @@
       <button class="nav-item" data-tab="tasks">
         <span class="nav-icon">✅</span> <span class="nav-text">Tareas & Crons</span>
       </button>
+      <button class="nav-item" data-tab="plan2026">
+        <span class="nav-icon">🗺️</span> <span class="nav-text">Estrategia 2026</span>
+      </button>
       <a href="estrategia_final.html" class="nav-item" style="text-decoration: none;">
-        <span class="nav-icon">🗺️</span> <span class="nav-text">Estrategia Final</span>
+        <span class="nav-icon">🌐</span> <span class="nav-text">Old Strategy</span>
       </a>
     </nav>
     
@@ -164,9 +167,17 @@
         </div>
       </section>
 
+      <!-- TAB: Plan 2026 -->
+      <section class="tab-pane" id="tab-plan2026">
+        <div class="card markdown-content" id="planContent">
+          <p>Cargando Plan Estratégico...</p>
+        </div>
+      </section>
+
     </div>
   </main>
 
+    <script src="https://cdn.jsdelivr.net/npm/showdown@2.1.0/dist/showdown.min.js"></script>
   <script src="data.js"></script>
   <script src="app.js"></script>
 </body>
