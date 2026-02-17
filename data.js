@@ -1,47 +1,52 @@
 // Data file - Updated daily by Bitbot
 const trendsData = {
-  lastUpdate: "2026-02-16T08:30:00-03:00",
-  currentDate: "16 de febrero de 2026",
+  lastUpdate: "2026-02-17T06:15:00-03:00",
+  currentDate: "17 de febrero de 2026",
   
-  executiveSummary: "Hoy la narrativa se desplaza hacia la consolidación de la IA Física en entornos comerciales y la evolución de los agentes aislados hacia Flujos de Trabajo Agénticos orquestados. La eficiencia en el borde (Edge AI) y la ciberseguridad integrada son pilares críticos.",
+  executiveSummary: "Hoy la narrativa se desplaza hacia la consolidación de la IA Agéntica y Autónoma en workflows operativos complejos. La especialización sectorial, la multimodalidad estándar y el auge de los Small Language Models (SLM) son los pilares de este cambio hacia la ejecución práctica.",
   
   trends: [
     {
       id: 1,
-      icon: "🦾",
-      title: "Despliegue de IA Física",
-      subtitle: "Robots en producción real",
-      description: "La robótica entra en manufactura comercial con humanoides que razonan y actúan físicamente en entornos de producción complejos."
+      icon: "🤖",
+      title: "IA Agéntica y Workflows",
+      subtitle: "De chatbots a ejecutores",
+      description: "Transición de agentes aislados a flujos de trabajo orquestados que ejecutan tareas complejas y multipaso sin intervención humana constante."
     },
     {
       id: 2,
-      icon: "⚙️",
-      title: "Workflows Agénticos",
-      subtitle: "Orquestación sobre autonomía",
-      description: "El valor se desplaza de agentes aislados a flujos de trabajo orquestados por 'Super Agentes' que gestionan múltiples herramientas y metas."
+      icon: "🏢",
+      title: "Especialización Sectorial",
+      subtitle: "IA con enfoque industrial",
+      description: "Modelos diseñados específicamente para salud, energía y logística, priorizando resultados de eficiencia operativa sobre sofisticación técnica."
     },
     {
       id: 3,
-      icon: "📱",
-      title: "Edge AI Híbrido",
-      subtitle: "Computación Amorfa",
-      description: "Desarrollo de modelos eficientes para hardware de borde, combinando Transformers con Modelos de Espacio de Estados (SSM) para alto rendimiento local."
+      icon: "👁️",
+      title: "Multimodalidad Estándar",
+      subtitle: "Integración nativa de medios",
+      description: "Procesamiento unificado de texto, imagen, audio y video como norma para análisis de datos ricos y toma de decisiones avanzada."
     },
     {
       id: 4,
-      icon: "🛡️",
-      title: "Ciberseguridad IA",
-      subtitle: "Seguridad por Diseño",
-      description: "Integración crítica de IA en defensa cibernética con supervisión humana para mitigar las vulnerabilidades propias de la automatización masiva."
+      icon: "⚡",
+      title: "Small Language Models (SLM)",
+      subtitle: "Eficiencia y Edge AI",
+      description: "Auge de modelos compactos para computación local y eficiente, reduciendo costes operativos y huella energética."
     }
   ],
   
   impact: {
-    opportunity: "La transición a flujos de trabajo agénticos permite escalar operaciones complejas sin perder el control de calidad, ideal para servicios B2B.",
-    action: "Evaluar la migración de tareas aisladas de subagentes a workflows estructurados que utilicen hardware local cuando sea posible para reducir latencia."
+    opportunity: "La orquestación de workflows agénticos permite escalar operaciones complejas con mínima supervisión, ideal para servicios B2B automatizados.",
+    action: "Priorizar la integración de modelos especializados y multimodales en flujos de trabajo existentes, evaluando el uso de SLMs para baja latencia."
   },
   
   archive: [
+    {
+      date: "2026-02-17",
+      preview: "IA Agéntica Workflows, Especialización, Multimodalidad, SLM...",
+      file: "2026-02-17.json"
+    },
     {
       date: "2026-02-16",
       preview: "IA Física, Workflows Agénticos, Edge AI Híbrido, Ciberseguridad...",
