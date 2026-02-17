@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-02-17T15:00:02.904676",
-  "total": 409067,
-  "total_fmt": "$409.067",
-  "count": 22,
+  "updatedAt": "2026-02-17T15:31:20.049Z",
+  "total": 473427,
+  "total_fmt": "$473.427",
+  "count": 23,
   "items": [
+    {
+      "fecha": "2026-02-17",
+      "descripcion": "Envío despacho CALS (Transporte EGT)",
+      "monto": 64360,
+      "monto_fmt": "$64.360",
+      "factura": "13313771",
+      "comprobante": "https://drive.google.com/file/d/1LnoHd1Qhtx-IIJgIDaDrtHQFOvCpAQKK/view?usp=drivesdk"
+    },
     {
       "fecha": "2026-02-17",
       "descripcion": "Pronto Copec (Sandwich + Red Bull)",
