@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-02-17T14:00:02.500359",
-  "total": 402287,
-  "total_fmt": "$402.287",
-  "count": 21,
+  "updatedAt": "2026-02-17T14:04:20.901Z",
+  "total": 409067,
+  "total_fmt": "$409.067",
+  "count": 22,
   "items": [
+    {
+      "fecha": "2026-02-17",
+      "descripcion": "Pronto Copec (Sandwich + Red Bull)",
+      "monto": 6780,
+      "monto_fmt": "$6.780",
+      "factura": "617863216",
+      "comprobante": "https://drive.google.com/file/d/12eDJ3oyWTVGbG0donrQAKpzyxIriARHr/view?usp=drivesdk"
+    },
     {
       "fecha": "2026-02-16",
       "descripcion": "Almuerzo McDonald (Arcos Dorados)",
