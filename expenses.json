@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-02-18T18:55:35.200Z",
-  "total": 493007,
-  "total_fmt": "$493.007",
-  "count": 25,
+  "updatedAt": "2026-02-18T19:18:00.494Z",
+  "total": 495057,
+  "total_fmt": "$495.057",
+  "count": 26,
   "items": [
+    {
+      "fecha": "2026-02-18",
+      "descripcion": "Fast Food Chile S.A. (Sucursal San Martin AK) - Pepsi Grande",
+      "monto": 2050,
+      "monto_fmt": "$2.050",
+      "factura": "70624679",
+      "comprobante": "https://drive.google.com/file/d/13Tolqos02uwngmiCb4vFwm2UEKdYsihZ/view?usp=drivesdk"
+    },
     {
       "fecha": "2026-02-18",
       "descripcion": "Fast Food Chile S.A. (Sucursal San Martin AK) - consumo",
