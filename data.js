@@ -1,47 +1,52 @@
 // Data file - Updated daily by Bitbot
 const trendsData = {
-  lastUpdate: "2026-02-17T06:15:00-03:00",
-  currentDate: "17 de febrero de 2026",
+  lastUpdate: "2026-02-18T06:00:00-03:00",
+  currentDate: "18 de febrero de 2026",
   
-  executiveSummary: "Hoy la narrativa se desplaza hacia la consolidación de la IA Agéntica y Autónoma en workflows operativos complejos. La especialización sectorial, la multimodalidad estándar y el auge de los Small Language Models (SLM) son los pilares de este cambio hacia la ejecución práctica.",
+  executiveSummary: "Hoy se consolida el paso de la IA generativa hacia operaciones autónomas (Agentic AI) con foco en AIOps/ITSM y remediación automática, mientras sube la prioridad de gobernanza y auditabilidad. En paralelo, la automatización se expande hacia robótica/IA encarnada (sim-to-real y pilotos) y continúa el movimiento hacia modelos más pequeños y eficientes (SLM/Edge) para reducir costos y latencia.",
   
   trends: [
     {
       id: 1,
-      icon: "🤖",
-      title: "IA Agéntica y Workflows",
-      subtitle: "De chatbots a ejecutores",
-      description: "Transición de agentes aislados a flujos de trabajo orquestados que ejecutan tareas complejas y multipaso sin intervención humana constante."
+      icon: "🛠️",
+      title: "Agentic AI en Operaciones (AIOps)",
+      subtitle: "Remediación autónoma y supervisión",
+      description: "Evolución desde alertas a agentes que planifican, actúan, verifican y corrigen: ejecutan playbooks, rollback, actualización de KB y escalan solo excepciones."
     },
     {
       id: 2,
-      icon: "🏢",
-      title: "Especialización Sectorial",
-      subtitle: "IA con enfoque industrial",
-      description: "Modelos diseñados específicamente para salud, energía y logística, priorizando resultados de eficiencia operativa sobre sofisticación técnica."
+      icon: "🎫",
+      title: "ITSM Predictivo",
+      subtitle: "Triage + clustering semántico + SLA",
+      description: "Service desks con IA que agrupa incidentes por similitud semántica, anticipa riesgo de brecha de SLA y propone resolución basada en patrones históricos."
     },
     {
       id: 3,
-      icon: "👁️",
-      title: "Multimodalidad Estándar",
-      subtitle: "Integración nativa de medios",
-      description: "Procesamiento unificado de texto, imagen, audio y video como norma para análisis de datos ricos y toma de decisiones avanzada."
+      icon: "🧭",
+      title: "Gobernanza de Agentes",
+      subtitle: "Trazabilidad y límites de autonomía",
+      description: "Controles para evitar shadow AI: RBAC/ABAC para herramientas, umbrales de escalamiento, registro de decisiones y auditoría end-to-end para despliegues seguros."
     },
     {
       id: 4,
-      icon: "⚡",
-      title: "Small Language Models (SLM)",
-      subtitle: "Eficiencia y Edge AI",
-      description: "Auge de modelos compactos para computación local y eficiente, reduciendo costes operativos y huella energética."
+      icon: "🦾",
+      title: "Robótica e IA Encarnada",
+      subtitle: "Sim-to-real y pilotos de humanoides",
+      description: "Entrenamiento masivo en simulación, visión + control adaptativo y programación por lenguaje natural aceleran pilotos en logística y manufactura."
     }
   ],
   
   impact: {
-    opportunity: "La orquestación de workflows agénticos permite escalar operaciones complejas con mínima supervisión, ideal para servicios B2B automatizados.",
-    action: "Priorizar la integración de modelos especializados y multimodales en flujos de trabajo existentes, evaluando el uso de SLMs para baja latencia."
+    opportunity: "Combinar agentic workflows con ITSM predictivo convierte operación/soporte en gestión de riesgo (no solo resolución), y sim-to-real acelera ROI en automatización física.",
+    action: "Definir un catálogo de acciones permitidas por criticidad con auditoría; empezar por incidentes high-frequency/low-risk; evaluar SLM/Edge para privacidad y baja latencia."
   },
   
   archive: [
+    {
+      date: "2026-02-18",
+      preview: "AIOps agéntico, ITSM predictivo, gobernanza, robótica/IA encarnada...",
+      file: "2026-02-18.json"
+    },
     {
       date: "2026-02-17",
       preview: "IA Agéntica Workflows, Especialización, Multimodalidad, SLM...",
