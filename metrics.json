@@ -26,25 +26,25 @@
   },
   "sessions": [
     {
+      "key": "bitbot > Direct Chat 💬",
+      "model": "gemini-3-flash",
+      "usage": "164.5k",
+      "percent": 82,
+      "status": "warning"
+    },
+    {
       "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840",
       "model": "gpt-5.2",
-      "usage": "0.0k",
-      "percent": 0,
+      "usage": "7.0k",
+      "percent": 3,
       "status": "ok"
     },
     {
       "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:66e7a810-d728-4c67-b3bd-21a53e22784c",
       "model": "gpt-5.2",
-      "usage": "0.0k",
-      "percent": 0,
+      "usage": "7.0k",
+      "percent": 3,
       "status": "ok"
-    },
-    {
-      "key": "bitbot > Direct Chat 💬",
-      "model": "gemini-3-flash",
-      "usage": "156.0k",
-      "percent": 78,
-      "status": "warning"
     },
     {
       "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:e9de4aea-4a0f-40cc-9994-77f505634b3c",
