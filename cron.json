@@ -1,29 +1,6 @@
 {
-  "generatedAt": "2026-02-18T09:45:12.458Z",
+  "generatedAt": "2026-02-18T10:00:27.006Z",
   "jobs": [
-    {
-      "id": "03edfa7e-366d-4869-8e0f-920e72bb5840",
-      "name": "Update Dashboard Sessions & Tokens",
-      "agentId": "publico",
-      "enabled": true,
-      "schedule": {
-        "kind": "cron",
-        "expr": "*/15 * * * *",
-        "tz": null,
-        "everyMs": null,
-        "at": null
-      },
-      "state": {
-        "nextRunAt": "2026-02-18T09:45:00.000Z",
-        "lastRunAt": "2026-02-18T09:30:00.010Z",
-        "lastStatus": "ok",
-        "lastDurationMs": 16687,
-        "consecutiveErrors": 0
-      },
-      "deliveryMode": "none",
-      "sessionTarget": "isolated",
-      "summary": "*/15 * * * *"
-    },
     {
       "id": "d904e818-12d3-4bd7-bd6c-2f1b77087b32",
       "name": "Reporte Diario de Tendencias",
@@ -69,6 +46,29 @@
       "deliveryMode": "none",
       "sessionTarget": "isolated",
       "summary": "0 * * * *"
+    },
+    {
+      "id": "03edfa7e-366d-4869-8e0f-920e72bb5840",
+      "name": "Update Dashboard Sessions & Tokens",
+      "agentId": "publico",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "*/15 * * * *",
+        "tz": null,
+        "everyMs": null,
+        "at": null
+      },
+      "state": {
+        "nextRunAt": "2026-02-18T10:00:00.000Z",
+        "lastRunAt": "2026-02-18T09:45:00.014Z",
+        "lastStatus": "ok",
+        "lastDurationMs": 15441,
+        "consecutiveErrors": 0
+      },
+      "deliveryMode": "none",
+      "sessionTarget": "isolated",
+      "summary": "*/15 * * * *"
     },
     {
       "id": "6df7686a-0181-4831-ad19-98b676439b46",
