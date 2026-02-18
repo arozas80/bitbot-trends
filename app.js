@@ -172,7 +172,7 @@ async function loadExpenses() {
     const res = await fetch('expenses.json');
     const data = await res.json();
     document.getElementById('totalExpenses').textContent = data.total_fmt;
-    document.getElementById('remainingBalance').textContent = `$${(400000 - data.total).toLocaleString('es-CL')}`;
+    document.getElementById('remainingBalance').textContent = `$${(800000 - data.total).toLocaleString('es-CL')}`;
     document.getElementById('expensesList').innerHTML = data.items.map(i => `
        <div class="list-item">
         <div class="item-icon">🧾</div>
