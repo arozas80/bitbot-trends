@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-02-18T03:00:07+00:00",
+  "generatedAt": "2026-02-18T04:00:07+00:00",
   "hostname": "vps-387ef501",
   "cpu": {
-    "usage": 21,
-    "loadAvg": "1.88"
+    "usage": 1,
+    "loadAvg": "0.76"
   },
   "memory": {
-    "used": 2987,
+    "used": 2746,
     "total": 11675,
-    "percent": 25
+    "percent": 23
   },
   "disk": {
     "used": "30G",
@@ -17,83 +17,11 @@
   },
   "uptime": {
     "days": 1,
-    "hours": 15,
-    "formatted": "1d 15h"
+    "hours": 16,
+    "formatted": "1d 16h"
   },
   "services": {
     "openclaw": "active",
     "nginx": "active"
-  },
-  "sessions": [
-    {
-      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840",
-      "model": "gpt-5.2",
-      "usage": "0.0k",
-      "percent": 0,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:ca65555b-6495-41ba-88c1-fe6a59821e92",
-      "model": "gpt-5.2",
-      "usage": "0.0k",
-      "percent": 0,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > Direct Chat 💬",
-      "model": "gpt-5.2",
-      "usage": "72.7k",
-      "percent": 27,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:90521dd0-5984-4255-84e1-a96c184572b6",
-      "model": "gpt-5.2",
-      "usage": "7.0k",
-      "percent": 3,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:3254cf0f-4c89-4527-82fd-54949e566c09",
-      "model": "gpt-5.2",
-      "usage": "7.0k",
-      "percent": 3,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > Task Runner 🏃",
-      "model": "gemini-3-flash",
-      "usage": "3.7k",
-      "percent": 2,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > Task Runner 🏃",
-      "model": "gemini-3-flash",
-      "usage": "3.6k",
-      "percent": 2,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > Task Runner 🏃",
-      "model": "gemini-3-flash",
-      "usage": "5.1k",
-      "percent": 3,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > Task Runner 🏃",
-      "model": "gemini-3-flash",
-      "usage": "3.6k",
-      "percent": 2,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:3266e536-a6d4-433d-80ad-e4cfb7244853",
-      "model": "gpt-5.2",
-      "usage": "7.0k",
-      "percent": 3,
-      "status": "ok"
-    }
-  ]
+  }
 }
