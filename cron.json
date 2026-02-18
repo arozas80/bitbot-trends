@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-02-18T06:00:24.004Z",
+  "generatedAt": "2026-02-18T06:15:12.803Z",
   "jobs": [
     {
-      "id": "c7334f08-ea41-485c-8ca5-9d4e9c0655da",
-      "name": "Respaldo Diario a GitHub",
+      "id": "03edfa7e-366d-4869-8e0f-920e72bb5840",
+      "name": "Update Dashboard Sessions & Tokens",
       "agentId": "publico",
       "enabled": true,
       "schedule": {
         "kind": "cron",
-        "expr": "0 3 * * *",
-        "tz": "America/Santiago",
+        "expr": "*/15 * * * *",
+        "tz": null,
         "everyMs": null,
         "at": null
       },
       "state": {
-        "nextRunAt": "2026-02-18T06:00:00.000Z",
-        "lastRunAt": "2026-02-17T06:00:00.009Z",
+        "nextRunAt": "2026-02-18T06:15:00.000Z",
+        "lastRunAt": "2026-02-18T06:00:11.698Z",
         "lastStatus": "ok",
-        "lastDurationMs": 15,
+        "lastDurationMs": 15107,
         "consecutiveErrors": 0
       },
-      "deliveryMode": null,
-      "sessionTarget": "main",
-      "summary": "0 3 * * *"
+      "deliveryMode": "none",
+      "sessionTarget": "isolated",
+      "summary": "*/15 * * * *"
     },
     {
       "id": "65c261c9-1e12-4fd9-b77e-fe5b82c21732",
@@ -37,38 +37,15 @@
         "at": null
       },
       "state": {
-        "nextRunAt": "2026-02-18T06:00:00.000Z",
-        "lastRunAt": "2026-02-18T05:00:00.011Z",
+        "nextRunAt": "2026-02-18T07:00:00.000Z",
+        "lastRunAt": "2026-02-18T06:00:00.027Z",
         "lastStatus": "ok",
-        "lastDurationMs": 10748,
+        "lastDurationMs": 11671,
         "consecutiveErrors": 0
       },
       "deliveryMode": "none",
       "sessionTarget": "isolated",
       "summary": "0 * * * *"
-    },
-    {
-      "id": "03edfa7e-366d-4869-8e0f-920e72bb5840",
-      "name": "Update Dashboard Sessions & Tokens",
-      "agentId": "publico",
-      "enabled": true,
-      "schedule": {
-        "kind": "cron",
-        "expr": "*/15 * * * *",
-        "tz": null,
-        "everyMs": null,
-        "at": null
-      },
-      "state": {
-        "nextRunAt": "2026-02-18T06:00:00.000Z",
-        "lastRunAt": "2026-02-18T05:45:00.012Z",
-        "lastStatus": "ok",
-        "lastDurationMs": 14451,
-        "consecutiveErrors": 0
-      },
-      "deliveryMode": "none",
-      "sessionTarget": "isolated",
-      "summary": "*/15 * * * *"
     },
     {
       "id": "f7e32111-125b-4ec2-81ec-4a38d5e52562",
@@ -253,6 +230,29 @@
       "deliveryMode": "announce",
       "sessionTarget": "isolated",
       "summary": "2026-02-18T17:00:00.000Z"
+    },
+    {
+      "id": "c7334f08-ea41-485c-8ca5-9d4e9c0655da",
+      "name": "Respaldo Diario a GitHub",
+      "agentId": "publico",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 3 * * *",
+        "tz": "America/Santiago",
+        "everyMs": null,
+        "at": null
+      },
+      "state": {
+        "nextRunAt": "2026-02-19T06:00:00.000Z",
+        "lastRunAt": "2026-02-18T06:00:00.012Z",
+        "lastStatus": "ok",
+        "lastDurationMs": 15,
+        "consecutiveErrors": 0
+      },
+      "deliveryMode": null,
+      "sessionTarget": "main",
+      "summary": "0 3 * * *"
     },
     {
       "id": "016c157e-3d8a-4dd4-8634-55289f8fac66",
