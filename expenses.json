@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-02-18T20:00:07.261047",
-  "total": 495057,
-  "total_fmt": "$495.057",
-  "count": 26,
+  "updatedAt": "2026-02-18T20:58:52.958Z",
+  "total": 509287,
+  "total_fmt": "$509.287",
+  "count": 27,
   "items": [
+    {
+      "fecha": "2026-02-18",
+      "descripcion": "Transportes, Tecnologia y Giros EGT Ltda - transporte de carga y encomienda (Servivet)",
+      "monto": 14230,
+      "monto_fmt": "$14.230",
+      "factura": "13317057",
+      "comprobante": "https://drive.google.com/file/d/1GWaSyh0EWwHk_LSDLHBC_M10ApfjB0yR/view?usp=drivesdk"
+    },
     {
       "fecha": "2026-02-18",
       "descripcion": "Fast Food Chile S.A. (Sucursal San Martin AK) - Pepsi Grande",
