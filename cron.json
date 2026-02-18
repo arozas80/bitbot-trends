@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-18T11:15:12.456Z",
+  "generatedAt": "2026-02-18T11:30:12.597Z",
   "jobs": [
     {
       "id": "03edfa7e-366d-4869-8e0f-920e72bb5840",
@@ -14,10 +14,10 @@
         "at": null
       },
       "state": {
-        "nextRunAt": "2026-02-18T11:15:00.000Z",
-        "lastRunAt": "2026-02-18T11:00:18.610Z",
+        "nextRunAt": "2026-02-18T11:30:00.000Z",
+        "lastRunAt": "2026-02-18T11:15:00.010Z",
         "lastStatus": "ok",
-        "lastDurationMs": 17732,
+        "lastDurationMs": 15591,
         "consecutiveErrors": 0
       },
       "deliveryMode": "none",
@@ -73,6 +73,29 @@
     {
       "id": "5a9b31b4-a9a0-44a8-8bb6-607e331302df",
       "name": "Recordatorio Despacho HARAS PASO NEVADO",
+      "agentId": "publico",
+      "enabled": true,
+      "schedule": {
+        "kind": "at",
+        "expr": null,
+        "tz": null,
+        "everyMs": null,
+        "at": "2026-02-18T12:00:00.000Z"
+      },
+      "state": {
+        "nextRunAt": "2026-02-18T12:00:00.000Z",
+        "lastRunAt": null,
+        "lastStatus": null,
+        "lastDurationMs": null,
+        "consecutiveErrors": 0
+      },
+      "deliveryMode": "announce",
+      "sessionTarget": "isolated",
+      "summary": "2026-02-18T12:00:00.000Z"
+    },
+    {
+      "id": "373a21c2-6740-47d9-9c58-c244c87f639d",
+      "name": "Recordatorio: dejar bolso/bolsa en conserjería (09:00)",
       "agentId": "publico",
       "enabled": true,
       "schedule": {
