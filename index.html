@@ -35,6 +35,12 @@
       <button class="nav-item" data-tab="tasks">
         <span class="nav-icon">✅</span> <span class="nav-text">Tareas & Crons</span>
       </button>
+      <button class="nav-item" data-tab="automations">
+        <span class="nav-icon">⏱️</span> <span class="nav-text">Automations</span>
+      </button>
+      <button class="nav-item" data-tab="mission">
+        <span class="nav-icon">🛰️</span> <span class="nav-text">Mission Control</span>
+      </button>
       <button class="nav-item" data-tab="plan2026">
         <span class="nav-icon">🗺️</span> <span class="nav-text">Estrategia 2026</span>
       </button>
@@ -164,6 +170,63 @@
         <h3 style="margin-bottom: 20px; font-family: var(--font-mono); color: var(--accent-cyan);">// CRON JOBS ACTIVOS</h3>
         <div class="list-container" id="cronList">
           <!-- Loaded dynamically -->
+        </div>
+      </section>
+
+      <!-- TAB: Automations -->
+      <section class="tab-pane" id="tab-automations">
+        <div class="grid">
+          <div class="card" style="grid-column: span 2;">
+            <div class="card-header">
+              <div class="card-title">CRON JOBS</div>
+              <div class="card-icon">⏱️</div>
+            </div>
+            <div class="list-container" id="cronJobsList" style="max-height: 520px;"></div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <div class="card-title">SALUD AUTOMATIONS</div>
+              <div class="card-icon">🧯</div>
+            </div>
+            <div class="card-value" id="cronHealth">--</div>
+            <p style="color: var(--text-muted); font-family: var(--font-mono); font-size: 0.8rem; margin-top: 10px;">Errores consecutivos (máx): <span id="cronMaxErrors">--</span></p>
+          </div>
+        </div>
+      </section>
+
+      <!-- TAB: Mission Control -->
+      <section class="tab-pane" id="tab-mission">
+        <div class="grid">
+          <div class="card">
+            <div class="card-header">
+              <div class="card-title">CONTENT ENGINE</div>
+              <div class="card-icon">🧪</div>
+            </div>
+            <div style="display:flex; gap:14px; flex-wrap: wrap; font-family: var(--font-mono); color: var(--text-secondary); font-size: 0.85rem;">
+              <div>Ideas: <span id="ceIdeas" style="color: var(--accent-cyan); font-weight: 700;">--</span></div>
+              <div>Drafts: <span id="ceDrafts" style="color: var(--accent-cyan); font-weight: 700;">--</span></div>
+              <div>Queue: <span id="ceQueue" style="color: var(--accent-cyan); font-weight: 700;">--</span></div>
+            </div>
+            <div style="margin-top: 16px; color: var(--text-muted); font-size: 0.85rem;">
+              Próximo en cola: <span id="ceNext" style="color: var(--text-secondary)">--</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header">
+              <div class="card-title">PRIORIDADES (AM/PM)</div>
+              <div class="card-icon">🎯</div>
+            </div>
+            <div id="prioLatest" style="color: var(--text-secondary); line-height: 1.6;">Cargando...</div>
+          </div>
+
+          <div class="card" style="grid-column: span 2;">
+            <div class="card-header">
+              <div class="card-title">ÚLTIMOS 7 DÍAS</div>
+              <div class="card-icon">📅</div>
+            </div>
+            <div class="list-container" id="prioList" style="max-height: 520px;"></div>
+          </div>
         </div>
       </section>
 

@@ -12,6 +12,8 @@ function refreshData() {
   loadProjects();
   loadTasks();
   loadExpenses();
+  loadAutomations();
+  loadMissionControl();
   loadPlan2026();
 }
 
@@ -184,6 +186,88 @@ async function loadExpenses() {
   } catch (err) { console.error('Expenses error:', err); }
 }
 
+async function loadAutomations() {
+  try {
+    const res = await fetch('cron.json');
+    const data = await res.json();
+    const jobs = data.jobs || [];
+
+    const maxErrors = jobs.reduce((m, j) => Math.max(m, j.state?.consecutiveErrors || 0), 0);
+    document.getElementById('cronMaxErrors').textContent = String(maxErrors);
+
+    const bad = jobs.filter(j => (j.state?.lastStatus && j.state.lastStatus !== 'ok') || (j.state?.consecutiveErrors || 0) > 0);
+    document.getElementById('cronHealth').textContent = bad.length ? `ATENCIÓN (${bad.length})` : 'OK';
+
+    document.getElementById('cronJobsList').innerHTML = jobs
+      .sort((a, b) => String(a.state?.nextRunAt || '').localeCompare(String(b.state?.nextRunAt || '')))
+      .map(j => {
+        const status = (j.state?.lastStatus || 'unknown').toUpperCase();
+        const err = j.state?.consecutiveErrors || 0;
+        const badgeColor = status === 'OK' && err === 0 ? 'rgba(74, 222, 128, 0.12)' : 'rgba(251, 191, 36, 0.12)';
+        const badgeText = status === 'OK' && err === 0 ? '#4ade80' : '#fbbf24';
+        return `
+        <div class="list-item">
+          <div class="item-icon">⏰</div>
+          <div class="item-body">
+            <div class="item-title">${escapeHtml(j.name)}</div>
+            <div class="item-meta">
+              <span style="font-family: var(--font-mono)">${escapeHtml(j.schedule?.expr || j.summary || '—')}</span>
+              <span>next: ${fmtShort(j.state?.nextRunAt)}</span>
+              <span>last: ${fmtShort(j.state?.lastRunAt)} (${(j.state?.lastDurationMs ?? 0)}ms)</span>
+            </div>
+          </div>
+          <div style="font-family: var(--font-mono); font-weight: 800; padding: 6px 10px; border-radius: 10px; background: ${badgeColor}; color: ${badgeText}; border: 1px solid rgba(255,255,255,0.06);">
+            ${status}${err ? ` · e${err}` : ''}
+          </div>
+        </div>`;
+      })
+      .join('');
+  } catch (err) {
+    console.error('Automations error:', err);
+    const el = document.getElementById('cronJobsList');
+    if (el) el.innerHTML = `<div class="list-item"><div class="item-body"><div class="item-title">No se pudo cargar cron.json</div></div></div>`;
+  }
+}
+
+async function loadMissionControl() {
+  try {
+    // Content Engine
+    const ceRes = await fetch('content_engine.json');
+    const ce = await ceRes.json();
+    document.getElementById('ceIdeas').textContent = ce.ideas?.count ?? '--';
+    document.getElementById('ceDrafts').textContent = ce.drafts?.count ?? '--';
+    document.getElementById('ceQueue').textContent = ce.queue?.pending ?? '--';
+    document.getElementById('ceNext').textContent = ce.queue?.nextItem ? (ce.queue.nextItem.title || ce.queue.nextItem.date || 'pendiente') : '—';
+
+    // Priorities
+    const prRes = await fetch('priorities.json');
+    const pr = await prRes.json();
+
+    const latest = pr.latest;
+    document.getElementById('prioLatest').innerHTML = latest ? `
+      <div style="font-family: var(--font-mono); color: var(--text-muted); font-size: 0.8rem; margin-bottom: 10px;">${escapeHtml(latest.date)}</div>
+      <div style="margin-bottom: 10px;"><strong style="color: var(--accent-cyan)">AM</strong>: ${escapeHtml(latest.am)}</div>
+      <div><strong style="color: var(--accent-purple)">PM</strong>: ${escapeHtml(latest.pm || '—')}</div>
+    ` : '<p style="color: var(--text-muted)">Aún no hay registro.</p>';
+
+    document.getElementById('prioList').innerHTML = (pr.last7 || []).slice().reverse().map(item => `
+      <div class="list-item">
+        <div class="item-icon">📌</div>
+        <div class="item-body">
+          <div class="item-title" style="font-family: var(--font-mono); color: var(--accent-cyan);">${escapeHtml(item.date)}</div>
+          <div class="item-meta" style="flex-direction: column; gap: 6px; align-items:flex-start;">
+            <div><span style="color: var(--text-muted); font-family: var(--font-mono);">AM</span> ${escapeHtml(item.am)}</div>
+            <div><span style="color: var(--text-muted); font-family: var(--font-mono);">PM</span> ${escapeHtml(item.pm || '—')}</div>
+          </div>
+        </div>
+      </div>
+    `).join('');
+
+  } catch (err) {
+    console.error('Mission Control error:', err);
+  }
+}
+
 // === UI Helpers ===
 
 function updateMetric(valId, barId, value) {
@@ -194,6 +278,22 @@ function updateMetric(valId, barId, value) {
 function formatTime(iso) {
   const d = new Date(iso);
   return d.toLocaleTimeString('es-CL', { hour: '2-digit', minute: '2-digit' });
+}
+
+function fmtShort(iso) {
+  if (!iso) return '—';
+  const d = new Date(iso);
+  if (isNaN(d.getTime())) return '—';
+  return d.toLocaleString('es-CL', { month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit' });
+}
+
+function escapeHtml(s) {
+  return String(s ?? '')
+    .replaceAll('&', '&amp;')
+    .replaceAll('<', '&lt;')
+    .replaceAll('>', '&gt;')
+    .replaceAll('"', '&quot;')
+    .replaceAll("'", '&#39;');
 }
 
 function getActivityIcon(type) {
