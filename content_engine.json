@@ -1,0 +1,19 @@
+{
+  "generatedAt": "2026-02-18T03:18:11.775Z",
+  "exists": true,
+  "root": "/home/alvaro/.openclaw/workspace-alvaro/content-engine",
+  "ideas": {
+    "count": 0,
+    "lastModified": "2026-02-18T03:09:38.089Z"
+  },
+  "drafts": {
+    "count": 0,
+    "lastModified": null
+  },
+  "queue": {
+    "pending": 0,
+    "published": 0,
+    "nextItem": null,
+    "lastItem": null
+  }
+}

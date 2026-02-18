@@ -1,0 +1,488 @@
+{
+  "generatedAt": "2026-02-18T03:18:11.775Z",
+  "jobs": [
+    {
+      "id": "03edfa7e-366d-4869-8e0f-920e72bb5840",
+      "name": "Update Dashboard Sessions & Tokens",
+      "agentId": "publico",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "*/15 * * * *",
+        "tz": null,
+        "everyMs": null,
+        "at": null
+      },
+      "state": {
+        "nextRunAt": "2026-02-18T03:30:00.000Z",
+        "lastRunAt": "2026-02-18T03:15:00.070Z",
+        "lastStatus": "ok",
+        "lastDurationMs": 15832,
+        "consecutiveErrors": 0
+      },
+      "deliveryMode": "none",
+      "sessionTarget": "isolated",
+      "summary": "*/15 * * * *"
+    },
+    {
+      "id": "65c261c9-1e12-4fd9-b77e-fe5b82c21732",
+      "name": "Actualizar métricas VPS (cada hora)",
+      "agentId": "publico",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 * * * *",
+        "tz": "America/Santiago",
+        "everyMs": null,
+        "at": null
+      },
+      "state": {
+        "nextRunAt": "2026-02-18T04:00:00.000Z",
+        "lastRunAt": "2026-02-18T03:00:00.011Z",
+        "lastStatus": "ok",
+        "lastDurationMs": 17428,
+        "consecutiveErrors": 0
+      },
+      "deliveryMode": "none",
+      "sessionTarget": "isolated",
+      "summary": "0 * * * *"
+    },
+    {
+      "id": "c7334f08-ea41-485c-8ca5-9d4e9c0655da",
+      "name": "Respaldo Diario a GitHub",
+      "agentId": "publico",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 3 * * *",
+        "tz": "America/Santiago",
+        "everyMs": null,
+        "at": null
+      },
+      "state": {
+        "nextRunAt": "2026-02-18T06:00:00.000Z",
+        "lastRunAt": "2026-02-17T06:00:00.009Z",
+        "lastStatus": "ok",
+        "lastDurationMs": 15,
+        "consecutiveErrors": 0
+      },
+      "deliveryMode": null,
+      "sessionTarget": "main",
+      "summary": "0 3 * * *"
+    },
+    {
+      "id": "f7e32111-125b-4ec2-81ec-4a38d5e52562",
+      "name": "Investigación de Tendencias (6 AM)",
+      "agentId": "publico",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 6 * * *",
+        "tz": "America/Santiago",
+        "everyMs": null,
+        "at": null
+      },
+      "state": {
+        "nextRunAt": "2026-02-18T09:00:00.000Z",
+        "lastRunAt": "2026-02-17T09:00:00.012Z",
+        "lastStatus": "error",
+        "lastDurationMs": 22839,
+        "consecutiveErrors": 1
+      },
+      "deliveryMode": "announce",
+      "sessionTarget": "isolated",
+      "summary": "0 6 * * *"
+    },
+    {
+      "id": "d904e818-12d3-4bd7-bd6c-2f1b77087b32",
+      "name": "Reporte Diario de Tendencias",
+      "agentId": "publico",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 7 * * *",
+        "tz": "America/Santiago",
+        "everyMs": null,
+        "at": null
+      },
+      "state": {
+        "nextRunAt": "2026-02-18T10:00:00.000Z",
+        "lastRunAt": "2026-02-17T10:00:00.012Z",
+        "lastStatus": "ok",
+        "lastDurationMs": 15,
+        "consecutiveErrors": 0
+      },
+      "deliveryMode": null,
+      "sessionTarget": "main",
+      "summary": "0 7 * * *"
+    },
+    {
+      "id": "6df7686a-0181-4831-ad19-98b676439b46",
+      "name": "Recordatorio Diario Matutino (7 AM)",
+      "agentId": "publico",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 7 * * *",
+        "tz": "America/Santiago",
+        "everyMs": null,
+        "at": null
+      },
+      "state": {
+        "nextRunAt": "2026-02-18T10:00:00.000Z",
+        "lastRunAt": "2026-02-17T10:00:14.990Z",
+        "lastStatus": "ok",
+        "lastDurationMs": 5882,
+        "consecutiveErrors": 0
+      },
+      "deliveryMode": "announce",
+      "sessionTarget": "isolated",
+      "summary": "0 7 * * *"
+    },
+    {
+      "id": "d468a185-c96f-410f-84ed-8791c75639e3",
+      "name": "Recordatorio: Libro Joe Dispenza (Conserjería)",
+      "agentId": "publico",
+      "enabled": true,
+      "schedule": {
+        "kind": "at",
+        "expr": null,
+        "tz": null,
+        "everyMs": null,
+        "at": "2026-02-18T11:30:00.000Z"
+      },
+      "state": {
+        "nextRunAt": "2026-02-18T11:30:00.000Z",
+        "lastRunAt": null,
+        "lastStatus": null,
+        "lastDurationMs": null,
+        "consecutiveErrors": 0
+      },
+      "deliveryMode": "announce",
+      "sessionTarget": "isolated",
+      "summary": "2026-02-18T11:30:00.000Z"
+    },
+    {
+      "id": "5a9b31b4-a9a0-44a8-8bb6-607e331302df",
+      "name": "Recordatorio Despacho HARAS PASO NEVADO",
+      "agentId": "publico",
+      "enabled": true,
+      "schedule": {
+        "kind": "at",
+        "expr": null,
+        "tz": null,
+        "everyMs": null,
+        "at": "2026-02-18T12:00:00.000Z"
+      },
+      "state": {
+        "nextRunAt": "2026-02-18T12:00:00.000Z",
+        "lastRunAt": null,
+        "lastStatus": null,
+        "lastDurationMs": null,
+        "consecutiveErrors": 0
+      },
+      "deliveryMode": "announce",
+      "sessionTarget": "isolated",
+      "summary": "2026-02-18T12:00:00.000Z"
+    },
+    {
+      "id": "30648d9c-e5d6-42ff-ab53-39478d7c03e4",
+      "name": "🤖 Alvaro, ¡Buenos días! Tu Plan Estratégico \"Bitware Agént…",
+      "agentId": "publico",
+      "enabled": true,
+      "schedule": {
+        "kind": "at",
+        "expr": null,
+        "tz": null,
+        "everyMs": null,
+        "at": "2026-02-18T13:00:00.000Z"
+      },
+      "state": {
+        "nextRunAt": "2026-02-18T13:00:00.000Z",
+        "lastRunAt": null,
+        "lastStatus": null,
+        "lastDurationMs": null,
+        "consecutiveErrors": 0
+      },
+      "deliveryMode": "announce",
+      "sessionTarget": "isolated",
+      "summary": "2026-02-18T13:00:00.000Z"
+    },
+    {
+      "id": "861f1120-51a1-4fcf-a8a2-211a42272cfa",
+      "name": "Recordatorio Despacho Club RL Colina (ALBA)",
+      "agentId": "publico",
+      "enabled": true,
+      "schedule": {
+        "kind": "at",
+        "expr": null,
+        "tz": null,
+        "everyMs": null,
+        "at": "2026-02-18T14:00:00.000Z"
+      },
+      "state": {
+        "nextRunAt": "2026-02-18T14:00:00.000Z",
+        "lastRunAt": null,
+        "lastStatus": null,
+        "lastDurationMs": null,
+        "consecutiveErrors": 0
+      },
+      "deliveryMode": "announce",
+      "sessionTarget": "isolated",
+      "summary": "2026-02-18T14:00:00.000Z"
+    },
+    {
+      "id": "52d2df1c-c57f-4c12-aa67-487e645a9078",
+      "name": "🤖 Alvaro, ¡RECORATORIO DE SUMA IMPORTANCIA! Hoy a las 14:3…",
+      "agentId": "publico",
+      "enabled": true,
+      "schedule": {
+        "kind": "at",
+        "expr": null,
+        "tz": null,
+        "everyMs": null,
+        "at": "2026-02-18T17:00:00.000Z"
+      },
+      "state": {
+        "nextRunAt": "2026-02-18T17:00:00.000Z",
+        "lastRunAt": null,
+        "lastStatus": null,
+        "lastDurationMs": null,
+        "consecutiveErrors": 0
+      },
+      "deliveryMode": "announce",
+      "sessionTarget": "isolated",
+      "summary": "2026-02-18T17:00:00.000Z"
+    },
+    {
+      "id": "016c157e-3d8a-4dd4-8634-55289f8fac66",
+      "name": "Chequeo Bi-semanal Versión n8n",
+      "agentId": "publico",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 10 * * 1,4",
+        "tz": "America/Santiago",
+        "everyMs": null,
+        "at": null
+      },
+      "state": {
+        "nextRunAt": "2026-02-19T13:00:00.000Z",
+        "lastRunAt": "2026-02-16T13:03:02.028Z",
+        "lastStatus": "ok",
+        "lastDurationMs": 79389,
+        "consecutiveErrors": 0
+      },
+      "deliveryMode": "announce",
+      "sessionTarget": "isolated",
+      "summary": "0 10 * * 1,4"
+    },
+    {
+      "id": "c401ce73-c114-4bc0-8f9b-6274440e0e88",
+      "name": "Recordatorio Netflix Marlene",
+      "agentId": "publico",
+      "enabled": true,
+      "schedule": {
+        "kind": "at",
+        "expr": null,
+        "tz": null,
+        "everyMs": null,
+        "at": "2026-02-19T13:00:00.000Z"
+      },
+      "state": {
+        "nextRunAt": "2026-02-19T13:00:00.000Z",
+        "lastRunAt": null,
+        "lastStatus": null,
+        "lastDurationMs": null,
+        "consecutiveErrors": 0
+      },
+      "deliveryMode": null,
+      "sessionTarget": "main",
+      "summary": "2026-02-19T13:00:00.000Z"
+    },
+    {
+      "id": "8a91bc68-f267-4057-a403-5b25b4eb1903",
+      "name": "Recordatorio: depositar en el banco (20 feb)",
+      "agentId": "publico",
+      "enabled": true,
+      "schedule": {
+        "kind": "at",
+        "expr": null,
+        "tz": null,
+        "everyMs": null,
+        "at": "2026-02-20T12:00:00.000Z"
+      },
+      "state": {
+        "nextRunAt": "2026-02-20T12:00:00.000Z",
+        "lastRunAt": null,
+        "lastStatus": null,
+        "lastDurationMs": null,
+        "consecutiveErrors": 0
+      },
+      "deliveryMode": null,
+      "sessionTarget": "main",
+      "summary": "2026-02-20T12:00:00.000Z"
+    },
+    {
+      "id": "d87165ec-21b9-486b-a86b-9412139db4bc",
+      "name": "Recordatorio: Vencimiento Plan Box Magic (7 días)",
+      "agentId": "publico",
+      "enabled": true,
+      "schedule": {
+        "kind": "at",
+        "expr": null,
+        "tz": null,
+        "everyMs": null,
+        "at": "2026-02-20T12:00:00.000Z"
+      },
+      "state": {
+        "nextRunAt": "2026-02-20T12:00:00.000Z",
+        "lastRunAt": null,
+        "lastStatus": null,
+        "lastDurationMs": null,
+        "consecutiveErrors": 0
+      },
+      "deliveryMode": "announce",
+      "sessionTarget": "isolated",
+      "summary": "2026-02-20T12:00:00.000Z"
+    },
+    {
+      "id": "7c41f3d4-574d-4738-a21a-0f0f13aeab36",
+      "name": "Recordatorio: Depósito de Cheques (Viernes de Febrero)",
+      "agentId": "publico",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "30 9 * 2 5",
+        "tz": "America/Santiago",
+        "everyMs": null,
+        "at": null
+      },
+      "state": {
+        "nextRunAt": "2026-02-20T12:30:00.000Z",
+        "lastRunAt": "2026-02-13T12:30:00.012Z",
+        "lastStatus": "ok",
+        "lastDurationMs": 21,
+        "consecutiveErrors": 0
+      },
+      "deliveryMode": null,
+      "sessionTarget": "main",
+      "summary": "30 9 * 2 5"
+    },
+    {
+      "id": "bed0cd13-6276-4c56-b0cc-8f4fa7970653",
+      "name": "Chequeo Semanal de Actualizaciones OpenClaw",
+      "agentId": "publico",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9 * * 1",
+        "tz": "America/Santiago",
+        "everyMs": null,
+        "at": null
+      },
+      "state": {
+        "nextRunAt": "2026-02-23T12:00:00.000Z",
+        "lastRunAt": "2026-02-16T12:02:16.343Z",
+        "lastStatus": "ok",
+        "lastDurationMs": 74941,
+        "consecutiveErrors": 0
+      },
+      "deliveryMode": "announce",
+      "sessionTarget": "isolated",
+      "summary": "0 9 * * 1"
+    },
+    {
+      "id": "1c0944fa-56c2-483b-9b1f-3e6cc0cdb48e",
+      "name": "Estudio Continuo de Documentación OpenClaw",
+      "agentId": "publico",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 10 * * 1",
+        "tz": "America/Santiago",
+        "everyMs": null,
+        "at": null
+      },
+      "state": {
+        "nextRunAt": "2026-02-23T13:00:00.000Z",
+        "lastRunAt": "2026-02-16T13:00:55.950Z",
+        "lastStatus": "ok",
+        "lastDurationMs": 126077,
+        "consecutiveErrors": 0
+      },
+      "deliveryMode": "announce",
+      "sessionTarget": "isolated",
+      "summary": "0 10 * * 1"
+    },
+    {
+      "id": "c2def00c-f012-46c2-b1ac-4bbca3a8c644",
+      "name": "Recordatorio: depositar en el banco (27 feb)",
+      "agentId": "publico",
+      "enabled": true,
+      "schedule": {
+        "kind": "at",
+        "expr": null,
+        "tz": null,
+        "everyMs": null,
+        "at": "2026-02-27T12:00:00.000Z"
+      },
+      "state": {
+        "nextRunAt": "2026-02-27T12:00:00.000Z",
+        "lastRunAt": null,
+        "lastStatus": null,
+        "lastDurationMs": null,
+        "consecutiveErrors": 0
+      },
+      "deliveryMode": null,
+      "sessionTarget": "main",
+      "summary": "2026-02-27T12:00:00.000Z"
+    },
+    {
+      "id": "2dad05ac-85e2-4e8e-a25b-ec79325edba6",
+      "name": "Pago Movistar",
+      "agentId": "publico",
+      "enabled": true,
+      "schedule": {
+        "kind": "at",
+        "expr": null,
+        "tz": null,
+        "everyMs": null,
+        "at": "2026-02-27T14:00:00.000Z"
+      },
+      "state": {
+        "nextRunAt": "2026-02-27T14:00:00.000Z",
+        "lastRunAt": null,
+        "lastStatus": null,
+        "lastDurationMs": null,
+        "consecutiveErrors": 0
+      },
+      "deliveryMode": null,
+      "sessionTarget": "main",
+      "summary": "2026-02-27T14:00:00.000Z"
+    },
+    {
+      "id": "6616c1f2-d9fc-4fed-abf3-0a2d2dabbce8",
+      "name": "Recordatorio: Activación Plan ClassPass",
+      "agentId": "publico",
+      "enabled": true,
+      "schedule": {
+        "kind": "at",
+        "expr": null,
+        "tz": null,
+        "everyMs": null,
+        "at": "2026-04-08T12:00:00.000Z"
+      },
+      "state": {
+        "nextRunAt": "2026-04-08T12:00:00.000Z",
+        "lastRunAt": null,
+        "lastStatus": null,
+        "lastDurationMs": null,
+        "consecutiveErrors": 0
+      },
+      "deliveryMode": null,
+      "sessionTarget": "main",
+      "summary": "2026-04-08T12:00:00.000Z"
+    }
+  ]
+}
