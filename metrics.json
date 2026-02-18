@@ -23,5 +23,77 @@
   "services": {
     "openclaw": "active",
     "nginx": "active"
-  }
+  },
+  "sessions": [
+    {
+      "key": "bitbot > Direct Chat 💬",
+      "model": "gpt-5.2",
+      "usage": "29.8k",
+      "percent": 11,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840",
+      "model": "gpt-5.2",
+      "usage": "0.0k",
+      "percent": 0,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:9839245b-d8c3-4d74-8873-fbf5434767ae",
+      "model": "gpt-5.2",
+      "usage": "0.0k",
+      "percent": 0,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > cron:65c261c9-1e12-4fd9-b77e-fe5b82c21732",
+      "model": "gpt-5.2",
+      "usage": "7.3k",
+      "percent": 3,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > cron:65c261c9-1e12-4fd9-b77e-fe5b82c21732:run:38d63ceb-98e1-4e87-8419-1cdac773caed",
+      "model": "gpt-5.2",
+      "usage": "7.3k",
+      "percent": 3,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:ee112092-eeae-4726-a413-e0b2c38df218",
+      "model": "gpt-5.2",
+      "usage": "7.0k",
+      "percent": 3,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:26cb4dc2-3fac-4064-9cf7-07ce87a5b729",
+      "model": "gpt-5.2",
+      "usage": "7.1k",
+      "percent": 3,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:3ba5ebf0-3a9c-4b64-a4e9-4fea313342ce",
+      "model": "gpt-5.2",
+      "usage": "7.1k",
+      "percent": 3,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:31ac3b1f-eab6-4966-a146-73daecadfc23",
+      "model": "gpt-5.2",
+      "usage": "7.0k",
+      "percent": 3,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > cron:65c261c9-1e12-4fd9-b77e-fe5b82c21732:run:17dd7a5d-8c8c-481e-885d-5ebb82800cc9",
+      "model": "gpt-5.2",
+      "usage": "54.5k",
+      "percent": 20,
+      "status": "ok"
+    }
+  ]
 }
