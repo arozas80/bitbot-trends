@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-19T01:15:13.065Z",
+  "generatedAt": "2026-02-19T01:30:12.893Z",
   "jobs": [
     {
       "id": "03edfa7e-366d-4869-8e0f-920e72bb5840",
@@ -14,10 +14,10 @@
         "at": null
       },
       "state": {
-        "nextRunAt": "2026-02-19T01:15:00.000Z",
-        "lastRunAt": "2026-02-19T01:00:11.663Z",
+        "nextRunAt": "2026-02-19T01:30:00.000Z",
+        "lastRunAt": "2026-02-19T01:15:00.014Z",
         "lastStatus": "ok",
-        "lastDurationMs": 17218,
+        "lastDurationMs": 15898,
         "consecutiveErrors": 0
       },
       "deliveryMode": "none",
@@ -368,6 +368,29 @@
       "deliveryMode": null,
       "sessionTarget": "main",
       "summary": "2026-02-27T14:00:00.000Z"
+    },
+    {
+      "id": "6307e8ce-8b21-4fbf-913d-9f6a7d04f052",
+      "name": "Recordatorio anticipado: buscar a Dominga (12:00)",
+      "agentId": "publico",
+      "enabled": true,
+      "schedule": {
+        "kind": "at",
+        "expr": null,
+        "tz": null,
+        "everyMs": null,
+        "at": "2026-03-02T15:00:00.000Z"
+      },
+      "state": {
+        "nextRunAt": "2026-03-02T15:00:00.000Z",
+        "lastRunAt": null,
+        "lastStatus": null,
+        "lastDurationMs": null,
+        "consecutiveErrors": 0
+      },
+      "deliveryMode": "announce",
+      "sessionTarget": "isolated",
+      "summary": "2026-03-02T15:00:00.000Z"
     },
     {
       "id": "2f392413-85af-4bd2-88d5-d3f46d2f31f5",
