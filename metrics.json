@@ -33,10 +33,31 @@
       "status": "ok"
     },
     {
-      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:106104af-0f78-4c4b-b28c-2445312ebf71",
+      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:6ef29957-d508-41f0-b710-dc12baf43a98",
       "model": "gpt-5.2",
       "usage": "0.0k",
       "percent": 0,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > whatsapp:group:56994191736-1490900786@g.us",
+      "model": "gemini-3-flash",
+      "usage": "282.0k",
+      "percent": 27,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > Direct Chat 💬",
+      "model": "gpt-5.2",
+      "usage": "46.6k",
+      "percent": 17,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:106104af-0f78-4c4b-b28c-2445312ebf71",
+      "model": "gpt-5.2",
+      "usage": "7.1k",
+      "percent": 3,
       "status": "ok"
     },
     {
@@ -61,13 +82,6 @@
       "status": "ok"
     },
     {
-      "key": "bitbot > Direct Chat 💬",
-      "model": "gpt-5.2",
-      "usage": "46.2k",
-      "percent": 17,
-      "status": "ok"
-    },
-    {
       "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:aebde0c9-3753-40a2-9466-b5f3404083fb",
       "model": "gpt-5.2",
       "usage": "7.1k",
@@ -78,20 +92,6 @@
       "key": "bitbot > cron:65c261c9-1e12-4fd9-b77e-fe5b82c21732",
       "model": "gpt-5.2",
       "usage": "7.4k",
-      "percent": 3,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > cron:65c261c9-1e12-4fd9-b77e-fe5b82c21732:run:7a35dee6-b3bc-4653-936b-76d5d3bb062f",
-      "model": "gpt-5.2",
-      "usage": "7.4k",
-      "percent": 3,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:7d5674d8-48c2-40f0-b9b1-be3796313fcb",
-      "model": "gpt-5.2",
-      "usage": "7.0k",
       "percent": 3,
       "status": "ok"
     }
