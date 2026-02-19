@@ -1,52 +1,6 @@
 {
-  "generatedAt": "2026-02-19T09:02:07.632Z",
+  "generatedAt": "2026-02-19T09:15:13.204Z",
   "jobs": [
-    {
-      "id": "f7e32111-125b-4ec2-81ec-4a38d5e52562",
-      "name": "Investigación de Tendencias (6 AM)",
-      "agentId": "publico",
-      "enabled": true,
-      "schedule": {
-        "kind": "cron",
-        "expr": "0 6 * * *",
-        "tz": "America/Santiago",
-        "everyMs": null,
-        "at": null
-      },
-      "state": {
-        "nextRunAt": "2026-02-19T09:00:00.000Z",
-        "lastRunAt": "2026-02-18T09:00:00.018Z",
-        "lastStatus": "ok",
-        "lastDurationMs": 126038,
-        "consecutiveErrors": 0
-      },
-      "deliveryMode": "announce",
-      "sessionTarget": "isolated",
-      "summary": "0 6 * * *"
-    },
-    {
-      "id": "65c261c9-1e12-4fd9-b77e-fe5b82c21732",
-      "name": "Actualizar métricas VPS (cada hora)",
-      "agentId": "publico",
-      "enabled": true,
-      "schedule": {
-        "kind": "cron",
-        "expr": "0 * * * *",
-        "tz": "America/Santiago",
-        "everyMs": null,
-        "at": null
-      },
-      "state": {
-        "nextRunAt": "2026-02-19T09:00:00.000Z",
-        "lastRunAt": "2026-02-19T08:00:00.025Z",
-        "lastStatus": "ok",
-        "lastDurationMs": 11846,
-        "consecutiveErrors": 0
-      },
-      "deliveryMode": "none",
-      "sessionTarget": "isolated",
-      "summary": "0 * * * *"
-    },
     {
       "id": "03edfa7e-366d-4869-8e0f-920e72bb5840",
       "name": "Update Dashboard Sessions & Tokens",
@@ -60,10 +14,10 @@
         "at": null
       },
       "state": {
-        "nextRunAt": "2026-02-19T09:00:00.000Z",
-        "lastRunAt": "2026-02-19T08:45:00.022Z",
+        "nextRunAt": "2026-02-19T09:15:00.000Z",
+        "lastRunAt": "2026-02-19T09:01:55.624Z",
         "lastStatus": "ok",
-        "lastDurationMs": 14585,
+        "lastDurationMs": 15063,
         "consecutiveErrors": 0
       },
       "deliveryMode": "none",
@@ -92,6 +46,29 @@
       "deliveryMode": null,
       "sessionTarget": "main",
       "summary": "0 7 * * *"
+    },
+    {
+      "id": "65c261c9-1e12-4fd9-b77e-fe5b82c21732",
+      "name": "Actualizar métricas VPS (cada hora)",
+      "agentId": "publico",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 * * * *",
+        "tz": "America/Santiago",
+        "everyMs": null,
+        "at": null
+      },
+      "state": {
+        "nextRunAt": "2026-02-19T10:00:00.000Z",
+        "lastRunAt": "2026-02-19T09:01:45.316Z",
+        "lastStatus": "ok",
+        "lastDurationMs": 10308,
+        "consecutiveErrors": 0
+      },
+      "deliveryMode": "none",
+      "sessionTarget": "isolated",
+      "summary": "0 * * * *"
     },
     {
       "id": "6df7686a-0181-4831-ad19-98b676439b46",
@@ -414,6 +391,29 @@
       "deliveryMode": null,
       "sessionTarget": "main",
       "summary": "0 3 * * *"
+    },
+    {
+      "id": "f7e32111-125b-4ec2-81ec-4a38d5e52562",
+      "name": "Investigación de Tendencias (6 AM)",
+      "agentId": "publico",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 6 * * *",
+        "tz": "America/Santiago",
+        "everyMs": null,
+        "at": null
+      },
+      "state": {
+        "nextRunAt": "2026-02-20T09:00:00.000Z",
+        "lastRunAt": "2026-02-19T09:00:00.015Z",
+        "lastStatus": "ok",
+        "lastDurationMs": 105301,
+        "consecutiveErrors": 0
+      },
+      "deliveryMode": "announce",
+      "sessionTarget": "isolated",
+      "summary": "0 6 * * *"
     },
     {
       "id": "8a91bc68-f267-4057-a403-5b25b4eb1903",
