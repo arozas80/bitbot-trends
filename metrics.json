@@ -33,10 +33,38 @@
       "status": "ok"
     },
     {
-      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:aebde0c9-3753-40a2-9466-b5f3404083fb",
+      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:f204dc5a-e2f1-4b4a-a515-e7a04f180252",
       "model": "gpt-5.2",
       "usage": "0.0k",
       "percent": 0,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > cron:f4a2dec8-55ec-441e-8f29-c3c89c9798a6",
+      "model": "gpt-5.2",
+      "usage": "7.0k",
+      "percent": 3,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > cron:f4a2dec8-55ec-441e-8f29-c3c89c9798a6:run:49840ca4-d2fd-4b02-8fa4-a3a3931fab31",
+      "model": "gpt-5.2",
+      "usage": "7.0k",
+      "percent": 3,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > Direct Chat 💬",
+      "model": "gpt-5.2",
+      "usage": "46.2k",
+      "percent": 17,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:aebde0c9-3753-40a2-9466-b5f3404083fb",
+      "model": "gpt-5.2",
+      "usage": "7.1k",
+      "percent": 3,
       "status": "ok"
     },
     {
@@ -61,37 +89,9 @@
       "status": "ok"
     },
     {
-      "key": "bitbot > Direct Chat 💬",
-      "model": "gpt-5.2",
-      "usage": "45.8k",
-      "percent": 17,
-      "status": "ok"
-    },
-    {
       "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:fd76a907-4d9b-495a-8f22-abb6b58c67ed",
       "model": "gpt-5.2",
       "usage": "7.0k",
-      "percent": 3,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:0c3e94f7-6313-4785-a4f4-eedf2d0e0e25",
-      "model": "gpt-5.2",
-      "usage": "7.0k",
-      "percent": 3,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:65e7ad63-2d5d-4dab-957e-9c474c6ec093",
-      "model": "gpt-5.2",
-      "usage": "7.1k",
-      "percent": 3,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > cron:65c261c9-1e12-4fd9-b77e-fe5b82c21732:run:ee0fb8c2-3042-470d-973b-74934d95c869",
-      "model": "gpt-5.2",
-      "usage": "7.3k",
       "percent": 3,
       "status": "ok"
     }
