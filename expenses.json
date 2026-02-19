@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-02-19T16:00:06.289313",
-  "total": 526757,
-  "total_fmt": "$526.757",
-  "count": 29,
+  "updatedAt": "2026-02-19T16:45:04.469Z",
+  "total": 538747,
+  "total_fmt": "$538.747",
+  "count": 30,
   "items": [
+    {
+      "fecha": "2026-02-19",
+      "descripcion": "Underpizza (combo pepperoni)",
+      "monto": 11990,
+      "monto_fmt": "$11.990",
+      "factura": "35902175",
+      "comprobante": "https://drive.google.com/file/d/1pPuG4R0d93_qgeYqEESLXjAn6TBR_7lj/view?usp=drivesdk"
+    },
     {
       "fecha": "2026-02-19",
       "descripcion": "Transportes EGT (transporte de carga/encomienda)",
