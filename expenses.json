@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-02-19T15:00:12.662769",
-  "total": 509287,
-  "total_fmt": "$509.287",
-  "count": 27,
+  "updatedAt": "2026-02-19T15:06:33.508Z",
+  "total": 514067,
+  "total_fmt": "$514.067",
+  "count": 28,
   "items": [
+    {
+      "fecha": "2026-02-19",
+      "descripcion": "Unimarc San Joaquín (bebidas/galleta)",
+      "monto": 4780,
+      "monto_fmt": "$4.780",
+      "factura": "2281221428",
+      "comprobante": "https://drive.google.com/file/d/1irdUIKygZFFDzFf7fIVXdtTNA06FsklQ/view?usp=drivesdk"
+    },
     {
       "fecha": "2026-02-18",
       "descripcion": "Transportes Tecnologia y Giros EGT Ltda - transporte de carga y encomienda (Servivet)",
