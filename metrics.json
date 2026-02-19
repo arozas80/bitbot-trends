@@ -33,10 +33,17 @@
       "status": "ok"
     },
     {
-      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:cab3cb90-b27c-402b-a8a2-8218be745409",
+      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:5aaaac86-ba73-4dc0-878d-0d5ff78840ed",
       "model": "gpt-5.2",
       "usage": "0.0k",
       "percent": 0,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:cab3cb90-b27c-402b-a8a2-8218be745409",
+      "model": "gpt-5.2",
+      "usage": "7.0k",
+      "percent": 3,
       "status": "ok"
     },
     {
@@ -85,13 +92,6 @@
       "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:ad6a505b-4091-4a6f-abf8-9d3bb2889c19",
       "model": "gpt-5.2",
       "usage": "7.0k",
-      "percent": 3,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:6ece53fe-cef5-4f26-8d97-bd44ce3a66c6",
-      "model": "gpt-5.2",
-      "usage": "7.1k",
       "percent": 3,
       "status": "ok"
     }
