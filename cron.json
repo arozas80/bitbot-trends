@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-19T22:15:11.468Z",
+  "generatedAt": "2026-02-19T22:30:12.165Z",
   "jobs": [
     {
       "id": "03edfa7e-366d-4869-8e0f-920e72bb5840",
@@ -14,10 +14,10 @@
         "at": null
       },
       "state": {
-        "nextRunAt": "2026-02-19T22:15:00.000Z",
-        "lastRunAt": "2026-02-19T22:00:11.315Z",
+        "nextRunAt": "2026-02-19T22:30:00.000Z",
+        "lastRunAt": "2026-02-19T22:15:00.013Z",
         "lastStatus": "ok",
-        "lastDurationMs": 17669,
+        "lastDurationMs": 14630,
         "consecutiveErrors": 0
       },
       "deliveryMode": "none",
@@ -322,6 +322,29 @@
       "deliveryMode": null,
       "sessionTarget": "main",
       "summary": "30 9 * 2 5"
+    },
+    {
+      "id": "c1326f7d-97c6-4a33-8561-281a6b5edc6a",
+      "name": "reminder:direccion-vicuna-mackenna-l82",
+      "agentId": "publico",
+      "enabled": true,
+      "schedule": {
+        "kind": "at",
+        "expr": null,
+        "tz": null,
+        "everyMs": null,
+        "at": "2026-02-20T13:00:00.000Z"
+      },
+      "state": {
+        "nextRunAt": "2026-02-20T13:00:00.000Z",
+        "lastRunAt": null,
+        "lastStatus": null,
+        "lastDurationMs": null,
+        "consecutiveErrors": 0
+      },
+      "deliveryMode": "announce",
+      "sessionTarget": "isolated",
+      "summary": "2026-02-20T13:00:00.000Z"
     },
     {
       "id": "191e0dbf-72a0-4cf4-9c89-ad9420b609a6",
