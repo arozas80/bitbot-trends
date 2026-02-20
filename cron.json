@@ -1,29 +1,6 @@
 {
-  "generatedAt": "2026-02-20T12:30:12.725Z",
+  "generatedAt": "2026-02-20T12:45:10.340Z",
   "jobs": [
-    {
-      "id": "7c41f3d4-574d-4738-a21a-0f0f13aeab36",
-      "name": "Recordatorio: Depósito de Cheques (Viernes de Febrero)",
-      "agentId": "publico",
-      "enabled": true,
-      "schedule": {
-        "kind": "cron",
-        "expr": "30 9 * 2 5",
-        "tz": "America/Santiago",
-        "everyMs": null,
-        "at": null
-      },
-      "state": {
-        "nextRunAt": "2026-02-20T12:30:00.000Z",
-        "lastRunAt": "2026-02-13T12:30:00.012Z",
-        "lastStatus": "ok",
-        "lastDurationMs": 21,
-        "consecutiveErrors": 0
-      },
-      "deliveryMode": null,
-      "sessionTarget": "main",
-      "summary": "30 9 * 2 5"
-    },
     {
       "id": "03edfa7e-366d-4869-8e0f-920e72bb5840",
       "name": "Update Dashboard Sessions & Tokens",
@@ -37,10 +14,10 @@
         "at": null
       },
       "state": {
-        "nextRunAt": "2026-02-20T12:30:00.000Z",
-        "lastRunAt": "2026-02-20T12:15:00.012Z",
+        "nextRunAt": "2026-02-20T12:45:00.000Z",
+        "lastRunAt": "2026-02-20T12:30:00.025Z",
         "lastStatus": "ok",
-        "lastDurationMs": 22787,
+        "lastDurationMs": 15348,
         "consecutiveErrors": 0
       },
       "deliveryMode": "none",
@@ -73,7 +50,7 @@
     {
       "id": "c1326f7d-97c6-4a33-8561-281a6b5edc6a",
       "name": "reminder:direccion-vicuna-mackenna-l82",
-      "agentId": "publico",
+      "agentId": "main",
       "enabled": true,
       "schedule": {
         "kind": "at",
@@ -234,7 +211,7 @@
     {
       "id": "c7334f08-ea41-485c-8ca5-9d4e9c0655da",
       "name": "Respaldo Diario a GitHub",
-      "agentId": "publico",
+      "agentId": "main",
       "enabled": true,
       "schedule": {
         "kind": "cron",
@@ -280,7 +257,7 @@
     {
       "id": "d904e818-12d3-4bd7-bd6c-2f1b77087b32",
       "name": "Reporte Diario de Tendencias",
-      "agentId": "publico",
+      "agentId": "main",
       "enabled": true,
       "schedule": {
         "kind": "cron",
@@ -464,7 +441,7 @@
     {
       "id": "c2def00c-f012-46c2-b1ac-4bbca3a8c644",
       "name": "Recordatorio: depositar en el banco (27 feb)",
-      "agentId": "publico",
+      "agentId": "main",
       "enabled": true,
       "schedule": {
         "kind": "at",
@@ -485,9 +462,32 @@
       "summary": "2026-02-27T12:00:00.000Z"
     },
     {
+      "id": "7c41f3d4-574d-4738-a21a-0f0f13aeab36",
+      "name": "Recordatorio: Depósito de Cheques (Viernes de Febrero)",
+      "agentId": "main",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "30 9 * 2 5",
+        "tz": "America/Santiago",
+        "everyMs": null,
+        "at": null
+      },
+      "state": {
+        "nextRunAt": "2026-02-27T12:30:00.000Z",
+        "lastRunAt": "2026-02-20T12:30:00.013Z",
+        "lastStatus": "ok",
+        "lastDurationMs": 12,
+        "consecutiveErrors": 0
+      },
+      "deliveryMode": null,
+      "sessionTarget": "main",
+      "summary": "30 9 * 2 5"
+    },
+    {
       "id": "2dad05ac-85e2-4e8e-a25b-ec79325edba6",
       "name": "Pago Movistar",
-      "agentId": "publico",
+      "agentId": "main",
       "enabled": true,
       "schedule": {
         "kind": "at",
@@ -510,7 +510,7 @@
     {
       "id": "56401076-8e98-453e-94aa-636e0e85b220",
       "name": "Fin 10 días (Mupax/Fisiomar): confirmar desactivación",
-      "agentId": "publico",
+      "agentId": "main",
       "enabled": true,
       "schedule": {
         "kind": "at",
@@ -533,7 +533,7 @@
     {
       "id": "6307e8ce-8b21-4fbf-913d-9f6a7d04f052",
       "name": "Recordatorio anticipado: buscar a Dominga (12:00)",
-      "agentId": "publico",
+      "agentId": "main",
       "enabled": true,
       "schedule": {
         "kind": "at",
@@ -556,7 +556,7 @@
     {
       "id": "2f392413-85af-4bd2-88d5-d3f46d2f31f5",
       "name": "Recordatorio: buscar a Dominga (primer día de colegio)",
-      "agentId": "publico",
+      "agentId": "main",
       "enabled": true,
       "schedule": {
         "kind": "at",
@@ -579,7 +579,7 @@
     {
       "id": "6616c1f2-d9fc-4fed-abf3-0a2d2dabbce8",
       "name": "Recordatorio: Activación Plan ClassPass",
-      "agentId": "publico",
+      "agentId": "main",
       "enabled": true,
       "schedule": {
         "kind": "at",
