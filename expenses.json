@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-02-20T17:37:43.036Z",
-  "total": 585220,
-  "total_fmt": "$585.220",
-  "count": 31,
+  "updatedAt": "2026-02-20T17:38:06.235Z",
+  "total": 588090,
+  "total_fmt": "$588.090",
+  "count": 32,
   "items": [
+    {
+      "fecha": "2026-02-20",
+      "descripcion": "Pronto Copec (Coca Cola + Galletas Super 8)",
+      "monto": 2870,
+      "monto_fmt": "$2.870",
+      "factura": "619505594",
+      "comprobante": "https://drive.google.com/file/d/1jfxiUdDaJjfBs-dtJywWumZIArHHvxKg/view?usp=drivesdk"
+    },
     {
       "fecha": "2026-02-20",
       "descripcion": "Diesel Camioneta TPGY94 - Copec",
