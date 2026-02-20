@@ -23,5 +23,77 @@
   "services": {
     "openclaw": "active",
     "nginx": "active"
-  }
+  },
+  "sessions": [
+    {
+      "key": "bitbot > Direct Chat 💬",
+      "model": "gpt-5.1-codex-mini",
+      "usage": "16.6k",
+      "percent": 6,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840",
+      "model": "gpt-5.1-codex-mini",
+      "usage": "0.0k",
+      "percent": 0,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:55ed8408-f9f7-4c2a-89a0-691826fa4b64",
+      "model": "gpt-5.1-codex-mini",
+      "usage": "0.0k",
+      "percent": 0,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > cron:65c261c9-1e12-4fd9-b77e-fe5b82c21732",
+      "model": "gpt-5.1-codex-mini",
+      "usage": "7.7k",
+      "percent": 3,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > cron:65c261c9-1e12-4fd9-b77e-fe5b82c21732:run:f6c6e3eb-7939-495e-8e72-46a9767fc28f",
+      "model": "gpt-5.1-codex-mini",
+      "usage": "7.7k",
+      "percent": 3,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:e310332c-672b-4773-9efd-2e191dd116ba",
+      "model": "gpt-5.1-codex-mini",
+      "usage": "7.0k",
+      "percent": 3,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:b70ebfe0-fca1-41e2-bfb1-2231ef8d1322",
+      "model": "gpt-5.1-codex-mini",
+      "usage": "7.1k",
+      "percent": 3,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:98e2ec70-5283-42bc-a051-7157f9d77b67",
+      "model": "gpt-5.1-codex-mini",
+      "usage": "7.2k",
+      "percent": 3,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:eda3afb1-ebf5-4cf8-9fa6-0800aaec847e",
+      "model": "gpt-5.1-codex-mini",
+      "usage": "7.1k",
+      "percent": 3,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > cron:65c261c9-1e12-4fd9-b77e-fe5b82c21732:run:bd1d625c-f621-4c64-a4d1-97ca6e80d098",
+      "model": "gpt-5.1-codex-mini",
+      "usage": "7.7k",
+      "percent": 3,
+      "status": "ok"
+    }
+  ]
 }
