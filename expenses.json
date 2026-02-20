@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-02-20T17:38:06.235Z",
-  "total": 588090,
-  "total_fmt": "$588.090",
-  "count": 32,
+  "updatedAt": "2026-02-20T17:45:40.835Z",
+  "total": 597070,
+  "total_fmt": "$597.070",
+  "count": 33,
   "items": [
+    {
+      "fecha": "2026-02-20",
+      "descripcion": "Sushi Vivas RDA Spa (Almuerzo)",
+      "monto": 8980,
+      "monto_fmt": "$8.980",
+      "factura": "003536",
+      "comprobante": "https://drive.google.com/file/d/19UZXZPGppuiUzwGbm7Jub_bdhgpkiJog/view?usp=drivesdk"
+    },
     {
       "fecha": "2026-02-20",
       "descripcion": "Pronto Copec (Coca Cola + Galletas Super 8)",
