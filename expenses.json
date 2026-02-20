@@ -1,9 +1,17 @@
 {
-  "updatedAt": "2026-02-20T17:00:04.208839",
-  "total": 538747,
-  "total_fmt": "$538.747",
-  "count": 30,
+  "updatedAt": "2026-02-20T17:37:43.036Z",
+  "total": 585220,
+  "total_fmt": "$585.220",
+  "count": 31,
   "items": [
+    {
+      "fecha": "2026-02-20",
+      "descripcion": "Diesel Camioneta TPGY94 - Copec",
+      "monto": 46473,
+      "monto_fmt": "$46.473",
+      "factura": "207732",
+      "comprobante": "https://drive.google.com/file/d/15ynoEmlgqhnjbiGiQro8NMbKhl1uBcYC/view?usp=drivesdk"
+    },
     {
       "fecha": "2026-02-19",
       "descripcion": "Underpizza (combo pepperoni)",
