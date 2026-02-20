@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-20T11:15:10.242Z",
+  "generatedAt": "2026-02-20T11:30:10.423Z",
   "jobs": [
     {
       "id": "03edfa7e-366d-4869-8e0f-920e72bb5840",
@@ -14,10 +14,10 @@
         "at": null
       },
       "state": {
-        "nextRunAt": "2026-02-20T11:15:00.000Z",
-        "lastRunAt": "2026-02-20T11:00:12.295Z",
+        "nextRunAt": "2026-02-20T11:30:00.000Z",
+        "lastRunAt": "2026-02-20T11:15:00.013Z",
         "lastStatus": "ok",
-        "lastDurationMs": 13956,
+        "lastDurationMs": 12838,
         "consecutiveErrors": 0
       },
       "deliveryMode": "none",
@@ -142,7 +142,7 @@
     {
       "id": "191e0dbf-72a0-4cf4-9c89-ad9420b609a6",
       "name": "Fisiomar (10 días): 11:00",
-      "agentId": "publico",
+      "agentId": "main",
       "enabled": true,
       "schedule": {
         "kind": "cron",
@@ -165,7 +165,7 @@
     {
       "id": "323bbdc2-7399-444c-beaf-bdc1af985811",
       "name": "Mupax (10 días): 14:00",
-      "agentId": "publico",
+      "agentId": "main",
       "enabled": true,
       "schedule": {
         "kind": "cron",
@@ -188,7 +188,7 @@
     {
       "id": "f0aed81d-9fd4-48eb-94d3-afa4017718d3",
       "name": "Fisiomar (10 días): 14:00",
-      "agentId": "publico",
+      "agentId": "main",
       "enabled": true,
       "schedule": {
         "kind": "cron",
@@ -211,7 +211,7 @@
     {
       "id": "f4a2dec8-55ec-441e-8f29-c3c89c9798a6",
       "name": "Fisiomar (10 días): 17:00",
-      "agentId": "publico",
+      "agentId": "main",
       "enabled": true,
       "schedule": {
         "kind": "cron",
@@ -234,7 +234,7 @@
     {
       "id": "31b1dac7-ef8a-4aa7-aad2-c0a5aae4b280",
       "name": "Mupax (10 días): 20:00",
-      "agentId": "publico",
+      "agentId": "main",
       "enabled": true,
       "schedule": {
         "kind": "cron",
@@ -257,7 +257,7 @@
     {
       "id": "d54d45cc-93e0-4b7b-a88e-c15d352e4dc6",
       "name": "Fisiomar (10 días): 20:00",
-      "agentId": "publico",
+      "agentId": "main",
       "enabled": true,
       "schedule": {
         "kind": "cron",
@@ -372,7 +372,7 @@
     {
       "id": "dd8381b6-7583-4929-9854-834e925b0684",
       "name": "Recordatorio diario: Aerius 5 mg (desayuno)",
-      "agentId": "publico",
+      "agentId": "main",
       "enabled": true,
       "schedule": {
         "kind": "cron",
@@ -395,7 +395,7 @@
     {
       "id": "2fb2f261-4384-4272-b685-45049c4798d4",
       "name": "Mupax (10 días): 08:00",
-      "agentId": "publico",
+      "agentId": "main",
       "enabled": true,
       "schedule": {
         "kind": "cron",
@@ -418,7 +418,7 @@
     {
       "id": "3cfe77d6-4032-41d3-a3de-08cc5eef9cd0",
       "name": "Fisiomar (10 días): 08:00",
-      "agentId": "publico",
+      "agentId": "main",
       "enabled": true,
       "schedule": {
         "kind": "cron",
