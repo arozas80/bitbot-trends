@@ -1,29 +1,6 @@
 {
-  "generatedAt": "2026-02-20T05:00:23.361Z",
+  "generatedAt": "2026-02-20T05:15:21.179Z",
   "jobs": [
-    {
-      "id": "65c261c9-1e12-4fd9-b77e-fe5b82c21732",
-      "name": "Actualizar métricas VPS (cada hora)",
-      "agentId": "publico",
-      "enabled": true,
-      "schedule": {
-        "kind": "cron",
-        "expr": "0 * * * *",
-        "tz": "America/Santiago",
-        "everyMs": null,
-        "at": null
-      },
-      "state": {
-        "nextRunAt": "2026-02-20T05:00:00.000Z",
-        "lastRunAt": "2026-02-20T04:00:00.022Z",
-        "lastStatus": "ok",
-        "lastDurationMs": 24180,
-        "consecutiveErrors": 0
-      },
-      "deliveryMode": "none",
-      "sessionTarget": "isolated",
-      "summary": "0 * * * *"
-    },
     {
       "id": "03edfa7e-366d-4869-8e0f-920e72bb5840",
       "name": "Update Dashboard Sessions & Tokens",
@@ -37,10 +14,10 @@
         "at": null
       },
       "state": {
-        "nextRunAt": "2026-02-20T05:00:00.000Z",
-        "lastRunAt": "2026-02-20T04:45:00.014Z",
+        "nextRunAt": "2026-02-20T05:15:00.000Z",
+        "lastRunAt": "2026-02-20T05:00:11.815Z",
         "lastStatus": "ok",
-        "lastDurationMs": 15405,
+        "lastDurationMs": 14082,
         "consecutiveErrors": 0
       },
       "deliveryMode": "none",
@@ -69,6 +46,29 @@
       "deliveryMode": null,
       "sessionTarget": "main",
       "summary": "0 3 * * *"
+    },
+    {
+      "id": "65c261c9-1e12-4fd9-b77e-fe5b82c21732",
+      "name": "Actualizar métricas VPS (cada hora)",
+      "agentId": "publico",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 * * * *",
+        "tz": "America/Santiago",
+        "everyMs": null,
+        "at": null
+      },
+      "state": {
+        "nextRunAt": "2026-02-20T06:00:00.000Z",
+        "lastRunAt": "2026-02-20T05:00:00.017Z",
+        "lastStatus": "ok",
+        "lastDurationMs": 11798,
+        "consecutiveErrors": 0
+      },
+      "deliveryMode": "none",
+      "sessionTarget": "isolated",
+      "summary": "0 * * * *"
     },
     {
       "id": "f7e32111-125b-4ec2-81ec-4a38d5e52562",
