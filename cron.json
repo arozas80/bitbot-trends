@@ -1,29 +1,6 @@
 {
-  "generatedAt": "2026-02-20T10:45:22.185Z",
+  "generatedAt": "2026-02-20T11:00:23.845Z",
   "jobs": [
-    {
-      "id": "03edfa7e-366d-4869-8e0f-920e72bb5840",
-      "name": "Update Dashboard Sessions & Tokens",
-      "agentId": "publico",
-      "enabled": true,
-      "schedule": {
-        "kind": "cron",
-        "expr": "*/15 * * * *",
-        "tz": null,
-        "everyMs": null,
-        "at": null
-      },
-      "state": {
-        "nextRunAt": "2026-02-20T10:45:00.000Z",
-        "lastRunAt": "2026-02-20T10:30:00.015Z",
-        "lastStatus": "ok",
-        "lastDurationMs": 13452,
-        "consecutiveErrors": 0
-      },
-      "deliveryMode": "none",
-      "sessionTarget": "isolated",
-      "summary": "*/15 * * * *"
-    },
     {
       "id": "65c261c9-1e12-4fd9-b77e-fe5b82c21732",
       "name": "Actualizar métricas VPS (cada hora)",
@@ -46,6 +23,29 @@
       "deliveryMode": "none",
       "sessionTarget": "isolated",
       "summary": "0 * * * *"
+    },
+    {
+      "id": "03edfa7e-366d-4869-8e0f-920e72bb5840",
+      "name": "Update Dashboard Sessions & Tokens",
+      "agentId": "publico",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "*/15 * * * *",
+        "tz": null,
+        "everyMs": null,
+        "at": null
+      },
+      "state": {
+        "nextRunAt": "2026-02-20T11:00:00.000Z",
+        "lastRunAt": "2026-02-20T10:45:00.026Z",
+        "lastStatus": "ok",
+        "lastDurationMs": 24844,
+        "consecutiveErrors": 0
+      },
+      "deliveryMode": "none",
+      "sessionTarget": "isolated",
+      "summary": "*/15 * * * *"
     },
     {
       "id": "dd8381b6-7583-4929-9854-834e925b0684",
