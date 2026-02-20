@@ -1,29 +1,6 @@
 {
-  "generatedAt": "2026-02-20T19:00:18.386Z",
+  "generatedAt": "2026-02-20T19:00:29.768Z",
   "jobs": [
-    {
-      "id": "65c261c9-1e12-4fd9-b77e-fe5b82c21732",
-      "name": "Actualizar métricas VPS (cada hora)",
-      "agentId": "publico",
-      "enabled": true,
-      "schedule": {
-        "kind": "cron",
-        "expr": "0 * * * *",
-        "tz": "America/Santiago",
-        "everyMs": null,
-        "at": null
-      },
-      "state": {
-        "nextRunAt": "2026-02-20T19:00:00.000Z",
-        "lastRunAt": "2026-02-20T18:00:00.011Z",
-        "lastStatus": "ok",
-        "lastDurationMs": 5184,
-        "consecutiveErrors": 0
-      },
-      "deliveryMode": "none",
-      "sessionTarget": "isolated",
-      "summary": "0 * * * *"
-    },
     {
       "id": "03edfa7e-366d-4869-8e0f-920e72bb5840",
       "name": "Update Dashboard Sessions & Tokens",
@@ -37,15 +14,38 @@
         "at": null
       },
       "state": {
-        "nextRunAt": "2026-02-20T19:00:00.000Z",
-        "lastRunAt": "2026-02-20T18:45:00.017Z",
+        "nextRunAt": "2026-02-20T19:15:00.000Z",
+        "lastRunAt": "2026-02-20T19:00:06.710Z",
         "lastStatus": "ok",
-        "lastDurationMs": 13189,
+        "lastDurationMs": 17732,
         "consecutiveErrors": 0
       },
       "deliveryMode": "none",
       "sessionTarget": "isolated",
       "summary": "*/15 * * * *"
+    },
+    {
+      "id": "65c261c9-1e12-4fd9-b77e-fe5b82c21732",
+      "name": "Actualizar métricas VPS (cada hora)",
+      "agentId": "publico",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 * * * *",
+        "tz": "America/Santiago",
+        "everyMs": null,
+        "at": null
+      },
+      "state": {
+        "nextRunAt": "2026-02-20T20:00:00.000Z",
+        "lastRunAt": "2026-02-20T19:00:00.020Z",
+        "lastStatus": "ok",
+        "lastDurationMs": 6690,
+        "consecutiveErrors": 0
+      },
+      "deliveryMode": "none",
+      "sessionTarget": "isolated",
+      "summary": "0 * * * *"
     },
     {
       "id": "f4a2dec8-55ec-441e-8f29-c3c89c9798a6",
