@@ -1,29 +1,6 @@
 {
-  "generatedAt": "2026-02-20T20:00:17.306Z",
+  "generatedAt": "2026-02-20T20:15:10.746Z",
   "jobs": [
-    {
-      "id": "65c261c9-1e12-4fd9-b77e-fe5b82c21732",
-      "name": "Actualizar métricas VPS (cada hora)",
-      "agentId": "publico",
-      "enabled": true,
-      "schedule": {
-        "kind": "cron",
-        "expr": "0 * * * *",
-        "tz": "America/Santiago",
-        "everyMs": null,
-        "at": null
-      },
-      "state": {
-        "nextRunAt": "2026-02-20T20:00:00.000Z",
-        "lastRunAt": "2026-02-20T19:00:00.020Z",
-        "lastStatus": "ok",
-        "lastDurationMs": 6690,
-        "consecutiveErrors": 0
-      },
-      "deliveryMode": "none",
-      "sessionTarget": "isolated",
-      "summary": "0 * * * *"
-    },
     {
       "id": "03edfa7e-366d-4869-8e0f-920e72bb5840",
       "name": "Update Dashboard Sessions & Tokens",
@@ -37,10 +14,10 @@
         "at": null
       },
       "state": {
-        "nextRunAt": "2026-02-20T20:00:00.000Z",
-        "lastRunAt": "2026-02-20T19:45:00.012Z",
+        "nextRunAt": "2026-02-20T20:15:00.000Z",
+        "lastRunAt": "2026-02-20T20:00:06.842Z",
         "lastStatus": "ok",
-        "lastDurationMs": 15576,
+        "lastDurationMs": 15661,
         "consecutiveErrors": 0
       },
       "deliveryMode": "none",
@@ -48,27 +25,27 @@
       "summary": "*/15 * * * *"
     },
     {
-      "id": "f4a2dec8-55ec-441e-8f29-c3c89c9798a6",
-      "name": "Fisiomar (10 días): 17:00",
-      "agentId": "main",
+      "id": "65c261c9-1e12-4fd9-b77e-fe5b82c21732",
+      "name": "Actualizar métricas VPS (cada hora)",
+      "agentId": "publico",
       "enabled": true,
       "schedule": {
         "kind": "cron",
-        "expr": "0 17 * * *",
+        "expr": "0 * * * *",
         "tz": "America/Santiago",
         "everyMs": null,
         "at": null
       },
       "state": {
-        "nextRunAt": "2026-02-20T20:00:00.000Z",
-        "lastRunAt": "2026-02-19T20:00:33.508Z",
+        "nextRunAt": "2026-02-20T21:00:00.000Z",
+        "lastRunAt": "2026-02-20T20:00:00.012Z",
         "lastStatus": "ok",
-        "lastDurationMs": 3109,
+        "lastDurationMs": 6830,
         "consecutiveErrors": 0
       },
-      "deliveryMode": "announce",
+      "deliveryMode": "none",
       "sessionTarget": "isolated",
-      "summary": "0 17 * * *"
+      "summary": "0 * * * *"
     },
     {
       "id": "31b1dac7-ef8a-4aa7-aad2-c0a5aae4b280",
@@ -345,6 +322,29 @@
       "deliveryMode": "announce",
       "sessionTarget": "isolated",
       "summary": "0 14 * * *"
+    },
+    {
+      "id": "f4a2dec8-55ec-441e-8f29-c3c89c9798a6",
+      "name": "Fisiomar (10 días): 17:00",
+      "agentId": "main",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 17 * * *",
+        "tz": "America/Santiago",
+        "everyMs": null,
+        "at": null
+      },
+      "state": {
+        "nextRunAt": "2026-02-21T20:00:00.000Z",
+        "lastRunAt": "2026-02-20T20:00:22.503Z",
+        "lastStatus": "ok",
+        "lastDurationMs": 3354,
+        "consecutiveErrors": 0
+      },
+      "deliveryMode": "announce",
+      "sessionTarget": "isolated",
+      "summary": "0 17 * * *"
     },
     {
       "id": "bed0cd13-6276-4c56-b0cc-8f4fa7970653",
