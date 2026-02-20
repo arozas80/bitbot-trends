@@ -26,13 +26,6 @@
   },
   "sessions": [
     {
-      "key": "bitbot > Direct Chat 💬",
-      "model": "gpt-5.1-codex-mini",
-      "usage": "16.8k",
-      "percent": 6,
-      "status": "ok"
-    },
-    {
       "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840",
       "model": "gpt-5.1-codex-mini",
       "usage": "0.0k",
@@ -40,10 +33,24 @@
       "status": "ok"
     },
     {
-      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:4badb72e-7808-4907-a5c5-194c5566921f",
+      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:25e1df46-58b9-41d8-86f9-69ee08e929b1",
       "model": "gpt-5.1-codex-mini",
       "usage": "0.0k",
       "percent": 0,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > Direct Chat 💬",
+      "model": "gpt-5.1-codex-mini",
+      "usage": "16.9k",
+      "percent": 6,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:4badb72e-7808-4907-a5c5-194c5566921f",
+      "model": "gpt-5.1-codex-mini",
+      "usage": "7.1k",
+      "percent": 3,
       "status": "ok"
     },
     {
@@ -85,13 +92,6 @@
       "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:255bbb18-22d0-4e21-9c8b-4d6767d0916c",
       "model": "gpt-5.1-codex-mini",
       "usage": "7.1k",
-      "percent": 3,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:55ed8408-f9f7-4c2a-89a0-691826fa4b64",
-      "model": "gpt-5.1-codex-mini",
-      "usage": "7.0k",
       "percent": 3,
       "status": "ok"
     }
