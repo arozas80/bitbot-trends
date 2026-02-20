@@ -26,24 +26,24 @@
   },
   "sessions": [
     {
+      "key": "bitbot > Direct Chat 💬",
+      "model": "gemini-3-flash",
+      "usage": "63.6k",
+      "percent": 23,
+      "status": "ok"
+    },
+    {
       "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840",
       "model": "gpt-5.1-codex-mini",
-      "usage": "0.0k",
-      "percent": 0,
+      "usage": "7.2k",
+      "percent": 3,
       "status": "ok"
     },
     {
       "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:98e2ec70-5283-42bc-a051-7157f9d77b67",
       "model": "gpt-5.1-codex-mini",
-      "usage": "0.0k",
-      "percent": 0,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > Direct Chat 💬",
-      "model": "gemini-3-flash",
-      "usage": "63.6k",
-      "percent": 23,
+      "usage": "7.2k",
+      "percent": 3,
       "status": "ok"
     },
     {
