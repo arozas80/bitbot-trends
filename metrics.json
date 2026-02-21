@@ -28,29 +28,29 @@
     {
       "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840",
       "model": "gemini-3-flash",
-      "usage": "8.3k",
+      "usage": "8.6k",
       "percent": 1,
       "status": "ok"
     },
     {
       "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:3c7d5d17-eb2e-4c02-ae9c-47535313a08d",
       "model": "gemini-3-flash",
-      "usage": "8.3k",
+      "usage": "8.6k",
       "percent": 1,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > Direct Chat 💬",
-      "model": "gemini-3-flash",
-      "usage": "48.8k",
-      "percent": 5,
       "status": "ok"
     },
     {
       "key": "bitbot > telegram:direct:8257120511",
       "model": "gemini-3-flash",
-      "usage": "164.6k",
+      "usage": "165.7k",
       "percent": 16,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > Direct Chat 💬",
+      "model": "gemini-3-flash",
+      "usage": "44.1k",
+      "percent": 4,
       "status": "ok"
     },
     {
