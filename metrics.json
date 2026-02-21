@@ -23,5 +23,77 @@
   "services": {
     "openclaw": "active",
     "nginx": "active"
-  }
+  },
+  "sessions": [
+    {
+      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840",
+      "model": "gemini-3-flash",
+      "usage": "16.9k",
+      "percent": 2,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:f9e567a0-a7dc-4c74-887d-b13ec47ce755",
+      "model": "gemini-3-flash",
+      "usage": "16.9k",
+      "percent": 2,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > cron:65c261c9-1e12-4fd9-b77e-fe5b82c21732",
+      "model": "gemini-3-flash",
+      "usage": "14.9k",
+      "percent": 1,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > cron:65c261c9-1e12-4fd9-b77e-fe5b82c21732:run:5e87d87b-7310-4971-b6b2-9d2ac4a8407e",
+      "model": "gemini-3-flash",
+      "usage": "14.9k",
+      "percent": 1,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > telegram:direct:8257120511",
+      "model": "gemini-3-flash",
+      "usage": "73.7k",
+      "percent": 7,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > Direct Chat 💬",
+      "model": "gemini-3-flash",
+      "usage": "28.4k",
+      "percent": 3,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > cron:a3d2f29d-b186-4a96-b654-97ffed7323d7",
+      "model": "gemini-3-flash",
+      "usage": "3.8k",
+      "percent": 0,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > cron:a3d2f29d-b186-4a96-b654-97ffed7323d7:run:cb41f7ec-1e89-43c7-a6e7-fa7ceda6e8d2",
+      "model": "gemini-3-flash",
+      "usage": "3.8k",
+      "percent": 0,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > cron:f4a2dec8-55ec-441e-8f29-c3c89c9798a6",
+      "model": "gemini-3-flash",
+      "usage": "3.8k",
+      "percent": 0,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > cron:f4a2dec8-55ec-441e-8f29-c3c89c9798a6:run:b87ad49c-d2f8-4565-944b-57289d66c10a",
+      "model": "gemini-3-flash",
+      "usage": "3.8k",
+      "percent": 0,
+      "status": "ok"
+    }
+  ]
 }
