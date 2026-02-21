@@ -28,15 +28,22 @@
     {
       "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840",
       "model": "gpt-5.1-codex-mini",
-      "usage": "6.0k",
+      "usage": "6.3k",
       "percent": 2,
       "status": "ok"
     },
     {
       "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:3c7d5d17-eb2e-4c02-ae9c-47535313a08d",
       "model": "gpt-5.1-codex-mini",
-      "usage": "6.0k",
+      "usage": "6.3k",
       "percent": 2,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > Direct Chat 💬",
+      "model": "gpt-5.1-codex-mini",
+      "usage": "42.9k",
+      "percent": 16,
       "status": "ok"
     },
     {
@@ -44,13 +51,6 @@
       "model": "gpt-5.1-codex-mini",
       "usage": "17.9k",
       "percent": 7,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > Direct Chat 💬",
-      "model": "gpt-5.1-codex-mini",
-      "usage": "43.4k",
-      "percent": 16,
       "status": "ok"
     },
     {
