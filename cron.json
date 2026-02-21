@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-21T04:00:10.854Z",
+  "generatedAt": "2026-02-21T04:15:11.085Z",
   "jobs": [
     {
       "id": "03edfa7e-366d-4869-8e0f-920e72bb5840",
@@ -14,10 +14,10 @@
         "at": null
       },
       "state": {
-        "nextRunAt": "2026-02-21T04:00:00.000Z",
-        "lastRunAt": "2026-02-21T03:45:00.017Z",
+        "nextRunAt": "2026-02-21T04:15:00.000Z",
+        "lastRunAt": "2026-02-21T04:00:00.013Z",
         "lastStatus": "ok",
-        "lastDurationMs": 14435,
+        "lastDurationMs": 16073,
         "consecutiveErrors": 0
       },
       "deliveryMode": "none",
@@ -37,10 +37,10 @@
         "at": null
       },
       "state": {
-        "nextRunAt": "2026-02-21T04:03:29.222Z",
-        "lastRunAt": "2026-02-21T03:03:29.239Z",
+        "nextRunAt": "2026-02-21T05:03:29.222Z",
+        "lastRunAt": "2026-02-21T04:03:29.237Z",
         "lastStatus": "ok",
-        "lastDurationMs": 10574,
+        "lastDurationMs": 15338,
         "consecutiveErrors": 0
       },
       "deliveryMode": "none",
