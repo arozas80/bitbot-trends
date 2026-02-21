@@ -28,14 +28,14 @@
     {
       "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840",
       "model": "gemini-3-flash",
-      "usage": "8.9k",
+      "usage": "9.2k",
       "percent": 1,
       "status": "ok"
     },
     {
       "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:f9e567a0-a7dc-4c74-887d-b13ec47ce755",
       "model": "gemini-3-flash",
-      "usage": "8.9k",
+      "usage": "9.2k",
       "percent": 1,
       "status": "ok"
     },
