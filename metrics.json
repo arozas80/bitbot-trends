@@ -26,13 +26,6 @@
   },
   "sessions": [
     {
-      "key": "bitbot > Direct Chat 💬",
-      "model": "gemini-3-flash",
-      "usage": "30.3k",
-      "percent": 3,
-      "status": "ok"
-    },
-    {
       "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840",
       "model": "gemini-3-flash",
       "usage": "19.9k",
@@ -44,6 +37,13 @@
       "model": "gemini-3-flash",
       "usage": "19.9k",
       "percent": 2,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > Direct Chat 💬",
+      "model": "gemini-3-flash",
+      "usage": "30.6k",
+      "percent": 3,
       "status": "ok"
     },
     {
