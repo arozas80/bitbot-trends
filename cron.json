@@ -1,4 +1,580 @@
 {
-  "generatedAt": "2026-02-20T23:50:34.060Z",
-  "error": "Error: gateway timeout after 30000ms\nGateway target: ws://127.0.0.1:18789\nSource: local loopback\nConfig: /home/alvaro/.openclaw-alvaro/openclaw.json\nBind: loopback\n"
+  "generatedAt": "2026-02-21T00:01:07.518Z",
+  "jobs": [
+    {
+      "id": "65c261c9-1e12-4fd9-b77e-fe5b82c21732",
+      "name": "Actualizar métricas VPS (cada hora)",
+      "agentId": "publico",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 * * * *",
+        "tz": "America/Santiago",
+        "everyMs": null,
+        "at": null
+      },
+      "state": {
+        "nextRunAt": "2026-02-21T00:00:00.000Z",
+        "lastRunAt": "2026-02-20T23:49:42.882Z",
+        "lastStatus": "ok",
+        "lastDurationMs": 11488,
+        "consecutiveErrors": 0
+      },
+      "deliveryMode": "none",
+      "sessionTarget": "isolated",
+      "summary": "0 * * * *"
+    },
+    {
+      "id": "03edfa7e-366d-4869-8e0f-920e72bb5840",
+      "name": "Update Dashboard Sessions & Tokens",
+      "agentId": "publico",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "*/15 * * * *",
+        "tz": null,
+        "everyMs": null,
+        "at": null
+      },
+      "state": {
+        "nextRunAt": "2026-02-21T00:00:00.000Z",
+        "lastRunAt": "2026-02-20T23:49:54.376Z",
+        "lastStatus": "ok",
+        "lastDurationMs": 42550,
+        "consecutiveErrors": 0
+      },
+      "deliveryMode": "none",
+      "sessionTarget": "isolated",
+      "summary": "*/15 * * * *"
+    },
+    {
+      "id": "c7334f08-ea41-485c-8ca5-9d4e9c0655da",
+      "name": "Respaldo Diario a GitHub",
+      "agentId": "main",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 3 * * *",
+        "tz": "America/Santiago",
+        "everyMs": null,
+        "at": null
+      },
+      "state": {
+        "nextRunAt": "2026-02-21T06:00:00.000Z",
+        "lastRunAt": "2026-02-20T06:00:00.028Z",
+        "lastStatus": "ok",
+        "lastDurationMs": 23,
+        "consecutiveErrors": 0
+      },
+      "deliveryMode": null,
+      "sessionTarget": "main",
+      "summary": "0 3 * * *"
+    },
+    {
+      "id": "f7e32111-125b-4ec2-81ec-4a38d5e52562",
+      "name": "Investigación de Tendencias (6 AM)",
+      "agentId": "publico",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 6 * * *",
+        "tz": "America/Santiago",
+        "everyMs": null,
+        "at": null
+      },
+      "state": {
+        "nextRunAt": "2026-02-21T09:00:00.000Z",
+        "lastRunAt": "2026-02-20T09:00:00.012Z",
+        "lastStatus": "ok",
+        "lastDurationMs": 57427,
+        "consecutiveErrors": 0
+      },
+      "deliveryMode": "announce",
+      "sessionTarget": "isolated",
+      "summary": "0 6 * * *"
+    },
+    {
+      "id": "d904e818-12d3-4bd7-bd6c-2f1b77087b32",
+      "name": "Reporte Diario de Tendencias",
+      "agentId": "main",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 7 * * *",
+        "tz": "America/Santiago",
+        "everyMs": null,
+        "at": null
+      },
+      "state": {
+        "nextRunAt": "2026-02-21T10:00:00.000Z",
+        "lastRunAt": "2026-02-20T10:00:00.013Z",
+        "lastStatus": "ok",
+        "lastDurationMs": 19,
+        "consecutiveErrors": 0
+      },
+      "deliveryMode": null,
+      "sessionTarget": "main",
+      "summary": "0 7 * * *"
+    },
+    {
+      "id": "6df7686a-0181-4831-ad19-98b676439b46",
+      "name": "Recordatorio Diario Matutino (7 AM)",
+      "agentId": "publico",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 7 * * *",
+        "tz": "America/Santiago",
+        "everyMs": null,
+        "at": null
+      },
+      "state": {
+        "nextRunAt": "2026-02-21T10:00:00.000Z",
+        "lastRunAt": "2026-02-20T10:00:28.793Z",
+        "lastStatus": "ok",
+        "lastDurationMs": 10887,
+        "consecutiveErrors": 0
+      },
+      "deliveryMode": "announce",
+      "sessionTarget": "isolated",
+      "summary": "0 7 * * *"
+    },
+    {
+      "id": "dd8381b6-7583-4929-9854-834e925b0684",
+      "name": "Recordatorio diario: Aerius 5 mg (desayuno)",
+      "agentId": "main",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 8 * * *",
+        "tz": "America/Santiago",
+        "everyMs": null,
+        "at": null
+      },
+      "state": {
+        "nextRunAt": "2026-02-21T11:00:00.000Z",
+        "lastRunAt": "2026-02-20T11:00:26.251Z",
+        "lastStatus": "ok",
+        "lastDurationMs": 6680,
+        "consecutiveErrors": 0
+      },
+      "deliveryMode": "announce",
+      "sessionTarget": "isolated",
+      "summary": "0 8 * * *"
+    },
+    {
+      "id": "2fb2f261-4384-4272-b685-45049c4798d4",
+      "name": "Mupax (10 días): 08:00",
+      "agentId": "main",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 8 * * *",
+        "tz": "America/Santiago",
+        "everyMs": null,
+        "at": null
+      },
+      "state": {
+        "nextRunAt": "2026-02-21T11:00:00.000Z",
+        "lastRunAt": "2026-02-20T11:00:32.931Z",
+        "lastStatus": "ok",
+        "lastDurationMs": 1792,
+        "consecutiveErrors": 0
+      },
+      "deliveryMode": "announce",
+      "sessionTarget": "isolated",
+      "summary": "0 8 * * *"
+    },
+    {
+      "id": "3cfe77d6-4032-41d3-a3de-08cc5eef9cd0",
+      "name": "Fisiomar (10 días): 08:00",
+      "agentId": "main",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 8 * * *",
+        "tz": "America/Santiago",
+        "everyMs": null,
+        "at": null
+      },
+      "state": {
+        "nextRunAt": "2026-02-21T11:00:00.000Z",
+        "lastRunAt": "2026-02-20T11:00:34.723Z",
+        "lastStatus": "ok",
+        "lastDurationMs": 2511,
+        "consecutiveErrors": 0
+      },
+      "deliveryMode": "announce",
+      "sessionTarget": "isolated",
+      "summary": "0 8 * * *"
+    },
+    {
+      "id": "191e0dbf-72a0-4cf4-9c89-ad9420b609a6",
+      "name": "Fisiomar (10 días): 11:00",
+      "agentId": "main",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 11 * * *",
+        "tz": "America/Santiago",
+        "everyMs": null,
+        "at": null
+      },
+      "state": {
+        "nextRunAt": "2026-02-21T14:00:00.000Z",
+        "lastRunAt": "2026-02-20T14:00:27.332Z",
+        "lastStatus": "ok",
+        "lastDurationMs": 3171,
+        "consecutiveErrors": 0
+      },
+      "deliveryMode": "announce",
+      "sessionTarget": "isolated",
+      "summary": "0 11 * * *"
+    },
+    {
+      "id": "323bbdc2-7399-444c-beaf-bdc1af985811",
+      "name": "Mupax (10 días): 14:00",
+      "agentId": "main",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 14 * * *",
+        "tz": "America/Santiago",
+        "everyMs": null,
+        "at": null
+      },
+      "state": {
+        "nextRunAt": "2026-02-21T17:00:00.000Z",
+        "lastRunAt": "2026-02-20T17:00:24.156Z",
+        "lastStatus": "ok",
+        "lastDurationMs": 4286,
+        "consecutiveErrors": 0
+      },
+      "deliveryMode": "announce",
+      "sessionTarget": "isolated",
+      "summary": "0 14 * * *"
+    },
+    {
+      "id": "f0aed81d-9fd4-48eb-94d3-afa4017718d3",
+      "name": "Fisiomar (10 días): 14:00",
+      "agentId": "main",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 14 * * *",
+        "tz": "America/Santiago",
+        "everyMs": null,
+        "at": null
+      },
+      "state": {
+        "nextRunAt": "2026-02-21T17:00:00.000Z",
+        "lastRunAt": "2026-02-20T17:00:28.442Z",
+        "lastStatus": "ok",
+        "lastDurationMs": 11386,
+        "consecutiveErrors": 0
+      },
+      "deliveryMode": "announce",
+      "sessionTarget": "isolated",
+      "summary": "0 14 * * *"
+    },
+    {
+      "id": "f4a2dec8-55ec-441e-8f29-c3c89c9798a6",
+      "name": "Fisiomar (10 días): 17:00",
+      "agentId": "main",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 17 * * *",
+        "tz": "America/Santiago",
+        "everyMs": null,
+        "at": null
+      },
+      "state": {
+        "nextRunAt": "2026-02-21T20:00:00.000Z",
+        "lastRunAt": "2026-02-20T20:00:22.503Z",
+        "lastStatus": "ok",
+        "lastDurationMs": 3354,
+        "consecutiveErrors": 0
+      },
+      "deliveryMode": "announce",
+      "sessionTarget": "isolated",
+      "summary": "0 17 * * *"
+    },
+    {
+      "id": "31b1dac7-ef8a-4aa7-aad2-c0a5aae4b280",
+      "name": "Mupax (10 días): 20:00",
+      "agentId": "main",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 20 * * *",
+        "tz": "America/Santiago",
+        "everyMs": null,
+        "at": null
+      },
+      "state": {
+        "nextRunAt": "2026-02-21T23:00:00.000Z",
+        "lastRunAt": "2026-02-20T23:50:36.930Z",
+        "lastStatus": "ok",
+        "lastDurationMs": 8080,
+        "consecutiveErrors": 0
+      },
+      "deliveryMode": "announce",
+      "sessionTarget": "isolated",
+      "summary": "0 20 * * *"
+    },
+    {
+      "id": "d54d45cc-93e0-4b7b-a88e-c15d352e4dc6",
+      "name": "Fisiomar (10 días): 20:00",
+      "agentId": "main",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 20 * * *",
+        "tz": "America/Santiago",
+        "everyMs": null,
+        "at": null
+      },
+      "state": {
+        "nextRunAt": "2026-02-21T23:00:00.000Z",
+        "lastRunAt": "2026-02-20T23:50:45.012Z",
+        "lastStatus": "ok",
+        "lastDurationMs": 4417,
+        "consecutiveErrors": 0
+      },
+      "deliveryMode": "announce",
+      "sessionTarget": "isolated",
+      "summary": "0 20 * * *"
+    },
+    {
+      "id": "bed0cd13-6276-4c56-b0cc-8f4fa7970653",
+      "name": "Chequeo Semanal de Actualizaciones OpenClaw",
+      "agentId": "publico",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9 * * 1",
+        "tz": "America/Santiago",
+        "everyMs": null,
+        "at": null
+      },
+      "state": {
+        "nextRunAt": "2026-02-23T12:00:00.000Z",
+        "lastRunAt": "2026-02-16T12:02:16.343Z",
+        "lastStatus": "ok",
+        "lastDurationMs": 74941,
+        "consecutiveErrors": 0
+      },
+      "deliveryMode": "announce",
+      "sessionTarget": "isolated",
+      "summary": "0 9 * * 1"
+    },
+    {
+      "id": "1c0944fa-56c2-483b-9b1f-3e6cc0cdb48e",
+      "name": "Estudio Continuo de Documentación OpenClaw",
+      "agentId": "publico",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 10 * * 1",
+        "tz": "America/Santiago",
+        "everyMs": null,
+        "at": null
+      },
+      "state": {
+        "nextRunAt": "2026-02-23T13:00:00.000Z",
+        "lastRunAt": "2026-02-16T13:00:55.950Z",
+        "lastStatus": "ok",
+        "lastDurationMs": 126077,
+        "consecutiveErrors": 0
+      },
+      "deliveryMode": "announce",
+      "sessionTarget": "isolated",
+      "summary": "0 10 * * 1"
+    },
+    {
+      "id": "016c157e-3d8a-4dd4-8634-55289f8fac66",
+      "name": "Chequeo Bi-semanal Versión n8n",
+      "agentId": "publico",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 10 * * 1,4",
+        "tz": "America/Santiago",
+        "everyMs": null,
+        "at": null
+      },
+      "state": {
+        "nextRunAt": "2026-02-23T13:00:00.000Z",
+        "lastRunAt": "2026-02-19T13:00:28.721Z",
+        "lastStatus": "ok",
+        "lastDurationMs": 23880,
+        "consecutiveErrors": 0
+      },
+      "deliveryMode": "announce",
+      "sessionTarget": "isolated",
+      "summary": "0 10 * * 1,4"
+    },
+    {
+      "id": "c2def00c-f012-46c2-b1ac-4bbca3a8c644",
+      "name": "Recordatorio: depositar en el banco (27 feb)",
+      "agentId": "main",
+      "enabled": true,
+      "schedule": {
+        "kind": "at",
+        "expr": null,
+        "tz": null,
+        "everyMs": null,
+        "at": "2026-02-27T12:00:00.000Z"
+      },
+      "state": {
+        "nextRunAt": "2026-02-27T12:00:00.000Z",
+        "lastRunAt": null,
+        "lastStatus": null,
+        "lastDurationMs": null,
+        "consecutiveErrors": 0
+      },
+      "deliveryMode": null,
+      "sessionTarget": "main",
+      "summary": "2026-02-27T12:00:00.000Z"
+    },
+    {
+      "id": "7c41f3d4-574d-4738-a21a-0f0f13aeab36",
+      "name": "Recordatorio: Depósito de Cheques (Viernes de Febrero)",
+      "agentId": "main",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "30 9 * 2 5",
+        "tz": "America/Santiago",
+        "everyMs": null,
+        "at": null
+      },
+      "state": {
+        "nextRunAt": "2026-02-27T12:30:00.000Z",
+        "lastRunAt": "2026-02-20T12:30:00.013Z",
+        "lastStatus": "ok",
+        "lastDurationMs": 12,
+        "consecutiveErrors": 0
+      },
+      "deliveryMode": null,
+      "sessionTarget": "main",
+      "summary": "30 9 * 2 5"
+    },
+    {
+      "id": "2dad05ac-85e2-4e8e-a25b-ec79325edba6",
+      "name": "Pago Movistar",
+      "agentId": "main",
+      "enabled": true,
+      "schedule": {
+        "kind": "at",
+        "expr": null,
+        "tz": null,
+        "everyMs": null,
+        "at": "2026-02-27T14:00:00.000Z"
+      },
+      "state": {
+        "nextRunAt": "2026-02-27T14:00:00.000Z",
+        "lastRunAt": null,
+        "lastStatus": null,
+        "lastDurationMs": null,
+        "consecutiveErrors": 0
+      },
+      "deliveryMode": null,
+      "sessionTarget": "main",
+      "summary": "2026-02-27T14:00:00.000Z"
+    },
+    {
+      "id": "56401076-8e98-453e-94aa-636e0e85b220",
+      "name": "Fin 10 días (Mupax/Fisiomar): confirmar desactivación",
+      "agentId": "main",
+      "enabled": true,
+      "schedule": {
+        "kind": "at",
+        "expr": null,
+        "tz": null,
+        "everyMs": null,
+        "at": "2026-03-01T11:05:00.000Z"
+      },
+      "state": {
+        "nextRunAt": "2026-03-01T11:05:00.000Z",
+        "lastRunAt": null,
+        "lastStatus": null,
+        "lastDurationMs": null,
+        "consecutiveErrors": 0
+      },
+      "deliveryMode": "announce",
+      "sessionTarget": "isolated",
+      "summary": "2026-03-01T11:05:00.000Z"
+    },
+    {
+      "id": "6307e8ce-8b21-4fbf-913d-9f6a7d04f052",
+      "name": "Recordatorio anticipado: buscar a Dominga (12:00)",
+      "agentId": "main",
+      "enabled": true,
+      "schedule": {
+        "kind": "at",
+        "expr": null,
+        "tz": null,
+        "everyMs": null,
+        "at": "2026-03-02T15:00:00.000Z"
+      },
+      "state": {
+        "nextRunAt": "2026-03-02T15:00:00.000Z",
+        "lastRunAt": null,
+        "lastStatus": null,
+        "lastDurationMs": null,
+        "consecutiveErrors": 0
+      },
+      "deliveryMode": "announce",
+      "sessionTarget": "isolated",
+      "summary": "2026-03-02T15:00:00.000Z"
+    },
+    {
+      "id": "2f392413-85af-4bd2-88d5-d3f46d2f31f5",
+      "name": "Recordatorio: buscar a Dominga (primer día de colegio)",
+      "agentId": "main",
+      "enabled": true,
+      "schedule": {
+        "kind": "at",
+        "expr": null,
+        "tz": null,
+        "everyMs": null,
+        "at": "2026-03-02T16:00:00.000Z"
+      },
+      "state": {
+        "nextRunAt": "2026-03-02T16:00:00.000Z",
+        "lastRunAt": null,
+        "lastStatus": null,
+        "lastDurationMs": null,
+        "consecutiveErrors": 0
+      },
+      "deliveryMode": "announce",
+      "sessionTarget": "isolated",
+      "summary": "2026-03-02T16:00:00.000Z"
+    },
+    {
+      "id": "6616c1f2-d9fc-4fed-abf3-0a2d2dabbce8",
+      "name": "Recordatorio: Activación Plan ClassPass",
+      "agentId": "main",
+      "enabled": true,
+      "schedule": {
+        "kind": "at",
+        "expr": null,
+        "tz": null,
+        "everyMs": null,
+        "at": "2026-04-08T12:00:00.000Z"
+      },
+      "state": {
+        "nextRunAt": "2026-04-08T12:00:00.000Z",
+        "lastRunAt": null,
+        "lastStatus": null,
+        "lastDurationMs": null,
+        "consecutiveErrors": 0
+      },
+      "deliveryMode": null,
+      "sessionTarget": "main",
+      "summary": "2026-04-08T12:00:00.000Z"
+    }
+  ]
 }
