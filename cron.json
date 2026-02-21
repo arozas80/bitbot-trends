@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-21T14:00:11.943Z",
+  "generatedAt": "2026-02-21T14:15:10.779Z",
   "jobs": [
     {
       "id": "03edfa7e-366d-4869-8e0f-920e72bb5840",
@@ -14,38 +14,15 @@
         "at": null
       },
       "state": {
-        "nextRunAt": "2026-02-21T14:00:00.000Z",
-        "lastRunAt": "2026-02-21T13:45:00.014Z",
+        "nextRunAt": "2026-02-21T14:15:00.000Z",
+        "lastRunAt": "2026-02-21T14:00:00.014Z",
         "lastStatus": "ok",
-        "lastDurationMs": 13113,
+        "lastDurationMs": 15277,
         "consecutiveErrors": 0
       },
       "deliveryMode": "none",
       "sessionTarget": "isolated",
       "summary": "*/15 * * * *"
-    },
-    {
-      "id": "191e0dbf-72a0-4cf4-9c89-ad9420b609a6",
-      "name": "Fisiomar (10 días): 11:00",
-      "agentId": "main",
-      "enabled": true,
-      "schedule": {
-        "kind": "cron",
-        "expr": "0 11 * * *",
-        "tz": "America/Santiago",
-        "everyMs": null,
-        "at": null
-      },
-      "state": {
-        "nextRunAt": "2026-02-21T14:00:00.000Z",
-        "lastRunAt": "2026-02-20T14:00:27.332Z",
-        "lastStatus": "ok",
-        "lastDurationMs": 3171,
-        "consecutiveErrors": 0
-      },
-      "deliveryMode": "announce",
-      "sessionTarget": "isolated",
-      "summary": "0 11 * * *"
     },
     {
       "id": "65c261c9-1e12-4fd9-b77e-fe5b82c21732",
@@ -60,10 +37,10 @@
         "at": null
       },
       "state": {
-        "nextRunAt": "2026-02-21T14:03:29.222Z",
-        "lastRunAt": "2026-02-21T13:03:29.236Z",
+        "nextRunAt": "2026-02-21T15:03:29.222Z",
+        "lastRunAt": "2026-02-21T14:03:29.234Z",
         "lastStatus": "ok",
-        "lastDurationMs": 7406,
+        "lastDurationMs": 5680,
         "consecutiveErrors": 0
       },
       "deliveryMode": "none",
@@ -345,6 +322,29 @@
       "deliveryMode": "announce",
       "sessionTarget": "isolated",
       "summary": "0 8 * * *"
+    },
+    {
+      "id": "191e0dbf-72a0-4cf4-9c89-ad9420b609a6",
+      "name": "Fisiomar (10 días): 11:00",
+      "agentId": "main",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 11 * * *",
+        "tz": "America/Santiago",
+        "everyMs": null,
+        "at": null
+      },
+      "state": {
+        "nextRunAt": "2026-02-22T14:00:00.000Z",
+        "lastRunAt": "2026-02-21T14:00:15.291Z",
+        "lastStatus": "error",
+        "lastDurationMs": 2719,
+        "consecutiveErrors": 1
+      },
+      "deliveryMode": "announce",
+      "sessionTarget": "isolated",
+      "summary": "0 11 * * *"
     },
     {
       "id": "bed0cd13-6276-4c56-b0cc-8f4fa7970653",
