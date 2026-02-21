@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-21T19:03:33.735217",
+  "updatedAt": "2026-02-21T20:03:31.915303",
   "todos": [
     {
       "text": "Revisa el clima si son las 08:00 o las 20:00 (necesitas ubicaci\u00f3n). (Realizado 2026-02-20 20:50)",
@@ -18,7 +18,11 @@
       "status": "done"
     },
     {
-      "text": "Cada 15 minutos (v\u00eda Cron): Ejecuta `node /home/alvaro/.openclaw/workspace-alvaro/update_dashboard_sessions.js` para mantener los tokens actualizados en el Dashboard. (Realizado 2026-02-21 01:15)",
+      "text": "Cada 15 minutos (v\u00eda Cron Silencioso): Ejecuta `node /home/alvaro/.openclaw/workspace-alvaro/update_dashboard_sessions.js`. (Actualizado 2026-02-21)",
+      "status": "done"
+    },
+    {
+      "text": "Dos veces al d\u00eda (08:00 y 20:00 v\u00eda Cron): Informa a Alvaro que las gestiones de actualizaci\u00f3n se est\u00e1n realizando. (Configurado 2026-02-21)",
       "status": "done"
     },
     {
