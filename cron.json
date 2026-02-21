@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-21T22:45:12.558Z",
+  "generatedAt": "2026-02-21T23:00:10.825Z",
   "jobs": [
     {
       "id": "03edfa7e-366d-4869-8e0f-920e72bb5840",
@@ -14,10 +14,10 @@
         "at": null
       },
       "state": {
-        "nextRunAt": "2026-02-21T22:45:00.000Z",
-        "lastRunAt": "2026-02-21T22:30:00.015Z",
+        "nextRunAt": "2026-02-21T23:00:00.000Z",
+        "lastRunAt": "2026-02-21T22:45:00.015Z",
         "lastStatus": "ok",
-        "lastDurationMs": 13090,
+        "lastDurationMs": 15547,
         "consecutiveErrors": 0
       },
       "deliveryMode": "none",
