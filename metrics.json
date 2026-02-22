@@ -28,15 +28,29 @@
     {
       "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840",
       "model": "gpt-5.1-codex-mini",
-      "usage": "17.0k",
+      "usage": "17.2k",
       "percent": 6,
       "status": "ok"
     },
     {
       "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:1cd87996-ed3c-4c71-959b-73d52dd45947",
       "model": "gpt-5.1-codex-mini",
-      "usage": "17.0k",
+      "usage": "17.2k",
       "percent": 6,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > whatsapp:direct:+56951577890",
+      "model": "gpt-5.1-codex-mini",
+      "usage": "187.6k",
+      "percent": 69,
+      "status": "warning"
+    },
+    {
+      "key": "bitbot > Direct Chat 💬",
+      "model": "gpt-5.1-codex-mini",
+      "usage": "26.3k",
+      "percent": 10,
       "status": "ok"
     },
     {
@@ -51,13 +65,6 @@
       "model": "gpt-5.1-codex-mini",
       "usage": "14.4k",
       "percent": 5,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > Direct Chat 💬",
-      "model": "gpt-5.1-codex-mini",
-      "usage": "26.3k",
-      "percent": 10,
       "status": "ok"
     },
     {
@@ -86,13 +93,6 @@
       "model": "gpt-5.1-codex-mini",
       "usage": "5.8k",
       "percent": 2,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > telegram:direct:8257120511",
-      "model": "gpt-5.1-codex-mini",
-      "usage": "35.6k",
-      "percent": 13,
       "status": "ok"
     }
   ]
