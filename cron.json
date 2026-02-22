@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-22T23:00:14.462Z",
+  "generatedAt": "2026-02-22T23:15:15.442Z",
   "jobs": [
     {
       "id": "03edfa7e-366d-4869-8e0f-920e72bb5840",
@@ -14,61 +14,15 @@
         "at": null
       },
       "state": {
-        "nextRunAt": "2026-02-22T23:00:00.000Z",
-        "lastRunAt": "2026-02-22T22:45:00.023Z",
+        "nextRunAt": "2026-02-22T23:15:00.000Z",
+        "lastRunAt": "2026-02-22T23:00:00.016Z",
         "lastStatus": "ok",
-        "lastDurationMs": 18884,
+        "lastDurationMs": 18655,
         "consecutiveErrors": 0
       },
       "deliveryMode": "none",
       "sessionTarget": "isolated",
       "summary": "*/15 * * * *"
-    },
-    {
-      "id": "31b1dac7-ef8a-4aa7-aad2-c0a5aae4b280",
-      "name": "Mupax (10 días): 20:00",
-      "agentId": "main",
-      "enabled": true,
-      "schedule": {
-        "kind": "cron",
-        "expr": "0 20 * * *",
-        "tz": "America/Santiago",
-        "everyMs": null,
-        "at": null
-      },
-      "state": {
-        "nextRunAt": "2026-02-22T23:00:00.000Z",
-        "lastRunAt": "2026-02-21T23:00:13.341Z",
-        "lastStatus": "error",
-        "lastDurationMs": 3043,
-        "consecutiveErrors": 1
-      },
-      "deliveryMode": "announce",
-      "sessionTarget": "isolated",
-      "summary": "0 20 * * *"
-    },
-    {
-      "id": "d54d45cc-93e0-4b7b-a88e-c15d352e4dc6",
-      "name": "Fisiomar (10 días): 20:00",
-      "agentId": "main",
-      "enabled": true,
-      "schedule": {
-        "kind": "cron",
-        "expr": "0 20 * * *",
-        "tz": "America/Santiago",
-        "everyMs": null,
-        "at": null
-      },
-      "state": {
-        "nextRunAt": "2026-02-22T23:00:00.000Z",
-        "lastRunAt": "2026-02-21T23:00:16.384Z",
-        "lastStatus": "error",
-        "lastDurationMs": 2777,
-        "consecutiveErrors": 1
-      },
-      "deliveryMode": "announce",
-      "sessionTarget": "isolated",
-      "summary": "0 20 * * *"
     },
     {
       "id": "65c261c9-1e12-4fd9-b77e-fe5b82c21732",
@@ -83,10 +37,10 @@
         "at": null
       },
       "state": {
-        "nextRunAt": "2026-02-22T23:03:29.222Z",
-        "lastRunAt": "2026-02-22T22:03:29.235Z",
+        "nextRunAt": "2026-02-23T00:03:29.222Z",
+        "lastRunAt": "2026-02-22T23:03:29.236Z",
         "lastStatus": "ok",
-        "lastDurationMs": 16804,
+        "lastDurationMs": 16623,
         "consecutiveErrors": 0
       },
       "deliveryMode": "none",
@@ -483,6 +437,52 @@
       "deliveryMode": "announce",
       "sessionTarget": "isolated",
       "summary": "0 17 * * *"
+    },
+    {
+      "id": "31b1dac7-ef8a-4aa7-aad2-c0a5aae4b280",
+      "name": "Mupax (10 días): 20:00",
+      "agentId": "main",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 20 * * *",
+        "tz": "America/Santiago",
+        "everyMs": null,
+        "at": null
+      },
+      "state": {
+        "nextRunAt": "2026-02-23T23:00:00.000Z",
+        "lastRunAt": "2026-02-22T23:00:18.671Z",
+        "lastStatus": "error",
+        "lastDurationMs": 1833,
+        "consecutiveErrors": 2
+      },
+      "deliveryMode": "announce",
+      "sessionTarget": "isolated",
+      "summary": "0 20 * * *"
+    },
+    {
+      "id": "d54d45cc-93e0-4b7b-a88e-c15d352e4dc6",
+      "name": "Fisiomar (10 días): 20:00",
+      "agentId": "main",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 20 * * *",
+        "tz": "America/Santiago",
+        "everyMs": null,
+        "at": null
+      },
+      "state": {
+        "nextRunAt": "2026-02-23T23:00:00.000Z",
+        "lastRunAt": "2026-02-22T23:00:20.504Z",
+        "lastStatus": "error",
+        "lastDurationMs": 1793,
+        "consecutiveErrors": 2
+      },
+      "deliveryMode": "announce",
+      "sessionTarget": "isolated",
+      "summary": "0 20 * * *"
     },
     {
       "id": "c2def00c-f012-46c2-b1ac-4bbca3a8c644",
