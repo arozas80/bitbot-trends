@@ -67,21 +67,16 @@ async function loadExpenses() {
 
 function renderExpensesSummary() {
   const d = expensesData;
-  const personal = d.items.filter(i => i.tipo === 'personal').reduce((s, i) => s + i.monto, 0);
-  const servivet = d.items.filter(i => i.tipo === 'servivet').reduce((s, i) => s + i.monto, 0);
   const budget = 400000;
 
   document.getElementById('totalExpenses').textContent = d.total_fmt;
-  document.getElementById('personalTotal').textContent = `$${personal.toLocaleString('es-CL')}`;
-  document.getElementById('servivetTotal').textContent = `$${servivet.toLocaleString('es-CL')}`;
 
-  const remaining = budget - personal;
+  const remaining = budget - d.total;
   const remEl = document.getElementById('remainingBalance');
   remEl.textContent = `$${remaining.toLocaleString('es-CL')}`;
   remEl.style.color = remaining > 0 ? 'var(--accent-cyan)' : '#ef4444';
 
-  // Budget progress
-  const pct = Math.min((personal / budget) * 100, 100);
+  const pct = Math.min((d.total / budget) * 100, 100);
   document.getElementById('budgetBar').style.width = `${pct}%`;
   document.getElementById('budgetBar').style.background = pct > 80
     ? 'linear-gradient(90deg, #f59e0b, #ef4444)'
@@ -200,27 +195,20 @@ function renderCategoryBreakdown() {
 }
 
 function initExpenseFilters() {
-  const filterTipo = document.getElementById('filterTipo');
   const filterSearch = document.getElementById('filterSearch');
   const filterReset = document.getElementById('filterReset');
 
-  if (!filterTipo) return;
+  if (!filterSearch) return;
 
   const applyFilters = () => {
     let items = [...expensesData.items];
-    const tipo = filterTipo.value;
     const search = filterSearch.value.toLowerCase().trim();
-
-    if (tipo !== 'all') items = items.filter(i => i.tipo === tipo);
     if (search) items = items.filter(i => i.descripcion.toLowerCase().includes(search) || (i.categoria || '').toLowerCase().includes(search));
-
     renderExpensesList(items);
   };
 
-  filterTipo.addEventListener('change', applyFilters);
   filterSearch.addEventListener('input', applyFilters);
   filterReset.addEventListener('click', () => {
-    filterTipo.value = 'all';
     filterSearch.value = '';
     renderExpensesList(expensesData.items);
   });
@@ -241,9 +229,6 @@ function renderExpensesList(items, activeCategory) {
   }
 
   document.getElementById('expensesList').innerHTML = items.map(i => {
-    const tipoBadge = i.tipo === 'servivet'
-      ? '<span style="font-size:0.65rem;padding:2px 6px;background:rgba(168,85,247,0.15);color:#a855f7;border-radius:4px;font-family:var(--font-mono);">SERVIVET</span>'
-      : '<span style="font-size:0.65rem;padding:2px 6px;background:rgba(34,211,238,0.15);color:var(--accent-cyan);border-radius:4px;font-family:var(--font-mono);">PERSONAL</span>';
     const catBadge = i.categoria ? `<span style="font-size:0.7rem;color:var(--text-muted);">${i.categoria}</span>` : '';
 
     return `
@@ -254,7 +239,6 @@ function renderExpensesList(items, activeCategory) {
           <div class="item-meta">
             <span>${i.fecha}</span>
             ${catBadge}
-            ${tipoBadge}
             ${i.factura ? `<span>DOC #${escapeHtml(i.factura)}</span>` : ''}
             ${i.comprobante && i.comprobante !== '#' ? `<a href="${escapeHtml(i.comprobante)}" target="_blank" style="color:var(--accent-cyan);text-decoration:none;">📎 Ver</a>` : ''}
           </div>

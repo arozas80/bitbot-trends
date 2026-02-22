@@ -136,21 +136,13 @@
       <!-- TAB: Expenses v3.0 -->
       <section class="tab-pane" id="tab-expenses">
         <!-- Summary Cards -->
-        <div class="grid" style="grid-template-columns: repeat(4, 1fr);">
+        <div class="grid" style="grid-template-columns: repeat(2, 1fr);">
           <div class="card">
             <div class="card-title">TOTAL MES</div>
             <div class="card-value" style="font-size:1.8rem;" id="totalExpenses">--</div>
           </div>
-          <div class="card">
-            <div class="card-title">🏠 PERSONAL</div>
-            <div class="card-value" style="font-size:1.8rem; color:#22d3ee;" id="personalTotal">--</div>
-          </div>
-          <div class="card">
-            <div class="card-title">🐾 SERVIVET</div>
-            <div class="card-value" style="font-size:1.8rem; color:#a855f7;" id="servivetTotal">--</div>
-          </div>
           <div class="card" style="border: 1px solid var(--accent-cyan);">
-            <div class="card-title">SALDO PERSONAL</div>
+            <div class="card-title">SALDO DISPONIBLE</div>
             <div class="card-value" style="font-size:1.8rem;" id="remainingBalance">--</div>
             <div class="progress-container" style="margin-top:8px;">
               <div class="progress-bar" id="budgetBar" style="width:0%"></div>
@@ -183,11 +175,6 @@
         <div class="card" style="margin-bottom:24px; padding:16px 24px;">
           <div style="display:flex; gap:16px; align-items:center; flex-wrap:wrap;">
             <span style="font-family:var(--font-mono); color:var(--accent-cyan); font-size:0.85rem;">FILTROS:</span>
-            <select id="filterTipo" style="background:var(--bg-darker);color:var(--text-primary);border:1px solid var(--border-standard);padding:8px 14px;border-radius:8px;font-family:var(--font-mono);font-size:0.85rem;">
-              <option value="all">Todos</option>
-              <option value="personal">🏠 Personal</option>
-              <option value="servivet">🐾 Servivet</option>
-            </select>
             <input type="text" id="filterSearch" placeholder="Buscar descripción..." style="background:var(--bg-darker);color:var(--text-primary);border:1px solid var(--border-standard);padding:8px 14px;border-radius:8px;font-family:var(--font-mono);font-size:0.85rem;flex:1;min-width:200px;">
             <button id="filterReset" style="background:none;border:1px solid var(--accent-cyan);color:var(--accent-cyan);padding:8px 16px;border-radius:8px;cursor:pointer;font-family:var(--font-mono);font-size:0.85rem;">✕ Reset</button>
           </div>
