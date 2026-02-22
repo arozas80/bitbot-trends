@@ -26,17 +26,31 @@
   },
   "sessions": [
     {
+      "key": "bitbot > telegram:direct:8257120511",
+      "model": "gpt-5.1-codex-mini",
+      "usage": "92.1k",
+      "percent": 34,
+      "status": "ok"
+    },
+    {
       "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840",
       "model": "claude-opus-4-6-thinking",
-      "usage": "19.4k",
+      "usage": "19.7k",
       "percent": 10,
       "status": "ok"
     },
     {
       "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:1cd87996-ed3c-4c71-959b-73d52dd45947",
       "model": "claude-opus-4-6-thinking",
-      "usage": "19.4k",
+      "usage": "19.7k",
       "percent": 10,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > Direct Chat 💬",
+      "model": "claude-opus-4-6-thinking",
+      "usage": "29.5k",
+      "percent": 15,
       "status": "ok"
     },
     {
@@ -52,20 +66,6 @@
       "usage": "16.7k",
       "percent": 8,
       "status": "ok"
-    },
-    {
-      "key": "bitbot > Direct Chat 💬",
-      "model": "claude-opus-4-6-thinking",
-      "usage": "29.5k",
-      "percent": 15,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > telegram:direct:8257120511",
-      "model": "claude-opus-4-6-thinking",
-      "usage": "138.2k",
-      "percent": 69,
-      "status": "warning"
     },
     {
       "key": "bitbot > cron:dd8381b6-7583-4929-9854-834e925b0684",
