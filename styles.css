@@ -371,7 +371,7 @@ body {
   grid-template-columns: 2fr 1fr;
 }
 
-/* Responsive */
+/* Responsive - Tablet */
 @media (max-width: 1024px) {
   :root { --sidebar-width: 80px; }
   .brand-name, .nav-text, .sidebar-footer { display: none; }
@@ -384,18 +384,29 @@ body {
   }
 }
 
-@media (max-width: 640px) {
-  body { overflow: auto; }
-  .sidebar { display: none; }
-  .mobile-nav { display: flex; }
+/* Responsive - Mobile */
+@media (max-width: 768px) {
+  body { overflow: auto !important; flex-direction: column; }
+  .sidebar { display: none !important; }
+  .mobile-nav { display: flex !important; }
 
-  .content { padding-bottom: 60px; }
+  .content {
+    overflow: auto !important;
+    min-height: auto;
+    padding-bottom: 70px;
+  }
+
+  .main-scroll {
+    overflow: visible !important;
+    padding: 16px;
+  }
 
   .top-bar {
     padding: 14px 16px;
     flex-direction: column;
     align-items: flex-start;
     gap: 12px;
+    position: relative;
   }
 
   .page-title { font-size: 1.2rem; }
@@ -408,8 +419,6 @@ body {
   }
 
   .status-indicator { font-size: 0.75rem; }
-
-  .main-scroll { padding: 16px; }
 
   .grid {
     grid-template-columns: 1fr !important;
@@ -427,11 +436,11 @@ body {
 
   .card { padding: 16px; border-radius: 12px; }
   .card-value { font-size: 1.6rem; }
-  .card:hover { transform: none; }
+  .card:hover { transform: none; box-shadow: none; }
 
   .list-container { max-height: none; border-radius: 12px; }
   .list-item { padding: 12px 16px; gap: 12px; flex-wrap: wrap; }
-  .item-title { font-size: 0.9rem; }
+  .item-title { font-size: 0.9rem; word-break: break-word; }
   .item-meta { font-size: 0.7rem; flex-wrap: wrap; gap: 6px; }
   .item-icon { font-size: 1.1rem; }
 
@@ -439,11 +448,11 @@ body {
   #expensesChart { max-height: 200px; }
 
   /* Filter bar mobile */
-  #tab-expenses .card[style*="margin-bottom:24px"] div {
-    flex-direction: column;
+  .expenses-filter-bar {
+    flex-direction: column !important;
   }
 
-  #filterSearch { min-width: unset !important; width: 100%; }
+  #filterSearch { min-width: unset !important; width: 100% !important; }
 }
 
 /* Plan 2026 Markdown Styles */
