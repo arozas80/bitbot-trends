@@ -28,15 +28,15 @@
     {
       "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840",
       "model": "claude-opus-4-6-thinking",
-      "usage": "14.8k",
-      "percent": 7,
+      "usage": "15.2k",
+      "percent": 8,
       "status": "ok"
     },
     {
       "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:1cd87996-ed3c-4c71-959b-73d52dd45947",
       "model": "claude-opus-4-6-thinking",
-      "usage": "14.8k",
-      "percent": 7,
+      "usage": "15.2k",
+      "percent": 8,
       "status": "ok"
     },
     {
