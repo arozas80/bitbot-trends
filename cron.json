@@ -1,29 +1,6 @@
 {
-  "generatedAt": "2026-02-22T06:00:11.213Z",
+  "generatedAt": "2026-02-22T06:15:11.728Z",
   "jobs": [
-    {
-      "id": "c7334f08-ea41-485c-8ca5-9d4e9c0655da",
-      "name": "Respaldo Diario a GitHub",
-      "agentId": "main",
-      "enabled": true,
-      "schedule": {
-        "kind": "cron",
-        "expr": "0 3 * * *",
-        "tz": "America/Santiago",
-        "everyMs": null,
-        "at": null
-      },
-      "state": {
-        "nextRunAt": "2026-02-22T06:00:00.000Z",
-        "lastRunAt": "2026-02-21T06:00:00.020Z",
-        "lastStatus": "ok",
-        "lastDurationMs": 22,
-        "consecutiveErrors": 0
-      },
-      "deliveryMode": null,
-      "sessionTarget": "main",
-      "summary": "0 3 * * *"
-    },
     {
       "id": "03edfa7e-366d-4869-8e0f-920e72bb5840",
       "name": "Update Dashboard Sessions & Tokens",
@@ -37,10 +14,10 @@
         "at": null
       },
       "state": {
-        "nextRunAt": "2026-02-22T06:00:00.000Z",
-        "lastRunAt": "2026-02-22T05:45:00.017Z",
+        "nextRunAt": "2026-02-22T06:15:00.000Z",
+        "lastRunAt": "2026-02-22T06:00:00.052Z",
         "lastStatus": "ok",
-        "lastDurationMs": 13962,
+        "lastDurationMs": 13740,
         "consecutiveErrors": 0
       },
       "deliveryMode": "none",
@@ -60,10 +37,10 @@
         "at": null
       },
       "state": {
-        "nextRunAt": "2026-02-22T06:03:29.222Z",
-        "lastRunAt": "2026-02-22T05:03:29.240Z",
+        "nextRunAt": "2026-02-22T07:03:29.222Z",
+        "lastRunAt": "2026-02-22T06:03:29.241Z",
         "lastStatus": "ok",
-        "lastDurationMs": 11481,
+        "lastDurationMs": 12851,
         "consecutiveErrors": 0
       },
       "deliveryMode": "none",
@@ -391,6 +368,29 @@
       "deliveryMode": "announce",
       "sessionTarget": "isolated",
       "summary": "0 20 * * *"
+    },
+    {
+      "id": "c7334f08-ea41-485c-8ca5-9d4e9c0655da",
+      "name": "Respaldo Diario a GitHub",
+      "agentId": "main",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 3 * * *",
+        "tz": "America/Santiago",
+        "everyMs": null,
+        "at": null
+      },
+      "state": {
+        "nextRunAt": "2026-02-23T06:00:00.000Z",
+        "lastRunAt": "2026-02-22T06:00:00.016Z",
+        "lastStatus": "ok",
+        "lastDurationMs": 35,
+        "consecutiveErrors": 0
+      },
+      "deliveryMode": null,
+      "sessionTarget": "main",
+      "summary": "0 3 * * *"
     },
     {
       "id": "bed0cd13-6276-4c56-b0cc-8f4fa7970653",
