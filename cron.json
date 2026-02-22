@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-22T11:00:11.790Z",
+  "generatedAt": "2026-02-22T11:15:11.177Z",
   "jobs": [
     {
       "id": "03edfa7e-366d-4869-8e0f-920e72bb5840",
@@ -14,107 +14,15 @@
         "at": null
       },
       "state": {
-        "nextRunAt": "2026-02-22T11:00:00.000Z",
-        "lastRunAt": "2026-02-22T10:45:00.023Z",
+        "nextRunAt": "2026-02-22T11:15:00.000Z",
+        "lastRunAt": "2026-02-22T11:00:00.012Z",
         "lastStatus": "ok",
-        "lastDurationMs": 15834,
+        "lastDurationMs": 14446,
         "consecutiveErrors": 0
       },
       "deliveryMode": "none",
       "sessionTarget": "isolated",
       "summary": "*/15 * * * *"
-    },
-    {
-      "id": "dd8381b6-7583-4929-9854-834e925b0684",
-      "name": "Recordatorio diario: Aerius 5 mg (desayuno)",
-      "agentId": "main",
-      "enabled": true,
-      "schedule": {
-        "kind": "cron",
-        "expr": "0 8 * * *",
-        "tz": "America/Santiago",
-        "everyMs": null,
-        "at": null
-      },
-      "state": {
-        "nextRunAt": "2026-02-22T11:00:00.000Z",
-        "lastRunAt": "2026-02-21T11:00:14.230Z",
-        "lastStatus": "error",
-        "lastDurationMs": 5592,
-        "consecutiveErrors": 1
-      },
-      "deliveryMode": "announce",
-      "sessionTarget": "isolated",
-      "summary": "0 8 * * *"
-    },
-    {
-      "id": "2fb2f261-4384-4272-b685-45049c4798d4",
-      "name": "Mupax (10 días): 08:00",
-      "agentId": "main",
-      "enabled": true,
-      "schedule": {
-        "kind": "cron",
-        "expr": "0 8 * * *",
-        "tz": "America/Santiago",
-        "everyMs": null,
-        "at": null
-      },
-      "state": {
-        "nextRunAt": "2026-02-22T11:00:00.000Z",
-        "lastRunAt": "2026-02-21T11:00:19.822Z",
-        "lastStatus": "error",
-        "lastDurationMs": 3734,
-        "consecutiveErrors": 1
-      },
-      "deliveryMode": "announce",
-      "sessionTarget": "isolated",
-      "summary": "0 8 * * *"
-    },
-    {
-      "id": "3cfe77d6-4032-41d3-a3de-08cc5eef9cd0",
-      "name": "Fisiomar (10 días): 08:00",
-      "agentId": "main",
-      "enabled": true,
-      "schedule": {
-        "kind": "cron",
-        "expr": "0 8 * * *",
-        "tz": "America/Santiago",
-        "everyMs": null,
-        "at": null
-      },
-      "state": {
-        "nextRunAt": "2026-02-22T11:00:00.000Z",
-        "lastRunAt": "2026-02-21T11:00:23.556Z",
-        "lastStatus": "error",
-        "lastDurationMs": 3270,
-        "consecutiveErrors": 1
-      },
-      "deliveryMode": "announce",
-      "sessionTarget": "isolated",
-      "summary": "0 8 * * *"
-    },
-    {
-      "id": "63cf8fb7-57db-4d0f-8eaa-d8cc4441923a",
-      "name": "Informe Diario de Auto-Mejora Bitbot",
-      "agentId": "publico",
-      "enabled": true,
-      "schedule": {
-        "kind": "cron",
-        "expr": "0 8 * * *",
-        "tz": "America/Santiago",
-        "everyMs": null,
-        "at": null
-      },
-      "state": {
-        "nextRunAt": "2026-02-22T11:00:00.000Z",
-        "lastRunAt": null,
-        "lastStatus": null,
-        "lastDurationMs": null,
-        "consecutiveErrors": 0
-      },
-      "deliveryMode": "announce",
-      "sessionTarget": "isolated",
-      "summary": "0 8 * * *"
     },
     {
       "id": "65c261c9-1e12-4fd9-b77e-fe5b82c21732",
@@ -129,10 +37,10 @@
         "at": null
       },
       "state": {
-        "nextRunAt": "2026-02-22T11:03:29.222Z",
-        "lastRunAt": "2026-02-22T10:03:29.236Z",
+        "nextRunAt": "2026-02-22T12:03:29.222Z",
+        "lastRunAt": "2026-02-22T11:03:29.235Z",
         "lastStatus": "ok",
-        "lastDurationMs": 11346,
+        "lastDurationMs": 13735,
         "consecutiveErrors": 0
       },
       "deliveryMode": "none",
@@ -391,6 +299,98 @@
       "deliveryMode": "announce",
       "sessionTarget": "isolated",
       "summary": "0 7 * * *"
+    },
+    {
+      "id": "dd8381b6-7583-4929-9854-834e925b0684",
+      "name": "Recordatorio diario: Aerius 5 mg (desayuno)",
+      "agentId": "main",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 8 * * *",
+        "tz": "America/Santiago",
+        "everyMs": null,
+        "at": null
+      },
+      "state": {
+        "nextRunAt": "2026-02-23T11:00:00.000Z",
+        "lastRunAt": "2026-02-22T11:02:40.169Z",
+        "lastStatus": "error",
+        "lastDurationMs": 3373,
+        "consecutiveErrors": 3
+      },
+      "deliveryMode": "announce",
+      "sessionTarget": "isolated",
+      "summary": "0 8 * * *"
+    },
+    {
+      "id": "2fb2f261-4384-4272-b685-45049c4798d4",
+      "name": "Mupax (10 días): 08:00",
+      "agentId": "main",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 8 * * *",
+        "tz": "America/Santiago",
+        "everyMs": null,
+        "at": null
+      },
+      "state": {
+        "nextRunAt": "2026-02-23T11:00:00.000Z",
+        "lastRunAt": "2026-02-22T11:00:18.021Z",
+        "lastStatus": "error",
+        "lastDurationMs": 4729,
+        "consecutiveErrors": 2
+      },
+      "deliveryMode": "announce",
+      "sessionTarget": "isolated",
+      "summary": "0 8 * * *"
+    },
+    {
+      "id": "3cfe77d6-4032-41d3-a3de-08cc5eef9cd0",
+      "name": "Fisiomar (10 días): 08:00",
+      "agentId": "main",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 8 * * *",
+        "tz": "America/Santiago",
+        "everyMs": null,
+        "at": null
+      },
+      "state": {
+        "nextRunAt": "2026-02-23T11:00:00.000Z",
+        "lastRunAt": "2026-02-22T11:00:22.750Z",
+        "lastStatus": "error",
+        "lastDurationMs": 2873,
+        "consecutiveErrors": 2
+      },
+      "deliveryMode": "announce",
+      "sessionTarget": "isolated",
+      "summary": "0 8 * * *"
+    },
+    {
+      "id": "63cf8fb7-57db-4d0f-8eaa-d8cc4441923a",
+      "name": "Informe Diario de Auto-Mejora Bitbot",
+      "agentId": "publico",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 8 * * *",
+        "tz": "America/Santiago",
+        "everyMs": null,
+        "at": null
+      },
+      "state": {
+        "nextRunAt": "2026-02-23T11:00:00.000Z",
+        "lastRunAt": "2026-02-22T11:00:25.623Z",
+        "lastStatus": "error",
+        "lastDurationMs": 79522,
+        "consecutiveErrors": 1
+      },
+      "deliveryMode": "announce",
+      "sessionTarget": "isolated",
+      "summary": "0 8 * * *"
     },
     {
       "id": "bed0cd13-6276-4c56-b0cc-8f4fa7970653",
