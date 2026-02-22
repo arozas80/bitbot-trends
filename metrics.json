@@ -26,31 +26,45 @@
   },
   "sessions": [
     {
-      "key": "bitbot > telegram:direct:8257120511",
-      "model": "gpt-5.1-codex-mini",
-      "usage": "92.1k",
-      "percent": 34,
-      "status": "ok"
-    },
-    {
       "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840",
-      "model": "claude-opus-4-6-thinking",
-      "usage": "19.7k",
-      "percent": 10,
+      "model": "gpt-5.1-codex-mini",
+      "usage": "12.9k",
+      "percent": 5,
       "status": "ok"
     },
     {
       "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:1cd87996-ed3c-4c71-959b-73d52dd45947",
-      "model": "claude-opus-4-6-thinking",
-      "usage": "19.7k",
-      "percent": 10,
+      "model": "gpt-5.1-codex-mini",
+      "usage": "12.9k",
+      "percent": 5,
       "status": "ok"
     },
     {
       "key": "bitbot > Direct Chat 💬",
-      "model": "claude-opus-4-6-thinking",
-      "usage": "29.5k",
-      "percent": 15,
+      "model": "gpt-5.1-codex-mini",
+      "usage": "24.3k",
+      "percent": 9,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > telegram:direct:8257120511",
+      "model": "gpt-5.1-codex-mini",
+      "usage": "190.2k",
+      "percent": 70,
+      "status": "warning"
+    },
+    {
+      "key": "bitbot > cron:63cf8fb7-57db-4d0f-8eaa-d8cc4441923a",
+      "model": "gpt-5.1-codex-mini",
+      "usage": "24.0k",
+      "percent": 9,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > cron:63cf8fb7-57db-4d0f-8eaa-d8cc4441923a:run:42d41648-f1c8-4b21-bd86-d4a5c7cfcf54",
+      "model": "gpt-5.1-codex-mini",
+      "usage": "24.0k",
+      "percent": 9,
       "status": "ok"
     },
     {
@@ -79,20 +93,6 @@
       "model": "claude-opus-4-6-thinking",
       "usage": "10.0k",
       "percent": 5,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > cron:63cf8fb7-57db-4d0f-8eaa-d8cc4441923a",
-      "model": "claude-opus-4-6-thinking",
-      "usage": "23.2k",
-      "percent": 12,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > cron:63cf8fb7-57db-4d0f-8eaa-d8cc4441923a:run:42d41648-f1c8-4b21-bd86-d4a5c7cfcf54",
-      "model": "claude-opus-4-6-thinking",
-      "usage": "23.2k",
-      "percent": 12,
       "status": "ok"
     }
   ]
