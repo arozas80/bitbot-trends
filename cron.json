@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-22T05:00:11.720Z",
+  "generatedAt": "2026-02-22T05:15:11.334Z",
   "jobs": [
     {
       "id": "03edfa7e-366d-4869-8e0f-920e72bb5840",
@@ -14,38 +14,15 @@
         "at": null
       },
       "state": {
-        "nextRunAt": "2026-02-22T05:00:00.000Z",
-        "lastRunAt": "2026-02-22T04:45:00.017Z",
+        "nextRunAt": "2026-02-22T05:15:00.000Z",
+        "lastRunAt": "2026-02-22T05:00:00.015Z",
         "lastStatus": "ok",
-        "lastDurationMs": 14147,
+        "lastDurationMs": 14223,
         "consecutiveErrors": 0
       },
       "deliveryMode": "none",
       "sessionTarget": "isolated",
       "summary": "*/15 * * * *"
-    },
-    {
-      "id": "65c261c9-1e12-4fd9-b77e-fe5b82c21732",
-      "name": "Actualizar métricas VPS (cada hora)",
-      "agentId": "publico",
-      "enabled": true,
-      "schedule": {
-        "kind": "cron",
-        "expr": "0 * * * *",
-        "tz": null,
-        "everyMs": null,
-        "at": null
-      },
-      "state": {
-        "nextRunAt": "2026-02-22T05:03:29.222Z",
-        "lastRunAt": "2026-02-22T04:03:29.246Z",
-        "lastStatus": "ok",
-        "lastDurationMs": 13847,
-        "consecutiveErrors": 0
-      },
-      "deliveryMode": "none",
-      "sessionTarget": "isolated",
-      "summary": "0 * * * *"
     },
     {
       "id": "c7334f08-ea41-485c-8ca5-9d4e9c0655da",
@@ -69,6 +46,29 @@
       "deliveryMode": null,
       "sessionTarget": "main",
       "summary": "0 3 * * *"
+    },
+    {
+      "id": "65c261c9-1e12-4fd9-b77e-fe5b82c21732",
+      "name": "Actualizar métricas VPS (cada hora)",
+      "agentId": "publico",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 * * * *",
+        "tz": null,
+        "everyMs": null,
+        "at": null
+      },
+      "state": {
+        "nextRunAt": "2026-02-22T06:03:29.222Z",
+        "lastRunAt": "2026-02-22T05:03:29.240Z",
+        "lastStatus": "ok",
+        "lastDurationMs": 11481,
+        "consecutiveErrors": 0
+      },
+      "deliveryMode": "none",
+      "sessionTarget": "isolated",
+      "summary": "0 * * * *"
     },
     {
       "id": "a3d2f29d-b186-4a96-b654-97ffed7323d7",
