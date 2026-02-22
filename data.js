@@ -1,47 +1,52 @@
 // Data file - Updated daily by Bitbot
 const trendsData = {
-  lastUpdate: "2026-02-21T06:00:00-03:00",
-  currentDate: "21 de febrero de 2026",
+  lastUpdate: "2026-02-22T06:00:00-03:00",
+  currentDate: "22 de febrero de 2026",
   
-  executiveSummary: "Hoy la IA se centra en la ejecución práctica y la democratización: la IA agéntica evoluciona a compañeros de trabajo reales, los sistemas multiagente (MAS) impulsan el ROI empresarial y el 'Vibe Coding' permite a cualquiera crear software. Todo esto bajo una capa crítica de gobernanza y observabilidad basada en datos propios.",
+  executiveSummary: "La jornada está marcada por la consolidación masiva de infraestructura AI (hyperscalers invirtiendo $305B+ en capex), la advertencia de Google sobre la inviabilidad de startups 'wrapper' de LLMs, el avance de fábricas autónomas con edge AI industrial, y la maduración de sistemas multi-agente como estándar empresarial con el Microsoft Agent Framework alcanzando disponibilidad general.",
   
   trends: [
     {
       id: 1,
-      icon: "🤝",
-      title: "IA Agéntica como compañero",
-      subtitle: "De asistentes a ejecutores de tareas",
-      description: "Los agentes autónomos ahora gestionan flujos operativos completos como campañas y reportes, actuando de forma independiente para liberar capacidad estratégica humana."
+      icon: "🏗️",
+      title: "Infraestructura AI Masiva",
+      subtitle: "Guerra de chips y capex récord de hyperscalers",
+      description: "Amazon, Microsoft y Google superan los $305B en capex combinado para data centers. Nvidia domina con márgenes del 53% y prepara los chips Rubin, mientras OpenAI construye data centers de 10 GW. La carrera armamentista por GPUs define quién lidera la próxima ola de IA."
     },
     {
       id: 2,
-      icon: "🔗",
-      title: "Workflows y Multi-Agente (MAS)",
-      subtitle: "Orquestación para resultados medibles",
-      description: "El enfoque vira hacia la coordinación de múltiples agentes para resolver problemas complejos, garantizando un ROI tangible y mayor privacidad operativa."
+      icon: "⚠️",
+      title: "Alerta: LLM Wrappers en Riesgo",
+      subtitle: "Google advierte sobre modelos de negocio insostenibles",
+      description: "Un VP de Google advierte que startups basadas en wrappers de LLM y agregadores de IA enfrentan márgenes decrecientes. Los proveedores de modelos expanden sus ofertas enterprise, comprimiendo el espacio. El valor sostenible exige diferenciación profunda, no solo interfaces sobre modelos ajenos."
     },
     {
       id: 3,
-      icon: "✨",
-      title: "Vibe Coding y Creación Accesible",
-      subtitle: "Democratización del desarrollo de software",
-      description: "La generación de apps y automatizaciones mediante lenguaje natural permite que perfiles no técnicos innoven sin barreras de código tradicionales."
+      icon: "🏭",
+      title: "Fábricas Autónomas y Edge AI",
+      subtitle: "Automatización industrial sin depender de la nube",
+      description: "Digital twins, mantenimiento predictivo y scheduling dinámico transforman la manufactura. Edge AI reduce latencia 50%, cobots crecen +15% CAGR, y drones de inventario eliminan 75% de controles manuales. La fábrica autónoma 24/7 se proyecta para 2026-2028."
     },
     {
       id: 4,
-      icon: "⚖️",
-      title: "Gobernanza y Observabilidad",
-      subtitle: "Confianza basada en datos propios",
-      description: "Se integran capas de supervisión y datos de primera mano (first-party) para asegurar que la autonomía de la IA sea ética, segura y competitiva."
+      icon: "🤖",
+      title: "Multi-Agente como Estándar",
+      subtitle: "Orquestación coordinada en producción enterprise",
+      description: "Microsoft Agent Framework (AutoGen + Semantic Kernel) alcanza GA con compliance SOC 2/HIPAA. El mercado de agentes crece de $7.84B a $52.62B proyectados para 2030. Empresas reportan +20% productividad y hasta 40% reducción de costos operativos."
     }
   ],
   
   impact: {
-    opportunity: "La democratización técnica y la orquestación multiagente habilitan una agilidad operativa sin precedentes con retornos de inversión claramente medibles.",
-    action: "Adoptar herramientas de Vibe Coding para prototipado, implementar observabilidad en agentes y migrar hacia arquitecturas multiagente en procesos críticos."
+    opportunity: "La convergencia de infraestructura masiva, edge computing y orquestación multi-agente crea una ventana para empresas que construyan valor diferenciado sobre estas capas — no simplemente las envuelvan.",
+    action: "Evaluar dependencias en wrappers de LLM y pivotar hacia valor propio; explorar edge AI para operaciones con requisitos de latencia; implementar frameworks multi-agente (CrewAI, LangGraph) en flujos críticos."
   },
   
   archive: [
+    {
+      date: "2026-02-22",
+      preview: "Infraestructura AI masiva, alerta wrappers LLM, fábricas autónomas edge AI, multi-agente enterprise.",
+      file: "2026-02-22.json"
+    },
     {
       date: "2026-02-21",
       preview: "IA agéntica operativa, Sistemas Multiagente (MAS), Vibe Coding y gobernanza de datos.",
