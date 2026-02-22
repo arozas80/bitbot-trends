@@ -35,17 +35,25 @@ async function loadPlan2026() {
 
 function initTabs() {
   const tabs = document.querySelectorAll('.nav-item');
+  const mobTabs = document.querySelectorAll('.mob-tab');
   const title = document.getElementById('activeTabTitle');
-  tabs.forEach(tab => {
-    tab.addEventListener('click', () => {
-      tabs.forEach(t => t.classList.remove('active'));
-      tab.classList.add('active');
-      const targetId = tab.dataset.tab;
-      document.querySelectorAll('.tab-pane').forEach(p => p.classList.remove('active'));
-      document.getElementById(`tab-${targetId}`).classList.add('active');
-      title.textContent = tab.querySelector('.nav-text').textContent;
-    });
-  });
+
+  const switchTab = (targetId) => {
+    tabs.forEach(t => t.classList.remove('active'));
+    mobTabs.forEach(t => t.classList.remove('active'));
+    document.querySelectorAll('.tab-pane').forEach(p => p.classList.remove('active'));
+    document.getElementById(`tab-${targetId}`).classList.add('active');
+
+    // Sync sidebar
+    tabs.forEach(t => { if (t.dataset.tab === targetId) t.classList.add('active'); });
+    mobTabs.forEach(t => { if (t.dataset.tab === targetId) t.classList.add('active'); });
+
+    const activeNav = document.querySelector(`.nav-item[data-tab="${targetId}"]`);
+    if (activeNav) title.textContent = activeNav.querySelector('.nav-text').textContent;
+  };
+
+  tabs.forEach(tab => tab.addEventListener('click', () => switchTab(tab.dataset.tab)));
+  mobTabs.forEach(tab => tab.addEventListener('click', () => switchTab(tab.dataset.tab)));
 }
 
 // ==========================================

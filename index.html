@@ -12,6 +12,18 @@
 <body>
   <div class="matrix-bg"></div>
   
+  <!-- Mobile Nav -->
+  <nav class="mobile-nav">
+    <button class="mob-tab active" data-tab="overview">📊</button>
+    <button class="mob-tab" data-tab="trends">🚀</button>
+    <button class="mob-tab" data-tab="expenses">💰</button>
+    <button class="mob-tab" data-tab="projects">📂</button>
+    <button class="mob-tab" data-tab="tasks">✅</button>
+    <button class="mob-tab" data-tab="automations">⏱️</button>
+    <button class="mob-tab" data-tab="mission">🛰️</button>
+    <button class="mob-tab" data-tab="plan2026">🗺️</button>
+  </nav>
+  
   <!-- Sidebar -->
   <aside class="sidebar">
     <div class="sidebar-brand">
@@ -136,7 +148,7 @@
       <!-- TAB: Expenses v3.0 -->
       <section class="tab-pane" id="tab-expenses">
         <!-- Summary Cards -->
-        <div class="grid" style="grid-template-columns: repeat(2, 1fr);">
+        <div class="grid grid-summary">
           <div class="card">
             <div class="card-title">TOTAL MES</div>
             <div class="card-value" style="font-size:1.8rem;" id="totalExpenses">--</div>
@@ -152,7 +164,7 @@
         </div>
 
         <!-- Chart + Categories -->
-        <div class="grid" style="grid-template-columns: 2fr 1fr;">
+        <div class="grid grid-chart-cats">
           <div class="card">
             <div class="card-header">
               <div class="card-title">📈 TENDENCIA DE GASTOS</div>
