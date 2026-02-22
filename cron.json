@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-22T03:45:12.549Z",
+  "generatedAt": "2026-02-22T04:00:12.427Z",
   "jobs": [
     {
       "id": "03edfa7e-366d-4869-8e0f-920e72bb5840",
@@ -14,10 +14,10 @@
         "at": null
       },
       "state": {
-        "nextRunAt": "2026-02-22T03:45:00.000Z",
-        "lastRunAt": "2026-02-22T03:30:00.020Z",
+        "nextRunAt": "2026-02-22T04:00:00.000Z",
+        "lastRunAt": "2026-02-22T03:45:00.016Z",
         "lastStatus": "ok",
-        "lastDurationMs": 15187,
+        "lastDurationMs": 17363,
         "consecutiveErrors": 0
       },
       "deliveryMode": "none",
@@ -226,6 +226,29 @@
         "lastStatus": "error",
         "lastDurationMs": 3270,
         "consecutiveErrors": 1
+      },
+      "deliveryMode": "announce",
+      "sessionTarget": "isolated",
+      "summary": "0 8 * * *"
+    },
+    {
+      "id": "63cf8fb7-57db-4d0f-8eaa-d8cc4441923a",
+      "name": "Informe Diario de Auto-Mejora Bitbot",
+      "agentId": "publico",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 8 * * *",
+        "tz": "America/Santiago",
+        "everyMs": null,
+        "at": null
+      },
+      "state": {
+        "nextRunAt": "2026-02-22T11:00:00.000Z",
+        "lastRunAt": null,
+        "lastStatus": null,
+        "lastDurationMs": null,
+        "consecutiveErrors": 0
       },
       "deliveryMode": "announce",
       "sessionTarget": "isolated",

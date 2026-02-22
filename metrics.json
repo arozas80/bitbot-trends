@@ -27,23 +27,23 @@
   "sessions": [
     {
       "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840",
-      "model": "gemini-3-flash",
-      "usage": "24.3k",
-      "percent": 2,
+      "model": "claude-opus-4-6-thinking",
+      "usage": "37.0k",
+      "percent": 19,
       "status": "ok"
     },
     {
-      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:f9e567a0-a7dc-4c74-887d-b13ec47ce755",
-      "model": "gemini-3-flash",
-      "usage": "24.3k",
-      "percent": 2,
+      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:1cd87996-ed3c-4c71-959b-73d52dd45947",
+      "model": "claude-opus-4-6-thinking",
+      "usage": "37.0k",
+      "percent": 19,
       "status": "ok"
     },
     {
       "key": "bitbot > telegram:direct:8257120511",
       "model": "claude-opus-4-6-thinking",
-      "usage": "139.1k",
-      "percent": 70,
+      "usage": "138.2k",
+      "percent": 69,
       "status": "warning"
     },
     {
@@ -51,6 +51,13 @@
       "model": "gemini-3-flash",
       "usage": "43.2k",
       "percent": 4,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:f9e567a0-a7dc-4c74-887d-b13ec47ce755",
+      "model": "claude-opus-4-6-thinking",
+      "usage": "37.0k",
+      "percent": 19,
       "status": "ok"
     },
     {
@@ -83,13 +90,6 @@
     },
     {
       "key": "bitbot > cron:31b1dac7-ef8a-4aa7-aad2-c0a5aae4b280",
-      "model": "gemini-3-flash",
-      "usage": "3.8k",
-      "percent": 0,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > cron:31b1dac7-ef8a-4aa7-aad2-c0a5aae4b280:run:d7899f6a-46c4-49f8-94ad-d4561f1a0518",
       "model": "gemini-3-flash",
       "usage": "3.8k",
       "percent": 0,
