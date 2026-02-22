@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bitbot Command Center v2.0</title>
+  <title>Bitbot Command Center v3.0</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -47,7 +47,7 @@
     </nav>
     
     <div class="sidebar-footer">
-      <p>v2.0.4 "Antigravity"</p>
+      <p>v3.0.0 "Expenses Pro"</p>
       <p id="hostname">vps-387ef501</p>
     </div>
   </aside>
@@ -133,18 +133,68 @@
         </div>
       </section>
 
-      <!-- TAB: Expenses -->
+      <!-- TAB: Expenses v3.0 -->
       <section class="tab-pane" id="tab-expenses">
-        <div class="grid">
+        <!-- Summary Cards -->
+        <div class="grid" style="grid-template-columns: repeat(4, 1fr);">
           <div class="card">
-            <div class="card-title">TOTAL GASTOS MES</div>
-            <div class="card-value" id="totalExpenses">--</div>
+            <div class="card-title">TOTAL MES</div>
+            <div class="card-value" style="font-size:1.8rem;" id="totalExpenses">--</div>
+          </div>
+          <div class="card">
+            <div class="card-title">🏠 PERSONAL</div>
+            <div class="card-value" style="font-size:1.8rem; color:#22d3ee;" id="personalTotal">--</div>
+          </div>
+          <div class="card">
+            <div class="card-title">🐾 SERVIVET</div>
+            <div class="card-value" style="font-size:1.8rem; color:#a855f7;" id="servivetTotal">--</div>
           </div>
           <div class="card" style="border: 1px solid var(--accent-cyan);">
-            <div class="card-title">SALDO DISPONIBLE</div>
-            <div class="card-value" id="remainingBalance" style="color: var(--accent-cyan);">--</div>
+            <div class="card-title">SALDO PERSONAL</div>
+            <div class="card-value" style="font-size:1.8rem;" id="remainingBalance">--</div>
+            <div class="progress-container" style="margin-top:8px;">
+              <div class="progress-bar" id="budgetBar" style="width:0%"></div>
+            </div>
+            <div style="font-size:0.75rem; color:var(--text-muted); font-family:var(--font-mono); margin-top:6px; text-align:right;" id="budgetPct">--%</div>
           </div>
         </div>
+
+        <!-- Chart + Categories -->
+        <div class="grid" style="grid-template-columns: 2fr 1fr;">
+          <div class="card">
+            <div class="card-header">
+              <div class="card-title">📈 TENDENCIA DE GASTOS</div>
+              <div class="card-icon">📊</div>
+            </div>
+            <div style="height:280px; position:relative;">
+              <canvas id="expensesChart"></canvas>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              <div class="card-title">CATEGORÍAS</div>
+              <div class="card-icon">🏷️</div>
+            </div>
+            <div id="categoryBreakdown" style="display:flex; flex-direction:column; gap:14px;"></div>
+          </div>
+        </div>
+
+        <!-- Filters -->
+        <div class="card" style="margin-bottom:24px; padding:16px 24px;">
+          <div style="display:flex; gap:16px; align-items:center; flex-wrap:wrap;">
+            <span style="font-family:var(--font-mono); color:var(--accent-cyan); font-size:0.85rem;">FILTROS:</span>
+            <select id="filterTipo" style="background:var(--bg-darker);color:var(--text-primary);border:1px solid var(--border-standard);padding:8px 14px;border-radius:8px;font-family:var(--font-mono);font-size:0.85rem;">
+              <option value="all">Todos</option>
+              <option value="personal">🏠 Personal</option>
+              <option value="servivet">🐾 Servivet</option>
+            </select>
+            <input type="text" id="filterSearch" placeholder="Buscar descripción..." style="background:var(--bg-darker);color:var(--text-primary);border:1px solid var(--border-standard);padding:8px 14px;border-radius:8px;font-family:var(--font-mono);font-size:0.85rem;flex:1;min-width:200px;">
+            <button id="filterReset" style="background:none;border:1px solid var(--accent-cyan);color:var(--accent-cyan);padding:8px 16px;border-radius:8px;cursor:pointer;font-family:var(--font-mono);font-size:0.85rem;">✕ Reset</button>
+          </div>
+        </div>
+
+        <!-- Expenses List -->
+        <h3 id="expensesListTitle" style="margin-bottom:16px; font-family:var(--font-mono); color:var(--accent-cyan); font-size:0.9rem;">// TODOS LOS GASTOS</h3>
         <div class="list-container" id="expensesList">
           <!-- Loaded dynamically -->
         </div>
@@ -237,6 +287,7 @@
     </div>
   </main>
 
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/showdown@2.1.0/dist/showdown.min.js"></script>
   <script src="data.js"></script>
   <script src="app.js"></script>

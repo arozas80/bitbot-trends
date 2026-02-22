@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-22T03:03:32.369276",
+  "updatedAt": "2026-02-22T03:14:22.533601",
   "total": 599470,
   "total_fmt": "$599.470",
   "count": 34,
@@ -10,7 +10,9 @@
       "monto": 2400,
       "monto_fmt": "$2.400",
       "factura": "281249",
-      "comprobante": "https://drive.google.com/file/d/1CqsuFv0ytVpZdxZOCcvasgttOlHfm91a/view?usp=drivesdk"
+      "comprobante": "https://drive.google.com/file/d/1CqsuFv0ytVpZdxZOCcvasgttOlHfm91a/view?usp=drivesdk",
+      "categoria": "🍔 Alimentación",
+      "tipo": "personal"
     },
     {
       "fecha": "2026-02-20",
@@ -18,7 +20,9 @@
       "monto": 8980,
       "monto_fmt": "$8.980",
       "factura": "003536",
-      "comprobante": "https://drive.google.com/file/d/19UZXZPGppuiUzwGbm7Jub_bdhgpkiJog/view?usp=drivesdk"
+      "comprobante": "https://drive.google.com/file/d/19UZXZPGppuiUzwGbm7Jub_bdhgpkiJog/view?usp=drivesdk",
+      "categoria": "🍔 Alimentación",
+      "tipo": "personal"
     },
     {
       "fecha": "2026-02-20",
@@ -26,7 +30,9 @@
       "monto": 2870,
       "monto_fmt": "$2.870",
       "factura": "619505594",
-      "comprobante": "https://drive.google.com/file/d/1jfxiUdDaJjfBs-dtJywWumZIArHHvxKg/view?usp=drivesdk"
+      "comprobante": "https://drive.google.com/file/d/1jfxiUdDaJjfBs-dtJywWumZIArHHvxKg/view?usp=drivesdk",
+      "categoria": "⛽ Combustible",
+      "tipo": "personal"
     },
     {
       "fecha": "2026-02-20",
@@ -34,7 +40,9 @@
       "monto": 46473,
       "monto_fmt": "$46.473",
       "factura": "207732",
-      "comprobante": "https://drive.google.com/file/d/15ynoEmlgqhnjbiGiQro8NMbKhl1uBcYC/view?usp=drivesdk"
+      "comprobante": "https://drive.google.com/file/d/15ynoEmlgqhnjbiGiQro8NMbKhl1uBcYC/view?usp=drivesdk",
+      "categoria": "⛽ Combustible",
+      "tipo": "servivet"
     },
     {
       "fecha": "2026-02-19",
@@ -42,7 +50,9 @@
       "monto": 11990,
       "monto_fmt": "$11.990",
       "factura": "35902175",
-      "comprobante": "https://drive.google.com/file/d/1pPuG4R0d93_qgeYqEESLXjAn6TBR_7lj/view?usp=drivesdk"
+      "comprobante": "https://drive.google.com/file/d/1pPuG4R0d93_qgeYqEESLXjAn6TBR_7lj/view?usp=drivesdk",
+      "categoria": "🍔 Alimentación",
+      "tipo": "personal"
     },
     {
       "fecha": "2026-02-19",
@@ -50,7 +60,9 @@
       "monto": 12690,
       "monto_fmt": "$12.690",
       "factura": "13317729",
-      "comprobante": "https://drive.google.com/file/d/1dmbfut1VctlJjn0VrGTqWN4RDK9BP_ea/view?usp=drivesdk"
+      "comprobante": "https://drive.google.com/file/d/1dmbfut1VctlJjn0VrGTqWN4RDK9BP_ea/view?usp=drivesdk",
+      "categoria": "📦 Transporte",
+      "tipo": "servivet"
     },
     {
       "fecha": "2026-02-19",
@@ -58,7 +70,9 @@
       "monto": 4780,
       "monto_fmt": "$4.780",
       "factura": "2281221428",
-      "comprobante": "https://drive.google.com/file/d/1irdUIKygZFFDzFf7fIVXdtTNA06FsklQ/view?usp=drivesdk"
+      "comprobante": "https://drive.google.com/file/d/1irdUIKygZFFDzFf7fIVXdtTNA06FsklQ/view?usp=drivesdk",
+      "categoria": "🏪 Insumos",
+      "tipo": "personal"
     },
     {
       "fecha": "2026-02-18",
@@ -66,7 +80,9 @@
       "monto": 14230,
       "monto_fmt": "$14.230",
       "factura": "13317057",
-      "comprobante": "https://drive.google.com/file/d/1GWaSyh0EWwHk_LSDLHBC_M10ApfjB0yR/view?usp=drivesdk"
+      "comprobante": "https://drive.google.com/file/d/1GWaSyh0EWwHk_LSDLHBC_M10ApfjB0yR/view?usp=drivesdk",
+      "categoria": "📦 Transporte",
+      "tipo": "servivet"
     },
     {
       "fecha": "2026-02-18",
@@ -74,7 +90,9 @@
       "monto": 2050,
       "monto_fmt": "$2.050",
       "factura": "70624679",
-      "comprobante": "https://drive.google.com/file/d/13Tolqos02uwngmiCb4vFwm2UEKdYsihZ/view?usp=drivesdk"
+      "comprobante": "https://drive.google.com/file/d/13Tolqos02uwngmiCb4vFwm2UEKdYsihZ/view?usp=drivesdk",
+      "categoria": "🍔 Alimentación",
+      "tipo": "personal"
     },
     {
       "fecha": "2026-02-18",
@@ -82,7 +100,9 @@
       "monto": 12600,
       "monto_fmt": "$12.600",
       "factura": "67201602",
-      "comprobante": "https://drive.google.com/file/d/1rgBDFTYXWiIuAflDtlOKKsmBLCqAvY23/view?usp=drivesdk"
+      "comprobante": "https://drive.google.com/file/d/1rgBDFTYXWiIuAflDtlOKKsmBLCqAvY23/view?usp=drivesdk",
+      "categoria": "🍔 Alimentación",
+      "tipo": "personal"
     },
     {
       "fecha": "2026-02-17",
@@ -90,7 +110,9 @@
       "monto": 6980,
       "monto_fmt": "$6.980",
       "factura": "009524",
-      "comprobante": "https://drive.google.com/file/d/1xb2w4ls7HhS5CIyWtbxrQB_ivSBNPFwj/view?usp=drivesdk"
+      "comprobante": "https://drive.google.com/file/d/1xb2w4ls7HhS5CIyWtbxrQB_ivSBNPFwj/view?usp=drivesdk",
+      "categoria": "🍔 Alimentación",
+      "tipo": "personal"
     },
     {
       "fecha": "2026-02-17",
@@ -98,7 +120,9 @@
       "monto": 64360,
       "monto_fmt": "$64.360",
       "factura": "13313771",
-      "comprobante": "https://drive.google.com/file/d/1LnoHd1Qhtx-IIJgIDaDrtHQFOvCpAQKK/view?usp=drivesdk"
+      "comprobante": "https://drive.google.com/file/d/1LnoHd1Qhtx-IIJgIDaDrtHQFOvCpAQKK/view?usp=drivesdk",
+      "categoria": "📦 Transporte",
+      "tipo": "servivet"
     },
     {
       "fecha": "2026-02-17",
@@ -106,7 +130,9 @@
       "monto": 6780,
       "monto_fmt": "$6.780",
       "factura": "617863216",
-      "comprobante": "https://drive.google.com/file/d/12eDJ3oyWTVGbG0donrQAKpzyxIriARHr/view?usp=drivesdk"
+      "comprobante": "https://drive.google.com/file/d/12eDJ3oyWTVGbG0donrQAKpzyxIriARHr/view?usp=drivesdk",
+      "categoria": "⛽ Combustible",
+      "tipo": "personal"
     },
     {
       "fecha": "2026-02-16",
@@ -114,7 +140,9 @@
       "monto": 11880,
       "monto_fmt": "$11.880",
       "factura": "195254483",
-      "comprobante": "https://drive.google.com/file/d/1Us22qv9gJsrFfWJVPcGX9lYjOhgUEDC3/view?usp=drivesdk"
+      "comprobante": "https://drive.google.com/file/d/1Us22qv9gJsrFfWJVPcGX9lYjOhgUEDC3/view?usp=drivesdk",
+      "categoria": "🍔 Alimentación",
+      "tipo": "personal"
     },
     {
       "fecha": "2026-02-13",
@@ -122,7 +150,9 @@
       "monto": 3980,
       "monto_fmt": "$3.980",
       "factura": "615434596",
-      "comprobante": "https://drive.google.com/file/d/1_uvsR_xrcM6PCtHqITYGgGYK6Up3neDY/view?usp=drivesdk"
+      "comprobante": "https://drive.google.com/file/d/1_uvsR_xrcM6PCtHqITYGgGYK6Up3neDY/view?usp=drivesdk",
+      "categoria": "⛽ Combustible",
+      "tipo": "personal"
     },
     {
       "fecha": "2026-02-12",
@@ -130,7 +160,9 @@
       "monto": 4140,
       "monto_fmt": "$4.140",
       "factura": "2218310815",
-      "comprobante": "https://drive.google.com/file/d/1zFjTUZDpcPYG87Mv-TF4xl9anYWvw2bK/view?usp=drivesdk"
+      "comprobante": "https://drive.google.com/file/d/1zFjTUZDpcPYG87Mv-TF4xl9anYWvw2bK/view?usp=drivesdk",
+      "categoria": "🍔 Alimentación",
+      "tipo": "personal"
     },
     {
       "fecha": "2026-02-12",
@@ -138,7 +170,9 @@
       "monto": 42790,
       "monto_fmt": "$42.790",
       "factura": "13306644",
-      "comprobante": "https://drive.google.com/file/d/1jcX6bW4GBmzSbzbqtX-ndUfiGLZmktnq/view?usp=drivesdk"
+      "comprobante": "https://drive.google.com/file/d/1jcX6bW4GBmzSbzbqtX-ndUfiGLZmktnq/view?usp=drivesdk",
+      "categoria": "📦 Transporte",
+      "tipo": "servivet"
     },
     {
       "fecha": "2026-02-11",
@@ -146,7 +180,9 @@
       "monto": 50922,
       "monto_fmt": "$50.922",
       "factura": "207521",
-      "comprobante": "https://drive.google.com/file/d/1tTp-61UJs4jNSnaFkYrReSqO3bzgBp5A/view?usp=drivesdk"
+      "comprobante": "https://drive.google.com/file/d/1tTp-61UJs4jNSnaFkYrReSqO3bzgBp5A/view?usp=drivesdk",
+      "categoria": "⛽ Combustible",
+      "tipo": "servivet"
     },
     {
       "fecha": "2026-02-11",
@@ -154,7 +190,9 @@
       "monto": 11480,
       "monto_fmt": "$11.480",
       "factura": "5656961",
-      "comprobante": "https://drive.google.com/file/d/1W6Zg51bFuBa9RWQuHTFwJ9u-wwK5jik7/view?usp=drivesdk"
+      "comprobante": "https://drive.google.com/file/d/1W6Zg51bFuBa9RWQuHTFwJ9u-wwK5jik7/view?usp=drivesdk",
+      "categoria": "🍔 Alimentación",
+      "tipo": "personal"
     },
     {
       "fecha": "2026-02-11",
@@ -162,7 +200,9 @@
       "monto": 77740,
       "monto_fmt": "$77.740",
       "factura": "13304985",
-      "comprobante": "https://drive.google.com/file/d/160CjXXbF2Fmb7s96P5_p3ozdjEJkBtaZ/view?usp=drivesdk"
+      "comprobante": "https://drive.google.com/file/d/160CjXXbF2Fmb7s96P5_p3ozdjEJkBtaZ/view?usp=drivesdk",
+      "categoria": "📦 Transporte",
+      "tipo": "servivet"
     },
     {
       "fecha": "2026-02-10",
@@ -170,7 +210,9 @@
       "monto": 15000,
       "monto_fmt": "$15.000",
       "factura": "145006787607",
-      "comprobante": "https://drive.google.com/file/d/1Md42VzsU52Bbehw1MqWvRXkJjjn3ndMF/view?usp=drivesdk"
+      "comprobante": "https://drive.google.com/file/d/1Md42VzsU52Bbehw1MqWvRXkJjjn3ndMF/view?usp=drivesdk",
+      "categoria": "🍔 Alimentación",
+      "tipo": "personal"
     },
     {
       "fecha": "2026-02-10",
@@ -178,103 +220,129 @@
       "monto": 2000,
       "monto_fmt": "$2.000",
       "factura": "987526",
-      "comprobante": "https://drive.google.com/file/d/1iGuzkgbS7NvAokS-NCDJDmk2fWrG7HSn/view?usp=drivesdk"
+      "comprobante": "https://drive.google.com/file/d/1iGuzkgbS7NvAokS-NCDJDmk2fWrG7HSn/view?usp=drivesdk",
+      "categoria": "🐾 Servivet",
+      "tipo": "servivet"
     },
     {
-      "fecha": "09-02-2026",
+      "fecha": "2026-02-09",
       "descripcion": "Almuerzo Pronto (Empanada + Coca Cola)",
       "monto": 5600,
       "monto_fmt": "$5.600",
       "factura": "6626854",
-      "comprobante": "https://drive.google.com/file/d/1yNQ4RpcBoLUqK8IBWI1P6Jh6jsoskkBl/view?usp=drivesdk"
+      "comprobante": "https://drive.google.com/file/d/1yNQ4RpcBoLUqK8IBWI1P6Jh6jsoskkBl/view?usp=drivesdk",
+      "categoria": "🍔 Alimentación",
+      "tipo": "personal"
     },
     {
-      "fecha": "09-02-2026",
+      "fecha": "2026-02-09",
       "descripcion": "Insumos Veterinarios",
       "monto": 13330,
       "monto_fmt": "$13.330",
       "factura": "13300732",
-      "comprobante": "https://drive.google.com/file/d/1KeCqobQ1g5jfUrCTAxczRQ-2BCzQC6CJ/view?usp=drivesdk"
+      "comprobante": "https://drive.google.com/file/d/1KeCqobQ1g5jfUrCTAxczRQ-2BCzQC6CJ/view?usp=drivesdk",
+      "categoria": "🐾 Servivet",
+      "tipo": "servivet"
     },
     {
-      "fecha": "06-02-2026",
+      "fecha": "2026-02-06",
       "descripcion": "Lider Providencia (Bolígrafos Resma Carpeta Coca Zero LSN BLN)",
       "monto": 17510,
       "monto_fmt": "$17.510",
       "factura": "1269619459",
-      "comprobante": "https://drive.google.com/file/d/1C8LQDBRRBEwyaqcRrKGtJchNrcfpaOyD/view?usp=drivesdk"
+      "comprobante": "https://drive.google.com/file/d/1C8LQDBRRBEwyaqcRrKGtJchNrcfpaOyD/view?usp=drivesdk",
+      "categoria": "🏪 Insumos",
+      "tipo": "personal"
     },
     {
-      "fecha": "06-02-2026",
+      "fecha": "2026-02-06",
       "descripcion": "Farmacias Ahumada (Bloqueador Solar SPF50)",
       "monto": 3990,
       "monto_fmt": "$3.990",
       "factura": "353090724",
-      "comprobante": "https://drive.google.com/file/d/1mD0t1cr_SEzNLzZxMoV3kZ1kiNBM6Amv/view?usp=drivesdk"
+      "comprobante": "https://drive.google.com/file/d/1mD0t1cr_SEzNLzZxMoV3kZ1kiNBM6Amv/view?usp=drivesdk",
+      "categoria": "💊 Salud",
+      "tipo": "personal"
     },
     {
-      "fecha": "06-02-2026",
+      "fecha": "2026-02-06",
       "descripcion": "Ariex (Toner Compatible TN1060)",
       "monto": 12000,
       "monto_fmt": "$12.000",
       "factura": "59200",
-      "comprobante": "https://drive.google.com/file/d/1ZB8fazzCa5BOKnqbyGdJbV2aRb8FBCyX/view?usp=drivesdk"
+      "comprobante": "https://drive.google.com/file/d/1ZB8fazzCa5BOKnqbyGdJbV2aRb8FBCyX/view?usp=drivesdk",
+      "categoria": "🏪 Insumos",
+      "tipo": "personal"
     },
     {
-      "fecha": "06-02-2026",
+      "fecha": "2026-02-06",
       "descripcion": "Despacho (Transporte EGT)",
       "monto": 22810,
       "monto_fmt": "$22.810",
       "factura": "13297545",
-      "comprobante": "https://drive.google.com/file/d/1YK3vmxU2t_kgOyN5gSz6S35pe5InSThi/view?usp=drivesdk"
+      "comprobante": "https://drive.google.com/file/d/1YK3vmxU2t_kgOyN5gSz6S35pe5InSThi/view?usp=drivesdk",
+      "categoria": "📦 Transporte",
+      "tipo": "servivet"
     },
     {
-      "fecha": "06-02-2026",
+      "fecha": "2026-02-06",
       "descripcion": "Almuerzo",
       "monto": 4080,
       "monto_fmt": "$4.080",
       "factura": "185123361",
-      "comprobante": "https://drive.google.com/file/d/149Zzr9Luu7D3m1zy4jaqQDjuCq4ul-AJ/view?usp=drivesdk"
+      "comprobante": "https://drive.google.com/file/d/149Zzr9Luu7D3m1zy4jaqQDjuCq4ul-AJ/view?usp=drivesdk",
+      "categoria": "🍔 Alimentación",
+      "tipo": "personal"
     },
     {
-      "fecha": "05-02-2026",
+      "fecha": "2026-02-05",
       "descripcion": "Almuerzo",
       "monto": 10300,
       "monto_fmt": "$10.300",
       "factura": "",
-      "comprobante": "https://drive.google.com/file/d/1QxaQfT6AqUpgFGI3U9CW7K2H0kprED4g/view?usp=drivesdk"
+      "comprobante": "https://drive.google.com/file/d/1QxaQfT6AqUpgFGI3U9CW7K2H0kprED4g/view?usp=drivesdk",
+      "categoria": "🍔 Alimentación",
+      "tipo": "personal"
     },
     {
-      "fecha": "03-02-2026",
+      "fecha": "2026-02-03",
       "descripcion": "Despacho a cliente (Encomienda)",
       "monto": 9890,
       "monto_fmt": "$9.890",
       "factura": "13291420",
-      "comprobante": "https://drive.google.com/file/d/1oa2InA2OMKCfPc39o5ysDfa7ZmuUo-WQ/view?usp=drivesdk"
+      "comprobante": "https://drive.google.com/file/d/1oa2InA2OMKCfPc39o5ysDfa7ZmuUo-WQ/view?usp=drivesdk",
+      "categoria": "📦 Transporte",
+      "tipo": "servivet"
     },
     {
-      "fecha": "03-02-2026",
+      "fecha": "2026-02-03",
       "descripcion": "Almuerzo",
       "monto": 10960,
       "monto_fmt": "$10.960",
       "factura": "74593",
-      "comprobante": "https://drive.google.com/file/d/1eTMSzRe5WHEThLJdQ3cij2qi_PC8mxjY/view?usp=drivesdk"
+      "comprobante": "https://drive.google.com/file/d/1eTMSzRe5WHEThLJdQ3cij2qi_PC8mxjY/view?usp=drivesdk",
+      "categoria": "🍔 Alimentación",
+      "tipo": "personal"
     },
     {
-      "fecha": "02-02-2026",
+      "fecha": "2026-02-02",
       "descripcion": "Almuerzo",
       "monto": 12580,
       "monto_fmt": "$12.580",
       "factura": "",
-      "comprobante": "https://drive.google.com/file/d/1PsDmmmb51CK3j5TKoVjz4vLADAM575oI/view?usp=drive_link"
+      "comprobante": "https://drive.google.com/file/d/1PsDmmmb51CK3j5TKoVjz4vLADAM575oI/view?usp=drive_link",
+      "categoria": "🍔 Alimentación",
+      "tipo": "personal"
     },
     {
-      "fecha": "02-02-2026",
+      "fecha": "2026-02-02",
       "descripcion": "Diesel (Petroleo Camioneta)",
       "monto": 59305,
       "monto_fmt": "$59.305",
       "factura": "207294",
-      "comprobante": "https://drive.google.com/file/d/1R-5GaRJ4qtdmLbLe5jwIesvmeq252IZl/view?usp=drivesdk"
+      "comprobante": "https://drive.google.com/file/d/1R-5GaRJ4qtdmLbLe5jwIesvmeq252IZl/view?usp=drivesdk",
+      "categoria": "⛽ Combustible",
+      "tipo": "servivet"
     }
   ]
 }
