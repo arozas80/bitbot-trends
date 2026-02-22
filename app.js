@@ -67,7 +67,7 @@ async function loadExpenses() {
 
 function renderExpensesSummary() {
   const d = expensesData;
-  const budget = 400000;
+  const budget = 800000;
 
   document.getElementById('totalExpenses').textContent = d.total_fmt;
 
