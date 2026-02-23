@@ -1,47 +1,52 @@
 // Data file - Updated daily by Bitbot
 const trendsData = {
-  lastUpdate: "2026-02-22T06:00:00-03:00",
-  currentDate: "22 de febrero de 2026",
+  lastUpdate: "2026-02-23T06:00:00-03:00",
+  currentDate: "23 de febrero de 2026",
   
-  executiveSummary: "La jornada está marcada por la consolidación masiva de infraestructura AI (hyperscalers invirtiendo $305B+ en capex), la advertencia de Google sobre la inviabilidad de startups 'wrapper' de LLMs, el avance de fábricas autónomas con edge AI industrial, y la maduración de sistemas multi-agente como estándar empresarial con el Microsoft Agent Framework alcanzando disponibilidad general.",
+  executiveSummary: "La jornada destaca la transición de la IA física a producción, la orquestación supervisada de agentes, la diversificación de hardware (ASICs, chiplets, inferencia analógica y quantum) y la convergencia de edge AI + sensores inteligentes para mantenimiento y ciberseguridad.",
   
   trends: [
     {
       id: 1,
-      icon: "🏗️",
-      title: "Infraestructura AI Masiva",
-      subtitle: "Guerra de chips y capex récord de hyperscalers",
-      description: "Amazon, Microsoft y Google superan los $305B en capex combinado para data centers. Nvidia domina con márgenes del 53% y prepara los chips Rubin, mientras OpenAI construye data centers de 10 GW. La carrera armamentista por GPUs define quién lidera la próxima ola de IA."
+      icon: "🦾",
+      title: "IA física comercial",
+      subtitle: "Robots y cobots IA abandonan los pilotos",
+      description: "El 58% de las empresas ya usan IA física y el 80% la incorporará en dos años, con Hyundai usando Atlas en producción y Audi/BMW expandiendo pilotos humanoides. La clave es lograr fiabilidad del 99+% para despliegues industriales continuos."
     },
     {
       id: 2,
-      icon: "⚠️",
-      title: "Alerta: LLM Wrappers en Riesgo",
-      subtitle: "Google advierte sobre modelos de negocio insostenibles",
-      description: "Un VP de Google advierte que startups basadas en wrappers de LLM y agregadores de IA enfrentan márgenes decrecientes. Los proveedores de modelos expanden sus ofertas enterprise, comprimiendo el espacio. El valor sostenible exige diferenciación profunda, no solo interfaces sobre modelos ajenos."
+      icon: "🧠",
+      title: "Orquestación de agentes con supervisión humana",
+      subtitle: "Control rooms agénticos y workflows coordinados",
+      description: "Los agentes especializados (extracción, validación, ejecución) se agrupan bajo superagentes y consolas de control que mantienen humanos en el loop. IBM insiste en que los equipos deben actuar como compositores de IA y que la sinergia con humanos genera valor real."
     },
     {
       id: 3,
-      icon: "🏭",
-      title: "Fábricas Autónomas y Edge AI",
-      subtitle: "Automatización industrial sin depender de la nube",
-      description: "Digital twins, mantenimiento predictivo y scheduling dinámico transforman la manufactura. Edge AI reduce latencia 50%, cobots crecen +15% CAGR, y drones de inventario eliminan 75% de controles manuales. La fábrica autónoma 24/7 se proyecta para 2026-2028."
+      icon: "🧱",
+      title: "Hardware especializado para IA",
+      subtitle: "ASICs, chiplets, inferencia analógica y quantum",
+      description: "Aunque las GPUs siguen dominando, IBM proyecta que ASICs optimizados, chiplets modulares, aceleradores de inferencia analógica y quantum-assisted optimizadores definirán la nueva capa de infraestructura para workloads agénticos y sensibles a latencia."
     },
     {
       id: 4,
-      icon: "🤖",
-      title: "Multi-Agente como Estándar",
-      subtitle: "Orquestación coordinada en producción enterprise",
-      description: "Microsoft Agent Framework (AutoGen + Semantic Kernel) alcanza GA con compliance SOC 2/HIPAA. El mercado de agentes crece de $7.84B a $52.62B proyectados para 2030. Empresas reportan +20% productividad y hasta 40% reducción de costos operativos."
+      icon: "🛰️",
+      title: "Edge AI + sensores y ciberseguridad",
+      subtitle: "Monitoreo continuo de activos OT",
+      description: "Sensores de bajo costo y etiquetas conectadas permiten seguimiento de temperatura, manipulación y ubicación, generando datos en tiempo real que agentes en el edge usan para mantenimiento predictivo y alertas de seguridad en ambientes industriales."
     }
   ],
   
   impact: {
-    opportunity: "La convergencia de infraestructura masiva, edge computing y orquestación multi-agente crea una ventana para empresas que construyan valor diferenciado sobre estas capas — no simplemente las envuelvan.",
-    action: "Evaluar dependencias en wrappers de LLM y pivotar hacia valor propio; explorar edge AI para operaciones con requisitos de latencia; implementar frameworks multi-agente (CrewAI, LangGraph) en flujos críticos."
+    opportunity: "Combinar IA física, control de agentes, hardware especializado y edge AI ofrece a Bitware la oportunidad de posicionarse como integrador completo de operaciones inteligentes y seguras.",
+    action: "Diseñar propuestas que enlacen robots inteligentes con centros de mando de agentes, revisar roadmaps de infraestructura (ASICs/quantum) y ofrecer servicios de monitoreo edge + ciberseguridad para clientes industriales."
   },
   
   archive: [
+    {
+      date: "2026-02-23",
+      preview: "IA física productiva, orquestación supervisada, hardware especializado y edge AI para seguridad.",
+      file: "2026-02-23.json"
+    },
     {
       date: "2026-02-22",
       preview: "Infraestructura AI masiva, alerta wrappers LLM, fábricas autónomas edge AI, multi-agente enterprise.",
