@@ -28,22 +28,22 @@
     {
       "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840",
       "model": "gpt-5.1-codex-mini",
-      "usage": "12.2k",
-      "percent": 4,
+      "usage": "12.4k",
+      "percent": 5,
       "status": "ok"
     },
     {
       "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:dce5c7d1-2afe-483a-976a-cac484458708",
       "model": "gpt-5.1-codex-mini",
-      "usage": "12.2k",
-      "percent": 4,
+      "usage": "12.4k",
+      "percent": 5,
       "status": "ok"
     },
     {
       "key": "bitbot > telegram:direct:8257120511",
       "model": "gpt-5.1-codex-mini",
-      "usage": "43.7k",
-      "percent": 16,
+      "usage": "50.8k",
+      "percent": 19,
       "status": "ok"
     },
     {
@@ -51,6 +51,13 @@
       "model": "gpt-5.1-codex-mini",
       "usage": "22.2k",
       "percent": 8,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > whatsapp:direct:+56951577890",
+      "model": "gpt-5.1-codex-mini",
+      "usage": "17.0k",
+      "percent": 6,
       "status": "ok"
     },
     {
@@ -83,13 +90,6 @@
     },
     {
       "key": "bitbot > cron:bed0cd13-6276-4c56-b0cc-8f4fa7970653",
-      "model": "gpt-5.1-codex-mini",
-      "usage": "6.8k",
-      "percent": 3,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > cron:bed0cd13-6276-4c56-b0cc-8f4fa7970653:run:56ee6b36-3620-473e-bd6f-a4467877ef57",
       "model": "gpt-5.1-codex-mini",
       "usage": "6.8k",
       "percent": 3,
