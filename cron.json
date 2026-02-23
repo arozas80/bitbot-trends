@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-23T12:00:56.465Z",
+  "generatedAt": "2026-02-23T12:15:11.391Z",
   "jobs": [
     {
       "id": "03edfa7e-366d-4869-8e0f-920e72bb5840",
@@ -14,84 +14,15 @@
         "at": null
       },
       "state": {
-        "nextRunAt": "2026-02-23T12:00:00.000Z",
-        "lastRunAt": "2026-02-23T11:45:00.015Z",
+        "nextRunAt": "2026-02-23T12:15:00.000Z",
+        "lastRunAt": "2026-02-23T12:00:00.018Z",
         "lastStatus": "ok",
-        "lastDurationMs": 14501,
+        "lastDurationMs": 59948,
         "consecutiveErrors": 0
       },
       "deliveryMode": "none",
       "sessionTarget": "isolated",
       "summary": "*/15 * * * *"
-    },
-    {
-      "id": "bed0cd13-6276-4c56-b0cc-8f4fa7970653",
-      "name": "Chequeo Semanal de Actualizaciones OpenClaw",
-      "agentId": "publico",
-      "enabled": true,
-      "schedule": {
-        "kind": "cron",
-        "expr": "0 9 * * 1",
-        "tz": "America/Santiago",
-        "everyMs": null,
-        "at": null
-      },
-      "state": {
-        "nextRunAt": "2026-02-23T12:00:00.000Z",
-        "lastRunAt": "2026-02-16T12:02:16.343Z",
-        "lastStatus": "ok",
-        "lastDurationMs": 74941,
-        "consecutiveErrors": 0
-      },
-      "deliveryMode": "announce",
-      "sessionTarget": "isolated",
-      "summary": "0 9 * * 1"
-    },
-    {
-      "id": "8b6c2e96-9014-4c72-b0b5-323e73d8401a",
-      "name": "Recordatorio: Alejandro y Florencia",
-      "agentId": "publico",
-      "enabled": true,
-      "schedule": {
-        "kind": "cron",
-        "expr": "0 9 * * 1",
-        "tz": "America/Santiago",
-        "everyMs": null,
-        "at": null
-      },
-      "state": {
-        "nextRunAt": "2026-02-23T12:00:00.000Z",
-        "lastRunAt": null,
-        "lastStatus": null,
-        "lastDurationMs": null,
-        "consecutiveErrors": 0
-      },
-      "deliveryMode": "announce",
-      "sessionTarget": "isolated",
-      "summary": "0 9 * * 1"
-    },
-    {
-      "id": "65c261c9-1e12-4fd9-b77e-fe5b82c21732",
-      "name": "Actualizar métricas VPS (cada hora)",
-      "agentId": "publico",
-      "enabled": true,
-      "schedule": {
-        "kind": "cron",
-        "expr": "0 * * * *",
-        "tz": null,
-        "everyMs": null,
-        "at": null
-      },
-      "state": {
-        "nextRunAt": "2026-02-23T12:03:29.222Z",
-        "lastRunAt": "2026-02-23T11:03:29.241Z",
-        "lastStatus": "ok",
-        "lastDurationMs": 12704,
-        "consecutiveErrors": 0
-      },
-      "deliveryMode": "none",
-      "sessionTarget": "isolated",
-      "summary": "0 * * * *"
     },
     {
       "id": "1c0944fa-56c2-483b-9b1f-3e6cc0cdb48e",
@@ -138,6 +69,29 @@
       "deliveryMode": "announce",
       "sessionTarget": "isolated",
       "summary": "0 10 * * 1,4"
+    },
+    {
+      "id": "65c261c9-1e12-4fd9-b77e-fe5b82c21732",
+      "name": "Actualizar métricas VPS (cada hora)",
+      "agentId": "publico",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 * * * *",
+        "tz": null,
+        "everyMs": null,
+        "at": null
+      },
+      "state": {
+        "nextRunAt": "2026-02-23T13:03:29.222Z",
+        "lastRunAt": "2026-02-23T12:03:29.242Z",
+        "lastStatus": "ok",
+        "lastDurationMs": 12623,
+        "consecutiveErrors": 0
+      },
+      "deliveryMode": "none",
+      "sessionTarget": "isolated",
+      "summary": "0 * * * *"
     },
     {
       "id": "191e0dbf-72a0-4cf4-9c89-ad9420b609a6",
@@ -575,6 +529,52 @@
       "deliveryMode": "announce",
       "sessionTarget": "isolated",
       "summary": "2026-03-01T11:05:00.000Z"
+    },
+    {
+      "id": "bed0cd13-6276-4c56-b0cc-8f4fa7970653",
+      "name": "Chequeo Semanal de Actualizaciones OpenClaw",
+      "agentId": "publico",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9 * * 1",
+        "tz": "America/Santiago",
+        "everyMs": null,
+        "at": null
+      },
+      "state": {
+        "nextRunAt": "2026-03-02T12:00:00.000Z",
+        "lastRunAt": "2026-02-23T12:00:59.966Z",
+        "lastStatus": "error",
+        "lastDurationMs": 18623,
+        "consecutiveErrors": 1
+      },
+      "deliveryMode": "announce",
+      "sessionTarget": "isolated",
+      "summary": "0 9 * * 1"
+    },
+    {
+      "id": "8b6c2e96-9014-4c72-b0b5-323e73d8401a",
+      "name": "Recordatorio: Alejandro y Florencia",
+      "agentId": "publico",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9 * * 1",
+        "tz": "America/Santiago",
+        "everyMs": null,
+        "at": null
+      },
+      "state": {
+        "nextRunAt": "2026-03-02T12:00:00.000Z",
+        "lastRunAt": "2026-02-23T12:01:18.589Z",
+        "lastStatus": "error",
+        "lastDurationMs": 3267,
+        "consecutiveErrors": 1
+      },
+      "deliveryMode": "announce",
+      "sessionTarget": "isolated",
+      "summary": "0 9 * * 1"
     },
     {
       "id": "6307e8ce-8b21-4fbf-913d-9f6a7d04f052",
