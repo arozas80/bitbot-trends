@@ -28,15 +28,15 @@
     {
       "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840",
       "model": "gpt-5.1-codex-mini",
-      "usage": "6.7k",
-      "percent": 2,
+      "usage": "6.9k",
+      "percent": 3,
       "status": "ok"
     },
     {
       "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:dce5c7d1-2afe-483a-976a-cac484458708",
       "model": "gpt-5.1-codex-mini",
-      "usage": "6.7k",
-      "percent": 2,
+      "usage": "6.9k",
+      "percent": 3,
       "status": "ok"
     },
     {
