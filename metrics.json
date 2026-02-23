@@ -28,15 +28,22 @@
     {
       "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840",
       "model": "gpt-5.1-codex-mini",
-      "usage": "15.0k",
+      "usage": "15.2k",
       "percent": 6,
       "status": "ok"
     },
     {
       "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:dce5c7d1-2afe-483a-976a-cac484458708",
       "model": "gpt-5.1-codex-mini",
-      "usage": "15.0k",
+      "usage": "15.2k",
       "percent": 6,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > telegram:direct:8257120511",
+      "model": "gpt-5.1-codex-mini",
+      "usage": "55.5k",
+      "percent": 20,
       "status": "ok"
     },
     {
@@ -44,6 +51,13 @@
       "model": "gpt-5.1-codex-mini",
       "usage": "24.3k",
       "percent": 9,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > whatsapp:group:56994191736-1490900786@g.us",
+      "model": "gemini-3-flash",
+      "usage": "282.0k",
+      "percent": 27,
       "status": "ok"
     },
     {
@@ -79,20 +93,6 @@
       "model": "gpt-5.1-codex-mini",
       "usage": "5.8k",
       "percent": 2,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > cron:191e0dbf-72a0-4cf4-9c89-ad9420b609a6:run:f91ceed0-c474-446e-b7da-8db893093a03",
-      "model": "gpt-5.1-codex-mini",
-      "usage": "5.8k",
-      "percent": 2,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > cron:016c157e-3d8a-4dd4-8634-55289f8fac66",
-      "model": "gpt-5.1-codex-mini",
-      "usage": "8.0k",
-      "percent": 3,
       "status": "ok"
     }
   ]
