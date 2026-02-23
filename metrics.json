@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-02-23T02:03:33+00:00",
+  "generatedAt": "2026-02-23T03:03:33+00:00",
   "hostname": "vps-387ef501",
   "cpu": {
-    "usage": 4,
-    "loadAvg": "0.66"
+    "usage": 22,
+    "loadAvg": "0.60"
   },
   "memory": {
-    "used": 4095,
+    "used": 4234,
     "total": 11675,
-    "percent": 35
+    "percent": 36
   },
   "disk": {
     "used": "34G",
@@ -17,83 +17,11 @@
   },
   "uptime": {
     "days": 6,
-    "hours": 15,
-    "formatted": "6d 15h"
+    "hours": 16,
+    "formatted": "6d 16h"
   },
   "services": {
     "openclaw": "active",
     "nginx": "active"
-  },
-  "sessions": [
-    {
-      "key": "bitbot > Direct Chat 💬",
-      "model": "gpt-5.1-codex-mini",
-      "usage": "28.8k",
-      "percent": 11,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840",
-      "model": "gpt-5.1-codex-mini",
-      "usage": "25.8k",
-      "percent": 9,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:1cd87996-ed3c-4c71-959b-73d52dd45947",
-      "model": "gpt-5.1-codex-mini",
-      "usage": "25.8k",
-      "percent": 9,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > cron:65c261c9-1e12-4fd9-b77e-fe5b82c21732",
-      "model": "gpt-5.1-codex-mini",
-      "usage": "19.3k",
-      "percent": 7,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > cron:65c261c9-1e12-4fd9-b77e-fe5b82c21732:run:9b6a4ff1-ab34-4675-8795-9d74d09bf2f0",
-      "model": "gpt-5.1-codex-mini",
-      "usage": "19.3k",
-      "percent": 7,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > telegram:direct:8257120511",
-      "model": "gpt-5.1-codex-mini",
-      "usage": "33.0k",
-      "percent": 12,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > Task Runner 🏃",
-      "model": "claude-opus-4-6-thinking",
-      "usage": "0.0k",
-      "percent": 0,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > cron:d54d45cc-93e0-4b7b-a88e-c15d352e4dc6",
-      "model": "gpt-5.1-codex-mini",
-      "usage": "5.8k",
-      "percent": 2,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > cron:d54d45cc-93e0-4b7b-a88e-c15d352e4dc6:run:5063dfe8-d2d6-4114-896a-587314d595d1",
-      "model": "gpt-5.1-codex-mini",
-      "usage": "5.8k",
-      "percent": 2,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > cron:31b1dac7-ef8a-4aa7-aad2-c0a5aae4b280",
-      "model": "gpt-5.1-codex-mini",
-      "usage": "5.8k",
-      "percent": 2,
-      "status": "ok"
-    }
-  ]
+  }
 }
