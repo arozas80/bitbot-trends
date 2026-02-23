@@ -26,24 +26,10 @@
   },
   "sessions": [
     {
-      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840",
-      "model": "claude-opus-4-6-thinking",
-      "usage": "34.4k",
-      "percent": 17,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:dce5c7d1-2afe-483a-976a-cac484458708",
-      "model": "claude-opus-4-6-thinking",
-      "usage": "34.4k",
-      "percent": 17,
-      "status": "ok"
-    },
-    {
       "key": "bitbot > telegram:direct:8257120511",
       "model": "gemini-3-flash",
-      "usage": "15.3k",
-      "percent": 1,
+      "usage": "21.2k",
+      "percent": 2,
       "status": "ok"
     },
     {
@@ -51,6 +37,48 @@
       "model": "gpt-5.1-codex-mini",
       "usage": "24.7k",
       "percent": 9,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > cron:d54d45cc-93e0-4b7b-a88e-c15d352e4dc6",
+      "model": "gemini-3-flash",
+      "usage": "3.9k",
+      "percent": 0,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > cron:d54d45cc-93e0-4b7b-a88e-c15d352e4dc6:run:1bb860f2-05a7-49b0-8ed5-5ba4329b630b",
+      "model": "gemini-3-flash",
+      "usage": "3.9k",
+      "percent": 0,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > cron:31b1dac7-ef8a-4aa7-aad2-c0a5aae4b280",
+      "model": "gemini-3-flash",
+      "usage": "3.8k",
+      "percent": 0,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > cron:31b1dac7-ef8a-4aa7-aad2-c0a5aae4b280:run:80f6f291-4da6-4024-9bed-12071eb1f386",
+      "model": "gemini-3-flash",
+      "usage": "3.8k",
+      "percent": 0,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840",
+      "model": "gemini-3-flash",
+      "usage": "25.9k",
+      "percent": 2,
+      "status": "ok"
+    },
+    {
+      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:dce5c7d1-2afe-483a-976a-cac484458708",
+      "model": "gemini-3-flash",
+      "usage": "25.9k",
+      "percent": 2,
       "status": "ok"
     },
     {
@@ -65,34 +93,6 @@
       "model": "claude-opus-4-6-thinking",
       "usage": "27.6k",
       "percent": 14,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > whatsapp:direct:+56951577890",
-      "model": "claude-opus-4-6-thinking",
-      "usage": "24.8k",
-      "percent": 12,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > cron:a3d2f29d-b186-4a96-b654-97ffed7323d7",
-      "model": "gpt-5.1-codex-mini",
-      "usage": "6.0k",
-      "percent": 2,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > cron:a3d2f29d-b186-4a96-b654-97ffed7323d7:run:87bc514a-b053-4ee8-93c5-85ec9abce572",
-      "model": "gpt-5.1-codex-mini",
-      "usage": "6.0k",
-      "percent": 2,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > cron:f4a2dec8-55ec-441e-8f29-c3c89c9798a6",
-      "model": "gpt-5.1-codex-mini",
-      "usage": "5.9k",
-      "percent": 2,
       "status": "ok"
     }
   ]
