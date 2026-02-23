@@ -1,99 +1,27 @@
 {
-  "generatedAt": "2026-02-23T18:03:34+00:00",
+  "generatedAt": "2026-02-23T19:03:32+00:00",
   "hostname": "vps-387ef501",
   "cpu": {
-    "usage": 19,
-    "loadAvg": "0.63"
+    "usage": 1,
+    "loadAvg": "0.85"
   },
   "memory": {
-    "used": 3414,
+    "used": 3362,
     "total": 11675,
-    "percent": 29
+    "percent": 28
   },
   "disk": {
-    "used": "34G",
+    "used": "35G",
     "total": "96G",
     "percent": 36
   },
   "uptime": {
     "days": 7,
-    "hours": 7,
-    "formatted": "7d 7h"
+    "hours": 8,
+    "formatted": "7d 8h"
   },
   "services": {
     "openclaw": "active",
     "nginx": "active"
-  },
-  "sessions": [
-    {
-      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840",
-      "model": "gpt-5.1-codex-mini",
-      "usage": "18.8k",
-      "percent": 7,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:dce5c7d1-2afe-483a-976a-cac484458708",
-      "model": "gpt-5.1-codex-mini",
-      "usage": "18.8k",
-      "percent": 7,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > Direct Chat 💬",
-      "model": "gpt-5.1-codex-mini",
-      "usage": "23.8k",
-      "percent": 9,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > cron:65c261c9-1e12-4fd9-b77e-fe5b82c21732",
-      "model": "gpt-5.1-codex-mini",
-      "usage": "15.8k",
-      "percent": 6,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > cron:65c261c9-1e12-4fd9-b77e-fe5b82c21732:run:d25d5b80-51b3-4d61-90e2-8466790a4e99",
-      "model": "gpt-5.1-codex-mini",
-      "usage": "15.8k",
-      "percent": 6,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > cron:f0aed81d-9fd4-48eb-94d3-afa4017718d3",
-      "model": "gpt-5.1-codex-mini",
-      "usage": "5.8k",
-      "percent": 2,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > cron:f0aed81d-9fd4-48eb-94d3-afa4017718d3:run:5e1fe553-cfec-4fbe-8121-3aed77e4856a",
-      "model": "gpt-5.1-codex-mini",
-      "usage": "5.8k",
-      "percent": 2,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > cron:323bbdc2-7399-444c-beaf-bdc1af985811",
-      "model": "gpt-5.1-codex-mini",
-      "usage": "5.8k",
-      "percent": 2,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > cron:323bbdc2-7399-444c-beaf-bdc1af985811:run:59f63651-5868-4b9b-8295-cbf1451a5416",
-      "model": "gpt-5.1-codex-mini",
-      "usage": "5.8k",
-      "percent": 2,
-      "status": "ok"
-    },
-    {
-      "key": "bitbot > whatsapp:group:120363392126554985@g.us",
-      "model": "claude-opus-4-6-thinking",
-      "usage": "0.0k",
-      "percent": 0,
-      "status": "ok"
-    }
-  ]
+  }
 }
