@@ -28,22 +28,22 @@
     {
       "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840",
       "model": "claude-opus-4-6-thinking",
-      "usage": "32.9k",
+      "usage": "33.0k",
       "percent": 16,
       "status": "ok"
     },
     {
       "key": "bitbot > cron:03edfa7e-366d-4869-8e0f-920e72bb5840:run:dce5c7d1-2afe-483a-976a-cac484458708",
       "model": "claude-opus-4-6-thinking",
-      "usage": "32.9k",
+      "usage": "33.0k",
       "percent": 16,
       "status": "ok"
     },
     {
       "key": "bitbot > Direct Chat 💬",
-      "model": "claude-opus-4-6-thinking",
-      "usage": "34.4k",
-      "percent": 17,
+      "model": "gpt-5.1-codex-mini",
+      "usage": "25.9k",
+      "percent": 10,
       "status": "ok"
     },
     {
