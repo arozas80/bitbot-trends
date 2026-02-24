@@ -1,32 +1,20 @@
 {
-  "updatedAt": "2026-02-24T00:03:31.597065",
+  "updatedAt": "2026-02-24T01:03:31.633656",
   "todos": [
     {
-      "text": "Revisa el clima si son las 08:00 o las 20:00 (necesitas ubicaci\u00f3n). (Realizado 2026-02-20 20:50)",
-      "status": "done"
-    },
-    {
-      "text": "Una vez al d\u00eda: Resume los eventos clave de `memory/YYYY-MM-DD.md` y actualiza `MEMORY.md`. (Realizado 2026-02-21 01:15)",
-      "status": "done"
-    },
-    {
-      "text": "Si ha pasado m\u00e1s de 8 horas desde la \u00faltima interacci\u00f3n, saluda con un dato curioso o un recordatorio de productividad.",
+      "text": "2026-02-24 08:00: Entregar Informe \"3 Propuestas Concretas para Cerrar Hoy\" a Alvaro.",
       "status": "pending"
     },
     {
-      "text": "Revisa si hay sesiones hu\u00e9rfanas o tareas pendientes en el workspace. (Realizado 2026-02-21 01:15)",
+      "text": "Resumen diario de memoria (Realizado 2026-02-21)",
       "status": "done"
     },
     {
-      "text": "Cada 15 minutos (v\u00eda Cron Silencioso): Ejecuta `node /home/alvaro/.openclaw/workspace-alvaro/update_dashboard_sessions.js`. (Actualizado 2026-02-21)",
+      "text": "Actualizaci\u00f3n Dashboard (Cada 15 min via Cron)",
       "status": "done"
     },
     {
-      "text": "Dos veces al d\u00eda (08:00 y 20:00 v\u00eda Cron): Informa a Alvaro que las gestiones de actualizaci\u00f3n se est\u00e1n realizando. (Configurado 2026-02-21)",
-      "status": "done"
-    },
-    {
-      "text": "2026-02-18 09:00: Revisar y presentar el Plan Estrat\u00e9gico Bitware AI 2026 generado por subagentes. (Realizado 2026-02-19 01:00)",
+      "text": "Informar actualizaciones a Alvaro (08:00 y 20:00)",
       "status": "done"
     },
     {
