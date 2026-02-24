@@ -1,17 +1,9 @@
 {
-  "updatedAt": "2026-02-24T04:03:31.768905",
-  "total": 604040,
-  "total_fmt": "$604.040",
-  "count": 35,
+  "updatedAt": "2026-02-24T06:03:37.614187",
+  "total": 599470,
+  "total_fmt": "$599.470",
+  "count": 34,
   "items": [
-    {
-      "fecha": "2026-02-23",
-      "descripcion": "Red Bull + galletas Pronto Bilbao",
-      "monto": 4570,
-      "monto_fmt": "$4.570",
-      "factura": "3757963",
-      "comprobante": "https://drive.google.com/file/d/1gF2Kfx3a-U1zO40Nb0HSJAlYj3dTHq71/view?usp=drivesdk"
-    },
     {
       "fecha": "2026-02-20",
       "descripcion": "Morales y Muñoz Compañía Limitada (Alimentos)",
