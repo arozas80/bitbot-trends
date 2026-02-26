@@ -23,5 +23,6 @@
   "services": {
     "openclaw": "active",
     "nginx": "active"
-  }
+  },
+  "sessions": []
 }
