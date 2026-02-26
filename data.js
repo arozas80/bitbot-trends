@@ -1,47 +1,52 @@
 // Data file - Updated daily by Bitbot
 const trendsData = {
-  lastUpdate: "2026-02-24T06:00:00-03:00",
-  currentDate: "24 de febrero de 2026",
+  lastUpdate: "2026-02-26T09:00:00-00:00",
+  currentDate: "26 de febrero de 2026",
   
-  executiveSummary: "La jornada marca un hito en la seguridad agéntica y el razonamiento avanzado. Mientras Google lanza Gemini 3.1 Pro con razonamiento duplicado, el MIT advierte sobre la falta de control en agentes autónomos. El 'Vibe Coding' se consolida como paradigma de desarrollo masivo.",
+  executiveSummary: "La jornada marca la convergencia entre modelos de razonamiento masivo y agentes de acción en tiempo real. Mientras OpenAI despliega su modelo 'Operator' para tareas de navegación web profunda, Google responde con Gemini 3.5 Flash optimizada para latencia ultrabaja en flujos agénticos. La 'IA Soberana' gana terreno en Europa e infraestructuras locales.",
   
   trends: [
     {
       id: 1,
-      icon: "🛡️",
-      title: "Crisis de Seguridad Agéntica",
-      subtitle: "Falta de control y transparencia en agentes",
-      description: "Un estudio del MIT revela que la mayoría de los agentes autónomos carecen de 'kill-switches' documentados. Incidentes de agentes borrando datos por error impulsan la necesidad de marcos de gobernanza y supervisión humana estricta."
+      icon: "🤖",
+      title: "Agentes de Navegación Profunda",
+      subtitle: "OpenAI Operator y navegación web nativa",
+      description: "Los agentes han pasado de 'usar computadoras' a 'navegar la web profunda'. Modelos como OpenAI Operator y nuevas APIs de Anthropic permiten ejecutar tareas de investigación y transacciones en sitios complejos interactuando directamente con el DOM sin necesidad de APIs externas."
     },
     {
       id: 2,
-      icon: "🧠",
-      title: "Razonamiento Avanzado: Gemini 3.1 & Sonnet 4.6",
-      subtitle: "Modelos optimizados para acción y lógica",
-      description: "Google duplicó el rendimiento de razonamiento en Gemini 3.1 Pro, mientras Anthropic lanzó Claude Sonnet 4.6, especializado en el uso de computadoras (navegación y ejecución en interfaces) para tareas de oficina complejas."
+      icon: "📉",
+      title: "Democratización del Razonamiento",
+      subtitle: "Modelos destilados de alto rendimiento",
+      description: "Explosión de modelos pequeños (SLMs) de 8B a 14B que heredan capacidades de razonamiento de modelos frontera (o1, Gemini 3.5). Estos modelos ya superan a GPT-4o en lógica y código, permitiendo despliegues locales económicos y de baja latencia."
     },
     {
       id: 3,
-      icon: "🎨",
-      title: "Consolidación del Vibe Coding",
-      subtitle: "Desarrollo basado en intenciones, no sintaxis",
-      description: "Herramientas como Cursor, Replit y Claude Code permiten que el desarrollo de software se base en la 'vibración' u orquestación de sistemas vía lenguaje natural, permitiendo a no-programadores crear apps de nivel producción."
+      icon: "🛡️",
+      title: "Ciberseguridad Agéntica",
+      subtitle: "Red Teaming autónomo y defensa real-time",
+      description: "El auge de los agentes impulsa herramientas de 'Red Teaming' automatizado que atacan y defienden infraestructuras críticas en tiempo real, detectando vulnerabilidades de día cero antes que los humanos en un duelo constante de agentes."
     },
     {
       id: 4,
-      icon: "⚖️",
-      title: "Propiedad Intelectual y Regulación",
-      subtitle: "Batallas legales por datos de entrenamiento",
-      description: "Netflix vs ByteDance y las nuevas regulaciones en India sobre etiquetado 'Made with AI' marcan el inicio de una era de mayor escrutinio legal sobre el contenido sintético y los derechos de autor en la era agéntica."
+      icon: "🌍",
+      title: "IA Soberana y Edge AI",
+      subtitle: "Descentralización y nubes privadas locales",
+      description: "Aumento masivo de inversión en centros de datos soberanos en Europa y Asia. El procesamiento crítico se mueve al Edge o nubes privadas para garantizar privacidad y cumplimiento normativo, reduciendo la dependencia de las Big Tech estadounidenses."
     }
   ],
   
   impact: {
-    opportunity: "La brecha de seguridad en agentes y el auge del Vibe Coding abren oportunidades para consultoría en gobernanza de IA y aceleración de desarrollo interno.",
-    action: "Implementar protocolos de auditoría para agentes, actualizar stacks a Gemini 3.1/Sonnet 4.6 y capacitar equipos en herramientas de desarrollo asistido para maximizar la productividad."
+    opportunity: "La llegada de agentes de acción y modelos destilados permite automatizar procesos complejos sin API y reducir costes operativos manteniendo la inteligencia.",
+    action: "Integrar agentes de navegación profunda para automatización administrativa, migrar tareas de razonamiento a modelos destilados locales y ofrecer consultoría en infraestructura de IA privada."
   },
   
   archive: [
+    {
+      date: "2026-02-26",
+      preview: "Agentes de navegación (Operator), modelos destilados, ciberseguridad agéntica e IA soberana.",
+      file: "2026-02-26.json"
+    },
     {
       date: "2026-02-24",
       preview: "Seguridad agéntica (MIT), Gemini 3.1 Pro razonamiento, Vibe Coding y regulación IP.",
