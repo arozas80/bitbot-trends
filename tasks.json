@@ -1,21 +1,21 @@
 {
-  "updatedAt": "2026-02-27T02:03:31.658549",
+  "updatedAt": "2026-02-27T03:03:31.596553",
   "todos": [
     {
-      "text": "[#1] Ejecutar Reflexi\u00f3n Nocturna (Completado 2026-02-26 03:00 AM)",
+      "text": "[#1] Ejecutar Reflexi\u00f3n Nocturna (Completado 2026-02-27 03:00 AM)",
       "status": "done"
     },
     {
-      "text": "Respaldo Diario a GitHub (Completado 2026-02-26 06:00 AM)",
-      "status": "done"
+      "text": "Respaldo Diario a GitHub (06:00 AM)",
+      "status": "pending"
     },
     {
-      "text": "Entregar Informe Matutino a Alvaro (Completado 2026-02-26 08:30 AM)",
-      "status": "done"
+      "text": "Entregar Informe Matutino a Alvaro (08:30 AM)",
+      "status": "pending"
     },
     {
-      "text": "Verificar estado de salud del VPS (Completado 2026-02-26 08:30 AM)",
-      "status": "done"
+      "text": "Verificar estado de salud del VPS (08:30 AM)",
+      "status": "pending"
     },
     {
       "text": "Actualizaci\u00f3n Dashboard (Cada 15 min via Cron)",
@@ -30,11 +30,11 @@
       "status": "pending"
     },
     {
-      "text": "Informar actualizaciones a Alvaro (Completado 2026-02-26 20:00)",
-      "status": "done"
+      "text": "Informar actualizaciones a Alvaro (20:00)",
+      "status": "pending"
     },
     {
-      "text": "Recordar a Alvaro: Terminar lo de Fede y mandar propuesta (Ma\u00f1ana 09:00 AM)",
+      "text": "Recordar a Alvaro: Terminar lo de Fede y mandar propuesta (Hoy 09:00 AM)",
       "status": "pending"
     },
     {
