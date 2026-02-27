@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-26T23:03:31.548953",
+  "updatedAt": "2026-02-27T00:03:31.934640",
   "todos": [
     {
       "text": "[#1] Ejecutar Reflexi\u00f3n Nocturna (Completado 2026-02-26 03:00 AM)",
@@ -10,24 +10,12 @@
       "status": "done"
     },
     {
-      "text": "Revisar Google Sheets rendici\u00f3n Servivet (09:00 AM) - [EN PAUSA]",
-      "status": "pending"
-    },
-    {
-      "text": "Generar boleta de honorarios para Francisco (09:00 AM) - [EN PAUSA]",
-      "status": "pending"
-    },
-    {
       "text": "Entregar Informe Matutino a Alvaro (Completado 2026-02-26 08:30 AM)",
       "status": "done"
     },
     {
       "text": "Verificar estado de salud del VPS (Completado 2026-02-26 08:30 AM)",
       "status": "done"
-    },
-    {
-      "text": "Revisar correos y calendario (08:00 AM) - [EN PAUSA]",
-      "status": "pending"
     },
     {
       "text": "Actualizaci\u00f3n Dashboard (Cada 15 min via Cron)",
