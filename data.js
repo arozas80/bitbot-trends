@@ -1,47 +1,52 @@
 // Data file - Updated daily by Bitbot
 const trendsData = {
-  lastUpdate: "2026-02-26T09:00:00-00:00",
-  currentDate: "26 de febrero de 2026",
+  lastUpdate: "2026-02-27T09:00:00-00:00",
+  currentDate: "27 de febrero de 2026",
   
-  executiveSummary: "La jornada marca la convergencia entre modelos de razonamiento masivo y agentes de acción en tiempo real. Mientras OpenAI despliega su modelo 'Operator' para tareas de navegación web profunda, Google responde con Gemini 3.5 Flash optimizada para latencia ultrabaja en flujos agénticos. La 'IA Soberana' gana terreno en Europa e infraestructuras locales.",
+  executiveSummary: "Hoy, 27 de febrero de 2026, el ecosistema de IA se centra en la consolidación de los Agentes Autónomos de Propósito General y la integración profunda de la IA Multimodal Nativa en procesos industriales. La carrera por el 'World Model' se intensifica, mientras que la Soberanía de Datos impulsa el despliegue de nubes privadas regionales con hardware especializado.",
   
   trends: [
     {
       id: 1,
       icon: "🤖",
-      title: "Agentes de Navegación Profunda",
-      subtitle: "OpenAI Operator y navegación web nativa",
-      description: "Los agentes han pasado de 'usar computadoras' a 'navegar la web profunda'. Modelos como OpenAI Operator y nuevas APIs de Anthropic permiten ejecutar tareas de investigación y transacciones en sitios complejos interactuando directamente con el DOM sin necesidad de APIs externas."
+      title: "Agentes de Acción Multi-Entorno",
+      subtitle: "Flujos de trabajo híbridos SaaS-Local-Móvil",
+      description: "Los agentes ya no solo navegan por la web; ahora operan en entornos de escritorio híbridos. La capacidad de ejecutar flujos de trabajo que saltan entre aplicaciones SaaS, terminales locales y dispositivos móviles de forma autónoma está redefiniendo la productividad empresarial."
     },
     {
       id: 2,
-      icon: "📉",
-      title: "Democratización del Razonamiento",
-      subtitle: "Modelos destilados de alto rendimiento",
-      description: "Explosión de modelos pequeños (SLMs) de 8B a 14B que heredan capacidades de razonamiento de modelos frontera (o1, Gemini 3.5). Estos modelos ya superan a GPT-4o en lógica y código, permitiendo despliegues locales económicos y de baja latencia."
+      icon: "👁️",
+      title: "Modelos de Mundo y Robótica",
+      subtitle: "IA con capacidad de predecir interacción física",
+      description: "Los avances en modelos de vídeo generativo se están aplicando al entrenamiento de robots. La IA ahora puede 'imaginar' las consecuencias de una acción física antes de realizarla, reduciendo drásticamente los fallos en la automatización de almacenes y logística."
     },
     {
       id: 3,
-      icon: "🛡️",
-      title: "Ciberseguridad Agéntica",
-      subtitle: "Red Teaming autónomo y defensa real-time",
-      description: "El auge de los agentes impulsa herramientas de 'Red Teaming' automatizado que atacan y defienden infraestructuras críticas en tiempo real, detectando vulnerabilidades de día cero antes que los humanos en un duelo constante de agentes."
+      icon: "🧠",
+      title: "Razonamiento Especializado",
+      subtitle: "Vertical LLMs para sectores críticos",
+      description: "Estamos viendo un alejamiento de los modelos generalistas hacia modelos de razonamiento profundo ajustados específicamente para sectores como el legal, médico e ingeniería aeroespacial, superando a los generalistas en lógica compleja."
     },
     {
       id: 4,
-      icon: "🌍",
-      title: "IA Soberana y Edge AI",
-      subtitle: "Descentralización y nubes privadas locales",
-      description: "Aumento masivo de inversión en centros de datos soberanos en Europa y Asia. El procesamiento crítico se mueve al Edge o nubes privadas para garantizar privacidad y cumplimiento normativo, reduciendo la dependencia de las Big Tech estadounidenses."
+      icon: "⚡",
+      title: "Hardware de Inferencia Local",
+      subtitle: "Edge AI de alto rendimiento (30B+ parámetros)",
+      description: "Nuevos chips NPU integrados en servidores de borde permiten procesar modelos de hasta 30B de parámetros con consumo mínimo, eliminando la latencia de la nube y garantizando la privacidad absoluta de los datos corporativos."
     }
   ],
   
   impact: {
-    opportunity: "La llegada de agentes de acción y modelos destilados permite automatizar procesos complejos sin API y reducir costes operativos manteniendo la inteligencia.",
-    action: "Integrar agentes de navegación profunda para automatización administrativa, migrar tareas de razonamiento a modelos destilados locales y ofrecer consultoría en infraestructura de IA privada."
+    opportunity: "La automatización ya no es 'programar reglas', sino 'delegar objetivos' a agentes capaces de razonar y actuar en entornos dinámicos.",
+    action: "Evaluar la migración de flujos de trabajo críticos a infraestructuras de IA local (Edge) para mejorar la seguridad y reducir costes de API a largo plazo."
   },
   
   archive: [
+    {
+      date: "2026-02-27",
+      preview: "Agentes multi-entorno, modelos de mundo robóticos, razonamiento vertical e inferencia local Edge AI.",
+      file: "2026-02-27.json"
+    },
     {
       date: "2026-02-26",
       preview: "Agentes de navegación (Operator), modelos destilados, ciberseguridad agéntica e IA soberana.",
