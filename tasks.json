@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-28T15:03:31.662563",
+  "updatedAt": "2026-02-28T18:03:31.914121",
   "todos": [
     {
       "text": "[#1] Ejecutar Reflexi\u00f3n Nocturna (Pr\u00f3xima: 2026-03-02 03:00 AM)",
@@ -16,6 +16,10 @@
     {
       "text": "Recordar a Alvaro: Terminar la propuesta de Web B2B (HOY 10:00 AM) - Ejecutado Feb 28",
       "status": "done"
+    },
+    {
+      "text": "Recordar a Alvaro: Hora cambio aceite auto a las 13:20 (Mi\u00e9rcoles 04-Marzo 08:30 AM)",
+      "status": "pending"
     },
     {
       "text": "Dep\u00f3sito de cheques en el banco",
