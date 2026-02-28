@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-28T02:03:31.228406",
+  "updatedAt": "2026-02-28T03:03:31.910905",
   "todos": [
     {
       "text": "[#1] Ejecutar Reflexi\u00f3n Nocturna (Completado 2026-02-28 06:00 AM)",
@@ -48,6 +48,14 @@
     {
       "text": "Recordar a Alvaro: Cambiar los horarios de casa yoga en boxmagic (Hecho 2026-02-27 16:45 PM)",
       "status": "done"
+    },
+    {
+      "text": "Recordar a Alvaro: Pagar todas las cuentas de la casa (Ma\u00f1ana 10:00 AM)",
+      "status": "pending"
+    },
+    {
+      "text": "Recordar a Alvaro: Terminar la propuesta de Web B2B (Ma\u00f1ana 10:00 AM)",
+      "status": "pending"
     },
     {
       "text": "Dep\u00f3sito de cheques en el banco",
