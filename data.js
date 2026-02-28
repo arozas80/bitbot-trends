@@ -1,47 +1,52 @@
 // Data file - Updated daily by Bitbot
 const trendsData = {
-  lastUpdate: "2026-02-27T09:00:00-00:00",
-  currentDate: "27 de febrero de 2026",
+  lastUpdate: "2026-02-28T09:00:00-00:00",
+  currentDate: "28 de febrero de 2026",
   
-  executiveSummary: "Hoy, 27 de febrero de 2026, el ecosistema de IA se centra en la consolidación de los Agentes Autónomos de Propósito General y la integración profunda de la IA Multimodal Nativa en procesos industriales. La carrera por el 'World Model' se intensifica, mientras que la Soberanía de Datos impulsa el despliegue de nubes privadas regionales con hardware especializado.",
+  executiveSummary: "Hoy, 28 de febrero de 2026, el enfoque se desplaza hacia la Orquestación Multi-Agente Autónoma y la IA Simbiótica en entornos industriales. La capacidad de los sistemas para autogestionar fallos y optimizar recursos en tiempo real sin intervención humana directa marca el inicio de una nueva fase de eficiencia. Se observa un crecimiento explosivo en Modelos de Lenguaje de Acción (ALMs), mientras que la Soberanía Computacional impulsa el desarrollo de clústeres de IA locales descentralizados.",
   
   trends: [
     {
       id: 1,
       icon: "🤖",
-      title: "Agentes de Acción Multi-Entorno",
-      subtitle: "Flujos de trabajo híbridos SaaS-Local-Móvil",
-      description: "Los agentes ya no solo navegan por la web; ahora operan en entornos de escritorio híbridos. La capacidad de ejecutar flujos de trabajo que saltan entre aplicaciones SaaS, terminales locales y dispositivos móviles de forma autónoma está redefiniendo la productividad empresarial."
+      title: "Orquestación Multi-Agente Descentralizada",
+      subtitle: "Enjambres de micro-agentes colaborando de forma autónoma",
+      description: "Los sistemas ya no dependen de un controlador central único. Enjambres de micro-agentes especializados colaboran de forma autónoma, negociando tareas y recursos mediante protocolos de consenso, lo que elimina cuellos de botella y aumenta la resiliencia en infraestructuras críticas."
     },
     {
       id: 2,
-      icon: "👁️",
-      title: "Modelos de Mundo y Robótica",
-      subtitle: "IA con capacidad de predecir interacción física",
-      description: "Los avances en modelos de vídeo generativo se están aplicando al entrenamiento de robots. La IA ahora puede 'imaginar' las consecuencias de una acción física antes de realizarla, reduciendo drásticamente los fallos en la automatización de almacenes y logística."
+      icon: "🏗️",
+      title: "Modelos de Lenguaje de Acción (ALMs)",
+      subtitle: "Integración nativa con hardware industrial y APIs de bajo nivel",
+      description: "La evolución de los LLMs hacia los ALMs permite una integración nativa con hardware industrial y APIs de bajo nivel. Estos modelos no solo 'hablan' o 'razonan', sino que están diseñados específicamente para 'ejecutar' acciones complejas en entornos físicos y digitales con una precisión del 99.9%."
     },
     {
       id: 3,
-      icon: "🧠",
-      title: "Razonamiento Especializado",
-      subtitle: "Vertical LLMs para sectores críticos",
-      description: "Estamos viendo un alejamiento de los modelos generalistas hacia modelos de razonamiento profundo ajustados específicamente para sectores como el legal, médico e ingeniería aeroespacial, superando a los generalistas en lógica compleja."
+      icon: "🌐",
+      title: "Nubes de IA Privadas y Federadas",
+      subtitle: "Aprendizaje federado sobre datos propietarios",
+      description: "Ante las crecientes preocupaciones por la privacidad y la soberanía de los datos, las empresas están adoptando arquitecturas de aprendizaje federado. Esto permite entrenar y refinar modelos sobre datos propietarios sin que estos abandonen nunca el perímetro de seguridad de la organización."
     },
     {
       id: 4,
-      icon: "⚡",
-      title: "Hardware de Inferencia Local",
-      subtitle: "Edge AI de alto rendimiento (30B+ parámetros)",
-      description: "Nuevos chips NPU integrados en servidores de borde permiten procesar modelos de hasta 30B de parámetros con consumo mínimo, eliminando la latencia de la nube y garantizando la privacidad absoluta de los datos corporativos."
+      icon: "🧠",
+      title: "BCI de Bajo Coste",
+      subtitle: "Interfaces Cerebro-Computadora para control de automatización",
+      description: "Nuevos avances en sensores no invasivos están permitiendo las primeras implementaciones comerciales de BCI para el control de interfaces de automatización, permitiendo una supervisión de sistemas de IA mediante 'atención dirigida'."
     }
   ],
   
   impact: {
-    opportunity: "La automatización ya no es 'programar reglas', sino 'delegar objetivos' a agentes capaces de razonar y actuar en entornos dinámicos.",
-    action: "Evaluar la migración de flujos de trabajo críticos a infraestructuras de IA local (Edge) para mejorar la seguridad y reducir costes de API a largo plazo."
+    opportunity: "La transición de 'asistentes de IA' a 'empleados digitales autónomos' permite a las empresas escalar operaciones sin un aumento lineal en los costes operativos.",
+    action: "Iniciar pilotos de arquitecturas multi-agente para procesos internos de soporte y logística, priorizando la seguridad y la trazabilidad de las acciones autónomas."
   },
   
   archive: [
+    {
+      date: "2026-02-28",
+      preview: "Orquestación multi-agente, modelos de acción (ALMs), nubes federadas y BCI de bajo coste.",
+      file: "2026-02-28.json"
+    },
     {
       date: "2026-02-27",
       preview: "Agentes multi-entorno, modelos de mundo robóticos, razonamiento vertical e inferencia local Edge AI.",
