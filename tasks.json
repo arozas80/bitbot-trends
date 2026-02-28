@@ -1,60 +1,20 @@
 {
-  "updatedAt": "2026-02-28T05:03:31.731765",
+  "updatedAt": "2026-02-28T06:03:31.723801",
   "todos": [
     {
-      "text": "[#1] Ejecutar Reflexi\u00f3n Nocturna (Completado 2026-02-28 06:00 AM)",
-      "status": "done"
-    },
-    {
-      "text": "Verificar y corregir fallos en Crons reportados por el usuario (Completado: era un mismatch de token en el Gateway)",
-      "status": "done"
-    },
-    {
-      "text": "Respaldo Diario a GitHub (Completado 2026-02-27 06:00 AM)",
-      "status": "done"
-    },
-    {
-      "text": "Entregar Informe Matutino a Alvaro (Completado 2026-02-27 08:30 AM)",
-      "status": "done"
-    },
-    {
-      "text": "Verificar estado de salud del VPS (Completado 2026-02-27 08:30 AM)",
-      "status": "done"
-    },
-    {
-      "text": "Actualizaci\u00f3n Dashboard (Cada 15 min via Cron)",
-      "status": "done"
-    },
-    {
-      "text": "[#5] Escaneo de Mercado/Carrera (Lunes 10:00 AM) - [NUEVO]",
+      "text": "[#1] Ejecutar Reflexi\u00f3n Nocturna (Pr\u00f3xima: 2026-03-02 03:00 AM)",
       "status": "pending"
     },
     {
-      "text": "[#8] Check-in Aprendizaje (Lunes 09:00 AM) - [NUEVO]",
+      "text": "[#1] Reflexi\u00f3n 01-Marzo completada. (2026-03-01 06:15 AM)",
+      "status": "done"
+    },
+    {
+      "text": "Recordar a Alvaro: Pagar todas las cuentas de la casa (HOY 10:00 AM)",
       "status": "pending"
     },
     {
-      "text": "Informar actualizaciones a Alvaro (Completado 2026-02-27 20:00 PM)",
-      "status": "done"
-    },
-    {
-      "text": "Recordar a Alvaro: Terminar lo de Fede y mandar propuesta (Hecho 2026-02-27 09:15 AM)",
-      "status": "done"
-    },
-    {
-      "text": "Recordar a Alvaro: Cambiar los horarios de casa yoga en boxmagic (Hecho 2026-02-27 15:15 PM)",
-      "status": "done"
-    },
-    {
-      "text": "Recordar a Alvaro: Cambiar los horarios de casa yoga en boxmagic (Hecho 2026-02-27 16:45 PM)",
-      "status": "done"
-    },
-    {
-      "text": "Recordar a Alvaro: Pagar todas las cuentas de la casa (Ma\u00f1ana 10:00 AM)",
-      "status": "pending"
-    },
-    {
-      "text": "Recordar a Alvaro: Terminar la propuesta de Web B2B (Ma\u00f1ana 10:00 AM)",
+      "text": "Recordar a Alvaro: Terminar la propuesta de Web B2B (HOY 10:00 AM)",
       "status": "pending"
     },
     {
