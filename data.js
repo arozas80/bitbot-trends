@@ -1,47 +1,52 @@
 // Data file - Updated daily by Bitbot
 const trendsData = {
-  lastUpdate: "2026-02-28T09:00:00-00:00",
-  currentDate: "28 de febrero de 2026",
+  lastUpdate: "2026-03-01T09:00:00-00:00",
+  currentDate: "1 de marzo de 2026",
   
-  executiveSummary: "Hoy, 28 de febrero de 2026, el enfoque se desplaza hacia la Orquestación Multi-Agente Autónoma y la IA Simbiótica en entornos industriales. La capacidad de los sistemas para autogestionar fallos y optimizar recursos en tiempo real sin intervención humana directa marca el inicio de una nueva fase de eficiencia. Se observa un crecimiento explosivo en Modelos de Lenguaje de Acción (ALMs), mientras que la Soberanía Computacional impulsa el desarrollo de clústeres de IA locales descentralizados.",
+  executiveSummary: "Hoy, 1 de marzo de 2026, la industria de la IA se encuentra en un punto de inflexión crítico marcado por la Soberanía del Modelo y la Nacionalización Parcial de la Infraestructura. El conflicto entre los grandes laboratorios y los gobiernos sobre el uso militar de los modelos está redefiniendo las fronteras de la seguridad nacional. Paralelamente, la llegada de los Agentes Digitales de Propósito General está consolidando el concepto del 'trabajador digital' que no solo busca información, sino que razona, delega y ejecuta a través de múltiples herramientas de forma autónoma.",
   
   trends: [
     {
       id: 1,
-      icon: "🤖",
-      title: "Orquestación Multi-Agente Descentralizada",
-      subtitle: "Enjambres de micro-agentes colaborando de forma autónoma",
-      description: "Los sistemas ya no dependen de un controlador central único. Enjambres de micro-agentes especializados colaboran de forma autónoma, negociando tareas y recursos mediante protocolos de consenso, lo que elimina cuellos de botella y aumenta la resiliencia en infraestructuras críticas."
+      icon: "⚔️",
+      title: "Soberanía y Riesgo de Suministro en IA",
+      subtitle: "Tensiones entre laboratorios y gobiernos por el uso militar",
+      description: "La tensión entre el Pentágono y empresas como Anthropic sobre el 'uso legal' de la IA para fines militares está planteando un escenario de intervención gubernamental. La posibilidad de designar a empresas de IA como 'riesgos en la cadena de suministro' sugiere una era donde la IA ya no es solo software, sino un recurso estratégico nacional protegido y regulado bajo leyes de producción de defensa."
     },
     {
       id: 2,
-      icon: "🏗️",
-      title: "Modelos de Lenguaje de Acción (ALMs)",
-      subtitle: "Integración nativa con hardware industrial y APIs de bajo nivel",
-      description: "La evolución de los LLMs hacia los ALMs permite una integración nativa con hardware industrial y APIs de bajo nivel. Estos modelos no solo 'hablan' o 'razonan', sino que están diseñados específicamente para 'ejecutar' acciones complejas en entornos físicos y digitales con una precisión del 99.9%."
+      icon: "💻",
+      title: "Agentes Digitales de Propósito General",
+      subtitle: "La transición del chatbot al trabajador digital autónomo",
+      description: "Estamos pasando de los 'chatbots' a los 'trabajadores digitales' integrales. Herramientas como Perplexity Computer y OpenClaw están demostrando que el futuro de la automatización reside en agentes que pueden razonar, delegar tareas a otros sub-agentes, codificar y entregar resultados complejos sin supervisión constante, cerrando la brecha entre la intención del usuario y la ejecución técnica."
     },
     {
       id: 3,
-      icon: "🌐",
-      title: "Nubes de IA Privadas y Federadas",
-      subtitle: "Aprendizaje federado sobre datos propietarios",
-      description: "Ante las crecientes preocupaciones por la privacidad y la soberanía de los datos, las empresas están adoptando arquitecturas de aprendizaje federado. Esto permite entrenar y refinar modelos sobre datos propietarios sin que estos abandonen nunca el perímetro de seguridad de la organización."
+      icon: "🛡️",
+      title: "Protocolos de Seguridad y Respuesta ante Incidentes",
+      subtitle: "El fin de la neutralidad absoluta del chatbot",
+      description: "La integración de la IA en la sociedad está forzando a las empresas a desarrollar protocolos de seguridad proactivos que involucren a las autoridades. La evolución de las políticas de OpenAI para alertar a la policía ante amenazas detectadas por el modelo marca el fin de la neutralidad absoluta del chatbot y el inicio de la 'IA como observador responsable' en la prevención del crimen."
     },
     {
       id: 4,
-      icon: "🧠",
-      title: "BCI de Bajo Coste",
-      subtitle: "Interfaces Cerebro-Computadora para control de automatización",
-      description: "Nuevos avances en sensores no invasivos están permitiendo las primeras implementaciones comerciales de BCI para el control de interfaces de automatización, permitiendo una supervisión de sistemas de IA mediante 'atención dirigida'."
+      icon: "🧬",
+      title: "IA Verticalizada en Salud y Bienestar",
+      subtitle: "Modelos ultra-especializados en infraestructuras controladas",
+      description: "La especialización de los modelos sigue avanzando con el lanzamiento de IAs diseñadas para nichos extremadamente específicos y sensibles, como la salud reproductiva (ej. Oura Advisor). Estos modelos operan en infraestructuras controladas para garantizar la privacidad, demostrando que la confianza del usuario es el nuevo motor de adopción en áreas críticas."
     }
   ],
   
   impact: {
-    opportunity: "La transición de 'asistentes de IA' a 'empleados digitales autónomos' permite a las empresas escalar operaciones sin un aumento lineal en los costes operativos.",
-    action: "Iniciar pilotos de arquitecturas multi-agente para procesos internos de soporte y logística, priorizando la seguridad y la trazabilidad de las acciones autónomas."
+    opportunity: "La adopción de arquitecturas agénticas (como OpenClaw) permite a las organizaciones crear flujos de trabajo autónomos que reducen drásticamente los tiempos de ejecución en tareas de investigación y desarrollo.",
+    action: "Evaluar la dependencia de modelos externos de 'caja negra' y considerar la transición hacia arquitecturas de IA soberana o local para mitigar riesgos regulatorios y geopolíticos."
   },
   
   archive: [
+    {
+      date: "2026-03-01",
+      preview: "Soberanía IA, agentes de propósito general, seguridad proactiva e IA verticalizada.",
+      file: "2026-03-01.json"
+    },
     {
       date: "2026-02-28",
       preview: "Orquestación multi-agente, modelos de acción (ALMs), nubes federadas y BCI de bajo coste.",
