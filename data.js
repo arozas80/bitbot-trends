@@ -1,47 +1,52 @@
 // Data file - Updated daily by Bitbot
 const trendsData = {
-  lastUpdate: "2026-03-01T09:00:00-00:00",
-  currentDate: "1 de marzo de 2026",
+  lastUpdate: "2026-03-02T09:00:00-00:00",
+  currentDate: "2 de marzo de 2026",
   
-  executiveSummary: "Hoy, 1 de marzo de 2026, la industria de la IA se encuentra en un punto de inflexión crítico marcado por la Soberanía del Modelo y la Nacionalización Parcial de la Infraestructura. El conflicto entre los grandes laboratorios y los gobiernos sobre el uso militar de los modelos está redefiniendo las fronteras de la seguridad nacional. Paralelamente, la llegada de los Agentes Digitales de Propósito General está consolidando el concepto del 'trabajador digital' que no solo busca información, sino que razona, delega y ejecuta a través de múltiples herramientas de forma autónoma.",
+  executiveSummary: "Hoy, 2 de marzo de 2026, la IA Agéntica consolida su posición como infraestructura productiva: dejó de ser experimento y se convierte en el middleware operativo de las organizaciones. El EU AI Act entra en fase de aplicación activa para modelos de propósito general, forzando a las empresas a demostrar governance real y ROI medible. Simultáneamente, la Physical AI da el salto de prototipo a producción con robots humanoides operando en logística y healthcare, mientras los gobiernos aceleran sus agendas de soberanía nacional en IA para reducir dependencia de los grandes laboratorios.",
   
   trends: [
     {
       id: 1,
-      icon: "⚔️",
-      title: "Soberanía y Riesgo de Suministro en IA",
-      subtitle: "Tensiones entre laboratorios y gobiernos por el uso militar",
-      description: "La tensión entre el Pentágono y empresas como Anthropic sobre el 'uso legal' de la IA para fines militares está planteando un escenario de intervención gubernamental. La posibilidad de designar a empresas de IA como 'riesgos en la cadena de suministro' sugiere una era donde la IA ya no es solo software, sino un recurso estratégico nacional protegido y regulado bajo leyes de producción de defensa."
+      icon: "⚙️",
+      title: "IA Agéntica como Infraestructura Core",
+      subtitle: "Del middleware experimental al trabajador digital operativo",
+      description: "Los agentes de IA ya no son demos: son infraestructura productiva integrada en los pipelines de software, finanzas, logística y salud. Sistemas capaces de planificar, delegar a sub-agentes, ejecutar tareas multi-paso y adaptarse dinámicamente están redefiniendo el concepto de 'flujo de trabajo'. El 'trabajador digital' es ahora un rol técnico reconocido en estructuras organizacionales reales."
     },
     {
       id: 2,
-      icon: "💻",
-      title: "Agentes Digitales de Propósito General",
-      subtitle: "La transición del chatbot al trabajador digital autónomo",
-      description: "Estamos pasando de los 'chatbots' a los 'trabajadores digitales' integrales. Herramientas como Perplexity Computer y OpenClaw están demostrando que el futuro de la automatización reside en agentes que pueden razonar, delegar tareas a otros sub-agentes, codificar y entregar resultados complejos sin supervisión constante, cerrando la brecha entre la intención del usuario y la ejecución técnica."
+      icon: "🤖",
+      title: "Physical AI y Robots Humanoides en Producción",
+      subtitle: "2026: el año en que la IA física pasa de prototipo a realidad",
+      description: "La Physical AI deja los laboratorios y llega al piso de fábrica, hospitales y centros logísticos. Robots humanoides con IA generativa integrada aprenden nuevas tareas por simulación sin reprogramación manual y reciben instrucciones en lenguaje natural. La convergencia IT/OT habilita intercambio de datos en tiempo real, y el concepto de 'dark factory' (operación nocturna sin supervisión humana) gana tracción industrial real."
     },
     {
       id: 3,
-      icon: "🛡️",
-      title: "Protocolos de Seguridad y Respuesta ante Incidentes",
-      subtitle: "El fin de la neutralidad absoluta del chatbot",
-      description: "La integración de la IA en la sociedad está forzando a las empresas a desarrollar protocolos de seguridad proactivos que involucren a las autoridades. La evolución de las políticas de OpenAI para alertar a la policía ante amenazas detectadas por el modelo marca el fin de la neutralidad absoluta del chatbot y el inicio de la 'IA como observador responsable' en la prevención del crimen."
+      icon: "🏛️",
+      title: "EU AI Act: Gobernanza Real en Marcha",
+      subtitle: "Las obligaciones para GPAIs se aplican activamente desde marzo 2026",
+      description: "El EU AI Act entra en fase de aplicación efectiva para modelos de propósito general. Las empresas deben demostrar cumplimiento, mitigación de sesgos, explicabilidad del modelo y supervisión humana en decisiones críticas. Esto dispara la demanda de herramientas de auditoría de IA, governance frameworks y consultores de compliance, convirtiendo la regulación en un driver de mercado concreto."
     },
     {
       id: 4,
-      icon: "🧬",
-      title: "IA Verticalizada en Salud y Bienestar",
-      subtitle: "Modelos ultra-especializados en infraestructuras controladas",
-      description: "La especialización de los modelos sigue avanzando con el lanzamiento de IAs diseñadas para nichos extremadamente específicos y sensibles, como la salud reproductiva (ej. Oura Advisor). Estos modelos operan en infraestructuras controladas para garantizar la privacidad, demostrando que la confianza del usuario es el nuevo motor de adopción en áreas críticas."
+      icon: "🌐",
+      title: "Soberanía Nacional de la IA",
+      subtitle: "Países desarrollan o alojan sus propios modelos para reducir dependencia geopolítica",
+      description: "La dependencia de grandes proveedores (OpenAI, Anthropic, Google) se percibe como riesgo geopolítico estratégico. Gobiernos invierten en LLMs nacionales, nubes soberanas e infraestructura de hosting local. Esta tendencia redefine el mapa competitivo de la IA: el control de la infraestructura de modelos se vuelve tan crítico como el control de recursos energéticos o semiconductores."
     }
   ],
   
   impact: {
-    opportunity: "La adopción de arquitecturas agénticas (como OpenClaw) permite a las organizaciones crear flujos de trabajo autónomos que reducen drásticamente los tiempos de ejecución en tareas de investigación y desarrollo.",
-    action: "Evaluar la dependencia de modelos externos de 'caja negra' y considerar la transición hacia arquitecturas de IA soberana o local para mitigar riesgos regulatorios y geopolíticos."
+    opportunity: "La convergencia de IA agéntica + Physical AI + gobernanza activa crea una ventana para organizaciones que adopten arquitecturas orquestadas con trazabilidad incorporada desde el diseño. Los early adopters con governance maduro tendrán ventaja competitiva sostenible frente a quienes deban adaptar sistemas legacy.",
+    action: "Auditar los flujos de automatización actuales para identificar dónde la orquestación agéntica puede reemplazar pipelines rígidos, y comenzar a documentar métricas de impacto para cumplimiento regulatorio proactivo ante el EU AI Act."
   },
   
   archive: [
+    {
+      date: "2026-03-02",
+      preview: "IA Agéntica como infraestructura, Physical AI en producción, EU AI Act activo y soberanía nacional IA.",
+      file: "2026-03-02.json"
+    },
     {
       date: "2026-03-01",
       preview: "Soberanía IA, agentes de propósito general, seguridad proactiva e IA verticalizada.",
