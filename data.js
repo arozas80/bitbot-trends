@@ -1,47 +1,52 @@
 // Data file - Updated daily by Bitbot
 const trendsData = {
-  lastUpdate: "2026-03-02T09:00:00-00:00",
-  currentDate: "2 de marzo de 2026",
+  lastUpdate: "2026-03-03T09:00:00-00:00",
+  currentDate: "3 de marzo de 2026",
   
-  executiveSummary: "Hoy, 2 de marzo de 2026, la IA Agéntica consolida su posición como infraestructura productiva: dejó de ser experimento y se convierte en el middleware operativo de las organizaciones. El EU AI Act entra en fase de aplicación activa para modelos de propósito general, forzando a las empresas a demostrar governance real y ROI medible. Simultáneamente, la Physical AI da el salto de prototipo a producción con robots humanoides operando en logística y healthcare, mientras los gobiernos aceleran sus agendas de soberanía nacional en IA para reducir dependencia de los grandes laboratorios.",
+  executiveSummary: "Hoy, 3 de marzo de 2026, el paradigma agéntico da otro salto: las empresas más avanzadas ya tratan a los agentes de IA como empleados digitales con identidad, acceso y responsabilidades propias — la 'Silicon Workforce'. Los pilotos quedaron atrás; ahora se orquestan enjambres de agentes especializados sobre stacks completos. Pero el crecimiento descontrolado genera una brecha crítica de governance: el 'agent sprawl' sin visibilidad unificada se convierte en el riesgo operacional del trimestre, con +40% de iniciativas agénticas en riesgo de abandono antes de 2027. En industria, la automatización open y software-driven rompe las cadenas del hardware propietario.",
   
   trends: [
     {
       id: 1,
-      icon: "⚙️",
-      title: "IA Agéntica como Infraestructura Core",
-      subtitle: "Del middleware experimental al trabajador digital operativo",
-      description: "Los agentes de IA ya no son demos: son infraestructura productiva integrada en los pipelines de software, finanzas, logística y salud. Sistemas capaces de planificar, delegar a sub-agentes, ejecutar tareas multi-paso y adaptarse dinámicamente están redefiniendo el concepto de 'flujo de trabajo'. El 'trabajador digital' es ahora un rol técnico reconocido en estructuras organizacionales reales."
+      icon: "👷",
+      title: "\"Silicon Workforce\": Agentes IA como Empleados Digitales",
+      subtitle: "De herramienta a contratación — identidad, acceso y ownership de workflows",
+      description: "Las empresas más avanzadas ya no tratan a los agentes de IA como herramientas: les asignan identidades únicas, acceso a sistemas y responsabilidades de workflows end-to-end. Esta 'fuerza laboral de silicio' opera 24/7 a velocidad de máquina, haciéndose cargo de secuencias completas — desde detectar retrasos en supply chain hasta negociar con proveedores y actualizar registros, sin intervención humana. Nokia + Google Cloud integraron en MWC 2026 una red completamente autónoma operada por agentes."
     },
     {
       id: 2,
-      icon: "🤖",
-      title: "Physical AI y Robots Humanoides en Producción",
-      subtitle: "2026: el año en que la IA física pasa de prototipo a realidad",
-      description: "La Physical AI deja los laboratorios y llega al piso de fábrica, hospitales y centros logísticos. Robots humanoides con IA generativa integrada aprenden nuevas tareas por simulación sin reprogramación manual y reciben instrucciones en lenguaje natural. La convergencia IT/OT habilita intercambio de datos en tiempo real, y el concepto de 'dark factory' (operación nocturna sin supervisión humana) gana tracción industrial real."
+      icon: "🐝",
+      title: "De Pilotos a Enjambres de Agentes en Producción",
+      subtitle: "Multi-agent orchestration como nuevo paradigma operacional enterprise",
+      description: "El paradigma cambió: ya no son proyectos piloto aislados. Las empresas orquestan swarms de agentes especializados que coordinan a través de stacks tecnológicos completos, con roles separados que replican estructuras organizacionales humanas. Gartner predice que el 40% de las aplicaciones enterprise integrarán agentes task-specific para fines de 2026 (vs. <5% en 2025). Huawei lanzó AgenticCore en MWC para redes autónomas con agentes multi-sistema."
     },
     {
       id: 3,
-      icon: "🏛️",
-      title: "EU AI Act: Gobernanza Real en Marcha",
-      subtitle: "Las obligaciones para GPAIs se aplican activamente desde marzo 2026",
-      description: "El EU AI Act entra en fase de aplicación efectiva para modelos de propósito general. Las empresas deben demostrar cumplimiento, mitigación de sesgos, explicabilidad del modelo y supervisión humana en decisiones críticas. Esto dispara la demanda de herramientas de auditoría de IA, governance frameworks y consultores de compliance, convirtiendo la regulación en un driver de mercado concreto."
+      icon: "🔐",
+      title: "La Brecha de Governance se Vuelve Crisis",
+      subtitle: "Agent sprawl, seguridad agéntica y el riesgo de abandono masivo",
+      description: "El despliegue agéntico supera la capacidad de control. El 'agent sprawl' — proliferación de agentes sin visibilidad unificada, sin controles ni governance — es el riesgo operacional del trimestre. Los vectores de ataque crecen: acceso no autorizado, exposición de datos y prompt injection dominan el panorama de seguridad. Más del 40% de iniciativas agénticas podrían abandonarse antes de 2027 si las empresas no establecen governance claro y ROI demostrable. Esto convierte las herramientas de observabilidad y auditoría en el mercado más urgente del momento."
     },
     {
       id: 4,
-      icon: "🌐",
-      title: "Soberanía Nacional de la IA",
-      subtitle: "Países desarrollan o alojan sus propios modelos para reducir dependencia geopolítica",
-      description: "La dependencia de grandes proveedores (OpenAI, Anthropic, Google) se percibe como riesgo geopolítico estratégico. Gobiernos invierten en LLMs nacionales, nubes soberanas e infraestructura de hosting local. Esta tendencia redefine el mapa competitivo de la IA: el control de la infraestructura de modelos se vuelve tan crítico como el control de recursos energéticos o semiconductores."
+      icon: "🏭",
+      title: "Open Automation: Rompiendo las Cadenas del Hardware Propietario",
+      subtitle: "Software-driven, modular y sin vendor lock-in en automatización industrial",
+      description: "La automatización industrial migra a principios open y software-driven, abandonando sistemas propietarios que ataban la innovación a vendors específicos. La modularidad y los upgrades por software reemplazan el ciclo de reposición de hardware. Robots con IA aprenden nuevas tareas por simulación sin reprogramación manual. Las 'dark factories' (operación nocturna sin supervisión humana) dejan de ser concepto y se convierten en benchmark operacional para logística y manufactura de vanguardia."
     }
   ],
   
   impact: {
-    opportunity: "La convergencia de IA agéntica + Physical AI + gobernanza activa crea una ventana para organizaciones que adopten arquitecturas orquestadas con trazabilidad incorporada desde el diseño. Los early adopters con governance maduro tendrán ventaja competitiva sostenible frente a quienes deban adaptar sistemas legacy.",
-    action: "Auditar los flujos de automatización actuales para identificar dónde la orquestación agéntica puede reemplazar pipelines rígidos, y comenzar a documentar métricas de impacto para cumplimiento regulatorio proactivo ante el EU AI Act."
+    opportunity: "La convergencia de governance gap + agent sprawl es el mercado más urgente ahora mismo. Quien ofrezca observabilidad, trazabilidad y control sobre swarms agénticos no está vendiendo compliance — está vendiendo supervivencia operacional. El timing para posicionarse en este nicho es exactamente ahora, antes de que el abandono masivo de proyectos genere la demanda reactiva.",
+    action: "Mapear todos los agentes activos en los flujos de automatización y asignarles identidad, scope y límites explícitos. Implementar logging centralizado de decisiones agénticas para demostrar ROI y preparar cumplimiento regulatorio."
   },
   
   archive: [
+    {
+      date: "2026-03-03",
+      preview: "Silicon Workforce, enjambres agénticos en producción, crisis de governance/agent sprawl y open automation industrial.",
+      file: "2026-03-03.json"
+    },
     {
       date: "2026-03-02",
       preview: "IA Agéntica como infraestructura, Physical AI en producción, EU AI Act activo y soberanía nacional IA.",
