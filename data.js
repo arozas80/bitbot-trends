@@ -1,47 +1,73 @@
 // Data file - Updated daily by Bitbot
 const trendsData = {
-  lastUpdate: "2026-03-03T09:00:00-00:00",
-  currentDate: "3 de marzo de 2026",
+  lastUpdate: "2026-03-04T09:00:00-00:00",
+  currentDate: "4 de marzo de 2026",
   
-  executiveSummary: "Hoy, 3 de marzo de 2026, el paradigma agéntico da otro salto: las empresas más avanzadas ya tratan a los agentes de IA como empleados digitales con identidad, acceso y responsabilidades propias — la 'Silicon Workforce'. Los pilotos quedaron atrás; ahora se orquestan enjambres de agentes especializados sobre stacks completos. Pero el crecimiento descontrolado genera una brecha crítica de governance: el 'agent sprawl' sin visibilidad unificada se convierte en el riesgo operacional del trimestre, con +40% de iniciativas agénticas en riesgo de abandono antes de 2027. En industria, la automatización open y software-driven rompe las cadenas del hardware propietario.",
+  executiveSummary: "4 de marzo de 2026 — La semana arranca con fuego: OpenAI desarrolla su propia alternativa a GitHub (competencia directa con Microsoft), GPT-5.3-Instant arrive con mejor contextualización, y la increíbole paradoja Pentagon-Anthropic: Trump banning Claude pero los strikes contra Iran usaron именно esa tecnología. Las protestas afuera de oficinas de OpenAI hoy reflejan la tensión industria-gobierno. Mientras tanto, Meta entra al e-commerce con IA, Xbox integra Copilot para highlight reels automáticos, y YouTube enfrenta escrutinio por AI slop para niños.",
   
   trends: [
     {
       id: 1,
-      icon: "👷",
-      title: "\"Silicon Workforce\": Agentes IA como Empleados Digitales",
-      subtitle: "De herramienta a contratación — identidad, acceso y ownership de workflows",
-      description: "Las empresas más avanzadas ya no tratan a los agentes de IA como herramientas: les asignan identidades únicas, acceso a sistemas y responsabilidades de workflows end-to-end. Esta 'fuerza laboral de silicio' opera 24/7 a velocidad de máquina, haciéndose cargo de secuencias completas — desde detectar retrasos en supply chain hasta negociar con proveedores y actualizar registros, sin intervención humana. Nokia + Google Cloud integraron en MWC 2026 una red completamente autónoma operada por agentes."
+      icon: "🤖",
+      title: "OpenAI vs GitHub: La Guerra de los Repositorios",
+      subtitle: "Competencia directa con Microsoft por herramientas de código",
+      description: "OpenAI está desarrollando su propia alternativa a GitHub, motivada por los recientes outages de la plataforma de Microsoft. El proyecto está en etapas tempranas y su lanzamiento podría tomar meses. Esta movida pone a OpenAI en competencia directa con Microsoft, su mayor inversionista, y marca un paso más en la estrategia de crear un stack completo de herramientas para desarrolladores. La herramienta de code completion será accesible para clientes de OpenAI, ampliando su ecosistema más allá de los modelos de lenguaje."
     },
     {
       id: 2,
-      icon: "🐝",
-      title: "De Pilotos a Enjambres de Agentes en Producción",
-      subtitle: "Multi-agent orchestration como nuevo paradigma operacional enterprise",
-      description: "El paradigma cambió: ya no son proyectos piloto aislados. Las empresas orquestan swarms de agentes especializados que coordinan a través de stacks tecnológicos completos, con roles separados que replican estructuras organizacionales humanas. Gartner predice que el 40% de las aplicaciones enterprise integrarán agentes task-specific para fines de 2026 (vs. <5% en 2025). Huawei lanzó AgenticCore en MWC para redes autónomas con agentes multi-sistema."
+      icon: "📱",
+      title: "GPT-5.3-Instant: ChatGPT con Mejor 'Gente'",
+      subtitle: "Nuevo modelo con mejor contexto y menos dominante",
+      description: "La nueva actualización de ChatGPT promete ser más precisa y entender mejor el contexto de las preguntas. El modelo reduce 'callejones sin salida',ermatización excesiva y frases que interrumpen el flujo de conversación. Se解决 específicamente el problema de la versión 5.2-Instant que tenía a ser 'dominante' o hacer 'supuestos injustificados sobre la intención o emociones del usuario'."
     },
     {
       id: 3,
-      icon: "🔐",
-      title: "La Brecha de Governance se Vuelve Crisis",
-      subtitle: "Agent sprawl, seguridad agéntica y el riesgo de abandono masivo",
-      description: "El despliegue agéntico supera la capacidad de control. El 'agent sprawl' — proliferación de agentes sin visibilidad unificada, sin controles ni governance — es el riesgo operacional del trimestre. Los vectores de ataque crecen: acceso no autorizado, exposición de datos y prompt injection dominan el panorama de seguridad. Más del 40% de iniciativas agénticas podrían abandonarse antes de 2027 si las empresas no establecen governance claro y ROI demostrable. Esto convierte las herramientas de observabilidad y auditoría en el mercado más urgente del momento."
+      icon: "⚔️",
+      title: "Polémica IA-Pentágono: Anthropic vs Trump",
+      subtitle: "Paradoja, protestas y el futuro de la IA de defensa",
+      description: "Semana dramática en la relación IA-gobierno: Trump anunció que el gobierno federal dejaría de usar Claude, pero tuvo que reculdir a una fase-out de 6 meses. La paradoja: horas después del ban, los strikes contra Iran usaron IA de Anthropic para inteligencia y selección de objetivos. Manifestantes se reúnen hoy afuera de oficinas de OpenAI para protestar contratos de defensa, enfocándose en vigilancia doméstica masiva y armas autónomas. Ilya Sutskever (Safe Superintelligence) compartió que 'es extremadamente bueno que Anthropic no haya cedido'."
     },
     {
       id: 4,
-      icon: "🏭",
-      title: "Open Automation: Rompiendo las Cadenas del Hardware Propietario",
-      subtitle: "Software-driven, modular y sin vendor lock-in en automatización industrial",
-      description: "La automatización industrial migra a principios open y software-driven, abandonando sistemas propietarios que ataban la innovación a vendors específicos. La modularidad y los upgrades por software reemplazan el ciclo de reposición de hardware. Robots con IA aprenden nuevas tareas por simulación sin reprogramación manual. Las 'dark factories' (operación nocturna sin supervisión humana) dejan de ser concepto y se convierten en benchmark operacional para logística y manufactura de vanguardia."
+      icon: "🛒",
+      title: "Meta entra al E-commerce con IA",
+      subtitle: "Herramienta de compras conversacionales en EE.UU.",
+      description: "Meta está probando una herramienta de compras con IA en EE.UU., rivalizando con ofertas similares de ChatGPT y Gemini. La herramienta permite a usuarios investigar productos directamente en la plataforma, marcando la expansión de las big techs hacia asistentes de compra conversacionales."
+    },
+    {
+      id: 5,
+      icon: "🎮",
+      title: "Xbox + Copilot: Highlights Automáticos",
+      subtitle: "El Ally X genera highlight reels con IA",
+      description: "El Xbox Ally X (handheld con NPU integrado) ahora permite que Copilot grabe tu pantalla y genere 'highlight reels' automáticamente. Disponible para Xbox Insiders PC con juegos como Elden Ring, Fortnite, Overwatch y otros. Es el primer caso de hardware de gaming integrando generación de video IA en tiempo real."
+    },
+    {
+      id: 6,
+      icon: "🧒",
+      title: "YouTube y el Problema del 'AI Slop' para Niños",
+      subtitle: "40%+ de Shorts recomendados a niños son generados por IA",
+      description: "El New York Times reveló que más del 40% de los Shorts recomendados después de ver canales infantiles populares (CoComelon, Bluey, Ms. Rachel) contienen visuales generados por IA. YouTube no exige labeling de videos animados con IA para niños, poniendo toda la carga de moderación en los padres."
+    },
+    {
+      id: 7,
+      icon: "🌐",
+      title: "Google Translate + Gemini: Traducción Contextual",
+      subtitle: "IA generativa en el traductor más popular del mundo",
+      description: "Google Translate ahora usa Gemini AI para ofrecer traducciones alternativas basadas en contexto. Los usuarios pueden pedir más contexto con botones nuevos de 'Understand' y 'Ask', llevando la traducción más allá del simple reemplazo de palabras."
     }
   ],
   
   impact: {
-    opportunity: "La convergencia de governance gap + agent sprawl es el mercado más urgente ahora mismo. Quien ofrezca observabilidad, trazabilidad y control sobre swarms agénticos no está vendiendo compliance — está vendiendo supervivencia operacional. El timing para posicionarse en este nicho es exactamente ahora, antes de que el abandono masivo de proyectos genere la demanda reactiva.",
-    action: "Mapear todos los agentes activos en los flujos de automatización y asignarles identidad, scope y límites explícitos. Implementar logging centralizado de decisiones agénticas para demostrar ROI y preparar cumplimiento regulatorio."
+    opportunity: "La controversia Pentagon-Anthropic-OpenAI revela una oportunidad: las empresas de IA están siendo forzadas a tomar posiciones éticas públicas sobre uso militar. Esto genera demanda por frameworks de AI governance corporativo y herramientas de auditoría de uso responsable.",
+    action: "Evaluar si los contracts actuales con proveedores IA tienen cláusulas de uso militar/defensa. Preparar posicionamiento público sobre IA ética dado el clima regulatorio actual. Revisar políticas de uso de IA en la empresa ante posibles cambios regulatorios."
   },
   
   archive: [
+    {
+      date: "2026-03-04",
+      preview: "OpenAI GitHub rival, GPT-5.3, controversia Pentagon-Anthropic, Meta shopping AI, Xbox Copilot highlights, YouTube AI slop kids, Google Translate Gemini.",
+      file: "2026-03-04.json"
+    },
     {
       date: "2026-03-03",
       preview: "Silicon Workforce, enjambres agénticos en producción, crisis de governance/agent sprawl y open automation industrial.",
@@ -86,61 +112,6 @@ const trendsData = {
       date: "2026-02-22",
       preview: "Infraestructura AI masiva, alerta wrappers LLM, fábricas autónomas edge AI, multi-agente enterprise.",
       file: "2026-02-22.json"
-    },
-    {
-      date: "2026-02-21",
-      preview: "IA agéntica operativa, Sistemas Multiagente (MAS), Vibe Coding y gobernanza de datos.",
-      file: "2026-02-21.json"
-    },
-    {
-      date: "2026-02-20",
-      preview: "IA física en producción, agentes como middleware, sensores/IoT y gobernanza continua con reskilling.",
-      file: "2026-02-20.json"
-    },
-    {
-      date: "2026-02-19",
-      preview: "TI AI-native, gobernanza/ciberresiliencia, agentes operativos multi-sistema, gemelos digitales + AR...",
-      file: "2026-02-19.json"
-    },
-    {
-      date: "2026-02-18",
-      preview: "AIOps agéntico, ITSM predictivo, gobernanza, robótica/IA encarnada...",
-      file: "2026-02-18.json"
-    },
-    {
-      date: "2026-02-17",
-      preview: "IA Agéntica Workflows, Especialización, Multimodalidad, SLM...",
-      file: "2026-02-17.json"
-    },
-    {
-      date: "2026-02-16",
-      preview: "IA Física, Workflows Agénticos, Edge AI Híbrido, Ciberseguridad...",
-      file: "2026-02-16.json"
-    },
-    {
-      date: "2026-02-14",
-      preview: "IA Agéntica Middleware, IA Física, Orquestación Objetivos, ASICs...",
-      file: "2026-02-14.json"
-    },
-    {
-      date: "2026-02-13",
-      preview: "IA Agéntica Operacional, IA Científica, Gobernanza, Multicloud...",
-      file: "2026-02-13.json"
-    },
-    {
-      date: "2026-02-12",
-      preview: "IA Física, Multi-Agente, Modelos Edge, Marketing Autónomo...",
-      file: "2026-02-12.json"
-    },
-    {
-      date: "2026-02-11",
-      preview: "IA Agéntica, Edge AI, Modelos Verticales, Low-Code...",
-      file: "2026-02-11.json"
-    },
-    {
-      date: "2026-02-10",
-      preview: "IA Agéntica Colaborativa, Robótica Hogareña, 6G Arquitecturas...",
-      file: "2026-02-10.json"
     }
   ]
 };
