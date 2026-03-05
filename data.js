@@ -1,68 +1,66 @@
 // Data file - Updated daily by Bitbot
 const trendsData = {
-  lastUpdate: "2026-03-04T09:00:00-00:00",
-  currentDate: "4 de marzo de 2026",
+  lastUpdate: "2026-03-05T09:00:00-00:00",
+  currentDate: "5 de marzo de 2026",
   
-  executiveSummary: "4 de marzo de 2026 — La semana arranca con fuego: OpenAI desarrolla su propia alternativa a GitHub (competencia directa con Microsoft), GPT-5.3-Instant arrive con mejor contextualización, y la increíbole paradoja Pentagon-Anthropic: Trump banning Claude pero los strikes contra Iran usaron именно esa tecnología. Las protestas afuera de oficinas de OpenAI hoy reflejan la tensión industria-gobierno. Mientras tanto, Meta entra al e-commerce con IA, Xbox integra Copilot para highlight reels automáticos, y YouTube enfrenta escrutinio por AI slop para niños.",
+  executiveSummary: "5 de marzo de 2026 — Día de movimientos sísmicos en IA: El equipo líder de Qwen (Alibaba) abandona el barco en medio de rumores de re-org, con Junyang Lin y otros 3 core members fuera. Dario Amodei (Anthropic) llama 'mentiras directas' a Sam Altman por el deal con el Pentágono, mientras ChatGPT pierde 295% en instalaciones. Apple lanza el MacBook Neo a $599 (el más barato de su historia) con A18 Pro y IA on-device 3x más rápida. BMW despliega robots humanoides en Leipzig por primera vez en Europa, y AMD trae Ryzen AI a desktops estándar.",
   
   trends: [
     {
       id: 1,
-      icon: "🤖",
-      title: "OpenAI vs GitHub: La Guerra de los Repositorios",
-      subtitle: "Competencia directa con Microsoft por herramientas de código",
-      description: "OpenAI está desarrollando su propia alternativa a GitHub, motivada por los recientes outages de la plataforma de Microsoft. El proyecto está en etapas tempranas y su lanzamiento podría tomar meses. Esta movida pone a OpenAI en competencia directa con Microsoft, su mayor inversionista, y marca un paso más en la estrategia de crear un stack completo de herramientas para desarrolladores. La herramienta de code completion será accesible para clientes de OpenAI, ampliando su ecosistema más allá de los modelos de lenguaje."
+      icon: "💥",
+      title: "Crisis en Qwen/Alibaba: Renuncian los Cerebros",
+      subtitle: "Fuga masiva del equipo líder de modelos open-weight",
+      description: "El equipo líder de Qwen (Alibaba) sufre una fuga masiva. Junyang Lin, el investigador principal que lideró los modelos open-weight de Qwen desde 2024, anunció su renuncia junto con otros miembros clave: Binyuan Hui (lead Qwen code development, Qwen-Coder), Bowen Yu (lead post-training), y Kaixin Li (core contributor a Qwen 3.5/VL/Coder). El CEO de Alibaba convocó un 'emergency All Hands' para intentar retener al equipo. La paradoja: Qwen 3.5 fue descrito como 'excepcional' por Simon Willison, con modelos desde 2B (4.57GB) hasta 397B que superan en eficiencia a competidores con muchos más recursos."
     },
     {
       id: 2,
-      icon: "📱",
-      title: "GPT-5.3-Instant: ChatGPT con Mejor 'Gente'",
-      subtitle: "Nuevo modelo con mejor contexto y menos dominante",
-      description: "La nueva actualización de ChatGPT promete ser más precisa y entender mejor el contexto de las preguntas. El modelo reduce 'callejones sin salida',ermatización excesiva y frases que interrumpen el flujo de conversación. Se解决 específicamente el problema de la versión 5.2-Instant que tenía a ser 'dominante' o hacer 'supuestos injustificados sobre la intención o emociones del usuario'."
+      icon: "⚔️",
+      title: "Dario Amodei vs Sam Altman: 'Mentiras Directas'",
+      subtitle: "Escala la guerra verbal Anthropic vs OpenAI",
+      description: "La guerra verbal entre Anthropic y OpenAI escaló: Amodei llamó 'safety theater' y 'straight up lies' al acuerdo de OpenAI con el Departamento de Defensa (DoD). Acusó a Altman de presentarse falsamente como 'peacemaker'. Las desinstalaciones de ChatGPT crecieron 295% tras el acuerdo con el Pentágono. Amodei presumió: 'Ahora somos #2 en la App Store'. El punto central: Anthropic insistió en que el DoD no usaría su IA para vigilancia doméstica masiva o armas autónomas. OpenAI aceptó el trato con 'protecciones' que Amodei considera insuficientes."
     },
     {
       id: 3,
-      icon: "⚔️",
-      title: "Polémica IA-Pentágono: Anthropic vs Trump",
-      subtitle: "Paradoja, protestas y el futuro de la IA de defensa",
-      description: "Semana dramática en la relación IA-gobierno: Trump anunció que el gobierno federal dejaría de usar Claude, pero tuvo que reculdir a una fase-out de 6 meses. La paradoja: horas después del ban, los strikes contra Iran usaron IA de Anthropic para inteligencia y selección de objetivos. Manifestantes se reúnen hoy afuera de oficinas de OpenAI para protestar contratos de defensa, enfocándose en vigilancia doméstica masiva y armas autónomas. Ilya Sutskever (Safe Superintelligence) compartió que 'es extremadamente bueno que Anthropic no haya cedido'."
+      icon: "🍎",
+      title: "Apple MacBook Neo: IA Accesible a $599",
+      subtitle: "El laptop más barato de Apple con A18 Pro",
+      description: "Apple presentó su laptop más económica de la historia: $599 (educación: $499). Specs clave: A18 Pro integrado (mismo chip que iPhone), hasta 50% más rápido que Intel Core Ultra 5 en tareas cotidianas, hasta 3x más rápido en workloads AI on-device, 16 horas de batería, 4 colores: silver, blush, indigo, citrus. Es el primer MacBook de entrada con Apple Intelligence integrado, democratizando el acceso a IA local en hardware Apple."
     },
     {
       id: 4,
-      icon: "🛒",
-      title: "Meta entra al E-commerce con IA",
-      subtitle: "Herramienta de compras conversacionales en EE.UU.",
-      description: "Meta está probando una herramienta de compras con IA en EE.UU., rivalizando con ofertas similares de ChatGPT y Gemini. La herramienta permite a usuarios investigar productos directamente en la plataforma, marcando la expansión de las big techs hacia asistentes de compra conversacionales."
+      icon: "🤖",
+      title: "BMW Despliega Robots Humanoides en Alemania",
+      subtitle: "Primera vez en Europa: Physical AI en producción",
+      description: "Primera vez en Europa: BMW Group despliega robots humanoides en su planta de Leipzig. El proyecto 'Physical AI' combina IA digital con máquinas y robots físicos, aprovechando insights del piloto en Spartanburg (USA, 2025). Meta: integrar humanoides en producción serie de autos y baterías. La fabricación automotriz europea comienza a competir directamente con Tesla y Figure AI en automatización física. BMW ya tiene un data platform unificado para que agentes IA tomen decisiones autónomas en ambientes complejos."
     },
     {
       id: 5,
-      icon: "🎮",
-      title: "Xbox + Copilot: Highlights Automáticos",
-      subtitle: "El Ally X genera highlight reels con IA",
-      description: "El Xbox Ally X (handheld con NPU integrado) ahora permite que Copilot grabe tu pantalla y genere 'highlight reels' automáticamente. Disponible para Xbox Insiders PC con juegos como Elden Ring, Fortnite, Overwatch y otros. Es el primer caso de hardware de gaming integrando generación de video IA en tiempo real."
+      icon: "🔋",
+      title: "Big Tech Pagan Energía de Data Centers",
+      subtitle: "Compromiso ante la Casa Blanca",
+      description: "Las principales empresas tech de EE.UU. se comprometieron ante la Casa Blanca a asumir los costos de energía de sus data centers. El Guardian reportó que el acuerdo busca calmar preocupaciones sobre el impacto energético de la IA. Implicación: las empresas aceptan responsabilidad directa sobre infraestructura energética, abriendo la puerta a mayor inversión en energía nuclear y renovable para IA."
     },
     {
       id: 6,
-      icon: "🧒",
-      title: "YouTube y el Problema del 'AI Slop' para Niños",
-      subtitle: "40%+ de Shorts recomendados a niños son generados por IA",
-      description: "El New York Times reveló que más del 40% de los Shorts recomendados después de ver canales infantiles populares (CoComelon, Bluey, Ms. Rachel) contienen visuales generados por IA. YouTube no exige labeling de videos animados con IA para niños, poniendo toda la carga de moderación en los padres."
-    },
-    {
-      id: 7,
-      icon: "🌐",
-      title: "Google Translate + Gemini: Traducción Contextual",
-      subtitle: "IA generativa en el traductor más popular del mundo",
-      description: "Google Translate ahora usa Gemini AI para ofrecer traducciones alternativas basadas en contexto. Los usuarios pueden pedir más contexto con botones nuevos de 'Understand' y 'Ask', llevando la traducción más allá del simple reemplazo de palabras."
+      icon: "🎮",
+      title: "AMD Lanza Ryzen AI para Desktop",
+      subtitle: "Primera vez en PCs estándar con NPU integrado",
+      description: "Por primera vez, AMD trae sus procesadores 'Ryzen AI' a PCs desktop estándar (socket AM5). Los nuevos Ryzen AI 400 prometen NPU integrado para procesamiento on-device, gráficos mejorados para gaming, y competencia directa con Intel Core Ultra en el mercado PC."
     }
   ],
   
   impact: {
-    opportunity: "La controversia Pentagon-Anthropic-OpenAI revela una oportunidad: las empresas de IA están siendo forzadas a tomar posiciones éticas públicas sobre uso militar. Esto genera demanda por frameworks de AI governance corporativo y herramientas de auditoría de uso responsable.",
-    action: "Evaluar si los contracts actuales con proveedores IA tienen cláusulas de uso militar/defensa. Preparar posicionamiento público sobre IA ética dado el clima regulatorio actual. Revisar políticas de uso de IA en la empresa ante posibles cambios regulatorios."
+    opportunity: "La crisis de Qwen representa una oportunidad de reclutamiento única: un equipo probado de ingenieros de IA de élite podría estar disponible. Además, el crecimiento de 295% en desinstalaciones de ChatGPT tras el acuerdo militar sugiere que el mercado corporativo valora cada vez más proveedores IA 'éticos'.",
+    action: "Monitorear posibles nuevos proyectos del ex-equipo Qwen (podrían formar startup). Evaluar adopción de MacBook Neo para equipos que necesitan hardware Apple accesible con IA on-device. Revisar políticas de IA de la empresa ante presiones gubernamentales."
   },
   
   archive: [
+    {
+      date: "2026-03-05",
+      preview: "Crisis Qwen/Alibaba, Dario Amodei vs Altman, MacBook Neo $599, BMW robots humanoides Alemania, Big Tech pagan energía, AMD Ryzen AI desktop.",
+      file: "2026-03-05.json"
+    },
     {
       date: "2026-03-04",
       preview: "OpenAI GitHub rival, GPT-5.3, controversia Pentagon-Anthropic, Meta shopping AI, Xbox Copilot highlights, YouTube AI slop kids, Google Translate Gemini.",
@@ -107,11 +105,6 @@ const trendsData = {
       date: "2026-02-23",
       preview: "IA física productiva, orquestación supervisada, hardware especializado y edge AI para seguridad.",
       file: "2026-02-23.json"
-    },
-    {
-      date: "2026-02-22",
-      preview: "Infraestructura AI masiva, alerta wrappers LLM, fábricas autónomas edge AI, multi-agente enterprise.",
-      file: "2026-02-22.json"
     }
   ]
 };
