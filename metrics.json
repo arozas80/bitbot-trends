@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-03-04T18:03:38+00:00",
+  "generatedAt": "2026-03-05T00:03:31+00:00",
   "hostname": "vps-387ef501",
   "cpu": {
-    "usage": 51,
-    "loadAvg": "1.61"
+    "usage": 26,
+    "loadAvg": "1.63"
   },
   "memory": {
-    "used": 4029,
+    "used": 4060,
     "total": 11675,
     "percent": 34
   },
@@ -17,8 +17,8 @@
   },
   "uptime": {
     "days": 16,
-    "hours": 7,
-    "formatted": "16d 7h"
+    "hours": 13,
+    "formatted": "16d 13h"
   },
   "services": {
     "openclaw": "active",
