@@ -1,61 +1,73 @@
 // Data file - Updated daily by Bitbot
 const trendsData = {
-  lastUpdate: "2026-03-05T09:00:00-00:00",
-  currentDate: "5 de marzo de 2026",
+  lastUpdate: "2026-03-06T09:00:00-00:00",
+  currentDate: "6 de marzo de 2026",
   
-  executiveSummary: "5 de marzo de 2026 — Día de movimientos sísmicos en IA: El equipo líder de Qwen (Alibaba) abandona el barco en medio de rumores de re-org, con Junyang Lin y otros 3 core members fuera. Dario Amodei (Anthropic) llama 'mentiras directas' a Sam Altman por el deal con el Pentágono, mientras ChatGPT pierde 295% en instalaciones. Apple lanza el MacBook Neo a $599 (el más barato de su historia) con A18 Pro y IA on-device 3x más rápida. BMW despliega robots humanoides en Leipzig por primera vez en Europa, y AMD trae Ryzen AI a desktops estándar.",
+  executiveSummary: "6 de marzo de 2026 — OpenAI lanza GPT-5.4 (815 puntos, 655 comentarios en HN, interés masivo). Anthropic publica investigación sobre impacto laboral de IA y lanza 'Department of War' (425 puntos). Alibaba presenta PageAgent, un GUI agent que vive dentro de tu web app. Seguridad krit: un GitHub issue title compromete 4,000 developer machines. Wikipedia offline por masiva compensación de cuentas admin. Jido 2.0 emerge como nuevo framework de agentes en Elixir.",
   
   trends: [
     {
       id: 1,
-      icon: "💥",
-      title: "Crisis en Qwen/Alibaba: Renuncian los Cerebros",
-      subtitle: "Fuga masiva del equipo líder de modelos open-weight",
-      description: "El equipo líder de Qwen (Alibaba) sufre una fuga masiva. Junyang Lin, el investigador principal que lideró los modelos open-weight de Qwen desde 2024, anunció su renuncia junto con otros miembros clave: Binyuan Hui (lead Qwen code development, Qwen-Coder), Bowen Yu (lead post-training), y Kaixin Li (core contributor a Qwen 3.5/VL/Coder). El CEO de Alibaba convocó un 'emergency All Hands' para intentar retener al equipo. La paradoja: Qwen 3.5 fue descrito como 'excepcional' por Simon Willison, con modelos desde 2B (4.57GB) hasta 397B que superan en eficiencia a competidores con muchos más recursos."
+      icon: "🚀",
+      title: "GPT-5.4 Lanzamiento",
+      subtitle: "OpenAI lanza nueva versión con interés masivo",
+      description: "OpenAI lanza GPT-5.4 con enorme interés comunitario: 815 puntos y 655 comentarios en Hacker News. Indica que la comunidad sigue muy atenta a los lanzamientos de OpenAI y las capacidades avanzadas del nuevo modelo."
     },
     {
       id: 2,
-      icon: "⚔️",
-      title: "Dario Amodei vs Sam Altman: 'Mentiras Directas'",
-      subtitle: "Escala la guerra verbal Anthropic vs OpenAI",
-      description: "La guerra verbal entre Anthropic y OpenAI escaló: Amodei llamó 'safety theater' y 'straight up lies' al acuerdo de OpenAI con el Departamento de Defensa (DoD). Acusó a Altman de presentarse falsamente como 'peacemaker'. Las desinstalaciones de ChatGPT crecieron 295% tras el acuerdo con el Pentágono. Amodei presumió: 'Ahora somos #2 en la App Store'. El punto central: Anthropic insistió en que el DoD no usaría su IA para vigilancia doméstica masiva o armas autónomas. OpenAI aceptó el trato con 'protecciones' que Amodei considera insuficientes."
+      icon: "📊",
+      title: "Impacto Laboral de IA - Anthropic",
+      subtitle: "Investigación sobre efectos de IA en empleo",
+      description: "Anthropic publica investigación sobre los impactos de la IA en el mercado laboral. Con 183 puntos en HN, el estudio busca entender cómo los modelos de IA afectan diferentes sectores económicos y el futuro del trabajo."
     },
     {
       id: 3,
-      icon: "🍎",
-      title: "Apple MacBook Neo: IA Accesible a $599",
-      subtitle: "El laptop más barato de Apple con A18 Pro",
-      description: "Apple presentó su laptop más económica de la historia: $599 (educación: $499). Specs clave: A18 Pro integrado (mismo chip que iPhone), hasta 50% más rápido que Intel Core Ultra 5 en tareas cotidianas, hasta 3x más rápido en workloads AI on-device, 16 horas de batería, 4 colores: silver, blush, indigo, citrus. Es el primer MacBook de entrada con Apple Intelligence integrado, democratizando el acceso a IA local en hardware Apple."
+      icon: "⚔️",
+      title: "Anthropic 'Department of War'",
+      subtitle: "Nueva iniciativa de Anthropic",
+      description: "Anthropic lanza 'Department of War' con 425 puntos en Hacker News. La iniciativa genera debate sobre el rol de las empresas de IA en conflictos y el uso militar de tecnología."
     },
     {
       id: 4,
-      icon: "🤖",
-      title: "BMW Despliega Robots Humanoides en Alemania",
-      subtitle: "Primera vez en Europa: Physical AI en producción",
-      description: "Primera vez en Europa: BMW Group despliega robots humanoides en su planta de Leipzig. El proyecto 'Physical AI' combina IA digital con máquinas y robots físicos, aprovechando insights del piloto en Spartanburg (USA, 2025). Meta: integrar humanoides en producción serie de autos y baterías. La fabricación automotriz europea comienza a competir directamente con Tesla y Figure AI en automatización física. BMW ya tiene un data platform unificado para que agentes IA tomen decisiones autónomas en ambientes complejos."
+      icon: "🖥️",
+      title: "PageAgent - Alibaba",
+      subtitle: "GUI agent que vive dentro de tu web app",
+      description: "Alibaba lanza PageAgent: un GUI agent que vive dentro de tu aplicación web. Con 97 puntos en HN, representa la nueva ola de agentes que operan directamente en interfaces de usuario existentes, automatizando tareas dentro de aplicaciones."
     },
     {
       id: 5,
-      icon: "🔋",
-      title: "Big Tech Pagan Energía de Data Centers",
-      subtitle: "Compromiso ante la Casa Blanca",
-      description: "Las principales empresas tech de EE.UU. se comprometieron ante la Casa Blanca a asumir los costos de energía de sus data centers. El Guardian reportó que el acuerdo busca calmar preocupaciones sobre el impacto energético de la IA. Implicación: las empresas aceptan responsabilidad directa sobre infraestructura energética, abriendo la puerta a mayor inversión en energía nuclear y renovable para IA."
+      icon: "🔐",
+      title: "Seguridad: GitHub Issue Compromiso",
+      subtitle: "4,000 developer machines comprometidas",
+      description: "Un título de GitHub issue logró comprometer 4,000 máquinas de desarrolladores. El exploit muestra la superficie de ataque en herramientas de desarrollo y la importancia de sanitizar inputs en CI/CD y entornos de desarrollo."
     },
     {
       id: 6,
-      icon: "🎮",
-      title: "AMD Lanza Ryzen AI para Desktop",
-      subtitle: "Primera vez en PCs estándar con NPU integrado",
-      description: "Por primera vez, AMD trae sus procesadores 'Ryzen AI' a PCs desktop estándar (socket AM5). Los nuevos Ryzen AI 400 prometen NPU integrado para procesamiento on-device, gráficos mejorados para gaming, y competencia directa con Intel Core Ultra en el mercado PC."
+      icon: "📚",
+      title: "Wikipedia - Compromiso Masivo",
+      subtitle: "Modo solo-lectura tras ataque a admins",
+      description: "Wikipedia estuvo en modo solo-lectura tras una compensación masiva de cuentas de administradores. Con 962 puntos en HN, el incidente highlight la vulnerabilidad de plataformas masivas a ataques de ingeniería social."
+    },
+    {
+      id: 7,
+      icon: "⚡",
+      title: "Jido 2.0 - Elixir Agent Framework",
+      subtitle: "Nuevo framework de agentes en Elixir",
+      description: "Jido 2.0 emerge como nuevo framework de agentes en Elixir con 280 puntos en HN. Representa la tendencia de frameworks especializados para construir sistemas multi-agente en lenguajes funcionales."
     }
   ],
   
   impact: {
-    opportunity: "La crisis de Qwen representa una oportunidad de reclutamiento única: un equipo probado de ingenieros de IA de élite podría estar disponible. Además, el crecimiento de 295% en desinstalaciones de ChatGPT tras el acuerdo militar sugiere que el mercado corporativo valora cada vez más proveedores IA 'éticos'.",
-    action: "Monitorear posibles nuevos proyectos del ex-equipo Qwen (podrían formar startup). Evaluar adopción de MacBook Neo para equipos que necesitan hardware Apple accesible con IA on-device. Revisar políticas de IA de la empresa ante presiones gubernamentales."
+    opportunity: "Los GUI agents como PageAgent representan una oportunidad para automatización dentro de aplicaciones empresariales existentes. El incidente de seguridad del GitHub issue subraya la necesidad de revisar herramientas DevOps.",
+    action: "Evaluar PageAgent para casos de uso de automatización web. Revisar políticas de seguridad en herramientas de desarrollo y CI/CD. Monitorear desarrollos de Anthropic en torno a 'Department of War'."
   },
   
   archive: [
+    {
+      date: "2026-03-06",
+      preview: "GPT-5.4, Anthropic labor research, Department of War, PageAgent Alibaba, GitHub issue hack 4k machines, Wikipedia compromise, Jido 2.0 Elixir.",
+      file: "2026-03-06.json"
+    },
     {
       date: "2026-03-05",
       preview: "Crisis Qwen/Alibaba, Dario Amodei vs Altman, MacBook Neo $599, BMW robots humanoides Alemania, Big Tech pagan energía, AMD Ryzen AI desktop.",
