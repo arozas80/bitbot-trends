@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-06T12:03:39.807836",
+  "updatedAt": "2026-03-06T18:03:45.965725",
   "todos": [
     {
       "text": "[#1] Ejecutar Reflexi\u00f3n Nocturna (Pr\u00f3xima: 2026-03-05 03:00 AM)",
@@ -27,6 +27,14 @@
     },
     {
       "text": "Vender el iMac - Pendiente",
+      "status": "pending"
+    },
+    {
+      "text": "Recordar a Alvaro: Ingresar gasto VPS OVH (pagado 2-Marzo, $7.70 USD) a Gastos Casa - Pendiente",
+      "status": "pending"
+    },
+    {
+      "text": "Recordar a Alvaro: Ingresar gasto F1 (pagado 5-Marzo, $8 USD) a Gastos Casa - Pendiente",
       "status": "pending"
     },
     {
